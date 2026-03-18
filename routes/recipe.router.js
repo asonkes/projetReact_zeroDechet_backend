@@ -4,34 +4,19 @@
 
 const recipeRouter = require("express").Router();
 
-recipeRouter.get("/", (req, res) => {
-  res.send("Bienvenue sur la page des recettes");
-});
+const recipeController = require("../controller/recipe.controller");
 
-recipeRouter.get("/:slug", (req, res) => {
-  const slug = req.params.slug;
-  res.send(`Voici la recette ${slug}`, 200);
-});
+// Routes sans les 'id'
+recipeRouter
+  .route("/")
+  .get(recipeController.getAll)
+  // Pouvoir ajouter une recette
+  .post(recipeController.post);
 
-// Pouvoir ajouter une recette
-recipeRouter.post("/", (req, res) => {
-  const recipeInsert = req.body;
-  res.send(recipeInsert, 201);
-});
-
-// Pouvoir modifier une recette
-recipeRouter.put("/:slug", (req, res) => {
-  const recipeSlug = req.params.slug;
-  const recipeUpdated = req.body;
-
-  recipeUpdated.slug = recipeSlug;
-
-  res.send(recipeUpdated, 200);
-});
-
-// Pouvoir supprimer une recette
-recipeRouter.delete("/:slug", (req, res) => {
-  res.sendStatus(204);
-});
+recipeRouter
+  .route("/:slug")
+  .get(recipeController.getBySlug)
+  .put(recipeController.update)
+  .delete(recipeController.delete);
 
 module.exports = recipeRouter;
