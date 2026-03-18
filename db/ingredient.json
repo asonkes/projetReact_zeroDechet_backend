@@ -1,0 +1,1305 @@
+[
+  {
+    "name": "Ail",
+    "slug": "ail",
+    "category": "légume",
+    "img": "",
+    "description": "Petit bulbe parfumé utilisé pour relever de nombreux plats.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "verrines_radis_chevre" },
+      { "slug": "topinambours_lardons_braises" },
+      { "slug": "poelee_topinambours_carottes_epicee" },
+      { "slug": "epaule_agneau_poivrons" },
+      { "slug": "pates_potiron" },
+      { "slug": "gratin_potiron_boeuf" },
+      { "slug": "penne_pleurotes_courgette" },
+      { "slug": "pleurotes_ail" },
+      { "slug": "veloute_salsifis" },
+      { "slug": "salsifis_sautes" },
+      { "slug": "pommes_de_terre_sautees_ail_persil" },
+      { "slug": "cotes_blettes_bechamel" },
+      { "slug": "haricots_verts_carbonara" },
+      { "slug": "puree_laitue_pdt" },
+      { "slug": "saute_veau_pois" },
+      { "slug": "veloute_fenouil" },
+      { "slug": "gaspacho_betterave" },
+      { "slug": "blettes_bolognaise" },
+      { "slug": "blettes_sautes_ail_creme" },
+      { "slug": "aubergines_farcies" },
+      { "slug": "asperges_roti_laurent_mariotte" },
+      { "slug": "veloute_celeri_rave" },
+      { "slug": "soupe_celeri_courgette" },
+      { "slug": "celeri_rave_roti_ail" },
+      { "slug": "celeri_champignons_sautes" },
+      { "slug": "poisson_papillote_chou_chinois" },
+      { "slug": "wok_chou_chinois_gingembre" },
+      { "slug": "chou_fleur_roti_ail" },
+      { "slug": "pot-au-feu" }
+    ]
+  },
+  {
+    "name": "Asperge blanche",
+    "slug": "asperge-blanche",
+    "category": "légume",
+    "img": "",
+    "description": "Asperge douce et tendre, parfaite cuite à la vapeur ou grillée.",
+    "consumption": ["avril", "mai", "juin"],
+    "recipe": [
+      { "slug": "risotto_legumes_verts" },
+      { "slug": "veloute_asperges_vertes_blanches" },
+      { "slug": "asperges_roti_laurent_mariotte" },
+      { "slug": "gaspacho_asperges_miso" }
+    ]
+  },
+  {
+    "name": "Asperge verte",
+    "slug": "asperge-verte",
+    "category": "légume",
+    "img": "",
+    "description": "Asperge croquante et parfumée, idéale en salade ou sautée.",
+    "consumption": [
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "risotto_legumes_verts" },
+      { "slug": "veloute_asperges_vertes_blanches" },
+      { "slug": "asperges_roti_laurent_mariotte" },
+      { "slug": "gaspacho_asperges_miso" }
+    ]
+  },
+  {
+    "name": "Aubergine",
+    "slug": "aubergine",
+    "category": "légume",
+    "img": "",
+    "description": "Légume violet charnu, parfait pour les gratins ou grillades.",
+    "consumption": ["août", "septembre", "octobre"],
+    "recipe": [
+      { "slug": "epaule_agneau_poivrons" },
+      { "slug": "aubergines_farcies" },
+      { "slug": "poelee_dinde_aubergine_tomate" },
+      { "slug": "moussaka_aubergine_agneau" }
+    ]
+  },
+  {
+    "name": "Betterave rouge",
+    "slug": "betterave-rouge",
+    "category": "légume",
+    "img": "",
+    "description": "Racine ronde et sucrée, parfaite crue en salade ou cuite en accompagnement.",
+    "consumption": [
+      "janvier",
+      "février",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "epaule_agneau_poivrons" },
+      { "slug": "salade_betterave_quinoa_feta_noix" },
+      { "slug": "verrine_betterave_concombre" },
+      { "slug": "gaspacho_betterave" }
+    ]
+  },
+  {
+    "name": "Blette",
+    "slug": "blette",
+    "category": "légume",
+    "img": "",
+    "description": "Feuille verte et tige croquante, idéale sautée ou en gratin.",
+    "consumption": [
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "cotes_blettes_bechamel" },
+      { "slug": "blettes_bolognaise" },
+      { "slug": "blettes_sautes_ail_creme" },
+      { "slug": "tourte_blettes_3_fromages" }
+    ]
+  },
+  {
+    "name": "Brocoli",
+    "slug": "brocoli",
+    "category": "légume",
+    "img": "",
+    "description": "Légume vert riche en vitamines, idéal cuit à la vapeur ou en salade.",
+    "consumption": [
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre"
+    ],
+    "recipe": [
+      { "slug": "gratin_brocolis_haricots_verts" },
+      { "slug": "timbale_brocoli" },
+      { "slug": "tarte_brocoli_camembert" },
+      { "slug": "veloute_brocolis" }
+    ]
+  },
+  {
+    "name": "Carotte",
+    "slug": "carotte",
+    "category": "légume",
+    "img": "",
+    "description": "Racine orange sucrée et croquante, idéale crue ou cuite.",
+    "consumption": [
+      "janvier",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "spaghetti_bolognaise" },
+      { "slug": "topinambours_lardons_braises" },
+      { "slug": "poelee_topinambours_carottes_epicee" },
+      { "slug": "gratin_panais_poireaux_carottes_pommes_de_terre" },
+      { "slug": "epaule_agneau_poivrons" },
+      { "slug": "vol_au_vent" },
+      { "slug": "jardiniere_legumes_laitue" },
+      { "slug": "saute_veau_pois" },
+      { "slug": "gratin_carottes_patates_douces" },
+      { "slug": "soupe_epinards" },
+      { "slug": "chou_blanc_carottes_oignons" },
+      { "slug": "potee_chou_chinois" },
+      { "slug": "wok_chou_chinois_gingembre" },
+      { "slug": "choux_bruxelles_carottes_poeles" },
+      { "slug": "choux_bruxelles_tomate" },
+      { "slug": "chou_milan_braise_carottes" },
+      { "slug": "pot-au-feu" }
+    ]
+  },
+  {
+    "name": "Cassis",
+    "slug": "cassis",
+    "category": "fruit",
+    "img": "",
+    "description": "Petite baie noire au goût intense et acidulé, idéale en confiture, sirop ou dessert.",
+    "consumption": ["juillet", "août"],
+    "recipe": [
+      { "slug": "tarte_cassis" },
+      { "slug": "confiture_cassis_rhubarbe" },
+      { "slug": "muffins_cassis" },
+      { "slug": "glace_cassis" }
+    ]
+  },
+  {
+    "name": "Céléri",
+    "slug": "celeri",
+    "category": "légume",
+    "img": "",
+    "description": "Tige croquante et feuilles aromatiques, parfaite crue en salade ou cuite en soupe.",
+    "consumption": ["juin", "août", "septembre", "octobre", "novembre"],
+    "recipe": [
+      { "slug": "vol_au_vent" },
+      { "slug": "pomme_de_terre_celeri" },
+      { "slug": "salade_celeri_pomme_noix_fromage" },
+      { "slug": "soupe_celeri_courgette" },
+      { "slug": "celeri_champignons_sautes" },
+      { "slug": "soupe_chou_chinois" },
+      { "slug": "wok_chou_chinois_gingembre" },
+      { "slug": "pot-au-feu" }
+    ]
+  },
+  {
+    "name": "Céléri-rave",
+    "slug": "celeri-rave",
+    "category": "légume",
+    "img": "",
+    "description": "Racine ronde et parfumée, idéale en purée ou gratin.",
+    "consumption": [
+      "janvier",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "veloute_celeri_rave" },
+      { "slug": "celeri_rave_roti_ail" },
+      { "slug": "celeri_rave_miel" },
+      { "slug": "gratin_pdt_celeri_rave" },
+      { "slug": "poisson_papillote_chou_chinois" }
+    ]
+  },
+  {
+    "name": "Cerfeuil",
+    "slug": "cerfeuil",
+    "category": "légume",
+    "img": "",
+    "description": "Herbe fine et parfumée, parfaite pour assaisonner vos plats.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "asperges_roti_laurent_mariotte" },
+      { "slug": "salade_thon_pdt_cerfeuil" },
+      { "slug": "soupe_cerfeuil_rapide" },
+      { "slug": "cote_boeuf_cerfeuil" }
+    ]
+  },
+  {
+    "name": "Cerise",
+    "slug": "cerise",
+    "category": "fruit",
+    "img": "",
+    "description": "Petit fruit rouge ou noir, juteux et sucré, idéal à déguster frais ou en pâtisserie.",
+    "consumption": ["juin", "juillet", "août"],
+    "recipe": [
+      { "slug": "clafoutis_cerises" },
+      { "slug": "confiture_cerises_vanille" },
+      { "slug": "tiramisu_cerises_cannelle" },
+      { "slug": "mousse_glacee_cerises" }
+    ]
+  },
+  {
+    "name": "Champignon",
+    "slug": "champignon",
+    "category": "légume",
+    "img": "",
+    "description": "Champignon comestible à chair tendre, utilisé dans de nombreux plats.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "vol_au_vent" },
+      { "slug": "celeri_champignons_sautes" },
+      { "slug": "veloute_champignons" },
+      { "slug": "blanc_poulet_endives_champignons_lardons" },
+      { "slug": "choux_bruxelles_lardons_champignons" }
+    ]
+  },
+  {
+    "name": "Chicon",
+    "slug": "chicon",
+    "category": "légume",
+    "img": "",
+    "description": "Feuille blanche serrée au goût légèrement amer, parfaite en gratin ou poêlée.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "chicons_gratin" },
+      { "slug": "salade_chicons_mache_haricots" },
+      { "slug": "soupe_chicons" },
+      { "slug": "quiche_chicons_lardons" }
+    ]
+  },
+  {
+    "name": "Chicorée",
+    "slug": "chicoree",
+    "category": "légume",
+    "img": "",
+    "description": "Feuilles vertes ou rouges légèrement amères, parfaites crues en salade ou cuites.",
+    "consumption": [
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [{ "slug": "risotto_radicchio_brie" }]
+  },
+  {
+    "name": "Chou blanc",
+    "slug": "chou-blanc",
+    "category": "légume",
+    "img": "",
+    "description": "Chou rond aux feuilles vert pâle, goût doux, parfait pour salades ou cuisson.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "chou_blanc_lardons" },
+      { "slug": "chou_blanc_carottes_oignons" },
+      { "slug": "chou_blanc_braise_vinaigre" },
+      { "slug": "soupe_chou_blanc_pdt" }
+    ]
+  },
+  {
+    "name": "Chou chinois",
+    "slug": "chou-chinois",
+    "category": "légume",
+    "img": "",
+    "description": "Feuilles longues et vert clair, goût léger, idéal en wok ou salade.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "poisson_papillote_chou_chinois" },
+      { "slug": "potee_chou_chinois" },
+      { "slug": "soupe_chou_chinois" },
+      { "slug": "wok_chou_chinois_gingembre" }
+    ]
+  },
+  {
+    "name": "Chou de Bruxelles",
+    "slug": "chou-de-bruxelles",
+    "category": "légume",
+    "img": "",
+    "description": "Petites têtes vertes serrées, goût légèrement amer, cuit à la vapeur ou sauté.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "choux_de_bruxelles_creme" },
+      { "slug": "choux_bruxelles_carottes_poeles" },
+      { "slug": "choux_bruxelles_lardons_champignons" },
+      { "slug": "choux_bruxelles_tomate" }
+    ]
+  },
+  {
+    "name": "Chou de Milan",
+    "slug": "chou-de-milan",
+    "category": "légume",
+    "img": "",
+    "description": "Feuilles frisées vertes, texture tendre, idéal pour soupes et farcis.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "chou_milan_braise_carottes" },
+      { "slug": "soupe_chou_milan_pdt" },
+      { "slug": "chou_milan_farci" },
+      { "slug": "gratin_chou_milan_jambon" }
+    ]
+  },
+  {
+    "name": "Chou fleur",
+    "slug": "chou-fleur",
+    "category": "légume",
+    "img": "",
+    "description": "Tête blanche compacte, goût doux, parfait vapeur ou gratin.",
+    "consumption": [
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre"
+    ],
+    "recipe": [
+      { "slug": "gratin_chou_fleur_leger" },
+      { "slug": "veloute_chou_fleur" },
+      { "slug": "gratin_patates_chou_fleur" },
+      { "slug": "chou_fleur_roti_ail" }
+    ]
+  },
+  {
+    "name": "Chou-rave",
+    "slug": "chou-rave",
+    "category": "légume",
+    "img": "",
+    "description": "Légume rond vert pâle à chair croquante, goût doux, idéal cru ou cuit.",
+    "consumption": [
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre"
+    ],
+    "recipe": [{ "slug": "chou_rave_poele" }, { "slug": "pot-au-feu" }]
+  },
+  {
+    "name": "Chou rouge",
+    "slug": "chou-rouge",
+    "category": "légume",
+    "img": "",
+    "description": "Feuilles rouges serrées, goût légèrement amer, parfait cru en salade ou cuit.",
+    "consumption": [
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "tarte_oignons_chou_rouge" },
+      { "slug": "soupe_chou_rouge" },
+      { "slug": "salade_chou_rouge" },
+      { "slug": "salade_chou_rouge_roquefort_noix" }
+    ]
+  },
+  {
+    "name": "Concombre",
+    "slug": "concombre",
+    "category": "légume",
+    "img": "",
+    "description": "Long et vert, chair croquante et juteuse, parfait cru en salade.",
+    "consumption": ["juin", "juillet", "août", "septembre", "octobre"],
+    "recipe": [
+      { "slug": "salade_tomate_concombre" },
+      { "slug": "tagliatelles_concombre_saumon" },
+      { "slug": "soupe_concombre" },
+      { "slug": "verrine_betterave_concombre" }
+    ]
+  },
+  {
+    "name": "Courgette",
+    "slug": "courgette",
+    "category": "légume",
+    "img": "",
+    "description": "Longue et verte, chair tendre, parfaite sautée ou grillée.",
+    "consumption": ["juin", "juillet", "août", "septembre", "octobre"],
+    "recipe": [
+      { "slug": "epaule_agneau_poivrons" },
+      { "slug": "soupe_toute_verte" },
+      { "slug": "penne_pleurotes_courgette" },
+      { "slug": "risotto_legumes_verts" },
+      { "slug": "soupe_courgette_laitue" },
+      { "slug": "soupe_celeri_courgette" }
+    ]
+  },
+  {
+    "name": "Epinard",
+    "slug": "epinard",
+    "category": "légume",
+    "img": "",
+    "description": "Feuilles vertes tendres, goût doux, parfait en salade ou cuit.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "epinards_aux_raisins_pignons" },
+      { "slug": "lasagnes_epinards" },
+      { "slug": "soupe_epinards" },
+      { "slug": "tarte_filo_poireaux_epinards_feta_morteau" }
+    ]
+  },
+  {
+    "name": "Fenouil",
+    "slug": "fenouil",
+    "category": "légume",
+    "img": "",
+    "description": "Bulbe blanc croquant avec tiges vertes, goût anisé, idéal cru ou cuit.",
+    "consumption": [
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre"
+    ],
+    "recipe": [
+      { "slug": "veloute_fenouil" },
+      { "slug": "gratin_fenouil" },
+      { "slug": "poulet_fenouil" },
+      { "slug": "salade_fenouil_cru" }
+    ]
+  },
+  {
+    "name": "Fraises",
+    "slug": "fraises",
+    "category": "fruit",
+    "img": "",
+    "description": "Petit fruit rouge vif, sucré et parfumé, parfait frais ou en dessert.",
+    "consumption": ["avril", "mai", "juin", "juillet", "août", "septembre"],
+    "recipe": [
+      { "slug": "smoothie_fraises" },
+      { "slug": "sorbet_fraises" },
+      { "slug": "tarte_fraises_legere" },
+      { "slug": "glace_fraises" }
+    ]
+  },
+  {
+    "name": "Framboises",
+    "slug": "framboises",
+    "category": "fruit",
+    "img": "",
+    "description": "Petit fruit rouge vif, sucré et parfumé, parfait frais ou en dessert.",
+    "consumption": ["juin", "juillet", "août", "septembre", "octobre"],
+    "recipe": [
+      { "slug": "gelee_groseilles_framboises" },
+      { "slug": "clafoutis_myrtilles_framboises" },
+      { "slug": "salade_mache_chevre_noix_fruits_rouges" },
+      { "slug": "tiramisu_framboise" }
+    ]
+  },
+  {
+    "name": "Groseille",
+    "slug": "groseille",
+    "category": "fruit",
+    "img": "",
+    "description": "Petite baie rouge translucide, acidulée et rafraîchissante, parfaite en gelée ou dessert.",
+    "consumption": ["juin", "juillet", "août", "septembre"],
+    "recipe": [
+      { "slug": "muffins_groseilles" },
+      { "slug": "gelee_groseille" },
+      { "slug": "mousse_groseilles" },
+      { "slug": "clafoutis_rhubarbe_groseille" }
+    ]
+  },
+  {
+    "name": "Groseille à maquereau",
+    "slug": "groseille-a-maquereau",
+    "category": "fruit",
+    "img": "",
+    "description": "Petite baie ronde verte ou rouge, légèrement acidulée, parfaite en confiture ou dessert.",
+    "consumption": ["juin", "juillet", "août"],
+    "recipe": [{ "slug": "gelee_groseilles_framboises" }]
+  },
+  {
+    "name": "Haricot blanc",
+    "slug": "haricot-blanc",
+    "category": "légume",
+    "img": "",
+    "description": "",
+    "consumption": [],
+    "recipe": [{ "slug": "salade_chicons_mache_haricots" }]
+  },
+  {
+    "name": "Haricot vert",
+    "slug": "haricot-vert",
+    "category": "légume",
+    "img": "",
+    "description": "Gousse verte longue et tendre, goût frais, parfait vapeur ou sauté.",
+    "consumption": ["juin", "juillet", "août", "septembre", "octobre"],
+    "recipe": [
+      { "slug": "haricots_verts_carbonara" },
+      { "slug": "saucisse_toulouse_haricots_verts" },
+      { "slug": "gratin_brocolis_haricots_verts" },
+      { "slug": "risotto_legumes_verts" }
+    ]
+  },
+  {
+    "name": "Laitue",
+    "slug": "laitue",
+    "category": "légume",
+    "img": "",
+    "description": "Feuilles vertes croquantes, parfaite en salade ou en garniture.",
+    "consumption": [
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre"
+    ],
+    "recipe": [
+      { "slug": "jardiniere_legumes_laitue" },
+      { "slug": "soupe_courgette_laitue" },
+      { "slug": "puree_laitue_pdt" },
+      { "slug": "soupe_laitue_quinoa" }
+    ]
+  },
+  {
+    "name": "Mâche",
+    "slug": "mache",
+    "category": "légume",
+    "img": "",
+    "description": "Racine longue et fine, goût délicatement sucré, parfaite cuite à la vapeur ou en purée.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "salade_mache_jambon_mozzarella" },
+      { "slug": "salade_betterave_quinoa_feta_noix" },
+      { "slug": "veloute_mache" },
+      { "slug": "salade_mache_chevre_noix_fruits_rouges" },
+      { "slug": "salade_chicons_mache_haricots" }
+    ]
+  },
+  {
+    "name": "Mûre",
+    "slug": "mure",
+    "category": "fruit",
+    "img": "",
+    "description": "Petit fruit noir ou violet, sucré et juteux, idéal frais ou en confiture.",
+    "consumption": ["juillet", "août", "septembre", "octobre"],
+    "recipe": [
+      { "slug": "gelee_mures" },
+      { "slug": "tarte_mures_mascarpone" },
+      { "slug": "sirop_mures" },
+      { "slug": "glace_mures" }
+    ]
+  },
+  {
+    "name": "Myrtille",
+    "slug": "myrtille",
+    "category": "fruit",
+    "img": "",
+    "description": "Petit fruit bleu foncé, sucré et légèrement acidulé, parfait frais ou en dessert.",
+    "consumption": ["juin", "juillet", "août", "septembre"],
+    "recipe": [
+      { "slug": "muffins_myrtilles" },
+      { "slug": "clafoutis_myrtilles_framboises" },
+      { "slug": "cake_aux_myrtilles" },
+      { "slug": "tarte_aux_myrtilles_mascarpone" },
+      { "slug": "salade_mache_chevre_noix_fruits_rouges" }
+    ]
+  },
+  {
+    "name": "Oignon",
+    "slug": "oignon",
+    "category": "légume",
+    "img": "",
+    "description": "Bulbe aromatique à saveur piquante, utilisé cru ou cuit.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "omelette_aux_legumes" },
+      { "slug": "poulet_saute_simple" },
+      { "slug": "soupe_potiron_simple" },
+      { "slug": "spaghetti_bolognaise" },
+      { "slug": "topinambours_lardons_braises" },
+      { "slug": "risotto_radicchio_brie" },
+      { "slug": "pates_potiron" },
+      { "slug": "gratin_potiron_boeuf" },
+      { "slug": "penne_pleurotes_courgette" },
+      { "slug": "tartelette_pleurotes_chevre" },
+      { "slug": "vol_au_vent" },
+      { "slug": "saucisse_toulouse_haricots_verts" },
+      { "slug": "gratin_brocolis_haricots_verts" },
+      { "slug": "risotto_legumes_verts" },
+      { "slug": "jardiniere_legumes_laitue" },
+      { "slug": "soupe_courgette_laitue" },
+      { "slug": "saute_veau_pois" },
+      { "slug": "gratin_carottes_patates_douces" },
+      { "slug": "veloute_patate_douce_poire" },
+      { "slug": "veloute_fenouil" },
+      { "slug": "soupe_epinards" },
+      { "slug": "veloute_brocolis" },
+      { "slug": "blettes_bolognaise" },
+      { "slug": "aubergines_farcies" },
+      { "slug": "moussaka_aubergine_agneau" },
+      { "slug": "veloute_asperges_vertes_blanches" },
+      { "slug": "gaspacho_asperges_miso" },
+      { "slug": "soupe_cerfeuil_rapide" },
+      { "slug": "soupe_chicons" },
+      { "slug": "veloute_celeri_rave" },
+      { "slug": "soupe_celeri_courgette" },
+      { "slug": "gratin_pdt_celeri_rave" },
+      { "slug": "veloute_champignons" },
+      { "slug": "blanc_poulet_endives_champignons_lardons" },
+      { "slug": "chou_blanc_carottes_oignons" },
+      { "slug": "soupe_chou_blanc_pdt" },
+      { "slug": "potee_chou_chinois" },
+      { "slug": "soupe_chou_chinois" },
+      { "slug": "choux_de_bruxelles_creme" },
+      { "slug": "choux_bruxelles_carottes_poeles" },
+      { "slug": "choux_bruxelles_tomate" },
+      { "slug": "soupe_chou_milan_pdt" },
+      { "slug": "chou_milan_farci" },
+      { "slug": "pot-au-feu" },
+      { "slug": "soupe_chou_rouge" }
+    ]
+  },
+  {
+    "name": "Oignon jeune",
+    "slug": "oignon-jeune",
+    "category": "légume",
+    "img": "",
+    "description": "Tige verte et bulbe tendre, goût doux, idéal en crudités.",
+    "consumption": [
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre"
+    ],
+    "recipe": [
+      { "slug": "omelette_aux_legumes" },
+      { "slug": "poulet_saute_simple" },
+      { "slug": "soupe_potiron_simple" },
+      { "slug": "spaghetti_bolognaise" },
+      { "slug": "topinambours_lardons_braises" },
+      { "slug": "risotto_radicchio_brie" },
+      { "slug": "pates_potiron" },
+      { "slug": "gratin_potiron_boeuf" },
+      { "slug": "vol_au_vent" }
+    ]
+  },
+  {
+    "name": "Panais",
+    "slug": "panais",
+    "category": "légume",
+    "img": "",
+    "description": "Racine longue et beige, goût sucré et légèrement épicé, parfait rôti ou en purée.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "topinambours_lardons_braises" },
+      { "slug": "poelee_topinambours_carottes_epicee" },
+      { "slug": "topinambours_a_la_creme" },
+      { "slug": "gratin_panais_poireaux_carottes_pommes_de_terre" },
+      { "slug": "pates_potiron" },
+      { "slug": "gratin_potiron_boeuf" }
+    ]
+  },
+  {
+    "name": "Patate douce",
+    "slug": "patate-douce",
+    "category": "légume",
+    "img": "",
+    "description": "Racine orangée sucrée et tendre, idéale en gratin ou purée.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "gratin_panais_poireaux_carottes_pommes_de_terre" },
+      { "slug": "gratin_carottes_patates_douces" },
+      { "slug": "veloute_patate_douce_poire" },
+      { "slug": "patates_douces_crousti_moelleuses" }
+    ]
+  },
+  {
+    "name": "Persil",
+    "slug": "persil",
+    "category": "herbe aromatique",
+    "img": "",
+    "description": "Herbe aromatique aux feuilles vertes finement découpées, idéale pour assaisonner plats et sauces.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "veloute_persil" },
+      { "slug": "pommes_de_terre_sautees_ail_persil" },
+      { "slug": "soupe_toute_verte" },
+      { "slug": "cotes_blettes_bechamel" },
+      { "slug": "jardiniere_legumes_laitue" },
+      { "slug": "blettes_bolognaise" },
+      { "slug": "blettes_sautes_ail_creme" },
+      { "slug": "aubergines_farcies" },
+      { "slug": "cote_boeuf_cerfeuil" },
+      { "slug": "celeri_rave_miel" },
+      { "slug": "veloute_champignons" },
+      { "slug": "choux_bruxelles_tomate" },
+      { "slug": "chou_fleur_roti_ail" },
+      { "slug": "chou_rave_poele" }
+    ]
+  },
+  {
+    "name": "Petit pois",
+    "slug": "petit-pois",
+    "category": "légume",
+    "img": "",
+    "description": "Gousse verte tendre avec graines sucrées, parfait cru ou cuit.",
+    "consumption": ["avril", "mai", "juin"],
+    "recipe": [
+      { "slug": "risotto_legumes_verts" },
+      { "slug": "jardiniere_legumes_laitue" },
+      { "slug": "pates_pois_poireaux_bacon" },
+      { "slug": "saute_veau_pois" }
+    ]
+  },
+  {
+    "name": "Pleurotes",
+    "slug": "pleurotes",
+    "category": "légume",
+    "img": "",
+    "description": "Champignon à chapeau large et charnu, goût délicat et légèrement sucré, parfait poêlé ou en sauce",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "penne_pleurotes_courgette" },
+      { "slug": "pleurotes_ail" },
+      { "slug": "tartelette_pleurotes_chevre" },
+      { "slug": "vol_au_vent" }
+    ]
+  },
+  {
+    "name": "Poire",
+    "slug": "poire",
+    "category": "fruit",
+    "img": "",
+    "description": "Fruit juteux et sucré, peau verte, jaune ou rouge, parfait cru ou en compote.",
+    "consumption": ["août", "septembre", "octobre", "novembre", "décembre"],
+    "recipe": [
+      { "slug": "crumble_pommes_prunes" },
+      { "slug": "clafoutis_aux_poires_facile" },
+      { "slug": "muffins_poires_pepites_chocolat" },
+      { "slug": "tarte_poire_chocolat_amande" },
+      { "slug": "veloute_patate_douce_poire" }
+    ]
+  },
+  {
+    "name": "Poireau",
+    "slug": "poireau",
+    "category": "légume",
+    "img": "",
+    "description": "Tige blanche avec feuilles vertes, goût doux et aromatique, idéal en soupe ou gratin.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "gratin_panais_poireaux_carottes_pommes_de_terre" },
+      { "slug": "vol_au_vent" },
+      { "slug": "tarte_poireaux_lardons" },
+      { "slug": "potage_veloute_poireaux_pommes_de_terre" },
+      { "slug": "soupe_toute_verte" },
+      { "slug": "pates_pois_poireaux_bacon" },
+      { "slug": "tarte_filo_poireaux_epinards_feta_morteau" },
+      { "slug": "pot-au-feu" }
+    ]
+  },
+  {
+    "name": "Poivron",
+    "slug": "poivron",
+    "category": "légume",
+    "img": "",
+    "description": "Légume croquant et coloré, goût doux et sucré, parfait cru ou grillé.",
+    "consumption": ["août", "septembre", "octobre"],
+    "recipe": [
+      { "slug": "omelette_aux_legumes" },
+      { "slug": "poulet_saute_simple" },
+      { "slug": "oeufs_bacon_tomates_poivrons" },
+      { "slug": "epaule_agneau_poivrons" }
+    ]
+  },
+  {
+    "name": "Pomme",
+    "slug": "pomme",
+    "category": "fruit",
+    "img": "",
+    "description": "Fruit croquant et sucré ou acidulé, couleur rouge, verte ou jaune, idéal cru ou cuit.",
+    "consumption": ["août", "septembre", "octobre", "novembre", "décembre"],
+    "recipe": [
+      { "slug": "compote_pommes_rapide" },
+      { "slug": "crumble_rhubarbe" },
+      { "slug": "crumble_pommes_prunes" },
+      { "slug": "tarte_aux_pommes" },
+      { "slug": "salade_fenouil_cru" }
+    ]
+  },
+  {
+    "name": "Pomme de terre",
+    "slug": "pomme-de-terre",
+    "category": "légume",
+    "img": "",
+    "description": "Racine ronde ou allongée, chair farineuse ou ferme, idéale rôtie, purée ou sautée.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "veloute_radis_noir" },
+      { "slug": "gratin_panais_poireaux_carottes_pommes_de_terre" },
+      { "slug": "gratin_potiron_boeuf" },
+      { "slug": "potage_veloute_poireaux_pommes_de_terre" },
+      { "slug": "veloute_salsifis" },
+      { "slug": "pommes_de_terre_sautees_ail_persil" },
+      { "slug": "soupe_toute_verte" },
+      { "slug": "veloute_mache" },
+      { "slug": "saucisse_toulouse_haricots_verts" },
+      { "slug": "puree_laitue_pdt" },
+      { "slug": "soupe_epinards" },
+      { "slug": "poelee_dinde_aubergine_tomate" },
+      { "slug": "salade_thon_pdt_cerfeuil" },
+      { "slug": "cote_boeuf_cerfeuil" },
+      { "slug": "veloute_celeri_rave" },
+      { "slug": "pomme_de_terre_celeri" },
+      { "slug": "gratin_pdt_celeri_rave" },
+      { "slug": "soupe_chou_blanc_pdt" },
+      { "slug": "potee_chou_chinois" },
+      { "slug": "soupe_chou_milan_pdt" },
+      { "slug": "veloute_chou_fleur" },
+      { "slug": "gratin_patates_chou_fleur" },
+      { "slug": "soupe_chou_rouge" }
+    ]
+  },
+  {
+    "name": "Potiron",
+    "slug": "potiron",
+    "category": "légume",
+    "img": "",
+    "description": "Grosse courge orange, chair douce et tendre, parfaite en soupe ou gratin.",
+    "consumption": [
+      "janvier",
+      "février",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "soupe_potiron_simple" },
+      { "slug": "pates_potiron" },
+      { "slug": "gratin_potiron_boeuf" },
+      { "slug": "gaufres_potiron" }
+    ]
+  },
+  {
+    "name": "Prune",
+    "slug": "prune",
+    "category": "fruit",
+    "img": "",
+    "description": "Fruit rond à peau lisse violette, rouge ou jaune, chair juteuse et sucrée, parfait frais ou en compote.",
+    "consumption": ["juillet", "août", "septembre"],
+    "recipe": [
+      { "slug": "gateau_aux_prunes" },
+      { "slug": "confiture_de_prunes" },
+      { "slug": "crumble_pommes_prunes" },
+      { "slug": "glace_aux_prunes" }
+    ]
+  },
+  {
+    "name": "Radicchio",
+    "slug": "radicchio",
+    "category": "légume",
+    "img": "",
+    "description": "Feuilles rouges nervurées de blanc, goût légèrement amer, idéal cru en salade ou grillé.",
+    "consumption": [
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre"
+    ],
+    "recipe": [
+      { "slug": "risotto_radicchio_brie" },
+      { "slug": "confiture_de_prunes" }
+    ]
+  },
+  {
+    "name": "Radis",
+    "slug": "radis",
+    "category": "légume",
+    "img": "",
+    "description": "Racine ronde ou allongée, croquante et piquante, idéale crue en salade.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "radis_blanc_jambon_bechamel" },
+      { "slug": "toast_beurre_herbes_radis" },
+      { "slug": "verrines_radis_chevre" },
+      { "slug": "veloute_radis_noir" }
+    ]
+  },
+  {
+    "name": "Radis noir",
+    "slug": "radis-noir",
+    "category": "légume",
+    "img": "",
+    "description": "Racine allongée et noire, chair blanche piquante, idéale crue en salade ou râpée.",
+    "consumption": ["août", "septembre", "octobre", "novembre"],
+    "recipe": [
+      { "slug": "veloute_radis_noir" },
+      { "slug": "salade_radis_noir_carotte" },
+      { "slug": "tartine_radis_noir_beurre_herbes" },
+      { "slug": "soupe_radis_noir_pdt" }
+    ]
+  },
+  {
+    "name": "Raisin",
+    "slug": "raisin",
+    "category": "fruit",
+    "img": "",
+    "description": "Petite baie ronde verte ou violette, sucrée et juteuse, idéale fraîche ou séchée.",
+    "consumption": ["juillet", "août", "septembre", "octobre"],
+    "recipe": [
+      { "slug": "tarte_aux_raisins" },
+      { "slug": "cailles_aux_raisins" },
+      { "slug": "beignets_aux_raisins" },
+      { "slug": "epinards_raisin_pignons" }
+    ]
+  },
+  {
+    "name": "Rhubarbe",
+    "slug": "rhubarbe",
+    "category": "fruit",
+    "img": "",
+    "description": "Tiges rouges ou vertes, acidulées et juteuses, parfaites en compote ou dessert.",
+    "consumption": ["avril", "mai", "juin", "juillet", "août", "septembre"],
+    "recipe": [
+      { "slug": "clafoutis_rhubarbe_groseille" },
+      { "slug": "confiture_rhubarbe_vanille" },
+      { "slug": "crumble_rhubarbe" },
+      { "slug": "gateau_soleil_rhubarbe" },
+      { "slug": "confiture_cassis_rhubarbe" }
+    ]
+  },
+  {
+    "name": "Salsifi",
+    "slug": "salsifi",
+    "category": "légume",
+    "img": "",
+    "description": "Racine longue et fine, goût délicatement sucré, idéale cuite à la vapeur ou en purée.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "quiche_poireau_salsifi" },
+      { "slug": "veloute_salsifis" },
+      { "slug": "salsifis_sautes" },
+      { "slug": "gratin_salsifis" }
+    ]
+  },
+  {
+    "name": "Tomate",
+    "slug": "tomate",
+    "category": "légume",
+    "img": "",
+    "description": "Fruit rouge ou jaune juteux, goût doux et légèrement acidulé, parfait cru ou cuit.",
+    "consumption": ["juillet", "août", "septembre", "octobre"],
+    "recipe": [
+      { "slug": "salade_tomate_concombre" },
+      { "slug": "spaghetti_bolognaise" },
+      { "slug": "oeufs_bacon_tomates_poivrons" },
+      { "slug": "saute_veau_pois" },
+      { "slug": "blettes_bolognaise" },
+      { "slug": "aubergines_farcies" },
+      { "slug": "poelee_dinde_aubergine_tomate" },
+      { "slug": "moussaka_aubergine_agneau" },
+      { "slug": "soupe_celeri_courgette" },
+      { "slug": "choux_bruxelles_tomate" }
+    ]
+  },
+  {
+    "name": "Topinambour",
+    "slug": "topinambour",
+    "category": "légume",
+    "img": "",
+    "description": "Racine beige irrégulière, goût sucré et noisette, parfaite rôtie ou en purée.",
+    "consumption": [
+      "janvier",
+      "février",
+      "mars",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "recipe": [
+      { "slug": "veloute_topinambours_miel" },
+      { "slug": "topinambours_lardons_braises" },
+      { "slug": "poelee_topinambours_carottes_epicee" },
+      { "slug": "poelee_topinambours_carottes_epicee" },
+      { "slug": "topinambours_a_la_creme" }
+    ]
+  }
+]
