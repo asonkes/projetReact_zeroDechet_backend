@@ -39,7 +39,8 @@ const ingredientController = {
   },
 
   /**
-   * Ajouter un ingrédient (sera exclusivement pour l'admin ==> à voir si le temps)
+   * Ajouter un ingrédient
+   * (Pour l'admin ==> à voir si le temps)
    * @param {Request} req
    * @param {Response} res
    */
@@ -53,16 +54,24 @@ const ingredientController = {
   },
 
   /**
-   * Modifier un ingrédient (sera exclusivement pour l'admin ==> à voir si le temps)
+   * Modifier un ingrédient
+   * (Pour l'admin ==> à voir si le temps)
    * @param {Request} req
    * @param {Response} res
    */
   update: (req, res) => {
-    res.sendStatus(501);
+    const id = +req.params.id;
+    const recipeToUpdate = req.body;
+    recipeToUpdate.id = req.body;
+
+    const updatedRecipe = fakeIngredientService.update(recipeToUpdate);
+
+    res.sendStatus(200).json(updatedRecipe);
   },
 
   /**
-   * Supprimer un ingrédient (sera exclusivement pour l'admin ==> à voir si le temps)
+   * Supprimer un ingrédient
+   * (Pour l'admin ==> à voir si le temps)
    * @param {Request} req
    * @param {Response} res
    */

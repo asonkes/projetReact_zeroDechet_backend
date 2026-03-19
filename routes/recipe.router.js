@@ -11,11 +11,14 @@ recipeRouter
   .route("/")
   .get(recipeController.getAll)
   // Pouvoir ajouter une recette
-  .post(recipeController.post);
+  .post(recipeController.insert);
 
+// Routes avec les slugs
+recipeRouter.route("/:slug").get(recipeController.getBySlug);
+
+// Routes avec les id
 recipeRouter
-  .route("/:slug")
-  .get(recipeController.getBySlug)
+  .route("/id/:id")
   .put(recipeController.update)
   .delete(recipeController.delete);
 

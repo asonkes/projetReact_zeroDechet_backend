@@ -1,8 +1,7 @@
 const { ingredients } = require("./fakeDb");
 
 const fakeIngredientService = {
-  // Va permettre de récupérer toutes les tâches de notre DB
-  // Pas de paramètre particulier, on veut tout récupérer
+  // Va permettre de récupérer tous les ingrédient de notre DB
   find: () => {
     return ingredients;
   },

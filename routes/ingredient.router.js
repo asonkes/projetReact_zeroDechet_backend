@@ -16,6 +16,7 @@ ingredientRouter
 // Routes avec les slugs
 ingredientRouter.route("/:slug").get(ingredientController.getBySlug);
 
+// Routes avec les id
 ingredientRouter
   .route("/id/:id")
   .put(ingredientController.update)

@@ -1,31 +1,100 @@
+const fakeRecipeService = require("../services/fake/fakeRecipe.service");
+const { Request, Response } = require("express");
+
 const recipeController = {
+  /**
+   * Pour récupérer toutes les recettes
+   * @param {Request} req
+   * @param {Response} res
+   */
   getAll: (req, res) => {
-    res.sendStatus(501);
+    const recipes = fakeRecipeService.find();
+
+    const dataToSend = {
+      count: recipes.length,
+      recipes,
+    };
+
+    res.status(200).json(dataToSend);
   },
 
+  /**
+   * Pour récupérer une recette avec son slug
+   * @param {Request} req
+   * @param {Response} res
+   */
   getBySlug: (req, res) => {
-    res.sendStatus(501);
+    const slug = req.params.slug;
+    const recipe = fakeRecipeService.findBySlug(slug);
+
+    if (!recipe) {
+      res.status(404).json({
+        statusCode: 404,
+        message: "Recette non trouvée",
+      });
+    }
+
+    res.status(200).json(recipe);
   },
 
   getByUser: (req, res) => {
     res.sendStatus(501);
   },
 
-  // serait pour un utilisateur connecté
-  // admin
-  post: (req, res) => {
-    res.sendStatus(501);
+  /**
+   * Pour pouvoir ajouter une recette
+   * Pour un utilisateur connecté et Admin
+   * @param {Request} req
+   * @param {Response} res
+   */
+  insert: (req, res) => {
+    const recipeToAdd = req.body;
+    const addedRecipe = fakeRecipeService.create(recipeToAdd);
+
+    // Rajout de l'url de la valeur ajoutée (respect des principes 'REST')
+    res.location = `/api/recipes/id/${recipeToAdd.id}`;
+    res.status(201).json(addedRecipe);
   },
 
-  // serait pour l'auteur de la recette
-  // amdin
+  /**
+   * Pour pouvoir modifier uen recette
+   * Pour la personne qui a créé la recette et Admin
+   * @param {Request} req
+   * @param {Response} res
+   */
   update: (req, res) => {
-    res.sendStatus(501);
+    // Todo : Vérifier si l'id existe sinon 404
+
+    // Todo : Vérifier que le nouveau nom n'est pas déjà présent dans la db, sinon erreur 409
+
+    // Todo : faire la modification
+    const id = +req.params.id;
+    const recipeToUpdate = req.body;
+
+    const updatedRecipe = fakeRecipeService.update(id, recipeToUpdate);
+
+    if (!updatedRecipe) {
+      res.status(404).json({
+        statusCode: 404,
+        message: "Recette non trouvée",
+      });
+    }
+
+    res.sendStatus(200).json(updatedRecipe);
   },
 
-  // serait juste pour l'admin
+  /**
+   * Pour pouvoir supprimer une recette
+   * Pour l'Admin
+   * @param {Request} req
+   * @param {Response} res
+   */
   delete: (req, res) => {
-    res.sendStatus(501);
+    const id = +req.params.id;
+
+    const deleteRecipe = fakeRecipeService.delete(id);
+
+    res.sendStatus(204).json(deleteRecipe);
   },
 };
 
