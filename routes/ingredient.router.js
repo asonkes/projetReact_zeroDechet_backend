@@ -11,12 +11,13 @@ ingredientRouter
   .route("/")
   .get(ingredientController.getAll)
   // Pouvoir ajouter une recette
-  .post(ingredientController.post);
+  .post(ingredientController.insert);
 
 // Routes avec les slugs
+ingredientRouter.route("/:slug").get(ingredientController.getBySlug);
+
 ingredientRouter
-  .route("/:slug")
-  .get(ingredientController.getBySlug)
+  .route("/id/:id")
   .put(ingredientController.update)
   .delete(ingredientController.delete);
 

@@ -1,9 +1,9 @@
 const { Request, Response } = require("express");
 const fakeIngredientService = require("../services/fake/fakeIngredient.service");
 
-const categoryController = {
+const ingredientController = {
   /**
-   * Récupérer toutes les tâches
+   * Récupérer toutes les ingrédients
    * @param {Request} req
    * @param {Response} res
    */
@@ -20,7 +20,7 @@ const categoryController = {
   },
 
   /**
-   * Récupérer toutes les tâches
+   * Récupérer un ingrédient par slug
    * @param {Request} req
    * @param {Response} res
    */
@@ -39,16 +39,21 @@ const categoryController = {
   },
 
   /**
-   * Récupérer toutes les tâches
+   * Ajouter un ingrédient (sera exclusivement pour l'admin ==> à voir si le temps)
    * @param {Request} req
    * @param {Response} res
    */
-  post: (req, res) => {
-    res.sendStatus(501);
+  insert: (req, res) => {
+    const ingredientToAdd = req.body;
+    const addedIngredient = fakeIngredientService.create(ingredientToAdd);
+
+    // Rajout de l'url de la valeur ajoutée (respect des principes 'REST')
+    res.location = `/api/ingredients/id/${ingredientToAdd.id}`;
+    res.status(201).json(addedIngredient);
   },
 
   /**
-   * Récupérer toutes les tâches
+   * Modifier un ingrédient (sera exclusivement pour l'admin ==> à voir si le temps)
    * @param {Request} req
    * @param {Response} res
    */
@@ -57,7 +62,7 @@ const categoryController = {
   },
 
   /**
-   * Récupérer toutes les tâches
+   * Supprimer un ingrédient (sera exclusivement pour l'admin ==> à voir si le temps)
    * @param {Request} req
    * @param {Response} res
    */
@@ -66,4 +71,4 @@ const categoryController = {
   },
 };
 
-module.exports = categoryController;
+module.exports = ingredientController;
