@@ -86,13 +86,13 @@ const recipeController = {
 
     // Faire un if/else => car on renvoie pas de la même manière !
     if (fakeRecipeService.delete(id)) {
-      res.status(204);
-    } else {
-      res.sendStatus(404).json({
-        statusCode: 404,
-        message: `Suppression impossible, la recette n'existe pas!`,
-      });
+      return res.sendStatus(204);
     }
+
+    return res.status(404).json({
+      statusCode: 404,
+      message: `Suppression impossible, la recette n'existe pas!`,
+    });
   },
 };
 

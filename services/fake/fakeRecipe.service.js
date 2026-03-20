@@ -51,7 +51,6 @@ const fakeRecipeService = {
   delete: (id) => {
     const index = recipes.find((recipe) => recipe.id === id);
 
-    // Si index n'existe pas, il sera = -1
     if (index === -1) {
       return false;
     }
