@@ -1,5 +1,5 @@
-const fakeRecipeService = require("../services/fake/fakeRecipe.service");
 const { Request, Response } = require("express");
+const fakeRecipeService = require("../services/fake/fakeRecipe.service");
 
 const recipeController = {
   /**
@@ -37,10 +37,6 @@ const recipeController = {
     res.status(200).json(recipe);
   },
 
-  getByUser: (req, res) => {
-    res.sendStatus(501);
-  },
-
   /**
    * Pour pouvoir ajouter une recette
    * Pour un utilisateur connecté et Admin
@@ -63,24 +59,20 @@ const recipeController = {
    * @param {Response} res
    */
   update: (req, res) => {
-    // Todo : Vérifier si l'id existe sinon 404
-
-    // Todo : Vérifier que le nouveau nom n'est pas déjà présent dans la db, sinon erreur 409
-
-    // Todo : faire la modification
     const id = +req.params.id;
-    const recipeToUpdate = req.body;
+    const newRecipeInfos = req.body;
+    const recipe = fakeRecipeService.findById(id);
 
-    const updatedRecipe = fakeRecipeService.update(id, recipeToUpdate);
-
-    if (!updatedRecipe) {
+    if (!recipe) {
       res.status(404).json({
         statusCode: 404,
         message: "Recette non trouvée",
       });
     }
 
-    res.sendStatus(200).json(updatedRecipe);
+    const updatedRecipe = fakeRecipeService.update(id, newRecipeInfos);
+
+    res.status(200).json(updatedRecipe);
   },
 
   /**
@@ -92,9 +84,15 @@ const recipeController = {
   delete: (req, res) => {
     const id = +req.params.id;
 
-    const deleteRecipe = fakeRecipeService.delete(id);
-
-    res.sendStatus(204).json(deleteRecipe);
+    // Faire un if/else => car on renvoie pas de la même manière !
+    if (fakeRecipeService.delete(id)) {
+      res.status(204);
+    } else {
+      res.sendStatus(404).json({
+        statusCode: 404,
+        message: `Suppression impossible, la recette n'existe pas!`,
+      });
+    }
   },
 };
 

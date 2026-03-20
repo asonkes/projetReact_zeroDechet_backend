@@ -13,6 +13,8 @@ recipeRouter
   // Pouvoir ajouter une recette
   .post(recipeController.insert);
 
+//recipeRouter.route("/user/me").get(recipeController.getRecipesByUser);
+
 // Routes avec les slugs
 recipeRouter.route("/:slug").get(recipeController.getBySlug);
 

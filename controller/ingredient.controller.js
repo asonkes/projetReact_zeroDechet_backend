@@ -61,12 +61,26 @@ const ingredientController = {
    */
   update: (req, res) => {
     const id = +req.params.id;
-    const recipeToUpdate = req.body;
-    recipeToUpdate.id = req.body;
+    console.log(id);
 
-    const updatedRecipe = fakeIngredientService.update(recipeToUpdate);
+    const newIngredientInfos = req.body;
+    console.log(req.body);
 
-    res.sendStatus(200).json(updatedRecipe);
+    const ingredient = fakeIngredientService.findById(id);
+
+    if (!ingredient) {
+      res.status(404).json({
+        statusCode: 404,
+        message: "Ingrédient non trouvé",
+      });
+    }
+
+    const updatedIngredient = fakeIngredientService.update(
+      id,
+      newIngredientInfos,
+    );
+
+    res.status(200).json(updatedIngredient);
   },
 
   /**
@@ -76,7 +90,18 @@ const ingredientController = {
    * @param {Response} res
    */
   delete: (req, res) => {
-    res.sendStatus(501);
+    const id = +req.params.id;
+
+    if (fakeIngredientService.delete(id)) {
+      return res.sendStatus(204);
+    }
+
+    console.log("après");
+
+    return res.status(404).json({
+      statusCode: 404,
+      message: `Suppression impossible, l'ingrédient n'existe pas!`,
+    });
   },
 };
 
