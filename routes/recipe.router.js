@@ -5,6 +5,7 @@
 const recipeRouter = require("express").Router();
 
 const recipeController = require("../controller/recipe.controller");
+const idValidatorMiddleware = require("../middlewares/idValidator.middleware");
 
 // Routes sans les 'id'
 recipeRouter
@@ -21,7 +22,7 @@ recipeRouter.route("/:slug").get(recipeController.getBySlug);
 // Routes avec les id
 recipeRouter
   .route("/id/:id")
-  .put(recipeController.update)
-  .delete(recipeController.delete);
+  .put(idValidatorMiddleware(), recipeController.update)
+  .delete(idValidatorMiddleware(), recipeController.delete);
 
 module.exports = recipeRouter;

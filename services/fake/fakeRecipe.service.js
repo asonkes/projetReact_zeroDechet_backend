@@ -35,10 +35,11 @@ const fakeRecipeService = {
     const recipeToUpdate = recipes.find((recipe) => recipe.id === id);
 
     // on fait les modifications
-    recipeToUpdate.slug = recipe.slug;
     recipeToUpdate.name = recipe.name;
+    recipeToUpdate.slug = recipe.slug;
     recipeToUpdate.category = recipe.category;
     recipeToUpdate.description = recipe.description;
+    recipeToUpdate.price = recipe.price;
     recipeToUpdate.nbr_de_personnes = recipe.nbr_de_personnes;
     recipeToUpdate.temps_preparation = recipe.temps_preparation;
     recipeToUpdate.cuisson = recipe.cuisson;
@@ -49,7 +50,7 @@ const fakeRecipeService = {
   },
 
   delete: (id) => {
-    const index = recipes.find((recipe) => recipe.id === id);
+    const index = recipes.findIndex((recipe) => recipe.id === id);
 
     if (index === -1) {
       return false;

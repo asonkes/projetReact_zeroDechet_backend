@@ -56,7 +56,7 @@ const fakeIngredientService = {
   },
 
   delete: (id) => {
-    const index = ingredients.find((ingredient) => ingredient.id === id);
+    const index = ingredients.findIndex((ingredient) => ingredient.id === id);
 
     if (index === -1) {
       return false;
