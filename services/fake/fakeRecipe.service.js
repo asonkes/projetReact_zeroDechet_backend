@@ -40,9 +40,9 @@ const fakeRecipeService = {
     recipeToUpdate.category = recipe.category;
     recipeToUpdate.description = recipe.description;
     recipeToUpdate.price = recipe.price;
-    recipeToUpdate.nbr_de_personnes = recipe.nbr_de_personnes;
-    recipeToUpdate.temps_preparation = recipe.temps_preparation;
-    recipeToUpdate.cuisson = recipe.cuisson;
+    recipeToUpdate.number_person = recipe.number_person;
+    recipeToUpdate.timing_preparation = recipe.timing_preparation;
+    recipeToUpdate.cooking = recipe.cooking;
     recipeToUpdate.ingredients = recipe.ingredients;
     recipeToUpdate.preparation = recipe.preparation;
 
