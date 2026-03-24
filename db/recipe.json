@@ -2919,6 +2919,40 @@
     ]
   },
   {
+    "name": "Pomme de terre au céleri",
+    "slug": "pomme_de_terre_celeri",
+    "category": "entrée",
+    "description": "Délicieuse poêlée de pommes de terre et de céleri, fondante et parfumée à l'huile d'olive.",
+    "price": "moyen",
+    "number_person": 1,
+    "timing_preparation": 60,
+    "cooking": 45,
+    "ingredients": [
+      { "slug": "celeri", "quantity_person": 0.25, "unity": "pièce" },
+      {
+        "slug": "pomme_de_terre",
+        "quantity_person": 1,
+        "unity": "pièce"
+      },
+      {
+        "slug": "huile_d_olive",
+        "quantity_person": 0.5,
+        "unity": "cuillère à soupe"
+      },
+      {
+        "slug": "sel",
+        "quantity_person": 1,
+        "unity": "pincée"
+      }
+    ],
+    "preparation": [
+      "Étape 1: Lavez le céleri, retirez les fils et coupez-le en tout petits dés.",
+      "Étape 2: Épluchez les pommes de terre et coupez-les en petits dés.",
+      "Étape 3: Dans une sauteuse avec couvercle, faites chauffer l'huile d'olive et faites revenir les légumes jusqu'à ce qu'ils grésillent légèrement.",
+      "Étape 4: Salez, ajoutez un peu d'eau (environ 1 cuillère à soupe), couvrez et laissez cuire 30 minutes à feu moyen en mélangeant de temps en temps."
+    ]
+  },
+  {
     "name": "Pommes de terre sautées à l'ail et au persil",
     "slug": "pommes_de_terre_sautees_ail_persil",
     "category": "plat",
@@ -3131,6 +3165,53 @@
       "Étape 1: Coupez poulet et légumes en morceaux.",
       "Étape 2: Faites revenir le poulet dans l'huile 5-7 min.",
       "Étape 3: Ajoutez légumes et cuisez 8 min supplémentaires."
+    ]
+  },
+  {
+    "name": "Poulet au fenouil",
+    "slug": "poulet_fenouil",
+    "category": "plat",
+    "description": "Poulet au four avec fenouil fondant, parfumé au pastis et aux herbes.",
+    "price": "bon marché",
+    "number_person": 1,
+    "timing_preparation": 10,
+    "cooking": 15,
+    "ingredients": [
+      {
+        "slug": "escalope_poulet",
+        "quantity_person": 1,
+        "unity": "pièce"
+      },
+      { "slug": "fenouil", "quantity_person": 1, "unity": "pièce" },
+      {
+        "slug": "huile_olive",
+        "quantity_person": 1,
+        "unity": "cuillère à café"
+      },
+      {
+        "slug": "fond_volaille",
+        "quantity_person": 0.25,
+        "unity": "cuillère à café"
+      },
+      {
+        "slug": "pastis",
+        "quantity_person": 1,
+        "unity": "cuillère à café"
+      },
+      { "slug": "eau", "quantity_person": 30, "unity": "ml" },
+      { "slug": "romarin", "quantity_person": 1, "unity": "pincée" },
+      { "slug": "basilic", "quantity_person": 1, "unity": "pincée" },
+      { "slug": "sel", "quantity_person": 1, "unity": "pincée" },
+      { "slug": "poivre", "quantity_person": 1, "unity": "pincée" }
+    ],
+    "preparation": [
+      "Étape 1: Couper le fenouil en tranches pas trop fines.",
+      "Étape 2: Précuire le fenouil (vapeur, eau ou micro-ondes) jusqu'à ce qu'il soit tendre mais encore légèrement ferme.",
+      "Étape 3: Couper l'escalope de poulet en lanières.",
+      "Étape 4: Disposer une couche de fenouil dans un plat, ajouter le poulet puis recouvrir de fenouil.",
+      "Étape 5: Mélanger le fond de volaille, le pastis, l'huile d'olive et l'eau, puis verser sur la préparation.",
+      "Étape 6: Assaisonner avec sel, poivre, basilic et romarin.",
+      "Étape 7: Enfourner à 180°C pendant environ 15 minutes."
     ]
   },
   {
@@ -3429,7 +3510,7 @@
     ]
   },
   {
-    "name": "Chou rouge en salade",
+    "name": "Salade de chou rouge",
     "slug": "salade_chou_rouge",
     "category": "entrée",
     "description": "Salade fraîche de chou rouge assaisonnée au citron, ail et mayonnaise.",
@@ -3485,7 +3566,7 @@
     ]
   },
   {
-    "name": "Chou rouge au roquefort et aux noix en salade",
+    "name": "Salade de chou rouge au roquefort et aux noix",
     "slug": "salade_chou_rouge_roquefort_noix",
     "category": "entrée",
     "description": "Salade de chou rouge blanchie, assaisonnée au roquefort, noix et vinaigrette aux huiles.",
@@ -3683,7 +3764,7 @@
   },
   {
     "name": "Salsifis sautés à l'ail",
-    "slug": "salsifis_sautes",
+    "slug": "salsifis_sautes_ail",
     "category": "entrée",
     "description": "Salsifis poêlés, légèrement dorés avec de l'ail et du persil.",
     "price": "bon marché",
@@ -3810,87 +3891,7 @@
       "Étape 6: Ajouter les lardons et le vinaigre, assaisonner avec sel et poivre, servir chaud."
     ]
   },
-  {
-    "name": "Pomme de terre au céleri",
-    "slug": "pomme_de_terre_celeri",
-    "category": "entrée",
-    "description": "Délicieuse poêlée de pommes de terre et de céleri, fondante et parfumée à l'huile d'olive.",
-    "price": "moyen",
-    "number_person": 1,
-    "timing_preparation": 60,
-    "cooking": 45,
-    "ingredients": [
-      { "slug": "celeri", "quantity_person": 0.25, "unity": "pièce" },
-      {
-        "slug": "pomme_de_terre",
-        "quantity_person": 1,
-        "unity": "pièce"
-      },
-      {
-        "slug": "huile_d_olive",
-        "quantity_person": 0.5,
-        "unity": "cuillère à soupe"
-      },
-      {
-        "slug": "sel",
-        "quantity_person": 1,
-        "unity": "pincée"
-      }
-    ],
-    "preparation": [
-      "Étape 1: Lavez le céleri, retirez les fils et coupez-le en tout petits dés.",
-      "Étape 2: Épluchez les pommes de terre et coupez-les en petits dés.",
-      "Étape 3: Dans une sauteuse avec couvercle, faites chauffer l'huile d'olive et faites revenir les légumes jusqu'à ce qu'ils grésillent légèrement.",
-      "Étape 4: Salez, ajoutez un peu d'eau (environ 1 cuillère à soupe), couvrez et laissez cuire 30 minutes à feu moyen en mélangeant de temps en temps."
-    ]
-  },
-  {
-    "name": "Poulet au fenouil",
-    "slug": "poulet_fenouil",
-    "category": "plat",
-    "description": "Poulet au four avec fenouil fondant, parfumé au pastis et aux herbes.",
-    "price": "bon marché",
-    "number_person": 1,
-    "timing_preparation": 10,
-    "cooking": 15,
-    "ingredients": [
-      {
-        "slug": "escalope_poulet",
-        "quantity_person": 1,
-        "unity": "pièce"
-      },
-      { "slug": "fenouil", "quantity_person": 1, "unity": "pièce" },
-      {
-        "slug": "huile_olive",
-        "quantity_person": 1,
-        "unity": "cuillère à café"
-      },
-      {
-        "slug": "fond_volaille",
-        "quantity_person": 0.25,
-        "unity": "cuillère à café"
-      },
-      {
-        "slug": "pastis",
-        "quantity_person": 1,
-        "unity": "cuillère à café"
-      },
-      { "slug": "eau", "quantity_person": 30, "unity": "ml" },
-      { "slug": "romarin", "quantity_person": 1, "unity": "pincée" },
-      { "slug": "basilic", "quantity_person": 1, "unity": "pincée" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincée" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincée" }
-    ],
-    "preparation": [
-      "Étape 1: Couper le fenouil en tranches pas trop fines.",
-      "Étape 2: Précuire le fenouil (vapeur, eau ou micro-ondes) jusqu'à ce qu'il soit tendre mais encore légèrement ferme.",
-      "Étape 3: Couper l'escalope de poulet en lanières.",
-      "Étape 4: Disposer une couche de fenouil dans un plat, ajouter le poulet puis recouvrir de fenouil.",
-      "Étape 5: Mélanger le fond de volaille, le pastis, l'huile d'olive et l'eau, puis verser sur la préparation.",
-      "Étape 6: Assaisonner avec sel, poivre, basilic et romarin.",
-      "Étape 7: Enfourner à 180°C pendant environ 15 minutes."
-    ]
-  },
+
   {
     "name": "Salade de céleri, pommes, noix et dés de fromage",
     "slug": "salade_celeri_pomme_noix_fromage",
@@ -4565,7 +4566,7 @@
   },
   {
     "name": "Soupe de potiron rapide",
-    "slug": "soupe_potiron_simple",
+    "slug": "soupe_potiron",
     "category": "entrée",
     "img": "",
     "description": "Velouté doux et rapide pour réchauffer l’hiver.",

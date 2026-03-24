@@ -61,11 +61,7 @@ const ingredientController = {
    */
   update: (req, res) => {
     const id = +req.params.id;
-    console.log(id);
-
     const newIngredientInfos = req.body;
-    console.log(req.body);
-
     const ingredient = fakeIngredientService.findById(id);
 
     if (!ingredient) {
