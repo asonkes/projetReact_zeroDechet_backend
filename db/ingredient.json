@@ -2,28 +2,28 @@
   {
     "name": "Ail",
     "slug": "ail",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Petit bulbe parfumé utilisé pour relever de nombreux plats.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Asperge blanche",
     "slug": "asperge_blanche",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Asperge douce et tendre, parfaite cuite à la vapeur ou grillée.",
     "consumption": ["avril", "mai", "juin"]
@@ -31,7 +31,7 @@
   {
     "name": "Asperge verte",
     "slug": "asperge_verte",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Asperge croquante et parfumée, idéale en salade ou sautée.",
     "consumption": [
@@ -39,66 +39,66 @@
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Aubergine",
     "slug": "aubergine",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Légume violet charnu, parfait pour les gratins ou grillades.",
-    "consumption": ["août", "septembre", "octobre"]
+    "consumption": ["aout", "septembre", "octobre"]
   },
   {
     "name": "Betterave rouge",
     "slug": "betterave_rouge",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Racine ronde et sucrée, parfaite crue en salade ou cuite en accompagnement.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Blette",
     "slug": "blette",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Feuille verte et tige croquante, idéale sautée ou en gratin.",
     "consumption": [
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Brocoli",
     "slug": "brocoli",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Légume vert riche en vitamines, idéal cuit à la vapeur ou en salade.",
     "consumption": [
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre"
@@ -107,17 +107,17 @@
   {
     "name": "Carotte",
     "slug": "carotte",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Racine orange sucrée et croquante, idéale crue ou cuite.",
     "consumption": [
       "janvier",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
@@ -126,50 +126,50 @@
     "category": "fruit",
     "img": "",
     "description": "Petite baie noire au goût intense et acidulé, idéale en confiture, sirop ou dessert.",
-    "consumption": ["juillet", "août"]
+    "consumption": ["juillet", "aout"]
   },
   {
     "name": "Céléri",
     "slug": "celeri",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Tige croquante et feuilles aromatiques, parfaite crue en salade ou cuite en soupe.",
-    "consumption": ["juin", "août", "septembre", "octobre", "novembre"]
+    "consumption": ["juin", "aout", "septembre", "octobre", "novembre"]
   },
   {
     "name": "Céléri-rave",
     "slug": "celeri_rave",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Racine ronde et parfumée, idéale en purée ou gratin.",
     "consumption": [
       "janvier",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Cerfeuil",
     "slug": "cerfeuil",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Herbe fine et parfumée, parfaite pour assaisonner vos plats.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
@@ -178,149 +178,149 @@
     "category": "fruit",
     "img": "",
     "description": "Petit fruit rouge ou noir, juteux et sucré, idéal à déguster frais ou en pâtisserie.",
-    "consumption": ["juin", "juillet", "août"]
+    "consumption": ["juin", "juillet", "aout"]
   },
   {
     "name": "Champignon",
     "slug": "champignon",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Champignon comestible à chair tendre, utilisé dans de nombreux plats.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Chicon",
     "slug": "chicon",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Feuille blanche serrée au goût légèrement amer, parfaite en gratin ou poêlée.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "mai",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Chicorée",
     "slug": "chicoree",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Feuilles vertes ou rouges légèrement amères, parfaites crues en salade ou cuites.",
     "consumption": [
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Chou blanc",
     "slug": "chou_blanc",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Chou rond aux feuilles vert pâle, goût doux, parfait pour salades ou cuisson.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Chou chinois",
     "slug": "chou_chinois",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Feuilles longues et vert clair, goût léger, idéal en wok ou salade.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Chou de Bruxelles",
     "slug": "chou_de_bruxelles",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Petites têtes vertes serrées, goût légèrement amer, cuit à la vapeur ou sauté.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Chou de Milan",
     "slug": "chou_de_milan",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Feuilles frisées vertes, texture tendre, idéal pour soupes et farcis.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Chou fleur",
     "slug": "chou_fleur",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Tête blanche compacte, goût doux, parfait vapeur ou gratin.",
     "consumption": [
@@ -329,7 +329,7 @@
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre"
@@ -338,14 +338,14 @@
   {
     "name": "Chou-rave",
     "slug": "chou_rave",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Légume rond vert pâle à chair croquante, goût doux, idéal cru ou cuit.",
     "consumption": [
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre"
@@ -354,65 +354,65 @@
   {
     "name": "Chou rouge",
     "slug": "chou_rouge",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Feuilles rouges serrées, goût légèrement amer, parfait cru en salade ou cuit.",
     "consumption": [
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Concombre",
     "slug": "concombre",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Long et vert, chair croquante et juteuse, parfait cru en salade.",
-    "consumption": ["juin", "juillet", "août", "septembre", "octobre"]
+    "consumption": ["juin", "juillet", "aout", "septembre", "octobre"]
   },
   {
     "name": "Courgette",
     "slug": "courgette",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Longue et verte, chair tendre, parfaite sautée ou grillée.",
-    "consumption": ["juin", "juillet", "août", "septembre", "octobre"]
+    "consumption": ["juin", "juillet", "aout", "septembre", "octobre"]
   },
   {
     "name": "Epinard",
     "slug": "epinard",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Feuilles vertes tendres, goût doux, parfait en salade ou cuit.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Fenouil",
     "slug": "fenouil",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Bulbe blanc croquant avec tiges vertes, goût anisé, idéal cru ou cuit.",
     "consumption": [
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre"
@@ -424,7 +424,7 @@
     "category": "fruit",
     "img": "",
     "description": "Petit fruit rouge vif, sucré et parfumé, parfait frais ou en dessert.",
-    "consumption": ["avril", "mai", "juin", "juillet", "août", "septembre"]
+    "consumption": ["avril", "mai", "juin", "juillet", "aout", "septembre"]
   },
   {
     "name": "Framboises",
@@ -432,7 +432,7 @@
     "category": "fruit",
     "img": "",
     "description": "Petit fruit rouge vif, sucré et parfumé, parfait frais ou en dessert.",
-    "consumption": ["juin", "juillet", "août", "septembre", "octobre"]
+    "consumption": ["juin", "juillet", "aout", "septembre", "octobre"]
   },
   {
     "name": "Groseille",
@@ -440,7 +440,7 @@
     "category": "fruit",
     "img": "",
     "description": "Petite baie rouge translucide, acidulée et rafraîchissante, parfaite en gelée ou dessert.",
-    "consumption": ["juin", "juillet", "août", "septembre"]
+    "consumption": ["juin", "juillet", "aout", "septembre"]
   },
   {
     "name": "Groseille à maquereau",
@@ -448,12 +448,12 @@
     "category": "fruit",
     "img": "",
     "description": "Petite baie ronde verte ou rouge, légèrement acidulée, parfaite en confiture ou dessert.",
-    "consumption": ["juin", "juillet", "août"]
+    "consumption": ["juin", "juillet", "aout"]
   },
   {
     "name": "Haricot blanc",
     "slug": "haricot_blanc",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "",
     "consumption": []
@@ -461,15 +461,15 @@
   {
     "name": "Haricot vert",
     "slug": "haricot_vert",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Gousse verte longue et tendre, goût frais, parfait vapeur ou sauté.",
-    "consumption": ["juin", "juillet", "août", "septembre", "octobre"]
+    "consumption": ["juin", "juillet", "aout", "septembre", "octobre"]
   },
   {
     "name": "Laitue",
     "slug": "laitue",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Feuilles vertes croquantes, parfaite en salade ou en garniture.",
     "consumption": [
@@ -477,7 +477,7 @@
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre"
@@ -486,22 +486,22 @@
   {
     "name": "Mâche",
     "slug": "mache",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Racine longue et fine, goût délicatement sucré, parfaite cuite à la vapeur ou en purée.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
@@ -510,7 +510,7 @@
     "category": "fruit",
     "img": "",
     "description": "Petit fruit noir ou violet, sucré et juteux, idéal frais ou en confiture.",
-    "consumption": ["juillet", "août", "septembre", "octobre"]
+    "consumption": ["juillet", "aout", "septembre", "octobre"]
   },
   {
     "name": "Myrtille",
@@ -518,31 +518,31 @@
     "category": "fruit",
     "img": "",
     "description": "Petit fruit bleu foncé, sucré et légèrement acidulé, parfait frais ou en dessert.",
-    "consumption": ["juin", "juillet", "août", "septembre"]
+    "consumption": ["juin", "juillet", "aout", "septembre"]
   },
   {
     "name": "Oignon",
     "slug": "oignon",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Bulbe aromatique à saveur piquante, utilisé cru ou cuit.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Oignon jeune",
     "slug": "oignon_jeune",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Tige verte et bulbe tendre, goût doux, idéal en crudités.",
     "consumption": [
@@ -550,7 +550,7 @@
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre"
     ]
@@ -558,65 +558,65 @@
   {
     "name": "Panais",
     "slug": "panais",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Racine longue et beige, goût sucré et légèrement épicé, parfait rôti ou en purée.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Patate douce",
     "slug": "patate_douce",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Racine orangée sucrée et tendre, idéale en gratin ou purée.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Persil",
     "slug": "persil",
-    "category": "herbe aromatique",
+    "category": "legume",
     "img": "",
     "description": "Herbe aromatique aux feuilles vertes finement découpées, idéale pour assaisonner plats et sauces.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Petit pois",
     "slug": "petit_pois",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Gousse verte tendre avec graines sucrées, parfait cru ou cuit.",
     "consumption": ["avril", "mai", "juin"]
@@ -624,22 +624,22 @@
   {
     "name": "Pleurote",
     "slug": "pleurote",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Champignon à chapeau large et charnu, goût délicat et légèrement sucré, parfait poêlé ou en sauce",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
@@ -648,34 +648,34 @@
     "category": "fruit",
     "img": "",
     "description": "Fruit juteux et sucré, peau verte, jaune ou rouge, parfait cru ou en compote.",
-    "consumption": ["août", "septembre", "octobre", "novembre", "décembre"]
+    "consumption": ["aout", "septembre", "octobre", "novembre", "decembre"]
   },
   {
     "name": "Poireau",
     "slug": "poireau",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Tige blanche avec feuilles vertes, goût doux et aromatique, idéal en soupe ou gratin.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Poivron",
     "slug": "poivron",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Légume croquant et coloré, goût doux et sucré, parfait cru ou grillé.",
-    "consumption": ["août", "septembre", "octobre"]
+    "consumption": ["aout", "septembre", "octobre"]
   },
   {
     "name": "Pomme",
@@ -683,44 +683,44 @@
     "category": "fruit",
     "img": "",
     "description": "Fruit croquant et sucré ou acidulé, couleur rouge, verte ou jaune, idéal cru ou cuit.",
-    "consumption": ["août", "septembre", "octobre", "novembre", "décembre"]
+    "consumption": ["aout", "septembre", "octobre", "novembre", "decembre"]
   },
   {
     "name": "Pomme de terre",
     "slug": "pomme_de_terre",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Racine ronde ou allongée, chair farineuse ou ferme, idéale rôtie, purée ou sautée.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Potiron",
     "slug": "potiron",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Grosse courge orange, chair douce et tendre, parfaite en soupe ou gratin.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
@@ -729,18 +729,18 @@
     "category": "fruit",
     "img": "",
     "description": "Fruit rond à peau lisse violette, rouge ou jaune, chair juteuse et sucrée, parfait frais ou en compote.",
-    "consumption": ["juillet", "août", "septembre"]
+    "consumption": ["juillet", "aout", "septembre"]
   },
   {
     "name": "Radicchio",
     "slug": "radicchio",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Feuilles rouges nervurées de blanc, goût légèrement amer, idéal cru en salade ou grillé.",
     "consumption": [
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre"
@@ -749,31 +749,31 @@
   {
     "name": "Radis",
     "slug": "radis",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Racine ronde ou allongée, croquante et piquante, idéale crue en salade.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "mai",
       "juin",
       "juillet",
-      "août",
+      "aout",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Radis noir",
     "slug": "radis_noir",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Racine allongée et noire, chair blanche piquante, idéale crue en salade ou râpée.",
-    "consumption": ["août", "septembre", "octobre", "novembre"]
+    "consumption": ["aout", "septembre", "octobre", "novembre"]
   },
   {
     "name": "Raisin",
@@ -781,7 +781,7 @@
     "category": "fruit",
     "img": "",
     "description": "Petite baie ronde verte ou violette, sucrée et juteuse, idéale fraîche ou séchée.",
-    "consumption": ["juillet", "août", "septembre", "octobre"]
+    "consumption": ["juillet", "aout", "septembre", "octobre"]
   },
   {
     "name": "Rhubarbe",
@@ -789,46 +789,46 @@
     "category": "fruit",
     "img": "",
     "description": "Tiges rouges ou vertes, acidulées et juteuses, parfaites en compote ou dessert.",
-    "consumption": ["avril", "mai", "juin", "juillet", "août", "septembre"]
+    "consumption": ["avril", "mai", "juin", "juillet", "aout", "septembre"]
   },
   {
     "name": "Salsifi",
     "slug": "salsifi",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Racine longue et fine, goût délicatement sucré, idéale cuite à la vapeur ou en purée.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "avril",
       "septembre",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   },
   {
     "name": "Tomate",
     "slug": "tomate",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Fruit rouge ou jaune juteux, goût doux et légèrement acidulé, parfait cru ou cuit.",
-    "consumption": ["juillet", "août", "septembre", "octobre"]
+    "consumption": ["juillet", "aout", "septembre", "octobre"]
   },
   {
     "name": "Topinambour",
     "slug": "topinambour",
-    "category": "légume",
+    "category": "legume",
     "img": "",
     "description": "Racine beige irrégulière, goût sucré et noisette, parfaite rôtie ou en purée.",
     "consumption": [
       "janvier",
-      "février",
+      "fevrier",
       "mars",
       "octobre",
       "novembre",
-      "décembre"
+      "decembre"
     ]
   }
 ]

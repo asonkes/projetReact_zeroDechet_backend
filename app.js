@@ -1,12 +1,29 @@
+// import de mongoose
+const mongoose = require("mongoose");
 // import d'express
 const express = require("express");
-
 // Création du serveur
 const server = express();
 
-const { PORT } = process.env;
+const { PORT, DB_CONNECTION } = process.env;
 
 server.use(express.json());
+
+// Connection DB (doit être faite avant le router)
+// Middleware créé pour établir une connection à chaque requête
+server.use(async (req, res, next) => {
+  try {
+    await mongoose.connect(DB_CONNECTION, { dbName: "zero_dechet" });
+    console.log(`Successfully connected to the DB!`);
+    next();
+  } catch (err) {
+    console.log(`Connection Failed \n [Reason]\n ${err}`);
+    res.status(500).json({
+      statusCode: 500,
+      message: `Impossible de se connecter à la base de données`,
+    });
+  }
+});
 
 // On inqdique où se trouve le router(index.js)
 const router = require("./routes");
