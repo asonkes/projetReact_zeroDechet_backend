@@ -16,15 +16,13 @@ const ingredientSchema = new Schema(
     },
     slug: {
       type: String,
-      required: true,
       unique: true,
-      trim: true,
-      lowercase: true,
     },
     category: {
       type: String,
       required: true,
       enum: ["fruit", "legume"],
+      trim: true,
     },
     description: {
       type: String,
@@ -37,6 +35,10 @@ const ingredientSchema = new Schema(
     consumption: {
       type: [String],
       required: true,
+      set: (values) => {
+        if (!Array.isArray(values)) return values;
+        return values.map((value) => value.trim().toLowerCase());
+      },
       enum: [
         "janvier",
         "fevrier",
