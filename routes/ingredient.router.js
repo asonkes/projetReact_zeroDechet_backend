@@ -20,7 +20,7 @@ ingredientRouter.route("/:slug").get(ingredientController.getBySlug);
 // Routes avec les id
 ingredientRouter
   .route("/id/:id")
-  .put(idValidatorMiddleware(), ingredientController.update)
-  .delete(idValidatorMiddleware(), ingredientController.delete);
+  .put(ingredientController.update)
+  .delete(ingredientController.delete);
 
 module.exports = ingredientRouter;
