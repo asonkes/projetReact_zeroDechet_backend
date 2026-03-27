@@ -71,15 +71,19 @@ const recipeService = {
     return recipeToUpdate;
   },
 
-  delete: (id) => {
-    const index = recipes.findIndex((recipe) => recipe.id === id);
+  delete: async (id) => {
+    try {
+      const deleteRecipe = await Recipe.deleteOne({ _id: id });
 
-    if (index === -1) {
-      return false;
+      if (deleteRecipe.deletedCount === 0) {
+        return false;
+      } else {
+        return true;
+      }
+    } catch (err) {
+      console.log(err);
+      throw new Error(err);
     }
-
-    recipes.splice(index, 1);
-    return true;
   },
 };
 

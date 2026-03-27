@@ -126,15 +126,25 @@ const ingredientController = {
    * @param {Response} res
    */
   delete: async (req, res) => {
-    const id = +req.params.id;
-    if (fakeIngredientService.delete(id)) {
-      return res.sendStatus(204);
-    }
+    const id = req.params.id;
 
-    return res.status(404).json({
-      statusCode: 404,
-      message: `Suppression impossible, l'ingrédient n'existe pas!`,
-    });
+    try {
+      if (await ingredientService.delete(id)) {
+        return res.sendStatus(204);
+      } else {
+        console.log(id);
+        return res.status(404).json({
+          statusCode: 404,
+          message: `Suppression impossible, l'ingrédient n'existe pas!`,
+        });
+      }
+    } catch (err) {
+      console.log(err);
+      res.status(500).json({
+        statusCode: 500,
+        message: `Erreur de la DB`,
+      });
+    }
   },
 };
 

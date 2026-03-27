@@ -23,11 +23,7 @@ recipeRouter.route("/:slug").get(recipeController.getBySlug);
 // Routes avec les id
 recipeRouter
   .route("/id/:id")
-  .put(
-    idValidatorMiddleware(),
-    nameValidatorMiddleware(),
-    recipeController.update,
-  )
-  .delete(idValidatorMiddleware(), recipeController.delete);
+  .put(nameValidatorMiddleware(), recipeController.update)
+  .delete(recipeController.delete);
 
 module.exports = recipeRouter;

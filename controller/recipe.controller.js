@@ -96,7 +96,7 @@ const recipeController = {
    * @param {Request} req
    * @param {Response} res
    */
-  update: (req, res) => {
+  update: async (req, res) => {
     const id = +req.params.id;
     const newRecipeInfos = req.body;
     const recipe = fakeRecipeService.findById(id);
@@ -119,18 +119,26 @@ const recipeController = {
    * @param {Request} req
    * @param {Response} res
    */
-  delete: (req, res) => {
-    const id = +req.params.id;
+  delete: async (req, res) => {
+    const id = req.params.id;
 
-    // Faire un if/else => car on renvoie pas de la même manière !
-    if (fakeRecipeService.delete(id)) {
-      return res.sendStatus(204);
+    try {
+      // Faire un if/else => car on renvoie pas de la même manière !
+      if (await recipeService.delete(id)) {
+        return res.sendStatus(204);
+      } else {
+        return res.status(404).json({
+          statusCode: 404,
+          message: `Suppression impossible, la recette n'existe pas!`,
+        });
+      }
+    } catch (err) {
+      console.log(err);
+      res.status(500).json({
+        statusCode: 500,
+        message: `Erreur de la DB`,
+      });
     }
-
-    return res.status(404).json({
-      statusCode: 404,
-      message: `Suppression impossible, la recette n'existe pas!`,
-    });
   },
 };
 

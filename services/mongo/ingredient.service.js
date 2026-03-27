@@ -70,14 +70,18 @@ const ingredientService = {
   },
 
   delete: async (id) => {
-    const index = ingredients.findIndex((ingredient) => ingredient.id === id);
+    try {
+      const deleteIngredient = await Ingredient.deleteOne({ _id: id });
 
-    if (index === -1) {
-      return false;
+      if (deleteIngredient.deletedCount === 0) {
+        return false;
+      } else {
+        return true;
+      }
+    } catch (err) {
+      console.log(err);
+      throw new Error(err);
     }
-
-    ingredients.splice(index, 1);
-    return true;
   },
 };
 
