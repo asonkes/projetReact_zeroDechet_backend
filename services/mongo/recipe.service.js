@@ -1,6 +1,4 @@
 const Recipe = require("../../models/recipe.model");
-const { ingredients } = require("../fake/fakeDb");
-const { nameAlreadyExists } = require("./ingredient.service");
 
 const recipeService = {
   // Va permettre de récupérer toutes les recettes de notre DB

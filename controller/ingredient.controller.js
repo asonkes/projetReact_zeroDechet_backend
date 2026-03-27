@@ -1,5 +1,4 @@
 const { Request, Response } = require("express");
-const fakeIngredientService = require("../services/fake/fakeIngredient.service");
 const ingredientService = require("../services/mongo/ingredient.service");
 
 const ingredientController = {
