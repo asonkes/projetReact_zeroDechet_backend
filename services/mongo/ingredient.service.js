@@ -27,8 +27,8 @@ const ingredientService = {
     try {
       const ingredient = await Ingredient.findOne({ name });
 
+      // Si le nom de l'ingrédient existe => renvoi "vrai"
       if (ingredient) {
-        // Si le nom de l'ingrédient existe => renvoi "vrai"
         return true;
       } else {
         // Si le nom de l'ingrédient n'existe pas => renvoi "faux"
@@ -36,25 +36,21 @@ const ingredientService = {
       }
     } catch (err) {
       console.log(err);
-      throw new Error();
+      throw new Error(err);
     }
   },
 
   // Donc ici c'est pour créer un nouvel ingrédient
-  create: async (ingredientToAdd) => {
-    // Donc avec map, je transforme mon tableau en un autre tableau
-    // Mais je ne garde que les id => [1, 2 etc]
-    let idMax;
-    if (ingredients.length !== 0) {
-      idMax = Math.max(...ingredients.map((ingredient) => ingredient.id));
-      ingredientToAdd.id = idMax + 1;
-    } else {
-      idMax = 0;
+  create: async (ingredient) => {
+    try {
+      // On va créer l'objet à ajouter à partir du modèle
+      const ingredientToAdd = new Ingredient(ingredient);
+      await ingredientToAdd.save();
+      return ingredientToAdd;
+    } catch (err) {
+      console.log(err);
+      throw new Error(err);
     }
-
-    ingredients.push(ingredientToAdd);
-
-    return ingredientToAdd;
   },
 
   update: async (id, ingredient) => {

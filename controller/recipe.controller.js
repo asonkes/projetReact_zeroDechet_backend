@@ -1,5 +1,6 @@
 const { Request, Response } = require("express");
 const fakeRecipeService = require("../services/fake/fakeRecipe.service");
+const recipeService = require("../services/mongo/recipe.service");
 
 const recipeController = {
   /**
@@ -7,15 +8,25 @@ const recipeController = {
    * @param {Request} req
    * @param {Response} res
    */
-  getAll: (req, res) => {
-    const recipes = fakeRecipeService.find();
+  getAll: async (req, res) => {
+    try {
+      // On essaye d'appeler le service donc 'await'
+      const recipes = await recipeService.find();
 
-    const dataToSend = {
-      count: recipes.length,
-      recipes,
-    };
+      // On renvoie un objet avec le total des tâches +  le tableau
+      const dataToSend = {
+        count: recipes.length,
+        recipes,
+      };
 
-    res.status(200).json(dataToSend);
+      res.status(200).json(dataToSend);
+    } catch (err) {
+      console.log(err);
+      res.status(500).json({
+        StatusCode: 500,
+        message: `Erreur de le DB`,
+      });
+    }
   },
 
   /**
@@ -23,18 +34,26 @@ const recipeController = {
    * @param {Request} req
    * @param {Response} res
    */
-  getBySlug: (req, res) => {
-    const slug = req.params.slug;
-    const recipe = fakeRecipeService.findBySlug(slug);
+  getBySlug: async (req, res) => {
+    try {
+      const slug = req.params.slug;
+      const recipe = await recipeService.findBySlug(slug);
 
-    if (!recipe) {
+      if (!recipe) {
+        res.status(404).json({
+          statusCode: 404,
+          message: "Recette non trouvée",
+        });
+      }
+
+      res.status(200).json(recipe);
+    } catch (err) {
+      console.log(err);
       res.status(404).json({
         statusCode: 404,
-        message: "Recette non trouvée",
+        message: `Erreur de la DB`,
       });
     }
-
-    res.status(200).json(recipe);
   },
 
   /**
@@ -43,13 +62,32 @@ const recipeController = {
    * @param {Request} req
    * @param {Response} res
    */
-  insert: (req, res) => {
+  insert: async (req, res) => {
     const recipeToAdd = req.body;
-    const addedRecipe = fakeRecipeService.create(recipeToAdd);
 
-    // Rajout de l'url de la valeur ajoutée (respect des principes 'REST')
-    res.location = `/api/recipes/id/${recipeToAdd.id}`;
-    res.status(201).json(addedRecipe);
+    try {
+      // Si le nom existe déjà en DB, erreur
+      const exists = await recipeService.nameAlreadyExists(recipeToAdd.name);
+
+      if (exists) {
+        return res.status(409).json({
+          statusCode: 409,
+          message: `La recette ${recipeToAdd.name} existe déjà!`,
+        });
+      } else {
+        const insertedRecipe = await recipeService.create(recipeToAdd);
+
+        // Rajout de l'url de la valeur ajoutée (respect des principes 'REST')
+        res.location = `/api/recipes/id/${insertedRecipe.id}`;
+        res.status(200).json(insertedRecipe);
+      }
+    } catch (err) {
+      console.log(err);
+      res.status(500).json({
+        statusCode: 500,
+        message: `Erreur avec la DB`,
+      });
+    }
   },
 
   /**

@@ -1,32 +1,56 @@
-const recipeService = {
-  find: () => {
-    return recipes;
-  },
+const Recipe = require("../../models/recipe.model");
+const { ingredients } = require("../fake/fakeDb");
+const { nameAlreadyExists } = require("./ingredient.service");
 
-  findById: async (id) => {
-    const recipe = recipes.find((recipe) => recipe.id === id);
-    return recipe;
+const recipeService = {
+  // Va permettre de récupérer toutes les recettes de notre DB
+  find: async () => {
+    try {
+      const recipes = await Recipe.find().populate("ingredients.ingredient");
+      return recipes;
+    } catch (err) {
+      console.log(err);
+      throw new Error(err);
+    }
   },
 
   findBySlug: async (slug) => {
-    const recipe = recipes.find((recipe) => recipe.slug === slug);
-    return recipe;
+    try {
+      const recipe = await Recipe.findOne({ slug });
+      return recipe;
+    } catch (err) {
+      console.log(err);
+      throw new Error(err);
+    }
   },
 
-  create: async (recipeToAdd) => {
-    // Donc avec map, je transforme mon tableau en un autre tableau
-    // Mais je ne garde que les id => [1, 2 etc]
-    let idMax;
-    if (recipes.length !== 0) {
-      idMax = Math.max(...recipes.map((recipe) => recipe.id));
-      recipeToAdd.id = idMax + 1;
-    } else {
-      idMax = 0;
+  nameAlreadyExists: async (name) => {
+    try {
+      const recipe = await Recipe.findOne({ name });
+
+      // Si le nom de la recette existe => renvoi "vrai"
+      if (recipe) {
+        return true;
+      } else {
+        // Si le nom de la recette n'existe pas => renvoi "faux"
+        return false;
+      }
+    } catch (err) {
+      console.log(err);
+      throw new Error(err);
     }
+  },
 
-    recipes.push(recipeToAdd);
-
-    return recipeToAdd;
+  create: async (recipe) => {
+    try {
+      // On va créer l'objet à ajouter à partir du modèle
+      const recipeToAdd = new Recipe(recipe);
+      await recipeToAdd.save();
+      return recipeToAdd;
+    } catch (err) {
+      console.log(err);
+      throw new Error(err);
+    }
   },
 
   update: async (id, recipe) => {
@@ -58,3 +82,5 @@ const recipeService = {
     return true;
   },
 };
+
+module.exports = recipeService;

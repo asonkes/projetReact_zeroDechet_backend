@@ -1,6 +1,7 @@
 const { Schema, model, Types } = require("mongoose");
-const Ingredient = require("../models/ingredient.model");
 
+// Schéma ==> 1er objet (description)
+// Schéma ==> 2eme objet (options collection)
 const recipeSchema = new Schema(
   {
     name: {
@@ -55,7 +56,7 @@ const recipeSchema = new Schema(
       {
         ingredient: {
           type: Types.ObjectId,
-          ref: Ingredient,
+          ref: "Ingredient",
           required: false,
         },
         name: {
@@ -65,7 +66,7 @@ const recipeSchema = new Schema(
           },
         },
         quantity_person: {
-          type: Types.Mixed,
+          type: Schema.Types.Mixed,
           required: true,
           set: (value) => {
             // Si c'est la string "au goût", on garde
@@ -85,7 +86,7 @@ const recipeSchema = new Schema(
             throw new Error("quantity_person doit être un nombre ou 'au goût'");
           },
         },
-        unit: {
+        unity: {
           type: String,
           required: true,
           enum: [

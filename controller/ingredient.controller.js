@@ -63,22 +63,29 @@ const ingredientController = {
    * @param {Response} res
    */
   insert: async (req, res) => {
-    const ingredientBody = req.body;
+    const ingredientToAdd = req.body;
 
     try {
       // Si le nom existe déjà en DB, erreur
       const exists = await ingredientService.nameAlreadyExists(
-        ingredientBody.name,
+        ingredientToAdd.name,
       );
 
+      // Si le nom existe déjà
       if (exists) {
-        // Rajout de l'url de la valeur ajoutée (respect des principes 'REST')
-        res.status(409).json({
+        return res.status(409).json({
           statusCode: 409,
-          message: `L'ingrédient ${ingredientBody.name} existe déjà!`,
+          message: `L'ingrédient ${ingredientToAdd.name} existe déjà!`,
         });
+        // Si le nom n'existe pas encore, on va la créer
+      } else {
+        const insertedIngredient =
+          await ingredientService.create(ingredientToAdd);
+
+        res.location(`/api/location/ingredients/${insertedIngredient.id}`);
+        res.status(200).json(insertedIngredient);
       }
-    } catch {
+    } catch (err) {
       res.status(500).json({
         statusCode: 500,
         message: `Erreur avec la DB`,
@@ -92,7 +99,7 @@ const ingredientController = {
    * @param {Request} req
    * @param {Response} res
    */
-  update: (req, res) => {
+  update: async (req, res) => {
     const id = +req.params.id;
     const newIngredientInfos = req.body;
     const ingredient = fakeIngredientService.findById(id);
@@ -118,9 +125,8 @@ const ingredientController = {
    * @param {Request} req
    * @param {Response} res
    */
-  delete: (req, res) => {
+  delete: async (req, res) => {
     const id = +req.params.id;
-
     if (fakeIngredientService.delete(id)) {
       return res.sendStatus(204);
     }
