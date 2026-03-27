@@ -51,7 +51,32 @@ const authController = {
    * @param {Response} res
    */
   login: async (req, res) => {
-    res.sendStatus(501);
+    try {
+      // On récupère le body de la requête de l'utilisateur
+      const credentials = req.body;
+
+      const userFound = await authService.findByCredentials(credentials);
+
+      // Si pas d'utilisateur
+      if (!userFound) {
+        res.status(401).json({
+          statusCode: 401,
+          message: `Les informations de connexion ne sont pas bonnes`,
+        });
+      } else {
+        // Si l'utilisateur existe
+        res.status(200).json({
+          id: userFound._id,
+          username: userFound.username,
+        });
+      }
+    } catch (err) {
+      console.log(err);
+      res.status(500).json({
+        statusCode: 500,
+        message: `Erreur dans la DB`,
+      });
+    }
   },
 };
 

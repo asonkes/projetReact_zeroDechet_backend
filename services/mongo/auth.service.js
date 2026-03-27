@@ -4,7 +4,34 @@ const User = require("../../models/user.model");
 const authService = {
   // Ici on va recevoir 'email' et 'password'
   // Donc on appelle ca 'credentials
-  findCredentials: async (credentials) => {},
+  findByCredentials: async (credentials) => {
+    try {
+      const userFound = await User.findOne({ email: credentials.email });
+
+      // Si on trouve pas l'utilisateur
+      if (!userFound) {
+        return undefined;
+      }
+
+      // Si on trouve qqchose
+      // On vérifie le password
+      const checkPassword = await argon2.verify(
+        userFound.password,
+        credentials.password,
+      );
+
+      // Si le password correspond pas au password hashé
+      // On sort
+      if (!checkPassword) {
+        return undefined;
+      } else {
+        return userFound;
+      }
+    } catch (err) {
+      console.log(err);
+      throw new Error(err);
+    }
+  },
 
   create: async (user) => {
     // On va hasher le mot de passe de l'utilisateur
