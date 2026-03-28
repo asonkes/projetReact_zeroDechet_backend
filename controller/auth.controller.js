@@ -1,5 +1,5 @@
 const { Request, Response } = require("express");
-const authService = require("../services/mongo/auth.service");
+const authService = require("../services/auth.service");
 
 const authController = {
   /**

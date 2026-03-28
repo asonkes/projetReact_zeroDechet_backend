@@ -1,4 +1,4 @@
-const Recipe = require("../../models/recipe.model");
+const Recipe = require("../models/recipe.model");
 
 const recipeService = {
   // Va permettre de récupérer toutes les recettes de notre DB

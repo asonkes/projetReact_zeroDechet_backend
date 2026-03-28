@@ -1,5 +1,5 @@
 const { Request, Response } = require("express");
-const recipeService = require("../services/mongo/recipe.service");
+const recipeService = require("../services/recipe.service");
 
 const recipeController = {
   /**

@@ -1,5 +1,5 @@
 const argon2 = require("argon2");
-const User = require("../../models/user.model");
+const User = require("../models/user.model");
 
 const authService = {
   // Ici on va recevoir 'email' et 'password'
