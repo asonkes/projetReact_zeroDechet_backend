@@ -39,6 +39,8 @@ const jwtUtils = {
       jwt.sign(payload, JWT_SECRET, options, (error, token) => {
         // Si erreur, param 'error' sera rempli et 'token' vide
         if (error) {
+          console.log(error);
+
           reject(error);
         }
 
@@ -50,3 +52,5 @@ const jwtUtils = {
 
   decode: (token) => {},
 };
+
+module.exports = jwtUtils;
