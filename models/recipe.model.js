@@ -1,3 +1,7 @@
+/***********************/
+/** Modèle - recettes  */
+/***********************/
+
 const { Schema, model, Types } = require("mongoose");
 
 // Schéma ==> 1er objet (description)

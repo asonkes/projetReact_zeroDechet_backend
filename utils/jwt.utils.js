@@ -1,3 +1,7 @@
+/**********************/
+/** Création du token */
+/**********************/
+
 const jwt = require("jsonwebtoken");
 
 // On va créer un objet dans lequel il y aura 2 fonctions
@@ -40,7 +44,6 @@ const jwtUtils = {
         // Si erreur, param 'error' sera rempli et 'token' vide
         if (error) {
           console.log(error);
-
           reject(error);
         }
 

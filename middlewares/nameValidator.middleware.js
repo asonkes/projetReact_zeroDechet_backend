@@ -1,3 +1,7 @@
+/*********************************************************************************/
+/** Middleware - Pour vérifier le name - ex : ajout de recette avec nom vulgaire */
+/*********************************************************************************/
+
 const leoProfanity = require("leo-profanity");
 
 leoProfanity.loadDictionary("fr");

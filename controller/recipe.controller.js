@@ -1,3 +1,7 @@
+/*********************************/
+/** Controller lié aux recettes  */
+/*********************************/
+
 const { Request, Response } = require("express");
 const recipeService = require("../services/recipe.service");
 
@@ -98,7 +102,7 @@ const recipeController = {
   update: async (req, res) => {
     const id = +req.params.id;
     const newRecipeInfos = req.body;
-    const recipe = fakeRecipeService.findById(id);
+    const recipe = recipeService.findById(id);
 
     if (!recipe) {
       res.status(404).json({
@@ -107,7 +111,7 @@ const recipeController = {
       });
     }
 
-    const updatedRecipe = fakeRecipeService.update(id, newRecipeInfos);
+    const updatedRecipe = recipeService.update(id, newRecipeInfos);
 
     res.status(200).json(updatedRecipe);
   },

@@ -1,3 +1,7 @@
+/****************************/
+/** Modèle - urtilisateurs  */
+/****************************/
+
 const { Schema, model, Types } = require("mongoose");
 const Recipe = require("./recipe.model");
 

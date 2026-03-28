@@ -1,3 +1,7 @@
+/*****************************************************************/
+/** Middleware - Pour valider l'id ==> vérifier que c'est un id  */
+/*****************************************************************/
+
 const { Request, Response } = require("express");
 
 const idValidatorMiddleware = () => {

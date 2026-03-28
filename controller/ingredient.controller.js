@@ -1,3 +1,7 @@
+/***********************************/
+/** Controller lié aux ingrédients */
+/***********************************/
+
 const { Request, Response } = require("express");
 const ingredientService = require("../services/ingredient.service");
 

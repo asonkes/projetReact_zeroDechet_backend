@@ -1,3 +1,7 @@
+/*************************/
+/** Modèle - ingrédient  */
+/*************************/
+
 const { Schema, model } = require("mongoose");
 
 // Schéma ==> 1er objet (description)

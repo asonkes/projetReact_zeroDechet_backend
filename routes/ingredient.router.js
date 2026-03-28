@@ -3,9 +3,7 @@
 /***************************/
 
 const ingredientRouter = require("express").Router();
-
 const ingredientController = require("../controller/ingredient.controller");
-const idValidatorMiddleware = require("../middlewares/idValidator.middleware");
 
 // Routes sans les id
 ingredientRouter

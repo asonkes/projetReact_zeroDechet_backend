@@ -1,3 +1,7 @@
+/*******************************************************/
+/** Controller lié aux utilisateurs (authentification) */
+/*******************************************************/
+
 const { Request, Response } = require("express");
 const authService = require("../services/auth.service");
 const jwtUtils = require("../utils/jwt.utils");

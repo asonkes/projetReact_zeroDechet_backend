@@ -3,9 +3,8 @@
 /************************/
 
 const recipeRouter = require("express").Router();
-
 const recipeController = require("../controller/recipe.controller");
-const idValidatorMiddleware = require("../middlewares/idValidator.middleware");
+const authentificationMiddleware = require("../middlewares/auth/authentification.middleware");
 const nameValidatorMiddleware = require("../middlewares/nameValidator.middleware");
 
 // Routes sans les 'id'
@@ -13,7 +12,11 @@ recipeRouter
   .route("/")
   .get(recipeController.getAll)
   // Pouvoir ajouter une recette
-  .post(nameValidatorMiddleware(), recipeController.insert);
+  .post(
+    authentificationMiddleware(),
+    nameValidatorMiddleware(),
+    recipeController.insert,
+  );
 
 //recipeRouter.route("/user/me").get(recipeController.getRecipesByUser);
 
