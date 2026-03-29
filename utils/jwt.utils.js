@@ -53,7 +53,38 @@ const jwtUtils = {
     });
   },
 
-  decode: (token) => {},
+  // décodage du token
+  decode: (token) => {
+    return new Promise((resolve, reject) => {
+      // Si pas de paramètre, promesse non tenue
+      if (!token) {
+        reject(new Error("Pas de token reçu!"));
+      }
+
+      // si token, on le décoder
+      // ON utilise alors la méthode verify qui a des paramètres
+      // 1) 1er param = token à décoder
+      // 2) 2eme param = c'est le secret
+      // 3) 3eme param = ce sont les options pour le décoder
+      // 4) 4eme param = fonction qui sera lancée à la fin de la vérification
+
+      // On créé les options
+      const options = {
+        audience: JWT_AUDIENCE,
+        issuer: JWT_ISSUER,
+      };
+
+      jwt.verify(token, JWT_SECRET, options, (error, payload) => {
+        // Si erreur pendant le décodage => "error" rempli et "payload" vide
+        if (error) {
+          reject(error);
+        }
+
+        // Si pas d'erreur pendant le décodage => "error" vide et "payload" rempli
+        resolve(payload);
+      });
+    });
+  },
 };
 
 module.exports = jwtUtils;

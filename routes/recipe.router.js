@@ -6,6 +6,7 @@ const recipeRouter = require("express").Router();
 const recipeController = require("../controller/recipe.controller");
 const authentificationMiddleware = require("../middlewares/auth/authentification.middleware");
 const nameValidatorMiddleware = require("../middlewares/nameValidator.middleware");
+const userAuthorizationMiddleware = require("../middlewares/auth/userAuthorization.middleware");
 
 // Routes sans les 'id'
 recipeRouter
@@ -18,7 +19,12 @@ recipeRouter
     recipeController.insert,
   );
 
-//recipeRouter.route("/user/me").get(recipeController.getRecipesByUser);
+//recipeRouter
+// .route("/user/me") ==> pk pas /user/:id ????
+// .get(
+//  authentificationMiddleware(),
+//  userAuthorizationMiddleware(),
+// recipeController.getByUser);
 
 // Routes avec les slugs
 recipeRouter.route("/:slug").get(recipeController.getBySlug);

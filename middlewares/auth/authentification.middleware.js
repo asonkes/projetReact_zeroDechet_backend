@@ -2,13 +2,15 @@
 /** Middleware - Permet de voir si token est bien fournit  */
 /***********************************************************/
 
+const jwtUtils = require("../../utils/jwt.utils");
+
 const authentificationMiddleware = () => {
   // Middleware va vérifier si un token a été fournit ou pas
 
   /**
    * @param {Request} req
    */
-  return (req, res, next) => {
+  return async (req, res, next) => {
     // Récupérer le header qui s'appelle authorization
     const authorization = req.headers.authorization;
 
@@ -35,7 +37,23 @@ const authentificationMiddleware = () => {
     }
 
     // S'il y a un token
-    next();
+    try {
+      // 1) On esssaie de le décoder
+      const payload = await jwtUtils.decode(token);
+
+      // 2) stocker le payload dans notre objet req
+      // Comme ça on eput savoir quel est l'utilisateur qui s'est connecté
+      req.user = payload;
+
+      // On continue la requete
+      next();
+    } catch (err) {
+      // Si erreur, décode plante, token erroné, fin de la requête
+      res.status(401).json({
+        statusCode: 401,
+        message: `Vous devez être connecté`,
+      });
+    }
 
     console.log(authorization);
   };
