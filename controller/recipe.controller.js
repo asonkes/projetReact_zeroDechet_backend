@@ -60,13 +60,53 @@ const recipeController = {
   },
 
   /**
+   *
+   * @param {Request} req
+   * @param {Response} res
+   */
+  getByUser: async (req, res) => {
+    const userId = req.params.id;
+
+    try {
+      const recipes = await recipeService.findByUser(userId);
+
+      if (!recipes) {
+        res.status(404).json({
+          statusCode: 404,
+          message: `Aucune recette créé pour l'instant !`,
+        });
+      }
+
+      const dataSend = {
+        count: recipes.length,
+        recipes,
+      };
+
+      res.status(200).json(dataSend);
+    } catch (err) {
+      res.status(404).json({
+        statusCode: 404,
+        message: `Erreur de la DB`,
+      });
+    }
+  },
+
+  /**
    * Pour pouvoir ajouter une recette
    * Pour un utilisateur connecté et Admin
    * @param {Request} req
    * @param {Response} res
    */
   insert: async (req, res) => {
-    const recipeToAdd = req.body;
+    // ... on veut créer un nouvel objet à partir de body
+    // sans toucher à body
+    // et en ajoutant automatiquement les infos de l'user
+    // qui a inséré la recette
+    const recipeToAdd = {
+      ...req.body,
+      user: req.user._id,
+      slug: req.body.name.toLowerCase().replace(/\s+/g, "-"),
+    };
 
     try {
       // Si le nom existe déjà en DB, erreur
@@ -100,20 +140,29 @@ const recipeController = {
    * @param {Response} res
    */
   update: async (req, res) => {
-    const id = +req.params.id;
-    const newRecipeInfos = req.body;
-    const recipe = recipeService.findById(id);
+    const id = req.params.id;
 
-    if (!recipe) {
-      res.status(404).json({
-        statusCode: 404,
-        message: "Recette non trouvée",
+    try {
+      const newRecipeInfos = req.body;
+      const recipe = await recipeService.findById(id);
+
+      if (!recipe) {
+        return res.status(404).json({
+          statusCode: 404,
+          message: "Recette non trouvée",
+        });
+      }
+
+      const updatedRecipe = await recipeService.update(id, newRecipeInfos);
+
+      return res.status(200).json(updatedRecipe);
+    } catch (err) {
+      console.log(err);
+      res.status(500).json({
+        statusCode: 500,
+        message: `Erreur de la DB`,
       });
     }
-
-    const updatedRecipe = recipeService.update(id, newRecipeInfos);
-
-    res.status(200).json(updatedRecipe);
   },
 
   /**

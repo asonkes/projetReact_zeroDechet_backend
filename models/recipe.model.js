@@ -3,6 +3,7 @@
 /***********************/
 
 const { Schema, model, Types } = require("mongoose");
+const User = require("../models/user.model");
 
 // Schéma ==> 1er objet (description)
 // Schéma ==> 2eme objet (options collection)
@@ -130,6 +131,12 @@ const recipeSchema = new Schema(
           return `Étape ${index + 1}: ${formattedStep}`;
         });
       },
+    },
+    // pour l'ajout des recettes par l'utilisateur
+    user: {
+      type: Types.ObjectId,
+      ref: "User",
+      required: false,
     },
   },
   {

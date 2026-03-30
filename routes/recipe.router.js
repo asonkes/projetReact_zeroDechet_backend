@@ -19,12 +19,14 @@ recipeRouter
     recipeController.insert,
   );
 
-//recipeRouter
-// .route("/user/me") ==> pk pas /user/:id ????
-// .get(
-//  authentificationMiddleware(),
-//  userAuthorizationMiddleware(),
-// recipeController.getByUser);
+// Pour voir les recettes que l'utilisateur a créé
+recipeRouter
+  .route("/user/:id")
+  .get(
+    authentificationMiddleware(),
+    userAuthorizationMiddleware(),
+    recipeController.getByUser,
+  );
 
 // Routes avec les slugs
 recipeRouter.route("/:slug").get(recipeController.getBySlug);

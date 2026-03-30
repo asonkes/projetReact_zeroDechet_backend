@@ -2281,28 +2281,39 @@
     "timing_preparation": 30,
     "cooking": 15,
     "ingredients": [
-      { "slug": "carotte", "quantity_person": 250, "unity": "g" },
       {
-        "slug": "patate_douce",
+        "id": "69c50e6182ec35e93235e40d",
+        "name": "carotte",
+        "quantity_person": 250,
+        "unity": "g"
+      },
+      {
+        "id": "69c50e6182ec35e93235e42e",
+        "name": "patate_douce",
         "quantity_person": 0.5,
         "unity": "piece"
       },
-      { "slug": "oignon", "quantity_person": 0.5, "unity": "piece" },
       {
-        "slug": "miel",
+        "id": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "name": "miel",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
-      { "slug": "creme_fraiche", "quantity_person": 50, "unity": "ml" },
-      { "slug": "jaune_oeuf", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "creme_fraiche", "quantity_person": 50, "unity": "ml" },
+      { "name": "jaune_oeuf", "quantity_person": 0.5, "unity": "piece" },
       {
-        "slug": "huile_olive",
+        "name": "huile_olive",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "gruyere_râpé", "quantity_person": 10, "unity": "g" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "gruyere_râpé", "quantity_person": 10, "unity": "g" }
     ],
     "preparation": [
       "Étape 1: Faire cuire la patate douce dans de l'eau bouillante salée jusqu'à ce qu'elle soit tendre.",
@@ -2323,21 +2334,26 @@
     "timing_preparation": 20,
     "cooking": 30,
     "ingredients": [
-      { "slug": "chou_fleur", "quantity_person": 250, "unity": "g" },
-      { "slug": "beurre", "quantity_person": 7, "unity": "g" },
-      { "slug": "farine", "quantity_person": 8, "unity": "g" },
-      { "slug": "fromage_rape", "quantity_person": 13, "unity": "g" },
       {
-        "slug": "bouillon_volaille",
+        "id": "69c50e6182ec35e93235e41a",
+        "name": "chou_fleur",
+        "quantity_person": 250,
+        "unity": "g"
+      },
+      { "name": "beurre", "quantity_person": 7, "unity": "g" },
+      { "name": "farine", "quantity_person": 8, "unity": "g" },
+      { "name": "fromage_rape", "quantity_person": 13, "unity": "g" },
+      {
+        "name": "bouillon_volaille",
         "quantity_person": 0.25,
         "unity": "cube"
       },
-      { "slug": "eau", "quantity_person": 100, "unity": "ml" },
-      { "slug": "creme", "quantity_person": 15, "unity": "ml" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "eau", "quantity_person": 100, "unity": "ml" },
+      { "name": "creme", "quantity_person": 15, "unity": "ml" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       {
-        "slug": "muscade",
+        "name": "muscade",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       }
@@ -2362,15 +2378,20 @@
     "timing_preparation": 15,
     "cooking": 35,
     "ingredients": [
-      { "slug": "chou_de_milan", "quantity_person": 150, "unity": "g" },
-      { "slug": "jambon", "quantity_person": 1, "unity": "tranche" },
-      { "slug": "fromage_rapé", "quantity_person": 12, "unity": "g" },
-      { "slug": "beurre", "quantity_person": 5, "unity": "g" },
-      { "slug": "farine", "quantity_person": 5, "unity": "g" },
-      { "slug": "lait", "quantity_person": 62, "unity": "ml" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "muscade", "quantity_person": 1, "unity": "pincee" }
+      {
+        "id": "69c50e6182ec35e93235e419",
+        "name": "chou_de_milan",
+        "quantity_person": 150,
+        "unity": "g"
+      },
+      { "name": "jambon", "quantity_person": 1, "unity": "tranche" },
+      { "name": "fromage_rapé", "quantity_person": 12, "unity": "g" },
+      { "name": "beurre", "quantity_person": 5, "unity": "g" },
+      { "name": "farine", "quantity_person": 5, "unity": "g" },
+      { "name": "lait", "quantity_person": 62, "unity": "ml" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "muscade", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Émincer le chou et le cuire 10 min à la vapeur.",
@@ -2390,23 +2411,28 @@
     "timing_preparation": 40,
     "cooking": 10,
     "ingredients": [
-      { "slug": "fenouil", "quantity_person": 1, "unity": "piece" },
-      { "slug": "beurre", "quantity_person": 14, "unity": "g" },
       {
-        "slug": "farine",
+        "id": "69c50e6182ec35e93235e420",
+        "name": "fenouil",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      { "name": "beurre", "quantity_person": 14, "unity": "g" },
+      {
+        "name": "farine",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
-      { "slug": "lait", "quantity_person": 130, "unity": "ml" },
+      { "name": "lait", "quantity_person": 130, "unity": "ml" },
       {
-        "slug": "bouillon_boeuf",
+        "name": "bouillon_boeuf",
         "quantity_person": 0.25,
         "unity": "cube"
       },
-      { "slug": "gruyere_rape", "quantity_person": 13, "unity": "g" },
-      { "slug": "eau", "quantity_person": 30, "unity": "ml" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "gruyere_rape", "quantity_person": 13, "unity": "g" },
+      { "name": "eau", "quantity_person": 30, "unity": "ml" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Préchauffer le four à 220°C.",
@@ -2431,31 +2457,52 @@
     "timing_preparation": 30,
     "cooking": 40,
     "ingredients": [
-      { "slug": "panais", "quantity_person": 84, "unity": "g" },
-      { "slug": "poireau", "quantity_person": 84, "unity": "g" },
-      { "slug": "carotte", "quantity_person": 84, "unity": "g" },
       {
-        "slug": "pomme_de_terre",
+        "id": "69c50e6182ec35e93235e42d",
+        "name": "panais",
         "quantity_person": 84,
         "unity": "g"
       },
       {
-        "slug": "creme_fraiche_epaisse",
+        "id": "69c50e6182ec35e93235e433",
+        "name": "poireau",
+        "quantity_person": 84,
+        "unity": "g"
+      },
+      {
+        "id": "69c50e6182ec35e93235e40d",
+        "name": "carotte",
+        "quantity_person": 84,
+        "unity": "g"
+      },
+      {
+        "id": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
+        "quantity_person": 84,
+        "unity": "g"
+      },
+      {
+        "name": "creme_fraiche_epaisse",
         "quantity_person": 20,
         "unity": "ml"
       },
       {
-        "slug": "moutarde_dijon",
+        "name": "moutarde_dijon",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
-      { "slug": "parmesan", "quantity_person": 5, "unity": "g" },
-      { "slug": "cannelle", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "parmesan", "quantity_person": 5, "unity": "g" },
+      { "name": "cannelle", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "ingredients_remplacement": [
-      { "slug": "patate_douce", "quantity_person": 100, "unity": "g" }
+      {
+        "id": "69c50e6182ec35e93235e42e",
+        "name": "patate_douce",
+        "quantity_person": 100,
+        "unity": "g"
+      }
     ],
     "preparation": [
       "Étape 1: Préchauffer le four à 200°C (thermostat 6-7).",
@@ -2478,15 +2525,21 @@
     "cooking": 30,
     "ingredients": [
       {
-        "slug": "pomme_de_terre",
+        "id": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 150,
         "unity": "g"
       },
-      { "slug": "chou_fleur", "quantity_person": 150, "unity": "g" },
-      { "slug": "fromage_râpé", "quantity_person": 20, "unity": "g" },
-      { "slug": "beurre", "quantity_person": 7, "unity": "g" },
-      { "slug": "farine", "quantity_person": 7, "unity": "g" },
-      { "slug": "lait", "quantity_person": 60, "unity": "ml" }
+      {
+        "id": "69c50e6182ec35e93235e41a",
+        "name": "chou_fleur",
+        "quantity_person": 150,
+        "unity": "g"
+      },
+      { "name": "fromage_râpé", "quantity_person": 20, "unity": "g" },
+      { "name": "beurre", "quantity_person": 7, "unity": "g" },
+      { "name": "farine", "quantity_person": 7, "unity": "g" },
+      { "name": "lait", "quantity_person": 60, "unity": "ml" }
     ],
     "preparation": [
       "Étape 1: Peler les pommes de terre et préparer le chou-fleur en bouquets, puis rincer à l'eau claire.",
@@ -2508,27 +2561,34 @@
     "timing_preparation": 20,
     "cooking": 40,
     "ingredients": [
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "gruyere_rape", "quantity_person": 25, "unity": "g" },
       {
-        "slug": "celeri_rave",
+        "id": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      { "name": "gruyere_rape", "quantity_person": 25, "unity": "g" },
+      {
+        "id": "69c50e6182ec35e93235e410",
+        "name": "celeri_rave",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "slug": "pomme_de_terre",
+        "id": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 2,
         "unity": "piece"
       },
-      { "slug": "lardons_fumes", "quantity_person": 34, "unity": "g" },
+      { "name": "lardons_fumes", "quantity_person": 34, "unity": "g" },
       {
-        "slug": "creme_liquide",
+        "name": "creme_liquide",
         "quantity_person": 50,
         "unity": "ml"
       },
-      { "slug": "lait", "quantity_person": 25, "unity": "ml" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "lait", "quantity_person": 25, "unity": "ml" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Éplucher le céleri rave et râper la moitié.",
@@ -2551,23 +2611,29 @@
     "timing_preparation": 30,
     "cooking": 35,
     "ingredients": [
-      { "slug": "potiron", "quantity_person": 330, "unity": "g" },
-      { "slug": "steak_hache", "quantity_person": 84, "unity": "g" },
-      { "slug": "lard_fume", "quantity_person": 25, "unity": "g" },
-      { "slug": "beurre", "quantity_person": 17, "unity": "g" },
-      { "slug": "parmesan", "quantity_person": 14, "unity": "g" },
-      { "slug": "oignon", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "ail", "quantity_person": 0.5, "unity": "gousse" },
-      { "slug": "persil", "quantity_person": 1, "unity": "bouquet" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "muscade", "quantity_person": 1, "unity": "pincee" }
+      { "id": "", "name": "potiron", "quantity_person": 330, "unity": "g" },
+      { "name": "steak_hache", "quantity_person": 84, "unity": "g" },
+      { "name": "lard_fume", "quantity_person": 25, "unity": "g" },
+      { "name": "beurre", "quantity_person": 17, "unity": "g" },
+      { "name": "parmesan", "quantity_person": 14, "unity": "g" },
+      { "id": "", "name": "oignon", "quantity_person": 0.5, "unity": "piece" },
+      { "id": "", "name": "ail", "quantity_person": 0.5, "unity": "gousse" },
+      { "id": "", "name": "persil", "quantity_person": 1, "unity": "bouquet" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "muscade", "quantity_person": 1, "unity": "pincee" }
     ],
     "ingredients_remplacement": [
-      { "slug": "panais", "quantity_person": 330, "unity": "g" },
-      { "slug": "saucisse", "quantity_person": 84, "unity": "g" },
       {
-        "slug": "oignon-jeune",
+        "id": "69c50e6182ec35e93235e42d",
+        "name": "panais",
+        "quantity_person": 330,
+        "unity": "g"
+      },
+      { "name": "saucisse", "quantity_person": 84, "unity": "g" },
+      {
+        "id": "69c50e6182ec35e93235e42c",
+        "name": "oignon-jeune",
         "quantity_person": 0.5,
         "unity": "piece"
       }
@@ -2594,13 +2660,18 @@
     "timing_preparation": 10,
     "cooking": 25,
     "ingredients": [
-      { "slug": "salsifis", "quantity_person": 150, "unity": "g" },
-      { "slug": "creme_fraiche", "quantity_person": 30, "unity": "ml" },
-      { "slug": "fromage_rapé", "quantity_person": 20, "unity": "g" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
       {
-        "slug": "noix_muscade",
+        "id": "69c50e6182ec35e93235e43e",
+        "name": "salsifis",
+        "quantity_person": 150,
+        "unity": "g"
+      },
+      { "name": "creme_fraiche", "quantity_person": 30, "unity": "ml" },
+      { "name": "fromage_rapé", "quantity_person": 20, "unity": "g" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      {
+        "name": "noix_muscade",
         "quantity_person": 1,
         "unity": "pincee"
       }
@@ -2623,26 +2694,27 @@
     "cooking": 15,
     "ingredients": [
       {
-        "slug": "haricots_verts",
+        "id": "69c50e6182ec35e93235e426",
+        "name": "haricots_verts",
         "quantity_person": 200,
         "unity": "g"
       },
-      { "slug": "lardons", "quantity_person": 50, "unity": "g" },
-      { "slug": "ail", "quantity_person": 0.25, "unity": "gousse" },
-      { "slug": "beurre", "quantity_person": 3, "unity": "g" },
-      { "slug": "jaune_oeuf", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "lardons", "quantity_person": 50, "unity": "g" },
+      { "id": "", "name": "ail", "quantity_person": 0.25, "unity": "gousse" },
+      { "name": "beurre", "quantity_person": 3, "unity": "g" },
+      { "name": "jaune_oeuf", "quantity_person": 0.5, "unity": "piece" },
       {
-        "slug": "creme_fraiche",
+        "name": "creme_fraiche",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "parmesan_rape",
+        "name": "parmesan_rape",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Cuire les haricots verts dans une casserole d'eau salée environ 10 minutes puis les égoutter.",
@@ -2663,23 +2735,40 @@
     "timing_preparation": 10,
     "cooking": 20,
     "ingredients": [
-      { "slug": "carotte", "quantity_person": 2, "unity": "piece" },
-      { "slug": "oignon", "quantity_person": 1, "unity": "piece" },
       {
-        "slug": "laitue_romaine",
+        "id": "69c50e6182ec35e93235e40d",
+        "name": "carotte",
+        "quantity_person": 2,
+        "unity": "piece"
+      },
+      {
+        "id": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      {
+        "id": "69c50e6182ec35e93235e427",
+        "name": "laitue_romaine",
         "quantity_person": 0.55,
         "unity": "piece"
       },
-      { "slug": "petits_pois", "quantity_person": 75, "unity": "g" },
-      { "slug": "beurre", "quantity_person": 5, "unity": "g" },
-      { "slug": "bouillon", "quantity_person": 100, "unity": "ml" },
       {
-        "slug": "persil",
+        "id": "69c50e6182ec35e93235e430",
+        "name": "petits_pois",
+        "quantity_person": 75,
+        "unity": "g"
+      },
+      { "name": "beurre", "quantity_person": 5, "unity": "g" },
+      { "name": "bouillon", "quantity_person": 100, "unity": "ml" },
+      {
+        "id": "69c50e6182ec35e93235e42f",
+        "name": "persil",
         "quantity_person": "au goût",
         "unity": "feuille"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Émincer la laitue et couper la carotte en rondelles.",
@@ -2700,26 +2789,27 @@
     "cooking": 30,
     "ingredients": [
       {
-        "slug": "epinards",
+        "id": "69c50e6182ec35e93235e41f",
+        "name": "epinards",
         "quantity_person": 100,
         "unity": "g"
       },
       {
-        "slug": "creme_liquide",
+        "name": "creme_liquide",
         "quantity_person": 100,
         "unity": "ml"
       },
-      { "slug": "lasagnes", "quantity_person": 2, "unity": "feuille" },
+      { "name": "lasagnes", "quantity_person": 2, "unity": "feuille" },
       {
-        "slug": "bouillon_volaille",
+        "name": "bouillon_volaille",
         "quantity_person": 0.25,
         "unity": "cube"
       },
-      { "slug": "gruyere_rape", "quantity_person": 15, "unity": "g" },
-      { "slug": "parmesan", "quantity_person": 10, "unity": "g" },
-      { "slug": "epices", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "gruyere_rape", "quantity_person": 15, "unity": "g" },
+      { "name": "parmesan", "quantity_person": 10, "unity": "g" },
+      { "name": "epices", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Chauffer une partie de la crème avec le bouillon jusqu'à dissolution.",
@@ -2741,30 +2831,50 @@
     "timing_preparation": 60,
     "cooking": 10,
     "ingredients": [
-      { "slug": "aubergine", "quantity_person": 200, "unity": "g" },
-      { "slug": "oignon", "quantity_person": 1, "unity": "piece" },
-      { "slug": "thym", "quantity_person": 0.5, "unity": "brin" },
       {
-        "slug": "huile_olive",
+        "id": "69c50e6182ec35e93235e409",
+        "name": "aubergine",
+        "quantity_person": 200,
+        "unity": "g"
+      },
+      {
+        "id": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      { "name": "thym", "quantity_person": 0.5, "unity": "brin" },
+      {
+        "name": "huile_olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
-      { "slug": "tomate", "quantity_person": 150, "unity": "g" },
       {
-        "slug": "sucre",
+        "id": "69c50e6182ec35e93235e43f",
+        "name": "tomate",
+        "quantity_person": 150,
+        "unity": "g"
+      },
+      {
+        "name": "sucre",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
-      { "slug": "beurre", "quantity_person": 5, "unity": "g" },
-      { "slug": "farine", "quantity_person": 5, "unity": "g" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "muscade", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "epaule_agneau", "quantity_person": 120, "unity": "g" },
-      { "slug": "ail", "quantity_person": 0.5, "unity": "gousse" },
-      { "slug": "vin_blanc", "quantity_person": 30, "unity": "ml" },
-      { "slug": "lait", "quantity_person": 50, "unity": "ml" },
-      { "slug": "parmesan", "quantity_person": 30, "unity": "g" }
+      { "name": "beurre", "quantity_person": 5, "unity": "g" },
+      { "name": "farine", "quantity_person": 5, "unity": "g" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "muscade", "quantity_person": 1, "unity": "pincee" },
+      { "name": "epaule_agneau", "quantity_person": 120, "unity": "g" },
+      {
+        "id": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.5,
+        "unity": "gousse"
+      },
+      { "name": "vin_blanc", "quantity_person": 30, "unity": "ml" },
+      { "name": "lait", "quantity_person": 50, "unity": "ml" },
+      { "name": "parmesan", "quantity_person": 30, "unity": "g" }
     ],
     "preparation": [
       "Étape 1: Couper les aubergines en tranches et les faire dégorger au sel 30 min, puis rincer et sécher.",
@@ -2790,22 +2900,27 @@
     "timing_preparation": 20,
     "cooking": 35,
     "ingredients": [
-      { "slug": "beurre", "quantity_person": 22, "unity": "g" },
-      { "slug": "sucre", "quantity_person": 22, "unity": "g" },
-      { "slug": "fromage_blanc", "quantity_person": 25, "unity": "g" },
-      { "slug": "farine", "quantity_person": 60, "unity": "g" },
+      { "name": "beurre", "quantity_person": 22, "unity": "g" },
+      { "name": "sucre", "quantity_person": 22, "unity": "g" },
+      { "name": "fromage_blanc", "quantity_person": 25, "unity": "g" },
+      { "name": "farine", "quantity_person": 60, "unity": "g" },
       {
-        "slug": "levure_chimique",
+        "name": "levure_chimique",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
-      { "slug": "oeuf", "quantity_person": 0.25, "unity": "piece" },
+      { "name": "oeuf", "quantity_person": 0.25, "unity": "piece" },
       {
-        "slug": "jus_citron",
+        "name": "jus_citron",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
-      { "slug": "cassis", "quantity_person": 50, "unity": "g" }
+      {
+        "id": "69c50e6182ec35e93235e40e",
+        "name": "cassis",
+        "quantity_person": 50,
+        "unity": "g"
+      }
     ],
     "preparation": [
       "Étape 1: Fouetter le beurre ramolli et le sucre pour créer une crème. Ajouter les œufs, le jus de citron et le fromage blanc, mélanger pour obtenir une préparation lisse.",
@@ -2827,13 +2942,18 @@
     "cooking": 0,
     "ingredients": [
       {
-        "slug": "creme_fraiche",
+        "name": "creme_fraiche",
         "quantity_person": 125,
         "unity": "ml"
       },
-      { "slug": "cerise", "quantity_person": 125, "unity": "g" },
-      { "slug": "sucre_glace", "quantity_person": 75, "unity": "g" },
-      { "slug": "citron", "quantity_person": 0.25, "unity": "piece" }
+      {
+        "id": "69c50e6182ec35e93235e412",
+        "name": "cerise",
+        "quantity_person": 125,
+        "unity": "g"
+      },
+      { "name": "sucre_glace", "quantity_person": 75, "unity": "g" },
+      { "name": "citron", "quantity_person": 0.25, "unity": "piece" }
     ],
     "preparation": [
       "Étape 1: Dénoyauter les cerises et presser le quart de citron.",
@@ -2854,14 +2974,19 @@
     "timing_preparation": 25,
     "cooking": 5,
     "ingredients": [
-      { "slug": "groseilles", "quantity_person": 120, "unity": "g" },
       {
-        "slug": "creme_fraiche",
+        "id": "69c50e6182ec35e93235e423",
+        "name": "groseilles",
+        "quantity_person": 120,
+        "unity": "g"
+      },
+      {
+        "name": "creme_fraiche",
         "quantity_person": 100,
         "unity": "ml"
       },
-      { "slug": "sucre", "quantity_person": 20, "unity": "g" },
-      { "slug": "gelatine", "quantity_person": 1, "unity": "piece" }
+      { "name": "sucre", "quantity_person": 20, "unity": "g" },
+      { "name": "gelatine", "quantity_person": 1, "unity": "piece" }
     ],
     "preparation": [
       "Étape 1: Faire tremper la gélatine dans de l'eau froide.",
@@ -2884,13 +3009,18 @@
     "timing_preparation": 10,
     "cooking": 25,
     "ingredients": [
-      { "slug": "farine", "quantity_person": 40, "unity": "g" },
-      { "slug": "sucre", "quantity_person": 25, "unity": "g" },
-      { "slug": "levure_chimique", "quantity_person": 1, "unity": "g" },
-      { "slug": "huile", "quantity_person": 15, "unity": "ml" },
-      { "slug": "groseilles", "quantity_person": 40, "unity": "g" },
-      { "slug": "oeuf", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "lait", "quantity_person": 30, "unity": "ml" }
+      { "name": "farine", "quantity_person": 40, "unity": "g" },
+      { "name": "sucre", "quantity_person": 25, "unity": "g" },
+      { "name": "levure_chimique", "quantity_person": 1, "unity": "g" },
+      { "name": "huile", "quantity_person": 15, "unity": "ml" },
+      {
+        "id": "69c50e6182ec35e93235e423",
+        "name": "groseilles",
+        "quantity_person": 40,
+        "unity": "g"
+      },
+      { "name": "oeuf", "quantity_person": 0.25, "unity": "piece" },
+      { "name": "lait", "quantity_person": 30, "unity": "ml" }
     ],
     "preparation": [
       "Étape 1: Préchauffer le four à 180°C.",
@@ -2911,26 +3041,31 @@
     "timing_preparation": 15,
     "cooking": 25,
     "ingredients": [
-      { "slug": "sucre", "quantity_person": 7, "unity": "g" },
-      { "slug": "beurre", "quantity_person": 2, "unity": "g" },
-      { "slug": "farine", "quantity_person": 12, "unity": "g" },
+      { "name": "sucre", "quantity_person": 7, "unity": "g" },
+      { "name": "beurre", "quantity_person": 2, "unity": "g" },
+      { "name": "farine", "quantity_person": 12, "unity": "g" },
       {
-        "slug": "sel",
+        "name": "sel",
         "quantity_person": 0.25,
         "unity": "pincee"
       },
       {
-        "slug": "levure_chimique",
+        "name": "levure_chimique",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
-      { "slug": "myrtille", "quantity_person": 12, "unity": "g" },
       {
-        "slug": "oeuf(juste le jaune)",
+        "id": "69c50e6182ec35e93235e42a",
+        "name": "myrtille",
+        "quantity_person": 12,
+        "unity": "g"
+      },
+      {
+        "name": "oeuf(juste le jaune)",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "lait", "quantity_person": 7, "unity": "ml" }
+      { "name": "lait", "quantity_person": 7, "unity": "ml" }
     ],
     "preparation": [
       "Étape 1: Préchauffer le four à 180°C (thermostat 6).",
@@ -2953,38 +3088,39 @@
     "timing_preparation": 5,
     "cooking": 20,
     "ingredients": [
-      { "slug": "farine", "quantity_person": 42, "unity": "g" },
-      { "slug": "chocolat", "quantity_person": 17, "unity": "g" },
+      { "name": "farine", "quantity_person": 42, "unity": "g" },
+      { "name": "chocolat", "quantity_person": 17, "unity": "g" },
       {
-        "slug": "levure_chimique",
+        "name": "levure_chimique",
         "quantity_person": 0.25,
         "unity": "sachet"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sucre", "quantity_person": 34, "unity": "g" },
-      { "slug": "beurre", "quantity_person": 17, "unity": "g" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sucre", "quantity_person": 34, "unity": "g" },
+      { "name": "beurre", "quantity_person": 17, "unity": "g" },
       {
-        "slug": "extrait_vanille",
+        "name": "extrait_vanille",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "miel",
+        "name": "miel",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "oeuf",
+        "name": "oeuf",
         "quantity_person": 0.33,
         "unity": "piece"
       },
       {
-        "slug": "poire",
+        "id": "69c50e6182ec35e93235e432",
+        "name": "poire",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
-        "slug": "amandes_effilees",
+        "name": "amandes_effilees",
         "quantity_person": "au goût",
         "unity": "piece"
       }
@@ -3010,14 +3146,24 @@
     "timing_preparation": 10,
     "cooking": 30,
     "ingredients": [
-      { "slug": "tomate", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "poivron", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "emmental", "quantity_person": 7, "unity": "g" },
-      { "slug": "huile_olive", "quantity_person": 1, "unity": "filet" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "oeuf", "quantity_person": 1, "unity": "piece" },
-      { "slug": "bacon", "quantity_person": 3, "unity": "tranche" }
+      {
+        "id": "69c50e6182ec35e93235e43f",
+        "name": "tomate",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "id": "69c50e6182ec35e93235e434",
+        "name": "poivron",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      { "name": "emmental", "quantity_person": 7, "unity": "g" },
+      { "name": "huile_olive", "quantity_person": 1, "unity": "filet" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "oeuf", "quantity_person": 1, "unity": "piece" },
+      { "name": "bacon", "quantity_person": 3, "unity": "tranche" }
     ],
     "preparation": [
       "Étape 1: Couper le poivron en lamelles d’environ 2 cm de largeur.",
@@ -3038,14 +3184,29 @@
     "timing_preparation": 5,
     "cooking": 10,
     "ingredients": [
-      { "slug": "oeufs", "quantity_person": 1, "unity": "piece" },
-      { "slug": "poivron", "quantity_person": 25, "unity": "g" },
-      { "slug": "oignon", "quantity_person": 15, "unity": "g" },
-      { "slug": "huile_olive", "quantity_person": 5, "unity": "ml" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" }
+      { "name": "oeufs", "quantity_person": 1, "unity": "piece" },
+      {
+        "id": "69c50e6182ec35e93235e434",
+        "name": "poivron",
+        "quantity_person": 25,
+        "unity": "g"
+      },
+      {
+        "id": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 15,
+        "unity": "g"
+      },
+      { "name": "huile_olive", "quantity_person": 5, "unity": "ml" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" }
     ],
     "ingredients_remplacement": [
-      { "slug": "oignon_jeune", "quantity_person": 15, "unity": "g" }
+      {
+        "id": "69c50e6182ec35e93235e42c",
+        "name": "oignon_jeune",
+        "quantity_person": 15,
+        "unity": "g"
+      }
     ],
     "preparation": [
       "Étape 1: Faites revenir l'oignon et le poivron hachés dans l'huile.",
@@ -3064,17 +3225,18 @@
     "cooking": 35,
     "ingredients": [
       {
-        "slug": "patate_douce",
+        "id": "69c50e6182ec35e93235e42e",
+        "name": "patate_douce",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
-        "slug": "huile_olive",
+        "name": "huile_olive",
         "quantity_person": 0.5,
         "unity": "cuillere_cafe"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Préchauffer le four à 200°C (thermostat 7). Recouvrir la plaque de papier aluminium.",
@@ -3094,24 +3256,34 @@
     "timing_preparation": 15,
     "cooking": 25,
     "ingredients": [
-      { "slug": "spaghetti", "quantity_person": 200, "unity": "g" },
-      { "slug": "poireau", "quantity_person": 1, "unity": "piece" },
-      { "slug": "bacon", "quantity_person": 2, "unity": "tranche" },
-      { "slug": "petits_pois", "quantity_person": 50, "unity": "g" },
+      { "name": "spaghetti", "quantity_person": 200, "unity": "g" },
       {
-        "slug": "creme_fraiche",
+        "id": "69c50e6182ec35e93235e433",
+        "name": "poireau",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      { "name": "bacon", "quantity_person": 2, "unity": "tranche" },
+      {
+        "id": "69c50e6182ec35e93235e430",
+        "name": "petits_pois",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      {
+        "name": "creme_fraiche",
         "quantity_person": 150,
         "unity": "ml"
       },
       {
-        "slug": "huile_olive",
+        "name": "huile_olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
-      { "slug": "jus_citron", "quantity_person": 1, "unity": "goutte" },
-      { "slug": "parmesan_râpé", "quantity_person": 5, "unity": "g" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "jus_citron", "quantity_person": 1, "unity": "goutte" },
+      { "name": "parmesan_râpé", "quantity_person": 5, "unity": "g" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Porter de l'eau à ébullition pour les pâtes.",
@@ -3134,43 +3306,64 @@
     "timing_preparation": 30,
     "cooking": 15,
     "ingredients": [
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "ail", "quantity_person": 0.25, "unity": "gousse" },
-      { "slug": "lardons", "quantity_person": 50, "unity": "g" },
-      { "slug": "potiron", "quantity_person": 100, "unity": "g" },
-      { "slug": "huile_olive", "quantity_person": 1, "unity": "filet" },
       {
-        "slug": "creme_fraiche",
+        "id": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "id": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.25,
+        "unity": "gousse"
+      },
+      { "name": "lardons", "quantity_person": 50, "unity": "g" },
+      {
+        "id": "69c50e6182ec35e93235e437",
+        "name": "potiron",
+        "quantity_person": 100,
+        "unity": "g"
+      },
+      { "name": "huile_olive", "quantity_person": 1, "unity": "filet" },
+      {
+        "name": "creme_fraiche",
         "quantity_person": 25,
         "unity": "ml"
       },
-      { "slug": "parmesan", "quantity_person": 5, "unity": "g" },
+      { "name": "parmesan", "quantity_person": 5, "unity": "g" },
       {
-        "slug": "curry",
+        "name": "curry",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "origan",
+        "name": "origan",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
-      { "slug": "muscade", "quantity_person": 1, "unity": "pincee" },
+      { "name": "muscade", "quantity_person": 1, "unity": "pincee" },
       {
-        "slug": "cube_bouillon",
+        "name": "cube_bouillon",
         "quantity_person": 0.25,
         "unity": "cube"
       },
-      { "slug": "vin_blanc", "quantity_person": 0.25, "unity": "verre" },
-      { "slug": "paprika", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "pates", "quantity_person": 63, "unity": "g" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "vin_blanc", "quantity_person": 0.25, "unity": "verre" },
+      { "name": "paprika", "quantity_person": 1, "unity": "pincee" },
+      { "name": "pates", "quantity_person": 63, "unity": "g" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "ingredients_remplacement": [
-      { "slug": "panais", "quantity_person": 100, "unity": "g" },
       {
-        "slug": "oignon_jeune",
+        "id": "69c50e6182ec35e93235e42d",
+        "name": "panais",
+        "quantity_person": 100,
+        "unity": "g"
+      },
+      {
+        "id": "69c50e6182ec35e93235e42c",
+        "name": "oignon_jeune",
         "quantity_person": 0.25,
         "unity": "piece"
       }
@@ -3195,38 +3388,54 @@
     "timing_preparation": 10,
     "cooking": 25,
     "ingredients": [
-      { "slug": "pleurotes", "quantity_person": 100, "unity": "g" },
-      { "slug": "courgette", "quantity_person": 0.25, "unity": "piece" },
       {
-        "slug": "oignon",
+        "id": "69c50e6182ec35e93235e431",
+        "name": "pleurote",
+        "quantity_person": 100,
+        "unity": "g"
+      },
+      {
+        "id": "69c50e6182ec35e93235e41e",
+        "name": "courgette",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "slug": "huile_olive",
+        "id": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "name": "huile_olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "crème_fraîche",
+        "name": "crème_fraîche",
         "quantity_person": 63,
         "unity": "g"
       },
-      { "slug": "ail", "quantity_person": 0.5, "unity": "gousse" },
-      { "slug": "penne", "quantity_person": 100, "unity": "g" },
       {
-        "slug": "basilic",
+        "id": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.5,
+        "unity": "gousse"
+      },
+      { "name": "penne", "quantity_person": 100, "unity": "g" },
+      {
+        "name": "basilic",
         "quantity_person": 0.25,
         "unity": "feuille"
       },
       {
-        "slug": "jus_de_citron",
+        "name": "jus_de_citron",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "parmesan", "quantity_person": 5, "unity": "g" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "parmesan", "quantity_person": 5, "unity": "g" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Nettoyer les pleurotes et les couper en lanières. Râper grossièrement la courgette.",
@@ -3247,15 +3456,25 @@
     "timing_preparation": 10,
     "cooking": 15,
     "ingredients": [
-      { "slug": "pleurote", "quantity_person": 125, "unity": "g" },
       {
-        "slug": "beurre",
+        "id": "69c50e6182ec35e93235e431",
+        "name": "pleurote",
+        "quantity_person": 125,
+        "unity": "g"
+      },
+      {
+        "name": "beurre",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
-      { "slug": "ail", "quantity_person": 0.5, "unity": "gousse" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      {
+        "id": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.5,
+        "unity": "gousse"
+      },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Nettoyer les pleurotes en coupant la partie inférieure et en les rinçant rapidement. Sécher et émincer.",
@@ -3273,23 +3492,33 @@
     "timing_preparation": 20,
     "cooking": 16,
     "ingredients": [
-      { "slug": "huile", "quantity_person": 1, "unity": "filet" },
-      { "slug": "aubergine", "quantity_person": 0.25, "unity": "unity" },
-      { "slug": "tomate", "quantity_person": 1, "unity": "piece" },
+      { "name": "huile", "quantity_person": 1, "unity": "filet" },
       {
-        "slug": "escalope_dinde",
+        "id": "69c50e6182ec35e93235e409",
+        "name": "aubergine",
+        "quantity_person": 0.25,
+        "unity": "unity"
+      },
+      {
+        "id": "69c50e6182ec35e93235e43f",
+        "name": "tomate",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      {
+        "name": "escalope_dinde",
         "quantity_person": 150,
         "unity": "g"
       },
       {
-        "slug": "moutarde",
+        "name": "moutarde",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "curry", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "eau", "quantity_person": 0.5, "unity": "verre" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "curry", "quantity_person": 1, "unity": "pincee" },
+      { "name": "eau", "quantity_person": 0.5, "unity": "verre" }
     ],
     "preparation": [
       "Étape 1: Faire chauffer l'huile dans une poêle.",
@@ -3308,28 +3537,39 @@
     "timing_preparation": 30,
     "cooking": 30,
     "ingredients": [
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       {
-        "slug": "huile_d_olive",
+        "name": "huile_d_olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "chou_chinois",
+        "id": "69c50e6182ec35e93235e417",
+        "name": "chou_chinois",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "lieu_noir", "quantity_person": 125, "unity": "g" },
-      { "slug": "poitrine_fumee", "quantity_person": 25, "unity": "g" },
-      { "slug": "celeri", "quantity_person": 0.5, "unity": "branche" },
-      { "slug": "ail", "quantity_person": 0.5, "unity": "gousse" },
+      { "name": "lieu_noir", "quantity_person": 125, "unity": "g" },
+      { "name": "poitrine_fumee", "quantity_person": 25, "unity": "g" },
       {
-        "slug": "nuoc_mam",
+        "id": "69c50e6182ec35e93235e40f",
+        "name": "celeri",
+        "quantity_person": 0.5,
+        "unity": "branche"
+      },
+      {
+        "id": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.5,
+        "unity": "gousse"
+      },
+      {
+        "name": "nuoc_mam",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "sauce_soja",
+        "name": "sauce_soja",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       }
@@ -3354,19 +3594,25 @@
     "timing_preparation": 60,
     "cooking": 45,
     "ingredients": [
-      { "slug": "celeri", "quantity_person": 0.25, "unity": "piece" },
       {
-        "slug": "pomme_de_terre",
+        "id": "69c50e6182ec35e93235e40f",
+        "name": "celeri",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "id": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 1,
         "unity": "piece"
       },
       {
-        "slug": "huile_d_olive",
+        "name": "huile_d_olive",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "sel",
+        "name": "sel",
         "quantity_person": 1,
         "unity": "pincee"
       }
@@ -3389,19 +3635,30 @@
     "cooking": 20,
     "ingredients": [
       {
-        "slug": "pomme_de_terre",
+        "id": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 2,
         "unity": "piece"
       },
-      { "slug": "ail", "quantity_person": 2.5, "unity": "gousse" },
-      { "slug": "persil", "quantity_person": 0.5, "unity": "botte" },
       {
-        "slug": "huile_tournesol",
+        "id": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 2.5,
+        "unity": "gousse"
+      },
+      {
+        "id": "69c50e6182ec35e93235e42f",
+        "name": "persil",
+        "quantity_person": 0.5,
+        "unity": "botte"
+      },
+      {
+        "name": "huile_tournesol",
         "quantity_person": 15,
         "unity": "ml"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "eau", "quantity_person": 500, "unity": "ml" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "eau", "quantity_person": 500, "unity": "ml" }
     ],
     "preparation": [
       "Étape 1: Éplucher les pommes de terre et les couper en cubes d'environ 1,5 à 2,5 cm.",
@@ -3423,39 +3680,69 @@
     "timing_preparation": 30,
     "cooking": 150,
     "ingredients": [
-      { "slug": "carotte", "quantity_person": 1, "unity": "piece" },
-      { "slug": "poireau", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
       {
-        "slug": "clou_de_girofle",
+        "id": "69c50e6182ec35e93235e40d",
+        "name": "carotte",
         "quantity_person": 1,
         "unity": "piece"
       },
       {
-        "slug": "poivre",
+        "id": "69c50e6182ec35e93235e433",
+        "name": "poireau",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "id": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "name": "clou_de_girofle",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      {
+        "name": "poivre",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "sel",
+        "name": "sel",
         "quantity_person": 0.5,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "boeuf_pot_au_feu",
+        "name": "boeuf_pot_au_feu",
         "quantity_person": 250,
         "unity": "g"
       },
-      { "slug": "os_a_moelle", "quantity_person": 1, "unity": "piece" },
-      { "slug": "chou_rave", "quantity_person": 1, "unity": "petit" },
-      { "slug": "celeri", "quantity_person": 0.5, "unity": "branche" },
-      { "slug": "ail", "quantity_person": 0.25, "unity": "gousse" },
+      { "name": "os_a_moelle", "quantity_person": 1, "unity": "piece" },
       {
-        "slug": "bouquet_garni",
+        "id": "69c50e6182ec35e93235e41b",
+        "name": "chou_rave",
+        "quantity_person": 1,
+        "unity": "petit"
+      },
+      {
+        "id": "69c50e6182ec35e93235e40f",
+        "name": "celeri",
+        "quantity_person": 0.5,
+        "unity": "branche"
+      },
+      {
+        "id": "69c50e6182ec35e93235e407",
+        "name": "ail",
+        "quantity_person": 0.25,
+        "unity": "gousse"
+      },
+      {
+        "name": "bouquet_garni",
         "quantity_person": 0.25,
         "unity": "bouquet"
       },
-      { "slug": "eau", "quantity_person": 750, "unity": "ml" }
+      { "name": "eau", "quantity_person": 750, "unity": "ml" }
     ],
     "preparation": [
       "Étape 1: Laver, éplucher tous les légumes et les couper en morceaux assez gros.",
@@ -3476,32 +3763,38 @@
     "timing_preparation": 10,
     "cooking": 30,
     "ingredients": [
-      { "slug": "poireau", "quantity_person": 0.5, "unity": "piece" },
       {
-        "slug": "pomme_de_terre",
+        "id": "69c50e6182ec35e93235e433",
+        "name": "poireau",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "id": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 0.5,
         "unity": "pomme de terre"
       },
-      { "slug": "beurre", "quantity_person": 13, "unity": "g" },
-      { "slug": "lait", "quantity_person": 250, "unity": "ml" },
-      { "slug": "eau", "quantity_person": 250, "unity": "ml" },
+      { "name": "beurre", "quantity_person": 13, "unity": "g" },
+      { "name": "lait", "quantity_person": 250, "unity": "ml" },
+      { "name": "eau", "quantity_person": 250, "unity": "ml" },
       {
-        "slug": "creme_fraiche",
+        "name": "creme_fraiche",
         "quantity_person": "au goût",
         "unity": "portion"
       },
       {
-        "slug": "poivre",
+        "name": "poivre",
         "quantity_person": 1,
         "unity": "pincee"
       },
       {
-        "slug": "sel",
+        "name": "sel",
         "quantity_person": 1,
         "unity": "pincee"
       },
       {
-        "slug": "basilic",
+        "name": "basilic",
         "quantity_person": "au goût",
         "unity": "feuille"
       }
@@ -3524,37 +3817,54 @@
     "timing_preparation": 10,
     "cooking": 40,
     "ingredients": [
-      { "slug": "carotte", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
       {
-        "slug": "cube_bouillon",
-        "quantity_person": 0.25,
-        "unity": "cube"
-      },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      {
-        "slug": "chou_chinois",
-        "quantity_person": 0.25,
-        "unity": "piece"
-      },
-      {
-        "slug": "pomme_de_terre",
+        "id": "69c50e6182ec35e93235e40d",
+        "name": "carotte",
         "quantity_person": 0.5,
         "unity": "piece"
       },
-      { "slug": "vin_blanc", "quantity_person": 30, "unity": "ml" },
       {
-        "slug": "herbes_de_provence",
+        "id": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "name": "cube_bouillon",
+        "quantity_person": 0.25,
+        "unity": "cube"
+      },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      {
+        "id": "69c50e6182ec35e93235e417",
+        "name": "chou_chinois",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "id": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      { "name": "vin_blanc", "quantity_person": 30, "unity": "ml" },
+      {
+        "name": "herbes_de_provence",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "huile_d_olive",
+        "name": "huile_d_olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
-      { "slug": "celeri", "quantity_person": 0.25, "unity": "piece" }
+      {
+        "id": "69c50e6182ec35e93235e40f",
+        "name": "celeri",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      }
     ],
     "preparation": [
       "Étape 1: Émincer l'oignon et faire revenir dans l'huile d'olive. Couper les carottes en petits cubes, les pommes de terre en gros cubes et le céleri en fines tiges, puis ajouter dans la poêle et faire revenir brièvement.",
@@ -3574,15 +3884,26 @@
     "timing_preparation": 5,
     "cooking": 15,
     "ingredients": [
-      { "slug": "poulet", "quantity_person": 150, "unity": "g" },
-      { "slug": "poivron", "quantity_person": 50, "unity": "g" },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "huile_olive", "quantity_person": 10, "unity": "ml" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" }
+      { "name": "poulet", "quantity_person": 150, "unity": "g" },
+      {
+        "id": "69c50e6182ec35e93235e434",
+        "name": "poivron",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      {
+        "id": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      { "name": "huile_olive", "quantity_person": 10, "unity": "ml" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" }
     ],
     "ingredients_remplacement": [
       {
-        "slug": "oignon_jeune",
+        "id": "69c50e6182ec35e93235e42c",
+        "name": "oignon_jeune",
         "quantity_person": 0.25,
         "unity": "piece"
       }
@@ -3604,31 +3925,36 @@
     "cooking": 15,
     "ingredients": [
       {
-        "slug": "escalope_poulet",
+        "name": "escalope_poulet",
         "quantity_person": 1,
         "unity": "piece"
       },
-      { "slug": "fenouil", "quantity_person": 1, "unity": "piece" },
       {
-        "slug": "huile_olive",
+        "id": "69c50e6182ec35e93235e420",
+        "name": "fenouil",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      {
+        "name": "huile_olive",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "fond_volaille",
+        "name": "fond_volaille",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "pastis",
+        "name": "pastis",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
-      { "slug": "eau", "quantity_person": 30, "unity": "ml" },
-      { "slug": "romarin", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "basilic", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "eau", "quantity_person": 30, "unity": "ml" },
+      { "name": "romarin", "quantity_person": 1, "unity": "pincee" },
+      { "name": "basilic", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Couper le fenouil en tranches pas trop fines.",
@@ -3651,15 +3977,26 @@
     "cooking": 15,
     "ingredients": [
       {
-        "slug": "pomme_de_terre",
+        "id": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 330,
         "unity": "g"
       },
-      { "slug": "laitue", "quantity_person": 0.33, "unity": "piece" },
-      { "slug": "ail", "quantity_person": 0.75, "unity": "gousse" },
-      { "slug": "thym", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "beurre", "quantity_person": 5, "unity": "g" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" }
+      {
+        "id": "69c50e6182ec35e93235e427",
+        "name": "laitue",
+        "quantity_person": 0.33,
+        "unity": "piece"
+      },
+      {
+        "id": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.75,
+        "unity": "gousse"
+      },
+      { "name": "thym", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "beurre", "quantity_person": 5, "unity": "g" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Éplucher les pommes de terre et les cuire dans de l'eau avec l'ail, le sel et le thym.",
@@ -3678,19 +4015,24 @@
     "timing_preparation": 15,
     "cooking": 30,
     "ingredients": [
-      { "slug": "creme_fraiche", "quantity_person": 50, "unity": "ml" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "creme_fraiche", "quantity_person": 50, "unity": "ml" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       {
-        "slug": "pate_brisee",
+        "name": "pate_brisee",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "chicon", "quantity_person": 1, "unity": "piece" },
-      { "slug": "lardons_fumes", "quantity_person": 50, "unity": "g" },
-      { "slug": "oeuf", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "mozzarella", "quantity_person": 25, "unity": "g" },
       {
-        "slug": "poivre_cayenne",
+        "id": "69c50e6182ec35e93235e414",
+        "name": "chicon",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      { "name": "lardons_fumes", "quantity_person": 50, "unity": "g" },
+      { "name": "oeuf", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "mozzarella", "quantity_person": 25, "unity": "g" },
+      {
+        "name": "poivre_cayenne",
         "quantity_person": 1,
         "unity": "pincee"
       }
@@ -3716,28 +4058,34 @@
     "cooking": 35,
     "ingredients": [
       {
-        "slug": "creme_fraiche_epaisse",
+        "name": "creme_fraiche_epaisse",
         "quantity_person": 50,
         "unity": "ml"
       },
       {
-        "slug": "poireau",
+        "id": "69c50e6182ec35e93235e433",
+        "name": "poireau",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "gruyere_rape", "quantity_person": 12, "unity": "g" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "gruyere_rape", "quantity_person": 12, "unity": "g" },
       {
-        "slug": "moutarde",
+        "name": "moutarde",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
-      { "slug": "oeuf", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "salsifi", "quantity_person": 50, "unity": "g" },
-      { "slug": "jambon", "quantity_person": 0.25, "unity": "tranche" },
+      { "name": "oeuf", "quantity_person": 0.5, "unity": "piece" },
       {
-        "slug": "pate_feuilletee",
+        "id": "69c50e6182ec35e93235e43e",
+        "name": "salsifi",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      { "name": "jambon", "quantity_person": 0.25, "unity": "tranche" },
+      {
+        "name": "pate_feuilletee",
         "quantity_person": 0.25,
         "unity": "portion"
       }
@@ -3764,18 +4112,20 @@
     "timing_preparation": 30,
     "cooking": 30,
     "ingredients": [
-      { "slug": "radis", "quantity_person": 120, "unity": "g" },
-      { "slug": "jambon", "quantity_person": 2, "unity": "tranche" },
-      { "slug": "beurre", "quantity_person": 10, "unity": "g" },
-      { "slug": "farine", "quantity_person": 12, "unity": "g" },
-      { "slug": "lait", "quantity_person": 100, "unity": "ml" },
-      { "slug": "gruyere_rape", "quantity_person": 20, "unity": "g" },
-      { "slug": "muscade", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
-    ],
-    "ingredients_remplacement": [
-      { "slug": "navet", "quantity_person": 120, "unity": "g" }
+      {
+        "id": "69ca310ba3490a666cf5696a",
+        "name": "radis",
+        "quantity_person": 120,
+        "unity": "g"
+      },
+      { "name": "jambon", "quantity_person": 2, "unity": "tranche" },
+      { "name": "beurre", "quantity_person": 10, "unity": "g" },
+      { "name": "farine", "quantity_person": 12, "unity": "g" },
+      { "name": "lait", "quantity_person": 100, "unity": "ml" },
+      { "name": "gruyere_rape", "quantity_person": 20, "unity": "g" },
+      { "name": "muscade", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Préchauffer le four à 200°C.",
@@ -3797,35 +4147,57 @@
     "timing_preparation": 30,
     "cooking": 35,
     "ingredients": [
-      { "slug": "riz", "quantity_person": 100, "unity": "g" },
-      { "slug": "courgette", "quantity_person": 50, "unity": "g" },
+      { "name": "riz", "quantity_person": 100, "unity": "g" },
       {
-        "slug": "pointes_asperges",
+        "id": "69c50e6182ec35e93235e41e",
+        "name": "courgette",
         "quantity_person": 50,
         "unity": "g"
       },
-      { "slug": "petits_pois", "quantity_person": 50, "unity": "g" },
-      { "slug": "haricots_verts", "quantity_person": 50, "unity": "g" },
-      { "slug": "beurre", "quantity_person": 12, "unity": "g" },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
       {
-        "slug": "bouillon_volaille",
+        "id": "69c50e6182ec35e93235e407",
+        "name": "pointes_asperges",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      {
+        "id": "69c50e6182ec35e93235e430",
+        "name": "petits_pois",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      {
+        "id": "69c50e6182ec35e93235e426",
+        "name": "haricots_verts",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      { "name": "beurre", "quantity_person": 12, "unity": "g" },
+      {
+        "id": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "name": "bouillon_volaille",
         "quantity_person": 250,
         "unity": "ml"
       },
-      { "slug": "vin_blanc", "quantity_person": 25, "unity": "ml" },
+      { "name": "vin_blanc", "quantity_person": 25, "unity": "ml" },
       {
-        "slug": "concentre_tomates",
+        "id": "69c50e6182ec35e93235e43f",
+        "name": "concentre_tomates",
         "quantity_person": 0.5,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "basilic_hache",
+        "name": "basilic_hache",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Émincer l'oignon et le faire revenir dans le beurre dans une cocotte pendant 5 minutes.",
@@ -3848,29 +4220,45 @@
     "timing_preparation": 10,
     "cooking": 30,
     "ingredients": [
-      { "slug": "oignon", "quantity_person": 50, "unity": "g" },
-      { "slug": "beurre", "quantity_person": 10, "unity": "g" },
-      { "slug": "vin_rouge", "quantity_person": 25, "unity": "ml" },
       {
-        "slug": "bouillon_legumes",
+        "id": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      { "name": "beurre", "quantity_person": 10, "unity": "g" },
+      { "name": "vin_rouge", "quantity_person": 25, "unity": "ml" },
+      {
+        "name": "bouillon_legumes",
         "quantity_person": 250,
         "unity": "ml"
       },
-      { "slug": "radicchio", "quantity_person": 50, "unity": "g" },
-      { "slug": "riz_risotto", "quantity_person": 70, "unity": "g" },
       {
-        "slug": "brie_de_meaux",
+        "id": "69c50e6182ec35e93235e439",
+        "name": "radicchio",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      { "name": "riz_risotto", "quantity_person": 70, "unity": "g" },
+      {
+        "name": "brie_de_meaux",
         "quantity_person": 1,
         "unity": "portion"
       }
     ],
     "ingredients_remplacement": [
       {
-        "slug": "chicoree",
+        "id": "69c50e6182ec35e93235e415",
+        "name": "chicoree",
         "quantity_person": 50,
         "unity": "g"
       },
-      { "slug": "oignon-jeune", "quantity_person": 50, "unity": "g" }
+      {
+        "id": "69c50e6182ec35e93235e42c",
+        "name": "oignon-jeune",
+        "quantity_person": 50,
+        "unity": "g"
+      }
     ],
     "preparation": [
       "Étape 1: Émincer l'oignon.",
@@ -3893,37 +4281,43 @@
     "timing_preparation": 10,
     "cooking": 10,
     "ingredients": [
-      { "slug": "quinoa", "quantity_person": 50, "unity": "g" },
+      { "name": "quinoa", "quantity_person": 50, "unity": "g" },
       {
-        "slug": "betterave_cuite",
+        "id": "69c50e6182ec35e93235e40a",
+        "name": "betterave_cuite",
         "quantity_person": 1,
         "unity": "piece"
       },
-      { "slug": "feta", "quantity_person": 40, "unity": "g" },
-      { "slug": "mache", "quantity_person": 1, "unity": "poignee" },
-      { "slug": "noix", "quantity_person": 3, "unity": "piece" },
+      { "name": "feta", "quantity_person": 40, "unity": "g" },
       {
-        "slug": "ciboulette",
+        "id": "69c50e6182ec35e93235e428",
+        "name": "mache",
+        "quantity_person": 1,
+        "unity": "poignee"
+      },
+      { "name": "noix", "quantity_person": 3, "unity": "piece" },
+      {
+        "name": "ciboulette",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "huile_olive",
+        "name": "huile_olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "vinaigre_balsamique",
+        "name": "vinaigre_balsamique",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "moutarde_ancienne",
+        "name": "moutarde_ancienne",
         "quantity_person": 0.5,
         "unity": "cuillere_cafe"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Cuire le quinoa dans de l'eau bouillante environ 10 minutes puis égoutter et laisser tiédir.",
@@ -3946,39 +4340,40 @@
     "cooking": 0,
     "ingredients": [
       {
-        "slug": "chou_rouge",
+        "id": "69c50e6182ec35e93235e41c",
+        "name": "chou_rouge",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "slug": "sel",
+        "name": "sel",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "poivre",
+        "name": "poivre",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "vinaigre",
+        "name": "vinaigre",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
-      { "slug": "citron", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "ail", "quantity_person": 1, "unity": "gousse" },
+      { "name": "citron", "quantity_person": 0.25, "unity": "piece" },
+      { "id": "", "name": "ail", "quantity_person": 1, "unity": "gousse" },
       {
-        "slug": "huile_d_olive",
+        "name": "huile_d_olive",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "sucre",
+        "name": "sucre",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "mayonnaise",
+        "name": "mayonnaise",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       }
@@ -4002,43 +4397,44 @@
     "cooking": 5,
     "ingredients": [
       {
-        "slug": "chou_rouge",
+        "id": "69c50e6182ec35e93235e41c",
+        "name": "chou_rouge",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "roquefort", "quantity_person": 13, "unity": "g" },
+      { "name": "roquefort", "quantity_person": 13, "unity": "g" },
       {
-        "slug": "cerneau_noix",
+        "name": "cerneau_noix",
         "quantity_person": 1.5,
         "unity": "piece"
       },
       {
-        "slug": "huile_arachide",
+        "name": "huile_arachide",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "huile_noix",
+        "name": "huile_noix",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "vinaigre",
+        "name": "vinaigre",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "eau_de_vie",
+        "name": "eau_de_vie",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "sel",
+        "name": "sel",
         "quantity_person": 1,
         "unity": "piece"
       },
       {
-        "slug": "poivre",
+        "name": "poivre",
         "quantity_person": 1,
         "unity": "pincee"
       }
@@ -4060,33 +4456,48 @@
     "timing_preparation": 10,
     "cooking": 0,
     "ingredients": [
-      { "slug": "mache", "quantity_person": 60, "unity": "g" },
-      { "slug": "chevre_frais", "quantity_person": 40, "unity": "g" },
-      { "slug": "framboises", "quantity_person": 30, "unity": "g" },
-      { "slug": "myrtilles", "quantity_person": 30, "unity": "g" },
-      { "slug": "cerneaux_noix", "quantity_person": 15, "unity": "g" },
       {
-        "slug": "huile_olive",
+        "id": "69c50e6182ec35e93235e428",
+        "name": "mache",
+        "quantity_person": 60,
+        "unity": "g"
+      },
+      { "name": "chevre_frais", "quantity_person": 40, "unity": "g" },
+      {
+        "id": "69c50e6182ec35e93235e422",
+        "name": "framboises",
+        "quantity_person": 30,
+        "unity": "g"
+      },
+      {
+        "id": "69c50e6182ec35e93235e42a",
+        "name": "myrtilles",
+        "quantity_person": 30,
+        "unity": "g"
+      },
+      { "name": "cerneaux_noix", "quantity_person": 15, "unity": "g" },
+      {
+        "name": "huile_olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "vinaigre_cidre",
+        "name": "vinaigre_cidre",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "miel",
+        "name": "miel",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "moutarde",
+        "name": "moutarde",
         "quantity_person": 0.5,
         "unity": "cuillere_cafe"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Laver et essorer la mâche puis la disposer dans une assiette.",
@@ -4107,25 +4518,31 @@
     "timing_preparation": 5,
     "cooking": 0,
     "ingredients": [
-      { "slug": "mache", "quantity_person": 1.5, "unity": "poignee" },
       {
-        "slug": "tomates_cerises",
+        "id": "69c50e6182ec35e93235e428",
+        "name": "mache",
+        "quantity_person": 1.5,
+        "unity": "poignee"
+      },
+      {
+        "id": "69c50e6182ec35e93235e43f",
+        "name": "tomates_cerises",
         "quantity_person": 12,
         "unity": "piece"
       },
       {
-        "slug": "mozzarella",
+        "name": "mozzarella",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
-        "slug": "jambon_cru",
+        "name": "jambon_cru",
         "quantity_person": 1.5,
         "unity": "tranche"
       },
-      { "slug": "croutons", "quantity_person": 1, "unity": "poignee" },
+      { "nmame": "croutons", "quantity_person": 1, "unity": "poignee" },
       {
-        "slug": "vinaigrette",
+        "name": "vinaigrette",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       }
@@ -4149,16 +4566,26 @@
     "timing_preparation": 10,
     "cooking": 0,
     "ingredients": [
-      { "slug": "radis_noir", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "carotte", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "huile_olive", "quantity_person": 2.5, "unity": "ml" },
       {
-        "slug": "jus_de_citron",
+        "id": "69c50e6182ec35e93235e43b",
+        "name": "radis_noir",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "id": "69c50e6182ec35e93235e40d",
+        "name": "carotte",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      { "name": "huile_olive", "quantity_person": 2.5, "unity": "ml" },
+      {
+        "name": "jus_de_citron",
         "quantity_person": 1.25,
         "unity": "ml"
       },
-      { "slug": "sel", "quantity_person": 0.5, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 0.5, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 0.5, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 0.5, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Éplucher le radis noir et la carotte, puis les râper finement.",
@@ -4177,11 +4604,21 @@
     "timing_preparation": 5,
     "cooking": 0,
     "ingredients": [
-      { "slug": "tomate", "quantity_person": 100, "unity": "g" },
-      { "slug": "concombre", "quantity_person": 80, "unity": "g" },
-      { "slug": "huile_olive", "quantity_person": 5, "unity": "ml" },
-      { "slug": "jus_citron", "quantity_person": 5, "unity": "ml" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" }
+      {
+        "id": "69c50e6182ec35e93235e43f",
+        "name": "tomate",
+        "quantity_person": 100,
+        "unity": "g"
+      },
+      {
+        "id": "69c50e6182ec35e93235e41d",
+        "name": "concombre",
+        "quantity_person": 80,
+        "unity": "g"
+      },
+      { "name": "huile_olive", "quantity_person": 5, "unity": "ml" },
+      { "name": "jus_citron", "quantity_person": 5, "unity": "ml" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Coupez tomates et concombre en dés.",
@@ -4198,16 +4635,27 @@
     "timing_preparation": 5,
     "cooking": 15,
     "ingredients": [
-      { "slug": "salsifis", "quantity_person": 150, "unity": "g" },
-      { "slug": "beurre", "quantity_person": 10, "unity": "g" },
-      { "slug": "ail", "quantity_person": 0.5, "unity": "gousse" },
       {
-        "slug": "persil",
+        "id": "69c50e6182ec35e93235e43e",
+        "name": "salsifis",
+        "quantity_person": 150,
+        "unity": "g"
+      },
+      { "name": "beurre", "quantity_person": 10, "unity": "g" },
+      {
+        "id": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.5,
+        "unity": "gousse"
+      },
+      {
+        "id": "69c50e6182ec35e93235e42f",
+        "name": "persil",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Éplucher et couper les salsifis en bâtonnets.",
@@ -4227,34 +4675,41 @@
     "cooking": 45,
     "ingredients": [
       {
-        "slug": "saucisse_toulouse",
+        "name": "saucisse_toulouse",
         "quantity_person": 225,
         "unity": "g"
       },
       {
-        "slug": "haricots_verts",
+        "id": "69c50e6182ec35e93235e426",
+        "name": "haricots_verts",
         "quantity_person": 250,
         "unity": "g"
       },
       {
-        "slug": "pomme_de_terre",
+        "id": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 1.5,
         "unity": "piece"
       },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
       {
-        "slug": "bouillon_pot_au_feu",
+        "id": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "name": "bouillon_pot_au_feu",
         "quantity_person": 0.5,
         "unity": "cube"
       },
       {
-        "slug": "huile",
+        "name": "huile",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "eau", "quantity_person": 250, "unity": "ml" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "eau", "quantity_person": 250, "unity": "ml" }
     ],
     "preparation": [
       "Étape 1: Faire blanchir les haricots verts environ 10 minutes dans de l'eau bouillante puis égoutter.",
