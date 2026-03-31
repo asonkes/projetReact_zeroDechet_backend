@@ -57,7 +57,7 @@
       "Étape 1: Préchauffer le four à 170°C.",
       "Étape 2: Laver les asperges. Éplucher les asperges blanches à moitié et couper la base. Retirer les picots des asperges vertes et couper la base. Disposer sur une plaque de four recouverte de papier cuisson, arroser d’huile d’olive, saler et poivrer.",
       "Étape 3: Enfourner pour 15 minutes.",
-      "Étape 4: Cuire l'œuf dans une casserole d’eau bouillante salée pendant 6 minutes, refroidir et écaler.",
+      "Étape 4: Cuire l'œuf dans une casserole d’eau bouillante salée pendant 6 minutes, refroingredientir et écaler.",
       "Étape 5: Dans un verre mesureur, mixer l'œuf cuit avec la moutarde, l’ail râpé, le parmesan, monter la sauce à l’huile de pépins de raisin. Saler et poivrer.",
       "Étape 6: Vérifier la cuisson des asperges, les disposer dans un plat et napper de sauce. Décorer avec des copeaux de parmesan et du cerfeuil."
     ]
@@ -127,7 +127,7 @@
       "Étape 6: Incorporer la chair d'aubergine, le persil, le basilic et l'œuf battu.",
       "Étape 7: Mélanger et remplir les demi-aubergines, saupoudrer de gruyère râpé.",
       "Étape 8: Remettre au four 5-10 minutes dans le four chaud.",
-      "Étape 9: Laisser tiédir et servir chaud ou froid."
+      "Étape 9: Laisser tiédir et servir chaud ou froingredient."
     ]
   },
   {
@@ -316,7 +316,7 @@
     "name": "Cake aux myrtilles",
     "slug": "cake_aux_myrtilles",
     "category": "dessert",
-    "description": "Un cake moelleux aux myrtilles, parfumé à la menthe, facile et rapide à préparer.",
+    "description": "Un cake moelleux aux myrtilles, parfumé à la menthe, facile et rapingrediente à préparer.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 10,
@@ -412,13 +412,13 @@
       },
       {
         "ingredient": "69c50e6182ec35e93235e413",
-        "slug": "champignon",
+        "name": "champignon",
         "quantity_person": 50,
         "unity": "g"
       },
       {
         "ingredient": "69c50e6182ec35e93235e406",
-        "slug": "ail",
+        "name": "ail",
         "quantity_person": 0.25,
         "unity": "gousse"
       },
@@ -516,7 +516,7 @@
       },
       {
         "ingredient": "69c50e6182ec35e93235e406",
-        "slug": "ail",
+        "name": "ail",
         "quantity_person": 0.25,
         "unity": "gousse"
       },
@@ -585,7 +585,7 @@
     "name": "Chou blanc braisé au vinaigre",
     "slug": "chou_blanc_braise_vinaigre",
     "category": "entree",
-    "description": "Chou blanc doucement braisé au vinaigre avec un peu de sucre et de beurre pour un goût légèrement acidulé.",
+    "description": "Chou blanc doucement braisé au vinaigre avec un peu de sucre et de beurre pour un goût légèrement acingredientulé.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 10,
@@ -800,7 +800,7 @@
     "preparation": [
       "Étape 1: Faire bouillir un grand volume d'eau salée dans un fait-tout.",
       "Étape 2: Préparer les choux de Bruxelles en coupant le trognon et en enlevant les feuilles flétries.",
-      "Étape 3: Plonger les choux dans l'eau bouillante pendant 15 min. Égoutter et passer sous l'eau froide.",
+      "Étape 3: Plonger les choux dans l'eau bouillante pendant 15 min. Égoutter et passer sous l'eau froingrediente.",
       "Étape 4: Éplucher et ciseler l'oignon. Le faire revenir dans une sauteuse avec le beurre.",
       "Étape 5: Ajouter la moitié des choux et écraser avec un presse-purée, puis répéter avec l'autre moitié.",
       "Étape 6: Saler, poivrer, chauffer à feu doux 2 min, puis ajouter la crème fraîche.",
@@ -811,7 +811,7 @@
     "name": "Choux de Bruxelles aux lardons et champignons",
     "slug": "choux_bruxelles_lardons_champignons",
     "category": "plat",
-    "description": "Poêlée rapide de choux de Bruxelles avec lardons et champignons, relevée d'une touche de vinaigre balsamique.",
+    "description": "Poêlée rapingrediente de choux de Bruxelles avec lardons et champignons, relevée d'une touche de vinaigre balsamique.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 15,
@@ -1099,7 +1099,7 @@
     "name": "Clafoutis aux poires facile",
     "slug": "clafoutis_aux_poires_facile",
     "category": "dessert",
-    "description": "Clafoutis moelleux aux poires, parfumé à la cannelle, simple et rapide à réaliser.",
+    "description": "Clafoutis moelleux aux poires, parfumé à la cannelle, simple et rapingrediente à réaliser.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 15,
@@ -1147,7 +1147,12 @@
       { "name": "beurre", "quantity_person": 5, "unity": "g" },
       { "name": "farine", "quantity_person": 13, "unity": "g" },
       { "name": "sel", "quantity_person": 0.25, "unity": "pincee" },
-      { "id": "", "name": "cerise", "quantity_person": 75, "unity": "g" },
+      {
+        "ingredient": "",
+        "name": "cerise",
+        "quantity_person": 75,
+        "unity": "g"
+      },
       { "name": "oeuf", "quantity_person": 0.5, "unity": "piece" },
       { "name": "lait", "quantity_person": 30, "unity": "ml" },
       { "name": "sucre", "quantity_person": 8, "unity": "g" },
@@ -1166,14 +1171,14 @@
       "Étape 1: Préchauffer le four à 210°C. Laver, équeuter et éventuellement dénoyauter les cerises.",
       "Étape 2: Faire fondre le beurre dans une petite casserole. Mélanger la farine, le sucre, le sel et le sucre vanillé dans un bol. Incorporer l'œuf puis le lait progressivement en mélangeant. Ajouter le beurre fondu.",
       "Étape 3: Beurrer un petit plat, disposer les cerises et verser la pâte dessus. Cuire 10 min à 210°C, puis baisser à 180°C et cuire encore 20 min.",
-      "Étape 4: Servir froid ou tiède, saupoudré de sucre glace."
+      "Étape 4: Servir froingredient ou tiède, saupoudré de sucre glace."
     ]
   },
   {
     "name": "Clafoutis myrtilles-framboises",
     "slug": "clafoutis_myrtilles_framboises",
     "category": "dessert",
-    "description": "Un clafoutis moelleux aux myrtilles et framboises, simple et rapide à préparer.",
+    "description": "Un clafoutis moelleux aux myrtilles et framboises, simple et rapingrediente à préparer.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 15,
@@ -1195,13 +1200,13 @@
       { "name": "oeuf", "quantity_person": 1, "unity": "piece" },
       { "name": "lait", "quantity_person": 100, "unity": "ml" },
       {
-        "id": "69c50e6182ec35e93235e422",
+        "ingredient": "69c50e6182ec35e93235e422",
         "name": "framboise",
         "quantity_person": 38,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e42a",
+        "ingredient": "69c50e6182ec35e93235e42a",
         "name": "myrtille",
         "quantity_person": 38,
         "unity": "g"
@@ -1213,7 +1218,7 @@
       "Étape 3: Incorporer le lait, la crème et une pincée de sel.",
       "Étape 4: Beurrer un petit moule peu profond. Disposer les fruits lavés dans le moule.",
       "Étape 5: Verser la pâte sur les fruits et préchauffer le four à 180°C.",
-      "Étape 6: Enfourner le clafoutis et cuire 45 minutes. Vérifier que la pâte soit dorée et non liquide, ajuster le temps selon le jus des fruits."
+      "Étape 6: Enfourner le clafoutis et cuire 45 minutes. Vérifier que la pâte soit dorée et non liquingrediente, ajuster le temps selon le jus des fruits."
     ]
   },
   {
@@ -1221,20 +1226,20 @@
     "slug": "clafoutis_rhubarbe_groseille",
     "category": "dessert",
     "img": "",
-    "description": "Clafoutis fruité et légèrement acidulé à la rhubarbe et aux groseilles.",
+    "description": "Clafoutis fruité et légèrement acingredientulé à la rhubarbe et aux groseilles.",
     "price": 2,
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 45,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e43d",
+        "ingredient": "69c50e6182ec35e93235e43d",
         "name": "rhubarbe",
         "quantity_person": 50,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e424",
+        "ingredient": "69c50e6182ec35e93235e424",
         "name": "groseilles",
         "quantity_person": 34,
         "unity": "g"
@@ -1262,18 +1267,18 @@
     ]
   },
   {
-    "name": "Compote de pommes rapide",
-    "slug": "compote_pommes_rapide",
+    "name": "Compote de pommes rapingrediente",
+    "slug": "compote_pommes_rapingrediente",
     "category": "dessert",
     "img": "",
-    "description": "Compote sucrée simple et rapide.",
+    "description": "Compote sucrée simple et rapingrediente.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 15,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e435",
+        "ingredient": "69c50e6182ec35e93235e435",
         "name": "pomme",
         "quantity_person": 150,
         "unity": "g"
@@ -1301,7 +1306,7 @@
       { "name": "sucre", "quantity_person": 82, "unity": "g" },
       { "name": "vanille", "quantity_person": 0.25, "unity": "gousse" },
       {
-        "id": "69c50e6182ec35e93235e438",
+        "ingredient": "69c50e6182ec35e93235e438",
         "name": "prune",
         "quantity_person": 250,
         "unity": "g"
@@ -1313,7 +1318,7 @@
       "Étape 2: Dans une grande casserole, mélanger les prunes avec le sucre et la gousse de vanille fendue et grattée. Ajouter le jus du citron.",
       "Étape 3: Porter à ébullition puis laisser cuire doucement pendant 2h30 à 3h, en remuant régulièrement, jusqu'à obtenir la consistance désirée.",
       "Étape 4: Retirer la gousse de vanille et mettre la confiture en pots stérilisés.",
-      "Étape 5: Laisser refroidir et conserver dans un endroit frais."
+      "Étape 5: Laisser refroingredientir et conserver dans un endroit frais."
     ]
   },
   {
@@ -1327,13 +1332,13 @@
     "cooking": 30,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e40e",
+        "ingredient": "69c50e6182ec35e93235e40e",
         "name": "cassis",
         "quantity_person": 100,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e43d",
+        "ingredient": "69c50e6182ec35e93235e43d",
         "name": "rhubarbe",
         "quantity_person": 63,
         "unity": "g"
@@ -1349,14 +1354,14 @@
       "Étape 5: Passer les cassis au moulin pour extraire le jus, cuire avec le sucre 10 min à feu doux.",
       "Étape 6: Ajouter la rhubarbe dans le sirop de cassis et porter à ébullition.",
       "Étape 7: Retirer du feu, écumer et vérifier la consistance.",
-      "Étape 8: Mettre en pots et laisser refroidir."
+      "Étape 8: Mettre en pots et laisser refroingredientir."
     ]
   },
   {
     "name": "Confiture de cerises parfumée à la vanille",
     "slug": "confiture_cerises_vanille",
     "category": "dessert",
-    "description": "Confiture douce et parfumée aux cerises et à la vanille, légèrement acidulée par le citron.",
+    "description": "Confiture douce et parfumée aux cerises et à la vanille, légèrement acingredientulée par le citron.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 20,
@@ -1369,7 +1374,7 @@
         "unity": "gousse"
       },
       {
-        "id": "69c50e6182ec35e93235e412",
+        "ingredient": "69c50e6182ec35e93235e412",
         "name": "cerise",
         "quantity_person": 250,
         "unity": "g"
@@ -1390,14 +1395,14 @@
     "slug": "confiture_rhubarbe_vanille",
     "category": "dessert",
     "img": "",
-    "description": "Confiture maison de rhubarbe parfumée à la vanille, légèrement acidulée.",
+    "description": "Confiture maison de rhubarbe parfumée à la vanille, légèrement acingredientulée.",
     "price": 2,
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 45,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e43d",
+        "ingredient": "69c50e6182ec35e93235e43d",
         "name": "rhubarbe",
         "quantity_person": 250,
         "unity": "g"
@@ -1426,7 +1431,7 @@
     "cooking": 30,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e40b",
+        "ingredient": "69c50e6182ec35e93235e40b",
         "name": "blette",
         "quantity_person": 200,
         "unity": "g"
@@ -1438,13 +1443,13 @@
       },
       { "name": "lait", "quantity_person": 250, "unity": "ml" },
       {
-        "id": "69c50e6182ec35e93235e406",
+        "ingredient": "69c50e6182ec35e93235e406",
         "name": "ail",
         "quantity_person": 0.5,
         "unity": "gousse"
       },
       {
-        "id": "69c50e6182ec35e93235e42f",
+        "ingredient": "69c50e6182ec35e93235e42f",
         "name": "persil",
         "quantity_person": "au goût",
         "unity": "feuille"
@@ -1459,7 +1464,7 @@
       "Étape 2: Les cuire dans l'eau bouillante environ 20 minutes puis bien les égoutter.",
       "Étape 3: Faire chauffer la matière grasse dans une poêle et faire revenir les blettes avec l'ail et le persil hachés. Saler et poivrer.",
       "Étape 4: Saupoudrer la farine, mélanger et cuire 1 minute à feu doux.",
-      "Étape 5: Verser le lait froid d'un coup en mélangeant jusqu'à obtenir une béchamel légère.",
+      "Étape 5: Verser le lait froingredient d'un coup en mélangeant jusqu'à obtenir une béchamel légère.",
       "Étape 6: Servir chaud accompagné d'un œuf dur."
     ]
   },
@@ -1484,13 +1489,13 @@
       },
       { "name": "boeuf", "quantity_person": 450, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e436",
+        "ingredient": "69c50e6182ec35e93235e436",
         "name": "pomme_de_terre",
         "quantity_person": 3,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e411",
+        "ingredient": "69c50e6182ec35e93235e411",
         "name": "cerfeuil",
         "quantity_person": 1,
         "unity": "brin"
@@ -1519,7 +1524,7 @@
     "cooking": 20,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e43f",
+        "ingredient": "69c50e6182ec35e93235e43f",
         "name": "tomate",
         "quantity_person": 1.5,
         "unity": "piece"
@@ -1540,7 +1545,7 @@
         "unity": "pincee"
       },
       {
-        "id": "69c50e6182ec35e93235e406",
+        "ingredient": "69c50e6182ec35e93235e406",
         "name": "ail",
         "quantity_person": 0.5,
         "unity": "gousse"
@@ -1579,13 +1584,13 @@
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e435",
+        "ingredient": "69c50e6182ec35e93235e435",
         "name": "pomme",
         "quantity_person": 1,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e438",
+        "ingredient": "69c50e6182ec35e93235e438",
         "name": "prune",
         "quantity_person": 1,
         "unity": "piece"
@@ -1601,11 +1606,11 @@
       "Étape 2: Ôter le noyau de la prune et la couper en carrés.",
       "Étape 3: Disposer les fruits dans un petit plat à gratin avec le sucre semoule, les grains de vanille et la cannelle. Bien mélanger.",
       "Étape 4: Préchauffer le four à 180°C (thermostat 6).",
-      "Étape 5: Préparer le crumble : mélanger le sucre cristal, la farine et le beurre demi-sel bien froid coupé en petits carrés pour obtenir des grumeaux.",
+      "Étape 5: Préparer le crumble : mélanger le sucre cristal, la farine et le beurre demi-sel bien froingredient coupé en petits carrés pour obtenir des grumeaux.",
       "Étape 6: Répartir le crumble sur les fruits, recouvrant complètement le dessus.",
       "Étape 7: Étape 1: Mettre au four 30 à 45 min jusqu'à ce que le dessus soit doré.",
       "Étape 8: Servir tiède, éventuellement avec une boule de glace vanille.",
-      "Étape 8: Peut aussi être servi dans un petit plat individuel, surveiller la cuisson."
+      "Étape 8: Peut aussi être servi dans un petit plat indivingredientuel, surveiller la cuisson."
     ]
   },
   {
@@ -1620,13 +1625,13 @@
     "cooking": 30,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e43d",
+        "ingredient": "69c50e6182ec35e93235e43d",
         "name": "rhubarbe",
         "quantity_person": 125,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e435",
+        "ingredient": "69c50e6182ec35e93235e435",
         "name": "pomme",
         "quantity_person": 0.25,
         "unity": "g"
@@ -1662,25 +1667,25 @@
     "cooking": 120,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e434",
+        "ingredient": "69c50e6182ec35e93235e434",
         "name": "poivron",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e409",
+        "ingredient": "69c50e6182ec35e93235e409",
         "name": "aubergine",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e40d",
+        "ingredient": "69c50e6182ec35e93235e40d",
         "name": "carotte",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -1696,7 +1701,7 @@
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e406",
+        "ingredient": "69c50e6182ec35e93235e406",
         "name": "ail",
         "quantity_person": 1,
         "unity": "gousse"
@@ -1717,7 +1722,7 @@
     ],
     "ingredients_remplacement": [
       {
-        "id": "69c50e6182ec35e93235e41e",
+        "ingredient": "69c50e6182ec35e93235e41e",
         "name": "courgette",
         "quantity_person": 0.0625,
         "unity": "piece"
@@ -1748,13 +1753,13 @@
         "unity": "pincee"
       },
       {
-        "id": "69c50e6182ec35e93235e41f",
+        "ingredient": "69c50e6182ec35e93235e41f",
         "name": "epinards",
         "quantity_person": 200,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e43c",
+        "ingredient": "69c50e6182ec35e93235e43c",
         "name": "raisin",
         "quantity_person": 10,
         "unity": "g"
@@ -1763,7 +1768,7 @@
     ],
     "preparation": [
       "Étape 1: Tremper les raisins dans de l'eau tiède et griller les pignons à sec dans une poêle.",
-      "Étape 2: Faire fondre le beurre dans une sauteuse avec un peu de sel. Ajouter les épinards et laisser fondre en remuant avec une fourchette. Ôter du feu lorsque le liquide est évaporé.",
+      "Étape 2: Faire fondre le beurre dans une sauteuse avec un peu de sel. Ajouter les épinards et laisser fondre en remuant avec une fourchette. Ôter du feu lorsque le liquingrediente est évaporé.",
       "Étape 3: Égoutter les raisins et les ajouter aux épinards. Poursuivre la cuisson quelques minutes puis saupoudrer de pignons. Mélanger et servir."
     ]
   },
@@ -1778,13 +1783,13 @@
     "cooking": 20,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e407",
+        "ingredient": "69c50e6182ec35e93235e407",
         "name": "asperge_blanche",
         "quantity_person": 6,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e408",
+        "ingredient": "69c50e6182ec35e93235e408",
         "name": "asperge_verte",
         "quantity_person": 6,
         "unity": "piece"
@@ -1808,7 +1813,7 @@
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       { "name": "tofu_fume", "quantity_person": 150, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 2,
         "unity": "piece"
@@ -1828,7 +1833,7 @@
     "preparation": [
       "Étape 1: Faire bouillir 1 litre d'eau avec du gros sel et laver et éplucher les asperges blanches.",
       "Étape 2: Plonger les asperges blanches pendant 12 minutes dans l'eau bouillante. Ajouter le cube de bouillon de légumes.",
-      "Étape 3: Égoutter les asperges en conservant un peu de bouillon, mixer et laisser refroidir.",
+      "Étape 3: Égoutter les asperges en conservant un peu de bouillon, mixer et laisser refroingredientir.",
       "Étape 4: Poêler les asperges vertes avec le beurre et les oignons.",
       "Étape 5: Découper le tofu fumé en petits cubes et le griller avec l'huile d'olive.",
       "Étape 6: Préparer la vinaigrette en mélangeant l'huile de sésame, le vinaigre de riz et la pâte miso.",
@@ -1840,21 +1845,21 @@
     "name": "Gaspacho de betterave rouge",
     "slug": "gaspacho_betterave",
     "category": "entree",
-    "description": "Soupe froide de betterave rouge, relevée d’ail et vinaigre, à servir bien fraîche.",
+    "description": "Soupe froingrediente de betterave rouge, relevée d’ail et vinaigre, à servir bien fraîche.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 120,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e40a",
+        "ingredient": "69c50e6182ec35e93235e40a",
         "name": "betterave_rouge",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       { "name": "eau", "quantity_person": 250, "unity": "ml" },
       {
-        "id": "69c50e6182ec35e93235e406",
+        "ingredient": "69c50e6182ec35e93235e406",
         "name": "ail",
         "quantity_person": 0.5,
         "unity": "gousse"
@@ -1884,7 +1889,7 @@
     "slug": "gateau_aux_prunes",
     "category": "dessert",
     "img": "",
-    "description": "Gâteau moelleux aux prunes, simple et rapide.",
+    "description": "Gâteau moelleux aux prunes, simple et rapingrediente.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 20,
@@ -1907,7 +1912,7 @@
       { "name": "oeuf", "quantity_person": 0.33, "unity": "piece" },
       { "name": "margarine", "quantity_person": 20, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e438",
+        "ingredient": "69c50e6182ec35e93235e438",
         "name": "prune",
         "quantity_person": 84,
         "unity": "g"
@@ -1934,7 +1939,7 @@
     "cooking": 30,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e43d",
+        "ingredient": "69c50e6182ec35e93235e43d",
         "name": "rhubarbe",
         "quantity_person": 167,
         "unity": "g"
@@ -1969,7 +1974,7 @@
     "cooking": 25,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e437",
+        "ingredient": "69c50e6182ec35e93235e437",
         "name": "potiron",
         "quantity_person": 50,
         "unity": "g"
@@ -2010,7 +2015,7 @@
     "cooking": 20,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e429",
+        "ingredient": "69c50e6182ec35e93235e429",
         "name": "mure",
         "quantity_person": 330,
         "unity": "g"
@@ -2026,10 +2031,10 @@
     "preparation": [
       "Étape 1: Laver les mûres et les mettre dans une grande casserole avec l'eau. Porter à ébullition et laisser cuire 10 min.",
       "Étape 2: Passer les mûres au tamis ou dans un chinois pour récupérer le jus.",
-      "Étape 3: Peser le jus obtenu et ajouter un poids équivalent de sucre.",
+      "Étape 3: Peser le jus obtenu et ajouter un poingredients équivalent de sucre.",
       "Étape 4: Ajouter un peu de gingembre frais râpé ou du citron selon le goût.",
       "Étape 5: Faire cuire à feu vif jusqu'à ce que la gelée épaississe (environ 10 min).",
-      "Étape 6: Verser la gelée encore chaude dans des pots stérilisés et fermer hermétiquement. Laisser refroidir avant de consommer."
+      "Étape 6: Verser la gelée encore chaude dans des pots stérilisés et fermer hermétiquement. Laisser refroingredientir avant de consommer."
     ]
   },
   {
@@ -2044,7 +2049,7 @@
     "cooking": 30,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e423",
+        "ingredient": "69c50e6182ec35e93235e423",
         "name": "groseilles",
         "quantity_person": 250,
         "unity": "g"
@@ -2054,10 +2059,10 @@
     "preparation": [
       "Étape 1: Laver les groseilles et retirer les tiges.",
       "Étape 2: Mettre les groseilles dans une casserole et chauffer doucement pour faire éclater les fruits.",
-      "Étape 3: Filtrer le jus obtenu à l'aide d'une passoire ou d'un linge propre.",
+      "Étape 3: Filtrer le jus obtenu à l'aingrediente d'une passoire ou d'un linge propre.",
       "Étape 4: Peser le jus et ajouter la même quantité de sucre.",
       "Étape 5: Porter à ébullition et cuire environ 10 à 15 minutes en remuant.",
-      "Étape 6: Verser la gelée chaude dans des pots propres et laisser refroidir."
+      "Étape 6: Verser la gelée chaude dans des pots propres et laisser refroingredientir."
     ]
   },
   {
@@ -2072,13 +2077,13 @@
     "cooking": 15,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e424",
+        "ingredient": "69c50e6182ec35e93235e424",
         "name": "groseille_a_maquereaux",
         "quantity_person": 140,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e422",
+        "ingredient": "69c50e6182ec35e93235e422",
         "name": "framboise",
         "quantity_person": 60,
         "unity": "g"
@@ -2097,7 +2102,7 @@
     "slug": "glace_aux_prunes",
     "category": "dessert",
     "img": "",
-    "description": "Glace maison aux prunes, simple et rapide.",
+    "description": "Glace maison aux prunes, simple et rapingrediente.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 20,
@@ -2105,7 +2110,7 @@
     "ingredients": [
       { "name": "sucre", "quantity_person": 13, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e438",
+        "ingredient": "69c50e6182ec35e93235e438",
         "name": "prune",
         "quantity_person": 50,
         "unity": "g"
@@ -2116,7 +2121,7 @@
         "unity": "cuillere_soupe"
       },
       {
-        "name": "creme_liquide",
+        "name": "creme_liquingrediente",
         "quantity_person": 80,
         "unity": "ml"
       },
@@ -2128,7 +2133,7 @@
     ],
     "preparation": [
       "Étape 1: Laver puis ouvrir les prunes, les dénoyauter et les arroser de jus de citron. Ajouter le sucre et passer le tout au mixeur. Placer la purée de fruits au congélateur.",
-      "Étape 2: Faire bouillir 10 cl de crème avec le sucre vanillé, puis faire refroidir au bain-marie froid. Mélanger cette crème avec la purée de prunes. Fouetter la crème restante et l'incorporer au mélange.",
+      "Étape 2: Faire bouillir 10 cl de crème avec le sucre vanillé, puis faire refroingredientir au bain-marie froingredient. Mélanger cette crème avec la purée de prunes. Fouetter la crème restante et l'incorporer au mélange.",
       "Étape 3: Verser la préparation dans un récipient plat et placer au congélateur pendant 6 à 7 heures, en remuant plusieurs fois pendant la congélation."
     ]
   },
@@ -2136,7 +2141,7 @@
     "name": "Glace au cassis",
     "slug": "glace_cassis",
     "category": "dessert",
-    "description": "Glace onctueuse au cassis, simple et rapide à préparer.",
+    "description": "Glace onctueuse au cassis, simple et rapingrediente à préparer.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 25,
@@ -2145,7 +2150,7 @@
       { "name": "sucre", "quantity_person": 50, "unity": "g" },
       { "name": "creme_fraiche", "quantity_person": 17, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e40e",
+        "ingredient": "69c50e6182ec35e93235e40e",
         "name": "cassis",
         "quantity_person": 67,
         "unity": "g"
@@ -2169,7 +2174,12 @@
     "timing_preparation": 30,
     "cooking": 0,
     "ingredients": [
-      { "id": "", "name": "fraises", "quantity_person": 100, "unity": "g" },
+      {
+        "ingredient": "",
+        "name": "fraises",
+        "quantity_person": 100,
+        "unity": "g"
+      },
       { "name": "sucre", "quantity_person": 25, "unity": "g" },
       {
         "name": "creme_fleurette",
@@ -2193,14 +2203,14 @@
     "slug": "glace_mures",
     "category": "dessert",
     "img": "",
-    "description": "Une glace simple, crémeuse et fruitée à base de mûres, rapide à préparer.",
+    "description": "Une glace simple, crémeuse et fruitée à base de mûres, rapingrediente à préparer.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 15,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e429",
+        "ingredient": "69c50e6182ec35e93235e429",
         "name": "mures",
         "quantity_person": 100,
         "unity": "g"
@@ -2218,7 +2228,7 @@
       "Étape 3: Remettre la purée de fruits à chauffer avec le sucre et porter à ébullition.",
       "Étape 4: Maintenir à feu doux pendant 10 minutes en remuant constamment.",
       "Étape 5: Laisser tiédir avant d'incorporer la crème.",
-      "Étape 6: Faire prendre au congélateur ou en sorbetière après complet refroidissement.",
+      "Étape 6: Faire prendre au congélateur ou en sorbetière après complet refroingredientissement.",
       "Étape 7: Servir bien frais. Inratable."
     ]
   },
@@ -2233,20 +2243,20 @@
     "cooking": 30,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e425",
+        "ingredient": "69c50e6182ec35e93235e425",
         "name": "haricots_verts",
         "quantity_person": 150,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e40c",
+        "ingredient": "69c50e6182ec35e93235e40c",
         "name": "brocoli",
         "quantity_person": 100,
         "unity": "g"
       },
       { "name": "lardons_fumes", "quantity_person": 34, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 17,
         "unity": "g"
@@ -2282,19 +2292,19 @@
     "cooking": 15,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e40d",
+        "ingredient": "69c50e6182ec35e93235e40d",
         "name": "carotte",
         "quantity_person": 250,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e42e",
+        "ingredient": "69c50e6182ec35e93235e42e",
         "name": "patate_douce",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 0.5,
         "unity": "piece"
@@ -2335,7 +2345,7 @@
     "cooking": 30,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e41a",
+        "ingredient": "69c50e6182ec35e93235e41a",
         "name": "chou_fleur",
         "quantity_person": 250,
         "unity": "g"
@@ -2379,7 +2389,7 @@
     "cooking": 35,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e419",
+        "ingredient": "69c50e6182ec35e93235e419",
         "name": "chou_de_milan",
         "quantity_person": 150,
         "unity": "g"
@@ -2412,7 +2422,7 @@
     "cooking": 10,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e420",
+        "ingredient": "69c50e6182ec35e93235e420",
         "name": "fenouil",
         "quantity_person": 1,
         "unity": "piece"
@@ -2441,7 +2451,7 @@
       "Étape 4: Ajouter une partie du lait et poursuivre légèrement la cuisson",
       "Étape 5: Disposer le fenouil dans un petit plat à gratin.",
       "Étape 6: Préparer une béchamel en mélangeant le reste du beurre et la farine.",
-      "Étape 7: Ajouter progressivement un peu de liquide de cuisson pour obtenir une sauce épaisse.",
+      "Étape 7: Ajouter progressivement un peu de liquingrediente de cuisson pour obtenir une sauce épaisse.",
       "Étape 8: Napper le fenouil avec la béchamel, assaisonner.",
       "Étape 9: Ajouter le gruyère râpé et gratiner au four 5 à 10 minutes."
     ]
@@ -2458,25 +2468,25 @@
     "cooking": 40,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e42d",
+        "ingredient": "69c50e6182ec35e93235e42d",
         "name": "panais",
         "quantity_person": 84,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e433",
+        "ingredient": "69c50e6182ec35e93235e433",
         "name": "poireau",
         "quantity_person": 84,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e40d",
+        "ingredient": "69c50e6182ec35e93235e40d",
         "name": "carotte",
         "quantity_person": 84,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e436",
+        "ingredient": "69c50e6182ec35e93235e436",
         "name": "pomme_de_terre",
         "quantity_person": 84,
         "unity": "g"
@@ -2498,7 +2508,7 @@
     ],
     "ingredients_remplacement": [
       {
-        "id": "69c50e6182ec35e93235e42e",
+        "ingredient": "69c50e6182ec35e93235e42e",
         "name": "patate_douce",
         "quantity_person": 100,
         "unity": "g"
@@ -2507,7 +2517,7 @@
     "preparation": [
       "Étape 1: Préchauffer le four à 200°C (thermostat 6-7).",
       "Étape 2: Éplucher et couper les pommes de terre, panais et carottes en rondelles.",
-      "Étape 3: Les plonger 5 min dans de l'eau bouillante salée, refroidir et égoutter.",
+      "Étape 3: Les plonger 5 min dans de l'eau bouillante salée, refroingredientir et égoutter.",
       "Étape 4: Faire revenir les poireaux coupés dans l'huile d'olive.",
       "Étape 5: Mélanger la crème, la moutarde, la cannelle, le sel et le poivre, puis incorporer tous les légumes.",
       "Étape 6: Répartir dans des ramequins beurrés et saupoudrer de parmesan râpé.",
@@ -2525,13 +2535,13 @@
     "cooking": 30,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e436",
+        "ingredient": "69c50e6182ec35e93235e436",
         "name": "pomme_de_terre",
         "quantity_person": 150,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e41a",
+        "ingredient": "69c50e6182ec35e93235e41a",
         "name": "chou_fleur",
         "quantity_person": 150,
         "unity": "g"
@@ -2562,27 +2572,27 @@
     "cooking": 40,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       { "name": "gruyere_rape", "quantity_person": 25, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e410",
+        "ingredient": "69c50e6182ec35e93235e410",
         "name": "celeri_rave",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e436",
+        "ingredient": "69c50e6182ec35e93235e436",
         "name": "pomme_de_terre",
         "quantity_person": 2,
         "unity": "piece"
       },
       { "name": "lardons_fumes", "quantity_person": 34, "unity": "g" },
       {
-        "name": "creme_liquide",
+        "name": "creme_liquingrediente",
         "quantity_person": 50,
         "unity": "ml"
       },
@@ -2611,28 +2621,48 @@
     "timing_preparation": 30,
     "cooking": 35,
     "ingredients": [
-      { "id": "", "name": "potiron", "quantity_person": 330, "unity": "g" },
+      {
+        "ingredient": "",
+        "name": "potiron",
+        "quantity_person": 330,
+        "unity": "g"
+      },
       { "name": "steak_hache", "quantity_person": 84, "unity": "g" },
       { "name": "lard_fume", "quantity_person": 25, "unity": "g" },
       { "name": "beurre", "quantity_person": 17, "unity": "g" },
       { "name": "parmesan", "quantity_person": 14, "unity": "g" },
-      { "id": "", "name": "oignon", "quantity_person": 0.5, "unity": "piece" },
-      { "id": "", "name": "ail", "quantity_person": 0.5, "unity": "gousse" },
-      { "id": "", "name": "persil", "quantity_person": 1, "unity": "bouquet" },
+      {
+        "ingredient": "",
+        "name": "oignon",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "",
+        "name": "ail",
+        "quantity_person": 0.5,
+        "unity": "gousse"
+      },
+      {
+        "ingredient": "",
+        "name": "persil",
+        "quantity_person": 1,
+        "unity": "bouquet"
+      },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       { "name": "muscade", "quantity_person": 1, "unity": "pincee" }
     ],
     "ingredients_remplacement": [
       {
-        "id": "69c50e6182ec35e93235e42d",
+        "ingredient": "69c50e6182ec35e93235e42d",
         "name": "panais",
         "quantity_person": 330,
         "unity": "g"
       },
       { "name": "saucisse", "quantity_person": 84, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e42c",
+        "ingredient": "69c50e6182ec35e93235e42c",
         "name": "oignon-jeune",
         "quantity_person": 0.5,
         "unity": "piece"
@@ -2661,7 +2691,7 @@
     "cooking": 25,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e43e",
+        "ingredient": "69c50e6182ec35e93235e43e",
         "name": "salsifis",
         "quantity_person": 150,
         "unity": "g"
@@ -2694,13 +2724,18 @@
     "cooking": 15,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e426",
+        "ingredient": "69c50e6182ec35e93235e426",
         "name": "haricots_verts",
         "quantity_person": 200,
         "unity": "g"
       },
       { "name": "lardons", "quantity_person": 50, "unity": "g" },
-      { "id": "", "name": "ail", "quantity_person": 0.25, "unity": "gousse" },
+      {
+        "ingredient": "",
+        "name": "ail",
+        "quantity_person": 0.25,
+        "unity": "gousse"
+      },
       { "name": "beurre", "quantity_person": 3, "unity": "g" },
       { "name": "jaune_oeuf", "quantity_person": 0.5, "unity": "piece" },
       {
@@ -2721,7 +2756,7 @@
       "Étape 2: Dans une poêle, faire revenir l'ail haché et les lardons dans le beurre.",
       "Étape 3: Ajouter les haricots verts et bien mélanger.",
       "Étape 4: Dans un bol, battre le jaune d'œuf, la crème fraîche et la moitié du parmesan.",
-      "Étape 5: Verser la sauce sur les haricots hors du feu et mélanger rapidement.",
+      "Étape 5: Verser la sauce sur les haricots hors du feu et mélanger rapingredientement.",
       "Étape 6: Saler, poivrer et saupoudrer du reste de parmesan avant de servir."
     ]
   },
@@ -2736,25 +2771,25 @@
     "cooking": 20,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e40d",
+        "ingredient": "69c50e6182ec35e93235e40d",
         "name": "carotte",
         "quantity_person": 2,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 1,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e427",
+        "ingredient": "69c50e6182ec35e93235e427",
         "name": "laitue_romaine",
         "quantity_person": 0.55,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e430",
+        "ingredient": "69c50e6182ec35e93235e430",
         "name": "petits_pois",
         "quantity_person": 75,
         "unity": "g"
@@ -2762,7 +2797,7 @@
       { "name": "beurre", "quantity_person": 5, "unity": "g" },
       { "name": "bouillon", "quantity_person": 100, "unity": "ml" },
       {
-        "id": "69c50e6182ec35e93235e42f",
+        "ingredient": "69c50e6182ec35e93235e42f",
         "name": "persil",
         "quantity_person": "au goût",
         "unity": "feuille"
@@ -2775,27 +2810,27 @@
       "Étape 2: Faire revenir l'oignon émincé dans le beurre puis ajouter la laitue et les carottes. Saler et poivrer.",
       "Étape 3: Couvrir avec le bouillon et cuire environ 10 minutes.",
       "Étape 4: Ajouter les petits pois et poursuivre la cuisson 10 minutes.",
-      "Étape 5: Égoutter l'excédent de liquide et saupoudrer de persil avant de servir."
+      "Étape 5: Égoutter l'excédent de liquingrediente et saupoudrer de persil avant de servir."
     ]
   },
   {
     "name": "Lasagnes aux épinards",
     "slug": "lasagnes_epinards",
     "category": "plat",
-    "description": "Lasagnes crémeuses aux épinards frais, simples et rapides à préparer pour 1 personne.",
+    "description": "Lasagnes crémeuses aux épinards frais, simples et rapingredientes à préparer pour 1 personne.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 30,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e41f",
+        "ingredient": "69c50e6182ec35e93235e41f",
         "name": "epinards",
         "quantity_person": 100,
         "unity": "g"
       },
       {
-        "name": "creme_liquide",
+        "name": "creme_liquingrediente",
         "quantity_person": 100,
         "unity": "ml"
       },
@@ -2832,13 +2867,13 @@
     "cooking": 10,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e409",
+        "ingredient": "69c50e6182ec35e93235e409",
         "name": "aubergine",
         "quantity_person": 200,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 1,
         "unity": "piece"
@@ -2850,7 +2885,7 @@
         "unity": "cuillere_soupe"
       },
       {
-        "id": "69c50e6182ec35e93235e43f",
+        "ingredient": "69c50e6182ec35e93235e43f",
         "name": "tomate",
         "quantity_person": 150,
         "unity": "g"
@@ -2867,7 +2902,7 @@
       { "name": "muscade", "quantity_person": 1, "unity": "pincee" },
       { "name": "epaule_agneau", "quantity_person": 120, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e406",
+        "ingredient": "69c50e6182ec35e93235e406",
         "name": "ail",
         "quantity_person": 0.5,
         "unity": "gousse"
@@ -2894,7 +2929,7 @@
     "name": "Muffins au cassis",
     "slug": "muffins_cassis",
     "category": "dessert",
-    "description": "Muffins moelleux au cassis, simples et rapides à préparer.",
+    "description": "Muffins moelleux au cassis, simples et rapingredientes à préparer.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 20,
@@ -2916,7 +2951,7 @@
         "unity": "cuillere_cafe"
       },
       {
-        "id": "69c50e6182ec35e93235e40e",
+        "ingredient": "69c50e6182ec35e93235e40e",
         "name": "cassis",
         "quantity_person": 50,
         "unity": "g"
@@ -2925,7 +2960,7 @@
     "preparation": [
       "Étape 1: Fouetter le beurre ramolli et le sucre pour créer une crème. Ajouter les œufs, le jus de citron et le fromage blanc, mélanger pour obtenir une préparation lisse.",
       "Étape 2: Mélanger la farine et la levure chimique dans un autre bol.",
-      "Étape 3: Incorporer la préparation liquide aux ingrédients secs et mélanger.",
+      "Étape 3: Incorporer la préparation liquingrediente aux ingrédients secs et mélanger.",
       "Étape 4: Ajouter les cassis délicatement à la spatule.",
       "Étape 5: Verser la pâte dans un moule à muffins.",
       "Étape 6: Cuire 35 minutes à 180°C (thermostat 6)."
@@ -2947,7 +2982,7 @@
         "unity": "ml"
       },
       {
-        "id": "69c50e6182ec35e93235e412",
+        "ingredient": "69c50e6182ec35e93235e412",
         "name": "cerise",
         "quantity_person": 125,
         "unity": "g"
@@ -2957,7 +2992,7 @@
     ],
     "preparation": [
       "Étape 1: Dénoyauter les cerises et presser le quart de citron.",
-      "Étape 2: Mixer les cerises avec le jus de citron et le sucre glace jusqu'à obtenir une crème liquide homogène.",
+      "Étape 2: Mixer les cerises avec le jus de citron et le sucre glace jusqu'à obtenir une crème liquingrediente homogène.",
       "Étape 3: Battre la crème fraîche en chantilly et incorporer délicatement la purée de cerises.",
       "Étape 4: Verser dans un moule ou verrine et décorer à votre goût.",
       "Étape 5: Placer au congélateur pendant environ 3 heures avant de servir."
@@ -2975,7 +3010,7 @@
     "cooking": 5,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e423",
+        "ingredient": "69c50e6182ec35e93235e423",
         "name": "groseilles",
         "quantity_person": 120,
         "unity": "g"
@@ -2989,7 +3024,7 @@
       { "name": "gelatine", "quantity_person": 1, "unity": "piece" }
     ],
     "preparation": [
-      "Étape 1: Faire tremper la gélatine dans de l'eau froide.",
+      "Étape 1: Faire tremper la gélatine dans de l'eau froingrediente.",
       "Étape 2: Laver les groseilles puis les faire chauffer quelques minutes dans une casserole.",
       "Étape 3: Mixer et filtrer pour obtenir un coulis.",
       "Étape 4: Chauffer légèrement une partie du coulis et y dissoudre la gélatine essorée.",
@@ -3003,7 +3038,7 @@
     "slug": "muffins_groseilles",
     "category": "dessert",
     "img": "",
-    "description": "Petits muffins moelleux aux groseilles, faciles et rapides à préparer.",
+    "description": "Petits muffins moelleux aux groseilles, faciles et rapingredientes à préparer.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 10,
@@ -3014,7 +3049,7 @@
       { "name": "levure_chimique", "quantity_person": 1, "unity": "g" },
       { "name": "huile", "quantity_person": 15, "unity": "ml" },
       {
-        "id": "69c50e6182ec35e93235e423",
+        "ingredient": "69c50e6182ec35e93235e423",
         "name": "groseilles",
         "quantity_person": 40,
         "unity": "g"
@@ -3055,7 +3090,7 @@
         "unity": "cuillere_cafe"
       },
       {
-        "id": "69c50e6182ec35e93235e42a",
+        "ingredient": "69c50e6182ec35e93235e42a",
         "name": "myrtille",
         "quantity_person": 12,
         "unity": "g"
@@ -3114,7 +3149,7 @@
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e432",
+        "ingredient": "69c50e6182ec35e93235e432",
         "name": "poire",
         "quantity_person": 0.5,
         "unity": "piece"
@@ -3128,8 +3163,8 @@
     "preparation": [
       "Étape 1: Préparer le mélange sec (farine, levure, sel, chocolat) dans un saladier et homogénéiser.",
       "Étape 2: Battre l’œuf avec le sucre, ajouter le beurre, la vanille et le miel, mélanger.",
-      "Étape 3: Écraser grossièrement la poire et l’incorporer au mélange liquide avec un peu de sirop de la poire.",
-      "Étape 4: Verser le mélange liquide dans le mélange sec en remuant très peu pour garder des grumeaux.",
+      "Étape 3: Écraser grossièrement la poire et l’incorporer au mélange liquingrediente avec un peu de sirop de la poire.",
+      "Étape 4: Verser le mélange liquingrediente dans le mélange sec en remuant très peu pour garder des grumeaux.",
       "Étape 5: Remplir un petit moule à muffin aux 2/3 et parsemer d’amandes effilées.",
       "Étape 6: Enfourner 20 min à 180°C (thermostat 6).",
       "Étape 7: Laisser tiédir avant de déguster."
@@ -3140,20 +3175,20 @@
     "slug": "oeufs_bacon_tomates_poivrons",
     "category": "plat",
     "img": "",
-    "description": "Œufs au bacon cuits sur un lit de tomates et poivrons fondants, simple et rapide.",
+    "description": "Œufs au bacon cuits sur un lit de tomates et poivrons fondants, simple et rapingrediente.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 30,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e43f",
+        "ingredient": "69c50e6182ec35e93235e43f",
         "name": "tomate",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e434",
+        "ingredient": "69c50e6182ec35e93235e434",
         "name": "poivron",
         "quantity_person": 0.5,
         "unity": "piece"
@@ -3178,7 +3213,7 @@
     "slug": "omelette_aux_legumes",
     "category": "plat",
     "img": "",
-    "description": "Omelette rapide avec légumes de saison.",
+    "description": "Omelette rapingrediente avec légumes de saison.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 5,
@@ -3186,13 +3221,13 @@
     "ingredients": [
       { "name": "oeufs", "quantity_person": 1, "unity": "piece" },
       {
-        "id": "69c50e6182ec35e93235e434",
+        "ingredient": "69c50e6182ec35e93235e434",
         "name": "poivron",
         "quantity_person": 25,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 15,
         "unity": "g"
@@ -3202,7 +3237,7 @@
     ],
     "ingredients_remplacement": [
       {
-        "id": "69c50e6182ec35e93235e42c",
+        "ingredient": "69c50e6182ec35e93235e42c",
         "name": "oignon_jeune",
         "quantity_person": 15,
         "unity": "g"
@@ -3225,7 +3260,7 @@
     "cooking": 35,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e42e",
+        "ingredient": "69c50e6182ec35e93235e42e",
         "name": "patate_douce",
         "quantity_person": 0.5,
         "unity": "piece"
@@ -3258,14 +3293,14 @@
     "ingredients": [
       { "name": "spaghetti", "quantity_person": 200, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e433",
+        "ingredient": "69c50e6182ec35e93235e433",
         "name": "poireau",
         "quantity_person": 1,
         "unity": "piece"
       },
       { "name": "bacon", "quantity_person": 2, "unity": "tranche" },
       {
-        "id": "69c50e6182ec35e93235e430",
+        "ingredient": "69c50e6182ec35e93235e430",
         "name": "petits_pois",
         "quantity_person": 50,
         "unity": "g"
@@ -3307,20 +3342,20 @@
     "cooking": 15,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e406",
+        "ingredient": "69c50e6182ec35e93235e406",
         "name": "ail",
         "quantity_person": 0.25,
         "unity": "gousse"
       },
       { "name": "lardons", "quantity_person": 50, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e437",
+        "ingredient": "69c50e6182ec35e93235e437",
         "name": "potiron",
         "quantity_person": 100,
         "unity": "g"
@@ -3356,13 +3391,13 @@
     ],
     "ingredients_remplacement": [
       {
-        "id": "69c50e6182ec35e93235e42d",
+        "ingredient": "69c50e6182ec35e93235e42d",
         "name": "panais",
         "quantity_person": 100,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e42c",
+        "ingredient": "69c50e6182ec35e93235e42c",
         "name": "oignon_jeune",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -3389,19 +3424,19 @@
     "cooking": 25,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e431",
+        "ingredient": "69c50e6182ec35e93235e431",
         "name": "pleurote",
         "quantity_person": 100,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e41e",
+        "ingredient": "69c50e6182ec35e93235e41e",
         "name": "courgette",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -3417,7 +3452,7 @@
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e406",
+        "ingredient": "69c50e6182ec35e93235e406",
         "name": "ail",
         "quantity_person": 0.5,
         "unity": "gousse"
@@ -3450,14 +3485,14 @@
     "name": "Pleurotes à l'ail",
     "slug": "pleurotes_ail",
     "category": "entree",
-    "description": "Pleurotes sautées au beurre et à l'ail, simples et rapides, pour 1 personne.",
+    "description": "Pleurotes sautées au beurre et à l'ail, simples et rapingredientes, pour 1 personne.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 15,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e431",
+        "ingredient": "69c50e6182ec35e93235e431",
         "name": "pleurote",
         "quantity_person": 125,
         "unity": "g"
@@ -3468,7 +3503,7 @@
         "unity": "cuillere_cafe"
       },
       {
-        "id": "69c50e6182ec35e93235e406",
+        "ingredient": "69c50e6182ec35e93235e406",
         "name": "ail",
         "quantity_person": 0.5,
         "unity": "gousse"
@@ -3477,7 +3512,7 @@
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
-      "Étape 1: Nettoyer les pleurotes en coupant la partie inférieure et en les rinçant rapidement. Sécher et émincer.",
+      "Étape 1: Nettoyer les pleurotes en coupant la partie inférieure et en les rinçant rapingredientement. Sécher et émincer.",
       "Étape 2: Émincer l'ail, faire fondre le beurre dans une poêle, ajouter l'ail et les pleurotes. Cuire à feu vif jusqu'à caramélisation.",
       "Étape 3: Saler, poivrer et servir immédiatement."
     ]
@@ -3494,13 +3529,13 @@
     "ingredients": [
       { "name": "huile", "quantity_person": 1, "unity": "filet" },
       {
-        "id": "69c50e6182ec35e93235e409",
+        "ingredient": "69c50e6182ec35e93235e409",
         "name": "aubergine",
         "quantity_person": 0.25,
         "unity": "unity"
       },
       {
-        "id": "69c50e6182ec35e93235e43f",
+        "ingredient": "69c50e6182ec35e93235e43f",
         "name": "tomate",
         "quantity_person": 1,
         "unity": "piece"
@@ -3544,7 +3579,7 @@
         "unity": "cuillere_soupe"
       },
       {
-        "id": "69c50e6182ec35e93235e417",
+        "ingredient": "69c50e6182ec35e93235e417",
         "name": "chou_chinois",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -3552,13 +3587,13 @@
       { "name": "lieu_noir", "quantity_person": 125, "unity": "g" },
       { "name": "poitrine_fumee", "quantity_person": 25, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e40f",
+        "ingredient": "69c50e6182ec35e93235e40f",
         "name": "celeri",
         "quantity_person": 0.5,
         "unity": "branche"
       },
       {
-        "id": "69c50e6182ec35e93235e406",
+        "ingredient": "69c50e6182ec35e93235e406",
         "name": "ail",
         "quantity_person": 0.5,
         "unity": "gousse"
@@ -3578,7 +3613,7 @@
       "Étape 1: Couper le poisson en dés, le mettre dans un saladier avec le nuoc mam et la sauce soja, et laisser mariner 30 min au frais.",
       "Étape 2: Détacher 2 feuilles du chou chinois, les blanchir 1 min à l'eau bouillante puis rafraîchir.",
       "Étape 3: Émincer le reste du chou, couper la poitrine fumée en petits cubes et le céleri en fines tiges.",
-      "Étape 4: Chauffer 1 c.à.s d'huile d'olive dans une poêle, ajouter l'ail, le céleri, le chou et les lardons. Faire revenir 10 min à feu doux, puis laisser refroidir.",
+      "Étape 4: Chauffer 1 c.à.s d'huile d'olive dans une poêle, ajouter l'ail, le céleri, le chou et les lardons. Faire revenir 10 min à feu doux, puis laisser refroingredientir.",
       "Étape 5: Mélanger cette préparation avec le poisson mariné.",
       "Étape 6: Répartir la farce au centre des feuilles de chou, former des papillotes.",
       "Étape 7: Cuire à la vapeur 10 min et servir immédiatement."
@@ -3595,13 +3630,13 @@
     "cooking": 45,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e40f",
+        "ingredient": "69c50e6182ec35e93235e40f",
         "name": "celeri",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e436",
+        "ingredient": "69c50e6182ec35e93235e436",
         "name": "pomme_de_terre",
         "quantity_person": 1,
         "unity": "piece"
@@ -3635,19 +3670,19 @@
     "cooking": 20,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e436",
+        "ingredient": "69c50e6182ec35e93235e436",
         "name": "pomme_de_terre",
         "quantity_person": 2,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e406",
+        "ingredient": "69c50e6182ec35e93235e406",
         "name": "ail",
         "quantity_person": 2.5,
         "unity": "gousse"
       },
       {
-        "id": "69c50e6182ec35e93235e42f",
+        "ingredient": "69c50e6182ec35e93235e42f",
         "name": "persil",
         "quantity_person": 0.5,
         "unity": "botte"
@@ -3681,19 +3716,19 @@
     "cooking": 150,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e40d",
+        "ingredient": "69c50e6182ec35e93235e40d",
         "name": "carotte",
         "quantity_person": 1,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e433",
+        "ingredient": "69c50e6182ec35e93235e433",
         "name": "poireau",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -3720,19 +3755,19 @@
       },
       { "name": "os_a_moelle", "quantity_person": 1, "unity": "piece" },
       {
-        "id": "69c50e6182ec35e93235e41b",
+        "ingredient": "69c50e6182ec35e93235e41b",
         "name": "chou_rave",
         "quantity_person": 1,
         "unity": "petit"
       },
       {
-        "id": "69c50e6182ec35e93235e40f",
+        "ingredient": "69c50e6182ec35e93235e40f",
         "name": "celeri",
         "quantity_person": 0.5,
         "unity": "branche"
       },
       {
-        "id": "69c50e6182ec35e93235e407",
+        "ingredient": "69c50e6182ec35e93235e407",
         "name": "ail",
         "quantity_person": 0.25,
         "unity": "gousse"
@@ -3764,13 +3799,13 @@
     "cooking": 30,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e433",
+        "ingredient": "69c50e6182ec35e93235e433",
         "name": "poireau",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e436",
+        "ingredient": "69c50e6182ec35e93235e436",
         "name": "pomme_de_terre",
         "quantity_person": 0.5,
         "unity": "pomme de terre"
@@ -3818,13 +3853,13 @@
     "cooking": 40,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e40d",
+        "ingredient": "69c50e6182ec35e93235e40d",
         "name": "carotte",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -3837,13 +3872,13 @@
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       {
-        "id": "69c50e6182ec35e93235e417",
+        "ingredient": "69c50e6182ec35e93235e417",
         "name": "chou_chinois",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e436",
+        "ingredient": "69c50e6182ec35e93235e436",
         "name": "pomme_de_terre",
         "quantity_person": 0.5,
         "unity": "piece"
@@ -3860,7 +3895,7 @@
         "unity": "cuillere_soupe"
       },
       {
-        "id": "69c50e6182ec35e93235e40f",
+        "ingredient": "69c50e6182ec35e93235e40f",
         "name": "celeri",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -3878,7 +3913,7 @@
     "slug": "poulet_saute_simple",
     "category": "plat",
     "img": "",
-    "description": "Plat rapide avec poulet et légumes simples.",
+    "description": "Plat rapingrediente avec poulet et légumes simples.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 5,
@@ -3886,13 +3921,13 @@
     "ingredients": [
       { "name": "poulet", "quantity_person": 150, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e434",
+        "ingredient": "69c50e6182ec35e93235e434",
         "name": "poivron",
         "quantity_person": 50,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -3902,7 +3937,7 @@
     ],
     "ingredients_remplacement": [
       {
-        "id": "69c50e6182ec35e93235e42c",
+        "ingredient": "69c50e6182ec35e93235e42c",
         "name": "oignon_jeune",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -3930,7 +3965,7 @@
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e420",
+        "ingredient": "69c50e6182ec35e93235e420",
         "name": "fenouil",
         "quantity_person": 1,
         "unity": "piece"
@@ -3977,19 +4012,19 @@
     "cooking": 15,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e436",
+        "ingredient": "69c50e6182ec35e93235e436",
         "name": "pomme_de_terre",
         "quantity_person": 330,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e427",
+        "ingredient": "69c50e6182ec35e93235e427",
         "name": "laitue",
         "quantity_person": 0.33,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e406",
+        "ingredient": "69c50e6182ec35e93235e406",
         "name": "ail",
         "quantity_person": 0.75,
         "unity": "gousse"
@@ -4023,7 +4058,7 @@
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e414",
+        "ingredient": "69c50e6182ec35e93235e414",
         "name": "chicon",
         "quantity_person": 1,
         "unity": "piece"
@@ -4063,7 +4098,7 @@
         "unity": "ml"
       },
       {
-        "id": "69c50e6182ec35e93235e433",
+        "ingredient": "69c50e6182ec35e93235e433",
         "name": "poireau",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -4078,7 +4113,7 @@
       },
       { "name": "oeuf", "quantity_person": 0.5, "unity": "piece" },
       {
-        "id": "69c50e6182ec35e93235e43e",
+        "ingredient": "69c50e6182ec35e93235e43e",
         "name": "salsifi",
         "quantity_person": 50,
         "unity": "g"
@@ -4113,7 +4148,7 @@
     "cooking": 30,
     "ingredients": [
       {
-        "id": "69ca310ba3490a666cf5696a",
+        "ingredient": "69ca310ba3490a666cf5696a",
         "name": "radis",
         "quantity_person": 120,
         "unity": "g"
@@ -4149,32 +4184,32 @@
     "ingredients": [
       { "name": "riz", "quantity_person": 100, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e41e",
+        "ingredient": "69c50e6182ec35e93235e41e",
         "name": "courgette",
         "quantity_person": 50,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e407",
+        "ingredient": "69c50e6182ec35e93235e407",
         "name": "pointes_asperges",
         "quantity_person": 50,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e430",
+        "ingredient": "69c50e6182ec35e93235e430",
         "name": "petits_pois",
         "quantity_person": 50,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e426",
+        "ingredient": "69c50e6182ec35e93235e426",
         "name": "haricots_verts",
         "quantity_person": 50,
         "unity": "g"
       },
       { "name": "beurre", "quantity_person": 12, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -4186,7 +4221,7 @@
       },
       { "name": "vin_blanc", "quantity_person": 25, "unity": "ml" },
       {
-        "id": "69c50e6182ec35e93235e43f",
+        "ingredient": "69c50e6182ec35e93235e43f",
         "name": "concentre_tomates",
         "quantity_person": 0.5,
         "unity": "cuillere_cafe"
@@ -4221,7 +4256,7 @@
     "cooking": 30,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 50,
         "unity": "g"
@@ -4234,7 +4269,7 @@
         "unity": "ml"
       },
       {
-        "id": "69c50e6182ec35e93235e439",
+        "ingredient": "69c50e6182ec35e93235e439",
         "name": "radicchio",
         "quantity_person": 50,
         "unity": "g"
@@ -4248,13 +4283,13 @@
     ],
     "ingredients_remplacement": [
       {
-        "id": "69c50e6182ec35e93235e415",
+        "ingredient": "69c50e6182ec35e93235e415",
         "name": "chicoree",
         "quantity_person": 50,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e42c",
+        "ingredient": "69c50e6182ec35e93235e42c",
         "name": "oignon-jeune",
         "quantity_person": 50,
         "unity": "g"
@@ -4262,7 +4297,7 @@
     ],
     "preparation": [
       "Étape 1: Émincer l'oignon.",
-      "Étape 2: Dans une casserole, faire fondre le beurre et faire revenir l'oignon jusqu'à ce qu'il soit translucide.",
+      "Étape 2: Dans une casserole, faire fondre le beurre et faire revenir l'oignon jusqu'à ce qu'il soit translucingrediente.",
       "Étape 3: Ajouter le riz et remuer 2 min pour le nacrer.",
       "Étape 4: Verser le vin rouge, laisser réduire légèrement.",
       "Étape 5: Ajouter progressivement le bouillon chaud tout en remuant jusqu'à cuisson du riz.",
@@ -4283,14 +4318,14 @@
     "ingredients": [
       { "name": "quinoa", "quantity_person": 50, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e40a",
+        "ingredient": "69c50e6182ec35e93235e40a",
         "name": "betterave_cuite",
         "quantity_person": 1,
         "unity": "piece"
       },
       { "name": "feta", "quantity_person": 40, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e428",
+        "ingredient": "69c50e6182ec35e93235e428",
         "name": "mache",
         "quantity_person": 1,
         "unity": "poignee"
@@ -4323,7 +4358,7 @@
       "Étape 1: Cuire le quinoa dans de l'eau bouillante environ 10 minutes puis égoutter et laisser tiédir.",
       "Étape 2: Couper la betterave cuite en dés.",
       "Étape 3: Couper la feta en cubes.",
-      "Étape 4: Dans un saladier, mélanger la mâche, le quinoa refroidi, la betterave et la feta.",
+      "Étape 4: Dans un saladier, mélanger la mâche, le quinoa refroingredienti, la betterave et la feta.",
       "Étape 5: Hacher la ciboulette et concasser les noix, puis les ajouter à la salade.",
       "Étape 6: Préparer une vinaigrette avec l'huile d'olive, le vinaigre balsamique et la moutarde.",
       "Étape 7: Assaisonner la salade, saler, poivrer et mélanger avant de servir."
@@ -4340,7 +4375,7 @@
     "cooking": 0,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e41c",
+        "ingredient": "69c50e6182ec35e93235e41c",
         "name": "chou_rouge",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -4361,7 +4396,12 @@
         "unity": "cuillere_cafe"
       },
       { "name": "citron", "quantity_person": 0.25, "unity": "piece" },
-      { "id": "", "name": "ail", "quantity_person": 1, "unity": "gousse" },
+      {
+        "ingredient": "",
+        "name": "ail",
+        "quantity_person": 1,
+        "unity": "gousse"
+      },
       {
         "name": "huile_d_olive",
         "quantity_person": 1,
@@ -4397,7 +4437,7 @@
     "cooking": 5,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e41c",
+        "ingredient": "69c50e6182ec35e93235e41c",
         "name": "chou_rouge",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -4409,7 +4449,7 @@
         "unity": "piece"
       },
       {
-        "name": "huile_arachide",
+        "name": "huile_arachingrediente",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
@@ -4442,7 +4482,7 @@
     "preparation": [
       "Étape 1: Laver le chou, retirer le trognon et les feuilles épaisses, couper en 4 puis détailler en lanières.",
       "Étape 2: Plonger le chou dans l'eau bouillante et blanchir 5 minutes, puis égoutter et déposer dans un saladier.",
-      "Étape 3: Émietter le roquefort et arroser du mélange d'huile d'arachide, huile de noix, eau-de-vie et vinaigre. Saler et poivrer.",
+      "Étape 3: Émietter le roquefort et arroser du mélange d'huile d'arachingrediente, huile de noix, eau-de-vie et vinaigre. Saler et poivrer.",
       "Étape 4: Mélanger et parsemer de cerneaux de noix. Servir frais environ 1 heure après l'avoir préparé."
     ]
   },
@@ -4457,20 +4497,20 @@
     "cooking": 0,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e428",
+        "ingredient": "69c50e6182ec35e93235e428",
         "name": "mache",
         "quantity_person": 60,
         "unity": "g"
       },
       { "name": "chevre_frais", "quantity_person": 40, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e422",
+        "ingredient": "69c50e6182ec35e93235e422",
         "name": "framboises",
         "quantity_person": 30,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e42a",
+        "ingredient": "69c50e6182ec35e93235e42a",
         "name": "myrtilles",
         "quantity_person": 30,
         "unity": "g"
@@ -4482,7 +4522,7 @@
         "unity": "cuillere_soupe"
       },
       {
-        "name": "vinaigre_cidre",
+        "name": "vinaigre_cingredientre",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
@@ -4519,13 +4559,13 @@
     "cooking": 0,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e428",
+        "ingredient": "69c50e6182ec35e93235e428",
         "name": "mache",
         "quantity_person": 1.5,
         "unity": "poignee"
       },
       {
-        "id": "69c50e6182ec35e93235e43f",
+        "ingredient": "69c50e6182ec35e93235e43f",
         "name": "tomates_cerises",
         "quantity_person": 12,
         "unity": "piece"
@@ -4567,13 +4607,13 @@
     "cooking": 0,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e43b",
+        "ingredient": "69c50e6182ec35e93235e43b",
         "name": "radis_noir",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e40d",
+        "ingredient": "69c50e6182ec35e93235e40d",
         "name": "carotte",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -4598,20 +4638,20 @@
     "slug": "salade_tomate_concombre",
     "category": "entree",
     "img": "",
-    "description": "Salade fraîche et croquante, idéale pour l'été.",
+    "description": "Salade fraîche et croquante, ingredientéale pour l'été.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 0,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e43f",
+        "ingredient": "69c50e6182ec35e93235e43f",
         "name": "tomate",
         "quantity_person": 100,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e41d",
+        "ingredient": "69c50e6182ec35e93235e41d",
         "name": "concombre",
         "quantity_person": 80,
         "unity": "g"
@@ -4636,20 +4676,20 @@
     "cooking": 15,
     "ingredients": [
       {
-        "id": "69c50e6182ec35e93235e43e",
+        "ingredient": "69c50e6182ec35e93235e43e",
         "name": "salsifis",
         "quantity_person": 150,
         "unity": "g"
       },
       { "name": "beurre", "quantity_person": 10, "unity": "g" },
       {
-        "id": "69c50e6182ec35e93235e406",
+        "ingredient": "69c50e6182ec35e93235e406",
         "name": "ail",
         "quantity_person": 0.5,
         "unity": "gousse"
       },
       {
-        "id": "69c50e6182ec35e93235e42f",
+        "ingredient": "69c50e6182ec35e93235e42f",
         "name": "persil",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
@@ -4680,19 +4720,19 @@
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e426",
+        "ingredient": "69c50e6182ec35e93235e426",
         "name": "haricots_verts",
         "quantity_person": 250,
         "unity": "g"
       },
       {
-        "id": "69c50e6182ec35e93235e436",
+        "ingredient": "69c50e6182ec35e93235e436",
         "name": "pomme_de_terre",
         "quantity_person": 1.5,
         "unity": "piece"
       },
       {
-        "id": "69c50e6182ec35e93235e42b",
+        "ingredient": "69c50e6182ec35e93235e42b",
         "name": "oignon",
         "quantity_person": 0.25,
         "unity": "piece"
@@ -4713,7 +4753,7 @@
     ],
     "preparation": [
       "Étape 1: Faire blanchir les haricots verts environ 10 minutes dans de l'eau bouillante puis égoutter.",
-      "Étape 2: Émincer l'oignon. Le faire revenir dans un peu d'huile jusqu'à ce qu'il devienne translucide.",
+      "Étape 2: Émincer l'oignon. Le faire revenir dans un peu d'huile jusqu'à ce qu'il devienne translucingrediente.",
       "Étape 3: Ajouter la saucisse de Toulouse coupée en morceaux et la faire dorer.",
       "Étape 4: Ajouter les pommes de terre coupées en quartiers et les haricots verts.",
       "Étape 5: Couvrir d'eau, émietter le bouillon, saler légèrement et poivrer.",
@@ -4731,37 +4771,44 @@
     "cooking": 20,
     "ingredients": [
       {
-        "slug": "chou_rouge",
+        "ingredient": "69c50e6182ec35e93235e41c",
+        "name": "chou_rouge",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
       {
-        "slug": "pomme_de_terre",
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
-        "slug": "lardons_fumes",
+        "name": "lardons_fumes",
         "quantity_person": 37,
         "unity": "g"
       },
       {
-        "slug": "vinaigre",
+        "name": "vinaigre",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "sel",
+        "name": "sel",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "poivre",
+        "name": "poivre",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
-      { "slug": "eau", "quantity_person": 250, "unity": "ml" }
+      { "name": "eau", "quantity_person": 250, "unity": "ml" }
     ],
     "preparation": [
       "Étape 1: Émincer le chou rouge et éplucher la pomme de terre, couper en morceaux.",
@@ -4783,36 +4830,46 @@
     "timing_preparation": 10,
     "cooking": 0,
     "ingredients": [
-      { "slug": "celeri", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "pomme", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "comte", "quantity_person": 37, "unity": "g" },
       {
-        "slug": "cerneau_noix",
+        "ingredient": "69c50e6182ec35e93235e40f",
+        "name": "celeri",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e435",
+        "name": "pomme",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      { "name": "comte", "quantity_person": 37, "unity": "g" },
+      {
+        "name": "cerneau_noix",
         "quantity_person": 0.25,
         "unity": "poignée"
       },
       {
-        "slug": "huile_noix",
+        "name": "huile_noix",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "vinaigre_balsamique",
+        "name": "vinaigre_balsamique",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "jus_citron",
+        "name": "jus_citron",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "sel",
+        "name": "sel",
         "quantity_person": 1,
         "unity": "pincee"
       },
       {
-        "slug": "poivre",
+        "name": "poivre",
         "quantity_person": 1,
         "unity": "pincee"
       }
@@ -4828,31 +4885,42 @@
     "name": "Salade de chicons, mâche et haricots blancs",
     "slug": "salade_chicons_mache_haricots",
     "category": "plat",
-    "description": "Salade simple et rapide à base d'endives, de mâche et de haricots blancs, assaisonnée à la moutarde et à la mayonnaise.",
+    "description": "Salade simple et rapingrediente à base d'endives, de mâche et de haricots blancs, assaisonnée à la moutarde et à la mayonnaise.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 0,
     "ingredients": [
       {
-        "slug": "moutarde_ancienne",
+        "name": "moutarde_ancienne",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
-      { "slug": "chicon", "quantity_person": 1, "unity": "piece" },
-      { "slug": "mache", "quantity_person": 25, "unity": "g" },
       {
-        "slug": "haricot_blanc",
+        "ingredient": "69c50e6182ec35e93235e414",
+        "name": "chicon",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e428",
+        "name": "mache",
+        "quantity_person": 25,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e425",
+        "name": "haricot_blanc",
         "quantity_person": 50,
         "unity": "g"
       },
       {
-        "slug": "mayonnaise",
+        "name": "mayonnaise",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" }
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Émincer le chicon en enlevant le cœur dur et le mettre dans un saladier.",
@@ -4871,19 +4939,34 @@
     "timing_preparation": 12,
     "cooking": 0,
     "ingredients": [
-      { "slug": "fenouil", "quantity_person": 1, "unity": "piece" },
-      { "slug": "pomme", "quantity_person": 1, "unity": "piece" },
-      { "slug": "thon", "quantity_person": 100, "unity": "g" },
-      { "slug": "echalote", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "citron", "quantity_person": 0.5, "unity": "piece" },
       {
-        "slug": "huile_olive",
+        "ingredient": "69c50e6182ec35e93235e420",
+        "name": "fenouil",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e435",
+        "name": "pomme",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      { "name": "thon", "quantity_person": 100, "unity": "g" },
+      { "name": "echalote", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "citron", "quantity_person": 0.5, "unity": "piece" },
+      {
+        "name": "huile_olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
-      { "slug": "persil", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      {
+        "ingredient": "69c50e6182ec35e93235e42f",
+        "name": "persil",
+        "quantity_person": 1,
+        "unity": "pincee"
+      },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Nettoyer le fenouil et retirer les parties dures.",
@@ -4905,20 +4988,31 @@
     "cooking": 30,
     "ingredients": [
       {
-        "slug": "huile",
+        "name": "huile",
         "quantity_person": 4,
         "unity": "cuillere_soupe"
       },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       {
-        "slug": "pomme_de_terre",
+        "ingredient": "",
+        "name": "pomme_de_terre",
         "quantity_person": 6,
         "unity": "piece"
       },
-      { "slug": "thon", "quantity_person": 1, "unity": "boite" },
-      { "slug": "cerfeuil", "quantity_person": 1, "unity": "bouquet" },
-      { "slug": "ail", "quantity_person": 1, "unity": "gousse" }
+      { "name": "thon", "quantity_person": 1, "unity": "boite" },
+      {
+        "ingredient": "69c50e6182ec35e93235e411",
+        "name": "cerfeuil",
+        "quantity_person": 1,
+        "unity": "bouquet"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 1,
+        "unity": "gousse"
+      }
     ],
     "preparation": [
       "Étape 1: Faire cuire les pommes de terre en cocotte avec la peau, les éplucher et laisser de côté.",
@@ -4939,37 +5033,62 @@
     "timing_preparation": 30,
     "cooking": 90,
     "ingredients": [
-      { "slug": "saute_de_veau", "quantity_person": 200, "unity": "g" },
-      { "slug": "petits_pois", "quantity_person": 150, "unity": "g" },
-      { "slug": "carotte", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "tomate", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "ail", "quantity_person": 0.5, "unity": "gousse" },
+      { "name": "saute_de_veau", "quantity_person": 200, "unity": "g" },
       {
-        "slug": "huile",
+        "ingredient": "69c50e6182ec35e93235e430",
+        "name": "petits_pois",
+        "quantity_person": 150,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e40d",
+        "name": "carotte",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e43f",
+        "name": "tomate",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.5,
+        "unity": "gousse"
+      },
+      {
+        "name": "huile",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
-      { "slug": "beurre", "quantity_person": 6, "unity": "g" },
+      { "name": "beurre", "quantity_person": 6, "unity": "g" },
       {
-        "slug": "farine",
+        "name": "farine",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
-      { "slug": "vin_blanc_sec", "quantity_person": 50, "unity": "ml" },
+      { "name": "vin_blanc_sec", "quantity_person": 50, "unity": "ml" },
       {
-        "slug": "concentre_tomates",
+        "name": "concentre_tomates",
         "quantity_person": 0.75,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "bouquet_garni",
+        "name": "bouquet_garni",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "eau", "quantity_person": 100, "unity": "ml" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "eau", "quantity_person": 100, "unity": "ml" }
     ],
     "preparation": [
       "Étape 1: Faire dorer les morceaux de veau dans l'huile et le beurre dans une cocotte. Ajouter l'ail haché, l'oignon émincé et les dés de carotte, cuire 3 min.",
@@ -4982,19 +5101,24 @@
     "name": "Sirop de mûres d'après confiture de mûres",
     "slug": "sirop_mures",
     "category": "dessert",
-    "description": "Sirop simple et rapide à réaliser à partir des restes de confiture de mûres, doux et parfumé.",
+    "description": "Sirop simple et rapingrediente à réaliser à partir des restes de confiture de mûres, doux et parfumé.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 5,
     "ingredients": [
-      { "slug": "mures", "quantity_person": 21, "unity": "g" },
-      { "slug": "sucre", "quantity_person": 21, "unity": "g" }
+      {
+        "ingredient": "69c50e6182ec35e93235e429",
+        "name": "mures",
+        "quantity_person": 21,
+        "unity": "g"
+      },
+      { "name": "sucre", "quantity_person": 21, "unity": "g" }
     ],
     "preparation": [
       "Étape 1: Après avoir préparé la confiture de mûres sans pépins, récupérer les restes de fruits dans le moulin et les recouvrir d'eau. Laisser reposer une nuit au réfrigérateur.",
-      "Étape 2: Passer la préparation au tamis, peser le liquide obtenu et ajouter la même quantité de sucre.",
-      "Étape 3: Porter à ébullition, puis dès le premier bouillon, retirer du feu et laisser refroidir. Le sirop de mûres est prêt à être utilisé."
+      "Étape 2: Passer la préparation au tamis, peser le liquingrediente obtenu et ajouter la même quantité de sucre.",
+      "Étape 3: Porter à ébullition, puis dès le premier bouillon, retirer du feu et laisser refroingredientir. Le sirop de mûres est prêt à être utilisé."
     ]
   },
   {
@@ -5007,14 +5131,19 @@
     "timing_preparation": 5,
     "cooking": 0,
     "ingredients": [
-      { "slug": "fraises", "quantity_person": 150, "unity": "g" },
-      { "slug": "banane", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "sucre", "quantity_person": 5, "unity": "g" },
-      { "slug": "glacons", "quantity_person": 5, "unity": "piece" }
+      {
+        "ingredient": "69c50e6182ec35e93235e421",
+        "name": "fraises",
+        "quantity_person": 150,
+        "unity": "g"
+      },
+      { "name": "banane", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "sucre", "quantity_person": 5, "unity": "g" },
+      { "name": "glacons", "quantity_person": 5, "unity": "piece" }
     ],
     "preparation": [
       "Étape 1: Mixer les fraises et la demi-banane jusqu'à obtenir une texture lisse.",
-      "Étape 2: Goûter et ajouter un peu de sucre si nécessaire selon l'acidité des fraises.",
+      "Étape 2: Goûter et ajouter un peu de sucre si nécessaire selon l'acingredientité des fraises.",
       "Étape 3: Ajouter les glaçons et mixer à nouveau pour obtenir un smoothie bien frais et légèrement épais."
     ]
   },
@@ -5022,25 +5151,30 @@
     "name": "Sorbet à la fraise",
     "slug": "sorbet_fraise",
     "category": "dessert",
-    "description": "Sorbet rafraîchissant à la fraise, légèrement acidulé grâce au citron.",
+    "description": "Sorbet rafraîchissant à la fraise, légèrement acingredientulé grâce au citron.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 2,
     "ingredients": [
-      { "slug": "fraises", "quantity_person": 125, "unity": "g" },
-      { "slug": "sucre_semoule", "quantity_person": 30, "unity": "g" },
-      { "slug": "eau", "quantity_person": 15, "unity": "ml" },
       {
-        "slug": "jus_citron",
+        "ingredient": "69c50e6182ec35e93235e421",
+        "name": "fraises",
+        "quantity_person": 125,
+        "unity": "g"
+      },
+      { "name": "sucre_semoule", "quantity_person": 30, "unity": "g" },
+      { "name": "eau", "quantity_person": 15, "unity": "ml" },
+      {
+        "name": "jus_citron",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       }
     ],
     "preparation": [
-      "Étape 1: Préparer un sirop en chauffant l'eau et le sucre jusqu'à dissolution complète, puis laisser refroidir.",
+      "Étape 1: Préparer un sirop en chauffant l'eau et le sucre jusqu'à dissolution complète, puis laisser refroingredientir.",
       "Étape 2: Laver, équeuter et mixer les fraises, puis filtrer pour retirer les graines si souhaité.",
-      "Étape 3: Mélanger la purée de fraises avec le sirop refroidi et le jus de citron.",
+      "Étape 3: Mélanger la purée de fraises avec le sirop refroingredienti et le jus de citron.",
       "Étape 4: Verser dans une sorbetière et turbiner environ 2 heures jusqu'à prise.",
       "Étape 5: Servir immédiatement ou conserver au congélateur avant dégustation."
     ]
@@ -5055,38 +5189,59 @@
     "timing_preparation": 20,
     "cooking": 60,
     "ingredients": [
-      { "slug": "celeri", "quantity_person": 0.75, "unity": "piece" },
       {
-        "slug": "courgette",
+        "ingredient": "69c50e6182ec35e93235e40f",
+        "name": "celeri",
         "quantity_person": 0.75,
         "unity": "piece"
       },
-      { "slug": "tomate", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "ail", "quantity_person": 0.25, "unity": "gousse" },
       {
-        "slug": "coriandre",
+        "ingredient": "69c50e6182ec35e93235e41e",
+        "name": "courgette",
+        "quantity_person": 0.75,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e43f",
+        "name": "tomate",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.25,
+        "unity": "gousse"
+      },
+      {
+        "name": "coriandre",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "huile_d_olive",
+        "name": "huile_d_olive",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "cube_bouillon_volaille",
+        "name": "cube_bouillon_volaille",
         "quantity_person": 0.25,
         "unity": "cube"
       },
-      { "slug": "eau", "quantity_person": 250, "unity": "ml" },
+      { "name": "eau", "quantity_person": 250, "unity": "ml" },
       {
-        "slug": "sel",
+        "name": "sel",
         "quantity_person": 1,
         "unity": "pincee"
       },
       {
-        "slug": "poivre",
+        "name": "poivre",
         "quantity_person": 1,
         "unity": "pincee"
       }
@@ -5102,8 +5257,8 @@
     ]
   },
   {
-    "name": "Soupe de cerfeuil rapide",
-    "slug": "soupe_cerfeuil_rapide",
+    "name": "Soupe de cerfeuil rapingrediente",
+    "slug": "soupe_cerfeuil_rapingrediente",
     "category": "entree",
     "description": "Soupe verte légère et parfumée au cerfeuil et courgette, prête en 35 minutes.",
     "price": 1,
@@ -5111,22 +5266,37 @@
     "timing_preparation": 5,
     "cooking": 30,
     "ingredients": [
-      { "slug": "oignon", "quantity_person": 1, "unity": "piece" },
       {
-        "slug": "cube_bouillon",
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      {
+        "name": "cube_bouillon",
         "quantity_person": 2,
         "unity": "cube"
       },
-      { "slug": "courgette", "quantity_person": 1, "unity": "piece" },
       {
-        "slug": "beurre",
+        "ingredient": "69c50e6182ec35e93235e41e",
+        "name": "courgette",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      {
+        "name": "beurre",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "cerfeuil", "quantity_person": 500, "unity": "g" },
-      { "slug": "eau", "quantity_person": 2, "unity": "l" }
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      {
+        "ingredient": "69c50e6182ec35e93235e411",
+        "name": "cerfeuil",
+        "quantity_person": 500,
+        "unity": "g"
+      },
+      { "name": "eau", "quantity_person": 2, "unity": "l" }
     ],
     "preparation": [
       "Étape 1: Dissoudre les cubes de bouillon dans l'eau chaude.",
@@ -5149,24 +5319,34 @@
     "timing_preparation": 10,
     "cooking": 20,
     "ingredients": [
-      { "slug": "gingembre", "quantity_person": 5, "unity": "g" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "coriandre", "quantity_person": 2, "unity": "g" },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
+      { "name": "gingembre", "quantity_person": 5, "unity": "g" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "coriandre", "quantity_person": 2, "unity": "g" },
       {
-        "slug": "cube_bouillon",
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "name": "cube_bouillon",
         "quantity_person": 0.25,
         "unity": "cube"
       },
       {
-        "slug": "huile",
+        "name": "huile",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
-      { "slug": "chicon", "quantity_person": 250, "unity": "g" },
-      { "slug": "lait", "quantity_person": 250, "unity": "ml" },
-      { "slug": "eau", "quantity_person": 125, "unity": "ml" }
+      {
+        "ingredient": "69c50e6182ec35e93235e414",
+        "name": "chicon",
+        "quantity_person": 250,
+        "unity": "g"
+      },
+      { "name": "lait", "quantity_person": 250, "unity": "ml" },
+      { "name": "eau", "quantity_person": 125, "unity": "ml" }
     ],
     "preparation": [
       "Étape 1: Faire revenir les chicons et l'oignon coupés en lamelles dans l'huile chaude.",
@@ -5186,48 +5366,59 @@
     "cooking": 35,
     "ingredients": [
       {
-        "slug": "bouillon_legumes",
+        "name": "bouillon_legumes",
         "quantity_person": 0.33,
         "unity": "cube"
       },
       {
-        "slug": "piment",
+        "name": "piment",
         "quantity_person": 0.125,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "gingembre",
+        "name": "gingembre",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "coriandre",
+        "name": "coriandre",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "chou_chinois",
+        "ingredient": "69c50e6182ec35e93235e417",
+        "name": "chou_chinois",
         "quantity_person": 0.125,
         "unity": "piece"
       },
-      { "slug": "oignon", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "lait_de_coco", "quantity_person": 100, "unity": "ml" },
       {
-        "slug": "escalope_poulet",
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      { "name": "lait_de_coco", "quantity_person": 100, "unity": "ml" },
+      {
+        "name": "escalope_poulet",
         "quantity_person": 75,
         "unity": "g"
       },
       {
-        "slug": "citron_vert",
+        "name": "citron_vert",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
-        "slug": "ciboulette",
+        "name": "ciboulette",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
-      { "slug": "celeri", "quantity_person": 0.25, "unity": "branche" }
+      {
+        "ingredient": "",
+        "name": "celeri",
+        "quantity_person": 0.25,
+        "unity": "branche"
+      }
     ],
     "preparation": [
       "Étape 1: Hacher finement l'échalote et le céleri.",
@@ -5251,23 +5442,30 @@
     "cooking": 30,
     "ingredients": [
       {
-        "slug": "chou_blanc",
+        "ingredient": "69c50e6182ec35e93235e416",
+        "name": "chou_blanc",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "slug": "pomme_de_terre",
+        "ingredient": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 1,
         "unity": "piece"
       },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "eau", "quantity_person": 250, "unity": "ml" },
       {
-        "slug": "sel",
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      { "name": "eau", "quantity_person": 250, "unity": "ml" },
+      {
+        "name": "sel",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Émincer le chou et couper la pomme de terre en petits cubes.",
@@ -5287,25 +5485,36 @@
     "timing_preparation": 10,
     "cooking": 30,
     "ingredients": [
-      { "slug": "chou_de_milan", "quantity_person": 150, "unity": "g" },
       {
-        "slug": "pomme_de_terre",
+        "ingredient": "69c50e6182ec35e93235e419",
+        "name": "chou_de_milan",
+        "quantity_person": 150,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 100,
         "unity": "g"
       },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
       {
-        "slug": "bouillon_de_legumes",
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "name": "bouillon_de_legumes",
         "quantity_person": 250,
         "unity": "ml"
       },
       {
-        "slug": "huile",
+        "name": "huile",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Couper le chou et les pommes de terre en morceaux.",
@@ -5319,25 +5528,30 @@
     "name": "Soupe de concombre",
     "slug": "soupe_concombre",
     "category": "entree",
-    "description": "Soupe fraîche et légère de concombre au Kiri, simple et rapide.",
+    "description": "Soupe fraîche et légère de concombre au Kiri, simple et rapingrediente.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 50,
     "cooking": 15,
     "ingredients": [
-      { "slug": "concombre", "quantity_person": 1, "unity": "piece" },
       {
-        "slug": "bouillon_volaille",
+        "ingredient": "69c50e6182ec35e93235e41d",
+        "name": "concombre",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      {
+        "name": "bouillon_volaille",
         "quantity_person": 0.5,
         "unity": "cube"
       },
-      { "slug": "kiri", "quantity_person": 1, "unity": "portion" }
+      { "name": "kiri", "quantity_person": 1, "unity": "portion" }
     ],
     "preparation": [
       "Étape 1: Éplucher le concombre, retirer les graines et le couper en cubes.",
       "Étape 2: Faire cuire les cubes de concombre à la vapeur pendant 15 minutes.",
       "Étape 3: Mixer le concombre cuit avec le cube de bouillon et le Kiri jusqu'à obtenir une texture lisse.",
-      "Étape 4: Servir chaud ou froid selon votre préférence."
+      "Étape 4: Servir chaud ou froingredient selon votre préférence."
     ]
   },
   {
@@ -5350,17 +5564,32 @@
     "timing_preparation": 15,
     "cooking": 15,
     "ingredients": [
-      { "slug": "courgette", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "laitue", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "oignon", "quantity_person": 0.5, "unity": "piece" },
       {
-        "slug": "bouillon_volaille",
+        "ingredient": "69c50e6182ec35e93235e41e",
+        "name": "courgette",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e427",
+        "name": "laitue",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "name": "bouillon_volaille",
         "quantity_person": 375,
         "unity": "ml"
       },
-      { "slug": "creme_fraiche", "quantity_person": 10, "unity": "ml" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "creme_fraiche", "quantity_person": 10, "unity": "ml" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Émincer l'oignon et l'échalote et les faire revenir dans une casserole avec un peu de matière grasse.",
@@ -5374,35 +5603,51 @@
     "name": "Soupe aux épinards",
     "slug": "soupe_epinards",
     "category": "entree",
-    "description": "Soupe onctueuse aux épinards frais et légumes, rapide à préparer pour 1 personne.",
+    "description": "Soupe onctueuse aux épinards frais et légumes, rapingrediente à préparer pour 1 personne.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 15,
     "ingredients": [
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "carotte", "quantity_person": 0.25, "unity": "piece" },
       {
-        "slug": "pomme_de_terre",
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "",
+        "name": "carotte",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 1,
         "unity": "piece"
       },
-      { "slug": "epinards", "quantity_person": 125, "unity": "g" },
       {
-        "slug": "bouillon_volaille",
+        "ingredient": "69c50e6182ec35e93235e41f",
+        "name": "epinards",
+        "quantity_person": 125,
+        "unity": "g"
+      },
+      {
+        "name": "bouillon_volaille",
         "quantity_person": 0.25,
         "unity": "cube"
       },
-      { "slug": "eau", "quantity_person": 187, "unity": "ml" },
-      { "slug": "beurre", "quantity_person": 12, "unity": "g" },
+      { "name": "eau", "quantity_person": 187, "unity": "ml" },
+      { "name": "beurre", "quantity_person": 12, "unity": "g" },
       {
-        "slug": "creme_fraiche",
+        "name": "creme_fraiche",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
-      { "slug": "origan", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "origan", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Faire chauffer un peu d'huile d'olive dans une cocotte-minute et faire revenir l'oignon quelques minutes.",
@@ -5424,18 +5669,23 @@
     "timing_preparation": 10,
     "cooking": 20,
     "ingredients": [
-      { "slug": "laitue", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "quinoa", "quantity_person": 37, "unity": "g" },
       {
-        "slug": "bouillon_volaille",
+        "ingredient": "69c50e6182ec35e93235e427",
+        "name": "laitue",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      { "name": "quinoa", "quantity_person": 37, "unity": "g" },
+      {
+        "name": "bouillon_volaille",
         "quantity_person": 0.5,
         "unity": "cube"
       },
-      { "slug": "eau", "quantity_person": 500, "unity": "ml" },
-      { "slug": "creme_fraiche", "quantity_person": 10, "unity": "ml" },
-      { "slug": "gruyere", "quantity_person": 10, "unity": "g" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "eau", "quantity_person": 500, "unity": "ml" },
+      { "name": "creme_fraiche", "quantity_person": 10, "unity": "ml" },
+      { "name": "gruyere", "quantity_person": 10, "unity": "g" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Couper la laitue en lamelles et rincer le quinoa.",
@@ -5446,28 +5696,43 @@
     ]
   },
   {
-    "name": "Soupe de potiron rapide",
+    "name": "Soupe de potiron rapingrediente",
     "slug": "soupe_potiron",
     "category": "entree",
     "img": "",
-    "description": "Velouté doux et rapide pour réchauffer l’hiver.",
+    "description": "Velouté doux et rapingrediente pour réchauffer l’hiver.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 20,
     "ingredients": [
-      { "slug": "potiron", "quantity_person": 200, "unity": "g" },
-      { "slug": "oignon", "quantity_person": 30, "unity": "g" },
       {
-        "slug": "bouillon_legumes",
+        "ingredient": "69c50e6182ec35e93235e437",
+        "name": "potiron",
+        "quantity_person": 200,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 30,
+        "unity": "g"
+      },
+      {
+        "name": "bouillon_legumes",
         "quantity_person": 250,
         "unity": "ml"
       },
-      { "slug": "huile_olive", "quantity_person": 5, "unity": "ml" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" }
+      { "name": "huile_olive", "quantity_person": 5, "unity": "ml" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" }
     ],
     "ingredients_remplacement": [
-      { "slug": "oignon_jeune", "quantity_person": 30, "unity": "g" }
+      {
+        "ingredient": "",
+        "name": "oignon_jeune",
+        "quantity_person": 30,
+        "unity": "g"
+      }
     ],
     "preparation": [
       "Étape 1: Faites revenir l'oignon haché dans l'huile.",
@@ -5479,24 +5744,35 @@
     "name": "Soupe radis noir et pomme de terre",
     "slug": "soupe_radis_noir_pdt",
     "category": "entree",
-    "description": "Velouté doux de radis noir et pomme de terre, parfumé à l'oignon et à la crème, pour une portion individuelle.",
+    "description": "Velouté doux de radis noir et pomme de terre, parfumé à l'oignon et à la crème, pour une portion indivingredientuelle.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 20,
     "ingredients": [
-      { "slug": "radis_noir", "quantity_person": 0.5, "unity": "piece" },
       {
-        "slug": "pomme_de_terre",
+        "ingredient": "69c50e6182ec35e93235e43b",
+        "name": "radis_noir",
         "quantity_person": 0.5,
         "unity": "piece"
       },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "beurre", "quantity_person": 5, "unity": "g" },
-      { "slug": "creme_fraiche", "quantity_person": 10, "unity": "ml" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "eau", "quantity_person": 100, "unity": "ml" }
+      {
+        "ingredient": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      { "name": "beurre", "quantity_person": 5, "unity": "g" },
+      { "name": "creme_fraiche", "quantity_person": 10, "unity": "ml" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "eau", "quantity_person": 100, "unity": "ml" }
     ],
     "preparation": [
       "Étape 1: Éplucher et couper le radis noir, la pomme de terre et l'oignon en dés.",
@@ -5516,22 +5792,38 @@
     "timing_preparation": 5,
     "cooking": 20,
     "ingredients": [
-      { "slug": "poireau", "quantity_person": 0.33, "unity": "piece" },
-      { "slug": "courgette", "quantity_person": 0.33, "unity": "piece" },
-      { "slug": "persil", "quantity_person": 0.1, "unity": "botte" },
       {
-        "slug": "pomme_de_terre",
+        "ingredient": "69c50e6182ec35e93235e433",
+        "name": "poireau",
+        "quantity_person": 0.33,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e41e",
+        "name": "courgette",
+        "quantity_person": 0.33,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42f",
+        "name": "persil",
+        "quantity_person": 0.1,
+        "unity": "botte"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 0.66,
         "unity": "piece"
       },
       {
-        "slug": "bouillon_volaille",
+        "name": "bouillon_volaille",
         "quantity_person": 330,
         "unity": "ml"
       },
-      { "slug": "creme_fraiche", "quantity_person": 30, "unity": "ml" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "creme_fraiche", "quantity_person": 30, "unity": "ml" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Couper le poireau, la pomme de terre et la courgette en morceaux (garder la peau de la courgette).",
@@ -5552,14 +5844,34 @@
     "timing_preparation": 15,
     "cooking": 20,
     "ingredients": [
-      { "slug": "tomate", "quantity_person": 150, "unity": "g" },
-      { "slug": "oignon", "quantity_person": 50, "unity": "g" },
-      { "slug": "carotte", "quantity_person": 30, "unity": "g" },
-      { "slug": "viande_hachee", "quantity_person": 100, "unity": "g" },
-      { "slug": "huile_olive", "quantity_person": 10, "unity": "ml" }
+      {
+        "ingredient": "69c50e6182ec35e93235e43f",
+        "name": "tomate",
+        "quantity_person": 150,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e40d",
+        "name": "carotte",
+        "quantity_person": 30,
+        "unity": "g"
+      },
+      { "name": "viande_hachee", "quantity_person": 100, "unity": "g" },
+      { "name": "huile_olive", "quantity_person": 10, "unity": "ml" }
     ],
     "ingredients_remplacement": [
-      { "slug": "oignon_jeune", "quantity_person": 50, "unity": "g" }
+      {
+        "ingredient": "69c50e6182ec35e93235e42c",
+        "name": "oignon_jeune",
+        "quantity_person": 50,
+        "unity": "g"
+      }
     ],
     "preparation": [
       "Étape 1: Hachez l'ail, l'oignon, puis coupez la carotte et le céleri en petits dés (enlevez les principales nervures du céleri).",
@@ -5581,33 +5893,38 @@
     "timing_preparation": 20,
     "cooking": 0,
     "ingredients": [
-      { "slug": "concombre", "quantity_person": 1, "unity": "piece" },
-      { "slug": "saumon_fume", "quantity_person": 50, "unity": "g" },
       {
-        "slug": "creme_fraiche",
+        "ingredient": "69c50e6182ec35e93235e41d",
+        "name": "concombre",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      { "name": "saumon_fume", "quantity_person": 50, "unity": "g" },
+      {
+        "name": "creme_fraiche",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "moutarde",
+        "name": "moutarde",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "ciboulette",
+        "name": "ciboulette",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "jus_citron",
+        "name": "jus_citron",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
-      "Étape 1: Éplucher les concombres en lanières à l'aide d'un économe.",
+      "Étape 1: Éplucher les concombres en lanières à l'aingrediente d'un économe.",
       "Étape 2: Mélanger la crème fraîche avec la moutarde, la ciboulette, le sel, le poivre et le jus de citron.",
       "Étape 3: Couper le saumon fumé en petites lanières.",
       "Étape 4: Dans un saladier, mélanger les tagliatelles de concombre, le saumon et la sauce.",
@@ -5625,63 +5942,68 @@
     "cooking": 35,
     "ingredients": [
       {
-        "slug": "gelatine",
+        "name": "gelatine",
         "quantity_person": 0.75,
         "unity": "feuille"
       },
-      { "slug": "maizena", "quantity_person": 1.5, "unity": "g" },
+      { "name": "maizena", "quantity_person": 1.5, "unity": "g" },
       {
-        "slug": "creme_fraiche",
+        "name": "creme_fraiche",
         "quantity_person": 50,
         "unity": "ml"
       },
       {
-        "slug": "pate_feuilletee",
+        "name": "pate_feuilletee",
         "quantity_person": "0.25",
         "unity": "piece"
       },
-      { "slug": "myrtille", "quantity_person": 113, "unity": "g" },
       {
-        "slug": "geleé_de_mures",
+        "ingredient": "69c50e6182ec35e93235e42a",
+        "name": "myrtille",
+        "quantity_person": 113,
+        "unity": "g"
+      },
+      {
+        "name": "geleé_de_mures",
         "quantity_person": 0.75,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "jaune_d_oeuf",
+        "name": "jaune_d_oeuf",
         "quantity_person": 0.5,
         "unity": "piece"
       },
-      { "slug": "mascarpone", "quantity_person": 25, "unity": "g" },
+      { "name": "mascarpone", "quantity_person": 25, "unity": "g" },
       {
-        "slug": "amande_en_poudre",
+        "name": "amande_en_poudre",
         "quantity_person": 25,
         "unity": "g"
       },
       {
-        "slug": "arome_amande_amere",
+        "name": "arome_amande_amere",
         "quantity_person": "0.5",
         "unity": "goutte"
       },
-      { "slug": "sucre_glace", "quantity_person": 10, "unity": "g" },
+      { "name": "sucre_glace", "quantity_person": 10, "unity": "g" },
       {
-        "slug": "sucre_en_poudre",
+        "name": "sucre_en_poudre",
         "quantity_person": 8,
         "unity": "g"
       },
       {
-        "slug": "creme_chantilly",
+        "name": "creme_chantilly",
         "quantity_person": "0.25",
         "unity": "cuillere_soupe"
       }
     ],
     "preparation": [
-      "Étape 1: Dérouler la pâte dans un petit moule individuel et la faire bien épouser au fond.",
+      "Étape 1: Dérouler la pâte dans un petit moule indivingredientuel et la faire bien épouser au fond.",
       "Étape 2: Remplir la pâte de haricots secs sur papier sulfurisé.",
       "Étape 3: Enfourner 10 min à 220°C, retirer les haricots et poursuivre 10 min à 200°C.",
       "Étape 4: Préparer la crème d'amandes en fouettant mascarpone, jaunes d'œufs, arôme d'amande, crème, poudre d'amandes, sucre glace et maïzena.",
       "Étape 5: Garnir le fond de tarte avec la crème d'amandes et cuire 15 à 20 min à 180°C.",
-      "Étape 6: Ramollir la gélatine dans l'eau froide, faire fondre la gelée de mûres, ajouter la gélatine et bien mélanger.",
-      "Étape 7: Ajouter le mélange aux myrtilles sucrées et laisser refroidir 1 heure.",
+      "Étape 6: Ramollir la gélatine dans l'eau froingrediente, faire fondre la gelée de mûres, ajouter la gélatine et bien mélanger.",
+      "Étape 7: Ajouter le mélange aux myrtilles sucrées et laisser refroingredientir 1 heure.",
       "Étape 8: Garnir la tarte avec les fruits et ajouter de la crème chantilly selon les goûts, puis servir."
     ]
   },
@@ -5695,32 +6017,42 @@
     "timing_preparation": 30,
     "cooking": 45,
     "ingredients": [
-      { "slug": "oignon", "quantity_person": 1, "unity": "piece" },
       {
-        "slug": "pate_brisee",
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      {
+        "name": "pate_brisee",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "chou_rouge", "quantity_person": 25, "unity": "g" },
       {
-        "slug": "lardons_natures",
+        "ingredient": "69c50e6182ec35e93235e41c",
+        "name": "chou_rouge",
+        "quantity_person": 25,
+        "unity": "g"
+      },
+      {
+        "name": "lardons_natures",
         "quantity_person": 30,
         "unity": "g"
       },
-      { "slug": "creme", "quantity_person": 30, "unity": "ml" },
-      { "slug": "oeuf", "quantity_person": 1, "unity": "piece" },
+      { "name": "creme", "quantity_person": 30, "unity": "ml" },
+      { "name": "oeuf", "quantity_person": 1, "unity": "piece" },
       {
-        "slug": "sel",
+        "name": "sel",
         "quantity_person": 1,
         "unity": "pincee"
       },
       {
-        "slug": "poivre",
+        "name": "poivre",
         "quantity_person": 1,
         "unity": "pincee"
       },
       {
-        "slug": "huile_d_olive",
+        "name": "huile_d_olive",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       }
@@ -5729,7 +6061,7 @@
       "Étape 1: Faire revenir les lardons dans une poêle sans ajout de gras.",
       "Étape 2: Émincer l'oignon et le chou rouge en fines lamelles.",
       "Étape 3: Ajouter oignon et chou dans la poêle avec un peu d'huile d'olive et faire revenir jusqu'à ce que le tout soit tendre.",
-      "Étape 4: Saler et poivrer. Laisser refroidir hors du feu.",
+      "Étape 4: Saler et poivrer. Laisser refroingredientir hors du feu.",
       "Étape 5: Étaler la pâte brisée dans un petit moule adapté à 1 personne et piquer à la fourchette.",
       "Étape 6: Précuire la pâte 15 min au four à 180°C.",
       "Étape 7: Battre l'œuf avec la crème dans un bol et verser sur le mélange oignon/chou.",
@@ -5749,33 +6081,38 @@
     "cooking": 30,
     "ingredients": [
       {
-        "slug": "creme_fraiche",
+        "name": "creme_fraiche",
         "quantity_person": 0.33,
         "unity": "cuillere_soupe"
       },
-      { "slug": "rhum", "quantity_person": "au goût", "unity": "goutte" },
+      { "name": "rhum", "quantity_person": "au goût", "unity": "goutte" },
       {
-        "slug": "amandes_poudre",
+        "name": "amandes_poudre",
         "quantity_person": 3.466,
         "unity": "g"
       },
       {
-        "slug": "sucre_en_poudre",
+        "name": "sucre_en_poudre",
         "quantity_person": 21,
         "unity": "g"
       },
-      { "slug": "raisin", "quantity_person": 0.25, "unity": "botte" },
       {
-        "slug": "pate_sablee",
+        "ingredient": "69c50e6182ec35e93235e43c",
+        "name": "raisin",
+        "quantity_person": 0.25,
+        "unity": "botte"
+      },
+      {
+        "name": "pate_sablee",
         "quantity_person": "0.25",
         "unity": "piece"
       },
-      { "slug": "oeuf", "quantity_person": 0.33, "unity": "piece" }
+      { "name": "oeuf", "quantity_person": 0.33, "unity": "piece" }
     ],
     "preparation": [
       "Étape 1: Mélanger les œufs, le sucre, la poudre d'amande, la crème fraîche et le rhum jusqu'à obtention d'un mélange lisse.",
       "Étape 2: Ajouter les raisins lavés, coupés en deux et épépinés.",
-      "Étape 3: Étaler la pâte sablée dans un petit moule individuel et la piquer avec une fourchette.",
+      "Étape 3: Étaler la pâte sablée dans un petit moule indivingredientuel et la piquer avec une fourchette.",
       "Étape 4: Verser la préparation aux raisins sur la pâte.",
       "Étape 5: Cuire au four préchauffé à 180°C pendant 30 min, jusqu'à légère coloration dorée."
     ]
@@ -5784,38 +6121,48 @@
     "name": "Tarte filo poireaux, épinards, feta et Morteau",
     "slug": "tarte_filo_poireaux_epinards_feta_morteau",
     "category": "plat",
-    "description": "Tarte croustillante aux poireaux, épinards, feta et saucisse de Morteau, simple et rapide.",
+    "description": "Tarte croustillante aux poireaux, épinards, feta et saucisse de Morteau, simple et rapingrediente.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 20,
     "ingredients": [
       {
-        "slug": "pate_filo",
+        "name": "pate_filo",
         "quantity_person": 2,
         "unity": "piece"
       },
-      { "slug": "huile_olive", "quantity_person": 8, "unity": "ml" },
+      { "name": "huile_olive", "quantity_person": 8, "unity": "ml" },
       {
-        "slug": "creme_fraiche_epaisse",
+        "name": "creme_fraiche_epaisse",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
-      { "slug": "poireau", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "epinards", "quantity_person": 25, "unity": "g" },
       {
-        "slug": "saucisse_morteau_cuite",
+        "ingredient": "69c50e6182ec35e93235e433",
+        "name": "poireau",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e41f",
+        "name": "epinards",
+        "quantity_person": 25,
+        "unity": "g"
+      },
+      {
+        "name": "saucisse_morteau_cuite",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "feta", "quantity_person": 25, "unity": "g" },
+      { "name": "feta", "quantity_person": 25, "unity": "g" },
       {
-        "slug": "herbes_aromatiques",
+        "name": "herbes_aromatiques",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Préchauffer le four à 180°C.",
@@ -5840,36 +6187,37 @@
     "timing_preparation": 30,
     "cooking": 25,
     "ingredients": [
-      { "slug": "sucre", "quantity_person": 24, "unity": "g" },
+      { "name": "sucre", "quantity_person": 24, "unity": "g" },
       {
-        "slug": "creme_fraiche_epaisse",
+        "name": "creme_fraiche_epaisse",
         "quantity_person": 70,
         "unity": "ml"
       },
       {
-        "slug": "chocolat_patisserie",
+        "name": "chocolat_patisserie",
         "quantity_person": 67,
         "unity": "g"
       },
       {
-        "slug": "pate_feuilletee",
+        "name": "pate_feuilletee",
         "quantity_person": "0.33",
         "unity": "piece"
       },
-      { "slug": "oeuf", "quantity_person": 0.75, "unity": "piece" },
+      { "name": "oeuf", "quantity_person": 0.75, "unity": "piece" },
       {
-        "slug": "amandes_poudre",
+        "name": "amandes_poudre",
         "quantity_person": 20,
         "unity": "g"
       },
       {
-        "slug": "poire_au_sirop",
+        "ingredient": "69c50e6182ec35e93235e432",
+        "name": "poire_au_sirop",
         "quantity_person": 0.75,
         "unity": "boite"
       }
     ],
     "preparation": [
-      "Étape 1: Étaler la pâte feuilletée sur un petit moule individuel et rouler légèrement les bords.",
+      "Étape 1: Étaler la pâte feuilletée sur un petit moule indivingredientuel et rouler légèrement les bords.",
       "Étape 2: Faire fondre le chocolat avec une petite portion de crème fraîche.",
       "Étape 3: Étaler le chocolat fondu sur le fond de tarte.",
       "Étape 4: Égoutter la poire et la trancher, disposer sur le chocolat.",
@@ -5882,46 +6230,51 @@
     "name": "Tarte aux poireaux et aux lardons",
     "slug": "tarte_poireaux_lardons",
     "category": "plat",
-    "description": "Tarte salée individuelle garnie de poireau fondant et lardons dorés, nappée d'un appareil œufs-crème et gratinée au fromage râpé.",
+    "description": "Tarte salée indivingredientuelle garnie de poireau fondant et lardons dorés, nappée d'un appareil œufs-crème et gratinée au fromage râpé.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 25,
     "cooking": 25,
     "ingredients": [
-      { "slug": "farine", "quantity_person": 42, "unity": "g" },
-      { "slug": "beurre", "quantity_person": 24, "unity": "g" },
-      { "slug": "poireau", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "farine", "quantity_person": 42, "unity": "g" },
+      { "name": "beurre", "quantity_person": 24, "unity": "g" },
       {
-        "slug": "fromage_râpé",
+        "ingredient": "69c50e6182ec35e93235e433",
+        "name": "poireau",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "name": "fromage_râpé",
         "quantity_person": 17,
         "unity": "g"
       },
       {
-        "slug": "creme_fraiche",
+        "name": "creme_fraiche",
         "quantity_person": 50,
         "unity": "ml"
       },
       {
-        "slug": "poivre",
+        "name": "poivre",
         "quantity_person": 1,
         "unity": "pincee"
       },
       {
-        "slug": "sel",
+        "name": "sel",
         "quantity_person": 1,
         "unity": "pincee"
       },
       {
-        "slug": "eau",
+        "name": "eau",
         "quantity_person": 0.33,
         "unity": "cuillere_soupe"
       },
-      { "slug": "lardons", "quantity_person": 67, "unity": "g" },
-      { "slug": "oeuf", "quantity_person": 0.5, "unity": "piece" }
+      { "name": "lardons", "quantity_person": 67, "unity": "g" },
+      { "name": "oeuf", "quantity_person": 0.5, "unity": "piece" }
     ],
     "preparation": [
       "Étape 1: Préchauffer le four à 210°C (thermostat 7).",
-      "Étape 2: Préparer la pâte à tarte en malaxant le beurre, la farine et l'eau. Étaler et mettre dans un petit plat individuel.",
+      "Étape 2: Préparer la pâte à tarte en malaxant le beurre, la farine et l'eau. Étaler et mettre dans un petit plat indivingredientuel.",
       "Étape 3: Émincer le poireau et le faire dorer dans un peu de beurre.",
       "Étape 4: Faire dorer les lardons à part, puis les égoutter.",
       "Étape 5: Mélanger les lardons aux poireaux.",
@@ -5934,52 +6287,57 @@
     "name": "Tarte aux mûres et au mascarpone",
     "slug": "tarte_mures_mascarpone",
     "category": "dessert",
-    "description": "Tarte individuelle avec une base de pâte brisée, garnie de mascarpone crémeux et de mûres fraîches, légèrement nappée de gelée.",
+    "description": "Tarte indivingredientuelle avec une base de pâte brisée, garnie de mascarpone crémeux et de mûres fraîches, légèrement nappée de gelée.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 20,
     "ingredients": [
       {
-        "slug": "pate_brisee",
+        "name": "pate_brisee",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "mascarpone", "quantity_person": 84, "unity": "g" },
+      { "name": "mascarpone", "quantity_person": 84, "unity": "g" },
       {
-        "slug": "creme_liquide",
+        "name": "creme_liquingrediente",
         "quantity_person": 20,
         "unity": "ml"
       },
-      { "slug": "mures", "quantity_person": 84, "unity": "g" },
       {
-        "slug": "sucre",
+        "ingredient": "69c50e6182ec35e93235e429",
+        "name": "mures",
+        "quantity_person": 84,
+        "unity": "g"
+      },
+      {
+        "name": "sucre",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
-      { "slug": "vanille", "quantity_person": 0.25, "unity": "gousse" },
+      { "name": "vanille", "quantity_person": 0.25, "unity": "gousse" },
       {
-        "slug": "porto",
+        "name": "porto",
         "quantity_person": 0.33,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "gelees_mures",
+        "name": "gelees_mures",
         "quantity_person": 0.24,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "eau",
+        "name": "eau",
         "quantity_person": 0.24,
         "unity": "cuillere_soupe"
       }
     ],
     "preparation": [
-      "Étape 1: Cuire la pâte brisée à blanc dans un four préchauffé à 180°C pendant 20 min. Laisser refroidir.",
-      "Étape 2: Dans un saladier, mélanger le mascarpone, le sucre, la vanille, le porto et la crème liquide jusqu'à obtention d'une texture homogène.",
-      "Étape 3: Étaler cette préparation sur la pâte brisée refroidie.",
+      "Étape 1: Cuire la pâte brisée à blanc dans un four préchauffé à 180°C pendant 20 min. Laisser refroingredientir.",
+      "Étape 2: Dans un saladier, mélanger le mascarpone, le sucre, la vanille, le porto et la crème liquingrediente jusqu'à obtention d'une texture homogène.",
+      "Étape 3: Étaler cette préparation sur la pâte brisée refroingredientie.",
       "Étape 4: Disposer les mûres sur la crème.",
-      "Étape 5: Faire fondre la gelée de mûres avec l'eau et, à l'aide d'un pinceau, napper les mûres.",
+      "Étape 5: Faire fondre la gelée de mûres avec l'eau et, à l'aingrediente d'un pinceau, napper les mûres.",
       "Étape 6: Servir immédiatement ou après un court passage au réfrigérateur (maximum 2 h)."
     ]
   },
@@ -5987,21 +6345,26 @@
     "name": "Tarte aux pommes",
     "slug": "tarte_aux_pommes",
     "category": "dessert",
-    "description": "Tarte individuelle aux pommes avec compote maison et lamelles de pommes caramélisées sur pâte brisée.",
+    "description": "Tarte indivingredientuelle aux pommes avec compote maison et lamelles de pommes caramélisées sur pâte brisée.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 25,
     "cooking": 30,
     "ingredients": [
       {
-        "slug": "pate_brisee",
+        "name": "pate_brisee",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "pomme", "quantity_person": 1, "unity": "piece" },
-      { "slug": "beurre", "quantity_person": 5, "unity": "g" },
       {
-        "slug": "sucre_vanille",
+        "ingredient": "69c50e6182ec35e93235e435",
+        "name": "pomme",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      { "name": "beurre", "quantity_person": 5, "unity": "g" },
+      {
+        "name": "sucre_vanille",
         "quantity_person": 0.25,
         "unity": "sachet"
       }
@@ -6010,7 +6373,7 @@
       "Étape 1: Éplucher et découper la pomme. Mettre dans une petite casserole avec un peu d'eau et cuire pour obtenir une compote. Ajouter le sucre vanillé et remuer jusqu'à ce que la pomme soit bien tendre.",
       "Étape 2: Éplucher et couper une fine lamelle de pomme pour la décoration.",
       "Étape 3: Préchauffer le four à 210°C (thermostat 7).",
-      "Étape 4: Laisser refroidir un peu la compote, étaler la pâte brisée dans un petit moule et la piquer avec une fourchette.",
+      "Étape 4: Laisser refroingredientir un peu la compote, étaler la pâte brisée dans un petit moule et la piquer avec une fourchette.",
       "Étape 5: Verser la compote sur la pâte, disposer la lamelle de pomme sur le dessus et ajouter un peu de beurre.",
       "Étape 6: Cuire au four pendant 30 min. Optionnel: saupoudrer un peu de sucre vanillé pour caraméliser légèrement."
     ]
@@ -6026,19 +6389,24 @@
     "cooking": 35,
     "ingredients": [
       {
-        "slug": "pate_brisee",
+        "name": "pate_brisee",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "cassis", "quantity_person": 0.25, "unity": "poignée" },
       {
-        "slug": "jaune_d_oeuf",
+        "ingredient": "69c50e6182ec35e93235e40e",
+        "name": "cassis",
+        "quantity_person": 0.25,
+        "unity": "poignée"
+      },
+      {
+        "name": "jaune_d_oeuf",
         "quantity_person": 0.5,
         "unity": "piece"
       },
-      { "slug": "sucre", "quantity_person": 17, "unity": "g" },
-      { "slug": "farine", "quantity_person": 5, "unity": "g" },
-      { "slug": "creme_fraiche", "quantity_person": 34, "unity": "g" }
+      { "name": "sucre", "quantity_person": 17, "unity": "g" },
+      { "name": "farine", "quantity_person": 5, "unity": "g" },
+      { "name": "creme_fraiche", "quantity_person": 34, "unity": "g" }
     ],
     "preparation": [
       "Étape 1: Équeuter, laver et sécher les grains de cassis.",
@@ -6047,7 +6415,7 @@
       "Étape 4: Dans un bol, battre le jaune d'œuf avec le sucre et la farine, ajouter la crème fraîche et mélanger jusqu'à obtenir une préparation homogène.",
       "Étape 5: Verser cette préparation sur les cassis.",
       "Étape 6: Cuire au four préchauffé à 200°C pendant 35 minutes.",
-      "Étape 7: Servir tiède ou froide."
+      "Étape 7: Servir tiède ou froingrediente."
     ]
   },
   {
@@ -6060,31 +6428,36 @@
     "timing_preparation": 20,
     "cooking": 15,
     "ingredients": [
-      { "slug": "farine", "quantity_person": 40, "unity": "g" },
-      { "slug": "beurre_sale", "quantity_person": 12, "unity": "g" },
-      { "slug": "cassonade", "quantity_person": 10, "unity": "g" },
-      { "slug": "jaune_oeuf", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "lait", "quantity_person": 30, "unity": "ml" },
-      { "slug": "sucre", "quantity_person": 10, "unity": "g" },
+      { "name": "farine", "quantity_person": 40, "unity": "g" },
+      { "name": "beurre_sale", "quantity_person": 12, "unity": "g" },
+      { "name": "cassonade", "quantity_person": 10, "unity": "g" },
+      { "name": "jaune_oeuf", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "lait", "quantity_person": 30, "unity": "ml" },
+      { "name": "sucre", "quantity_person": 10, "unity": "g" },
       {
-        "slug": "sucre_vanille",
+        "name": "sucre_vanille",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "fraises", "quantity_person": 100, "unity": "g" },
       {
-        "slug": "confiture_fruits_rouges",
+        "ingredient": "69c50e6182ec35e93235e421",
+        "name": "fraises",
+        "quantity_person": 100,
+        "unity": "g"
+      },
+      {
+        "name": "confiture_fruits_rouges",
         "quantity_person": 15,
         "unity": "g"
       },
-      { "slug": "eau", "quantity_person": 10, "unity": "ml" },
-      { "slug": "rhum", "quantity_person": 1, "unity": "cuillere_cafe" }
+      { "name": "eau", "quantity_person": 10, "unity": "ml" },
+      { "name": "rhum", "quantity_person": 1, "unity": "cuillere_cafe" }
     ],
     "preparation": [
       "Étape 1: Mélanger la farine, le beurre, la cassonade, le jaune d'œuf, le lait et le rhum pour former une pâte. Ajouter un peu d'eau si nécessaire pour obtenir une boule homogène.",
-      "Étape 2: Étaler la pâte, foncer un petit moule, piquer et cuire 15 min à 180°C. Laisser refroidir.",
-      "Étape 3: Mélanger le lait, le sucre, le sucre vanillé et le jaune d'œuf. Chauffer (casserole ou micro-ondes) jusqu'à épaississement pour obtenir une crème pâtissière. Laisser refroidir.",
-      "Étape 4: Étaler la crème sur le fond de tarte refroidi.",
+      "Étape 2: Étaler la pâte, foncer un petit moule, piquer et cuire 15 min à 180°C. Laisser refroingredientir.",
+      "Étape 3: Mélanger le lait, le sucre, le sucre vanillé et le jaune d'œuf. Chauffer (casserole ou micro-ondes) jusqu'à épaississement pour obtenir une crème pâtissière. Laisser refroingredientir.",
+      "Étape 4: Étaler la crème sur le fond de tarte refroingredienti.",
       "Étape 5: Ajouter les fraises coupées.",
       "Étape 6: Chauffer la confiture avec un peu d'eau pour faire un nappage, laisser tiédir puis napper les fraises."
     ]
@@ -6093,46 +6466,57 @@
     "name": "Tartelette aux pleurotes et fromage de chèvre",
     "slug": "tartelette_pleurotes_chevre",
     "category": "plat",
-    "description": "Petite tartelette individuelle garnie de pleurotes et d'un mélange de fromages de chèvre frais et sec.",
+    "description": "Petite tartelette indivingredientuelle garnie de pleurotes et d'un mélange de fromages de chèvre frais et sec.",
     "price": 2,
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 15,
     "ingredients": [
-      { "slug": "pleurote", "quantity_person": 62.5, "unity": "g" },
       {
-        "slug": "fromage_de_chevre_frais",
+        "ingredient": "69c50e6182ec35e93235e431",
+        "name": "pleurote",
+        "quantity_person": 62.5,
+        "unity": "g"
+      },
+      {
+        "name": "fromage_de_chevre_frais",
         "quantity_person": 25,
         "unity": "g"
       },
       {
-        "slug": "fromage_de_chevre_sec",
+        "name": "fromage_de_chevre_sec",
         "quantity_person": 25,
         "unity": "g"
       },
-      { "slug": "oeuf", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "oeuf", "quantity_person": 0.5, "unity": "piece" },
       {
-        "slug": "creme_liquide",
+        "name": "creme_liquingrediente",
         "quantity_person": 25,
         "unity": "ml"
       },
       {
-        "slug": "pate_feuilletee",
+        "name": "pate_feuilletee",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "slug": "oignon",
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "persil", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      {
+        "ingredient": "69c50e6182ec35e93235e42f",
+        "name": "persil",
+        "quantity_person": 1,
+        "unity": "pincee"
+      },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Préchauffer le four à 200°C (thermostat 6-7).",
       "Étape 2: Émincer l'échalote et la faire suer avec le persil dans un peu de beurre. Réserver.",
-      "Étape 3: Nettoyer et couper les pleurotes, les poêler rapidement pour évacuer l'eau.",
+      "Étape 3: Nettoyer et couper les pleurotes, les poêler rapingredientement pour évacuer l'eau.",
       "Étape 4: Dans un bol, malaxer le fromage de chèvre frais avec le fromage sec râpé. Ajouter l'œuf battu et détendre avec un peu de crème. Incorporer les pleurotes, l'échalote et le persil. Poivrer.",
       "Étape 5: Garnir le fond de tartelette avec la préparation.",
       "Étape 6: Cuire au four pendant 15 minutes et servir chaud."
@@ -6148,18 +6532,23 @@
     "timing_preparation": 15,
     "cooking": 25,
     "ingredients": [
-      { "slug": "brocoli", "quantity_person": 100, "unity": "g" },
       {
-        "slug": "pate_feuilletee",
+        "ingredient": "69c50e6182ec35e93235e40c",
+        "name": "brocoli",
+        "quantity_person": 100,
+        "unity": "g"
+      },
+      {
+        "name": "pate_feuilletee",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "camembert", "quantity_person": 25, "unity": "g" },
-      { "slug": "creme_fraiche", "quantity_person": 50, "unity": "ml" },
-      { "slug": "oeuf", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "muscade", "quantity_person": 1, "unity": "pincee" }
+      { "name": "camembert", "quantity_person": 25, "unity": "g" },
+      { "name": "creme_fraiche", "quantity_person": 50, "unity": "ml" },
+      { "name": "oeuf", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "muscade", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Précuire la pâte feuilletée au four.",
@@ -6179,36 +6568,41 @@
     "timing_preparation": 25,
     "cooking": 25,
     "ingredients": [
-      { "slug": "farine", "quantity_person": 42, "unity": "g" },
-      { "slug": "beurre", "quantity_person": 24, "unity": "g" },
-      { "slug": "poireau", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "farine", "quantity_person": 42, "unity": "g" },
+      { "name": "beurre", "quantity_person": 24, "unity": "g" },
       {
-        "slug": "fromage_râpé",
+        "ingredient": "69c50e6182ec35e93235e433",
+        "name": "poireau",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "name": "fromage_râpé",
         "quantity_person": 17,
         "unity": "g"
       },
       {
-        "slug": "creme_fraiche",
+        "name": "creme_fraiche",
         "quantity_person": 50,
         "unity": "ml"
       },
       {
-        "slug": "poivre",
+        "name": "poivre",
         "quantity_person": 1,
         "unity": "pincee"
       },
       {
-        "slug": "sel",
+        "name": "sel",
         "quantity_person": 1,
         "unity": "pincee"
       },
       {
-        "slug": "eau",
+        "name": "eau",
         "quantity_person": 0.33,
         "unity": "cuillere_soupe"
       },
-      { "slug": "lardons", "quantity_person": 67, "unity": "g" },
-      { "slug": "oeuf", "quantity_person": 0.5, "unity": "piece" }
+      { "name": "lardons", "quantity_person": 67, "unity": "g" },
+      { "name": "oeuf", "quantity_person": 0.5, "unity": "piece" }
     ],
     "preparation": [
       "Préchauffer le four à 210°C (thermostat 7).",
@@ -6231,12 +6625,17 @@
     "timing_preparation": 5,
     "cooking": 5,
     "ingredients": [
-      { "slug": "pain", "quantity_person": 1, "unity": "piece" },
-      { "slug": "beurre", "quantity_person": 10, "unity": "g" },
-      { "slug": "herbes_fraiches", "quantity_person": 1, "unity": "g" },
-      { "slug": "radis_noir", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "pain", "quantity_person": 1, "unity": "piece" },
+      { "name": "beurre", "quantity_person": 10, "unity": "g" },
+      { "name": "herbes_fraiches", "quantity_person": 1, "unity": "g" },
+      {
+        "ingredient": "69c50e6182ec35e93235e43b",
+        "name": "radis_noir",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Griller le pain et laisser tiédir.",
@@ -6255,14 +6654,24 @@
     "timing_preparation": 20,
     "cooking": 25,
     "ingredients": [
-      { "slug": "brocoli", "quantity_person": 100, "unity": "g" },
-      { "slug": "creme_fraiche", "quantity_person": 15, "unity": "g" },
-      { "slug": "oeuf", "quantity_person": 0.67, "unity": "piece" },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "beurre", "quantity_person": 5, "unity": "g" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "muscade", "quantity_person": 1, "unity": "pincee" }
+      {
+        "ingredient": "69c50e6182ec35e93235e40c",
+        "name": "brocoli",
+        "quantity_person": 100,
+        "unity": "g"
+      },
+      { "name": "creme_fraiche", "quantity_person": 15, "unity": "g" },
+      { "name": "oeuf", "quantity_person": 0.67, "unity": "piece" },
+      {
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      { "name": "beurre", "quantity_person": 5, "unity": "g" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "muscade", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Préchauffer le four à 180°C.",
@@ -6285,35 +6694,39 @@
     "cooking": 0,
     "ingredients": [
       {
-        "slug": "sucre_semoule",
+        "name": "sucre_semoule",
         "quantity_person": 63,
         "unity": "g"
       },
-      { "slug": "cerise", "quantity_person": 150, "unity": "g" },
       {
-        "slug": "sucre_vanille",
+        "ingredient": "69c50e6182ec35e93235e412",
+        "name": "cerise",
+        "quantity_person": 150,
+        "unity": "g"
+      },
+      {
+        "name": "sucre_vanille",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "slug": "sucre_glace",
+        "name": "sucre_glace",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "cannelle_baton",
+        "name": "cannelle_baton",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "mascarpone", "quantity_person": 63, "unity": "g" },
-      { "slug": "piece", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "mascarpone", "quantity_person": 63, "unity": "g" },
       {
-        "slug": "marasquin",
+        "name": "marasquin",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "cacao",
+        "name": "cacao",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       }
@@ -6338,23 +6751,28 @@
     "cooking": 0,
     "ingredients": [
       {
-        "slug": "biscuits_cuillere",
+        "name": "biscuits_cuillere",
         "quantity_person": 4,
         "unity": "piece"
       },
-      { "slug": "framboises", "quantity_person": 80, "unity": "g" },
-      { "slug": "mascarpone", "quantity_person": 40, "unity": "g" },
-      { "slug": "oeuf", "quantity_person": 1, "unity": "piece" },
-      { "slug": "sucre_roux", "quantity_person": 15, "unity": "g" },
       {
-        "slug": "sucre_vanille",
+        "ingredient": "69c50e6182ec35e93235e422",
+        "name": "framboises",
+        "quantity_person": 80,
+        "unity": "g"
+      },
+      { "name": "mascarpone", "quantity_person": 40, "unity": "g" },
+      { "name": "oeuf", "quantity_person": 1, "unity": "piece" },
+      { "name": "sucre_roux", "quantity_person": 15, "unity": "g" },
+      {
+        "name": "sucre_vanille",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "lait", "quantity_person": 20, "unity": "ml" }
+      { "name": "lait", "quantity_person": 20, "unity": "ml" }
     ],
     "preparation": [
-      "Étape 1: Tremper rapidement les biscuits à la cuillère dans le lait et les disposer au fond d'un verre ou d'un petit plat.",
+      "Étape 1: Tremper rapingredientement les biscuits à la cuillère dans le lait et les disposer au fond d'un verre ou d'un petit plat.",
       "Étape 2: Écraser les framboises avec une partie du sucre et les répartir sur les biscuits. Réserver quelques framboises pour la décoration.",
       "Étape 3: Séparer le blanc du jaune d'œuf.",
       "Étape 4: Fouetter le jaune avec le reste du sucre et le sucre vanillé jusqu'à blanchiment, puis incorporer le mascarpone.",
@@ -6368,31 +6786,36 @@
     "slug": "toast_beurre_herbes_radis",
     "category": "entree",
     "img": "",
-    "description": "Toasts croquants garnis d’un beurre aux herbes fraîches et de radis, simples et rapides.",
+    "description": "Toasts croquants garnis d’un beurre aux herbes fraîches et de radis, simples et rapingredientes.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 4,
     "ingredients": [
-      { "slug": "croûtons", "quantity_person": 2, "unity": "piece" },
-      { "slug": "beurre", "quantity_person": 15, "unity": "g" },
-      { "slug": "radis", "quantity_person": 3, "unity": "piece" },
-      { "slug": "citron", "quantity_person": 2, "unity": "ml" },
+      { "name": "croûtons", "quantity_person": 2, "unity": "piece" },
+      { "name": "beurre", "quantity_person": 15, "unity": "g" },
       {
-        "slug": "fleur_de_sel",
+        "ingredient": "69ca310ba3490a666cf5696a",
+        "name": "radis",
+        "quantity_person": 3,
+        "unity": "piece"
+      },
+      { "name": "citron", "quantity_person": 2, "unity": "ml" },
+      {
+        "name": "fleur_de_sel",
         "quantity_person": 1,
         "unity": "pincee"
       },
       {
-        "slug": "poivre",
+        "name": "poivre",
         "quantity_person": 1,
         "unity": "pincee"
       },
-      { "slug": "herbes_fraiches", "quantity_person": 2, "unity": "g" }
+      { "name": "herbes_fraiches", "quantity_person": 2, "unity": "g" }
     ],
     "preparation": [
       "Étape 1: Ciseler les herbes et les mélanger au beurre ramolli avec le sel, le poivre et le jus de citron.",
-      "Étape 2: Couper le pain en tranches et les passer sous le grill 2 min de chaque côté, puis laisser refroidir.",
+      "Étape 2: Couper le pain en tranches et les passer sous le grill 2 min de chaque côté, puis laisser refroingredientir.",
       "Étape 3: Couper les radis en fines rondelles.",
       "Étape 4: Tartiner les tranches de pain du beurre aux herbes.",
       "Étape 5: Déposer les rondelles de radis sur chaque toast (ou concombre / carotte râpée en alternative).",
@@ -6410,23 +6833,33 @@
     "timing_preparation": 15,
     "cooking": 30,
     "ingredients": [
-      { "slug": "beurre", "quantity_person": 20, "unity": "g" },
+      { "name": "beurre", "quantity_person": 20, "unity": "g" },
       {
-        "slug": "creme_fraiche_epaisse",
+        "name": "creme_fraiche_epaisse",
         "quantity_person": 20,
         "unity": "ml"
       },
-      { "slug": "topinambour", "quantity_person": 200, "unity": "g" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      {
+        "ingredient": "69c50e6182ec35e93235e440",
+        "name": "topinambour",
+        "quantity_person": 200,
+        "unity": "g"
+      },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "ingredients_remplacement": [
-      { "slug": "panais", "quantity_person": 200, "unity": "g" }
+      {
+        "ingredient": "69c50e6182ec35e93235e42d",
+        "name": "panais",
+        "quantity_person": 200,
+        "unity": "g"
+      }
     ],
     "preparation": [
       "Étape 1: Éplucher et laver les topinambours (ou panais).",
-      "Étape 2: Les plonger dans une grande casserole d'eau froide salée.",
-      "Étape 3: Faire bouillir environ 30 minutes, vérifier la cuisson à l'aide d'un couteau.",
+      "Étape 2: Les plonger dans une grande casserole d'eau froingrediente salée.",
+      "Étape 3: Faire bouillir environ 30 minutes, vérifier la cuisson à l'aingrediente d'un couteau.",
       "Étape 4: Dans une casserole, faire fondre à feu doux le beurre avec la crème fraîche. Saler et poivrer.",
       "Étape 5: Égoutter les topinambours (ou panais) et les recouvrir de sauce avant de servir."
     ]
@@ -6442,26 +6875,56 @@
     "timing_preparation": 30,
     "cooking": 45,
     "ingredients": [
-      { "slug": "topinambour", "quantity_person": 200, "unity": "g" },
-      { "slug": "lard", "quantity_person": 60, "unity": "g" },
-      { "slug": "oignon", "quantity_person": 50, "unity": "g" },
-      { "slug": "echalote", "quantity_person": 25, "unity": "g" },
-      { "slug": "carotte", "quantity_person": 50, "unity": "g" },
-      { "slug": "ail", "quantity_person": 1, "unity": "gousse" },
-      { "slug": "beurre", "quantity_person": 5, "unity": "g" },
-      { "slug": "vin_blanc", "quantity_person": 25, "unity": "ml" },
-      { "slug": "laurier", "quantity_person": 0.2, "unity": "piece" },
-      { "slug": "thym", "quantity_person": 0.2, "unity": "piece" },
-      { "slug": "muscade", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      {
+        "ingredient": "69c50e6182ec35e93235e440",
+        "name": "topinambour",
+        "quantity_person": 200,
+        "unity": "g"
+      },
+      { "name": "lard", "quantity_person": 60, "unity": "g" },
+      {
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      { "name": "echalote", "quantity_person": 25, "unity": "g" },
+      {
+        "ingredient": "69c50e6182ec35e93235e40d",
+        "name": "carotte",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 1,
+        "unity": "gousse"
+      },
+      { "name": "beurre", "quantity_person": 5, "unity": "g" },
+      { "name": "vin_blanc", "quantity_person": 25, "unity": "ml" },
+      { "name": "laurier", "quantity_person": 0.2, "unity": "piece" },
+      { "name": "thym", "quantity_person": 0.2, "unity": "piece" },
+      { "name": "muscade", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "ingredients_remplacement": [
-      { "slug": "oignon", "quantity_person": 50, "unity": "g" },
-      { "slug": "panais", "quantity_person": 200, "unity": "g" }
+      {
+        "ingredient": "69c50e6182ec35e93235e42c",
+        "name": "oignon_jeune",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42d",
+        "name": "panais",
+        "quantity_person": 200,
+        "unity": "g"
+      }
     ],
     "preparation": [
-      "Étape 1: Plongez les lardons 1 min dans l'eau bouillante, égouttez-les et rafraîchissez-les sous l'eau froide. Épongez.",
+      "Étape 1: Plongez les lardons 1 min dans l'eau bouillante, égouttez-les et rafraîchissez-les sous l'eau froingrediente. Épongez.",
       "Étape 2: Épluchez et émincez oignons et échalotes. Pelez et coupez les carottes en petits dés. Écrasez l'ail. Pelez et coupez les topinambours.",
       "Étape 3: Dans une cocotte, faites rissoler les lardons dans le beurre jusqu'à dorure, retirez-les et réservez.",
       "Étape 4: À la place, mettez oignons, échalotes, ail, carottes, laurier et thym. Laissez étuver 5 min.",
@@ -6480,30 +6943,35 @@
     "timing_preparation": 15,
     "cooking": 35,
     "ingredients": [
-      { "slug": "blette", "quantity_person": 200, "unity": "g" },
       {
-        "slug": "pate_feuilletee",
+        "ingredient": "69c50e6182ec35e93235e40b",
+        "name": "blette",
+        "quantity_person": 200,
+        "unity": "g"
+      },
+      {
+        "name": "pate_feuilletee",
         "quantity_person": 1,
         "unity": "piece"
       },
-      { "slug": "des_jambon", "quantity_person": 30, "unity": "g" },
-      { "slug": "parmesan_rape", "quantity_person": 15, "unity": "g" },
-      { "slug": "mascarpone", "quantity_person": 10, "unity": "g" },
-      { "slug": "gorgonzola", "quantity_person": 10, "unity": "g" },
-      { "slug": "oeuf", "quantity_person": 1, "unity": "piece" },
+      { "name": "des_jambon", "quantity_person": 30, "unity": "g" },
+      { "name": "parmesan_rape", "quantity_person": 15, "unity": "g" },
+      { "name": "mascarpone", "quantity_person": 10, "unity": "g" },
+      { "name": "gorgonzola", "quantity_person": 10, "unity": "g" },
+      { "name": "oeuf", "quantity_person": 1, "unity": "piece" },
       {
-        "slug": "jaune_oeuf",
+        "name": "jaune_oeuf",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "lait", "quantity_person": 20, "unity": "ml" },
+      { "name": "lait", "quantity_person": 20, "unity": "ml" },
       {
-        "slug": "huile_olive",
+        "name": "huile_olive",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Retirer les côtes des blettes et cuire les feuilles 20 minutes dans l'eau bouillante, puis les rafraîchir dans de l'eau glacée.",
@@ -6524,23 +6992,34 @@
     "timing_preparation": 15,
     "cooking": 40,
     "ingredients": [
-      { "slug": "beurre", "quantity_person": 5, "unity": "g" },
-      { "slug": "asperge_verte", "quantity_person": 100, "unity": "g" },
+      { "name": "beurre", "quantity_person": 5, "unity": "g" },
       {
-        "slug": "asperge_blanche",
+        "ingredient": "69c50e6182ec35e93235e408",
+        "name": "asperge_verte",
         "quantity_person": 100,
         "unity": "g"
       },
-      { "slug": "oignon", "quantity_person": 0.5, "unity": "piece" },
       {
-        "slug": "bouillon_volaille",
+        "ingredient": "69c50e6182ec35e93235e407",
+        "name": "asperge_blanche",
+        "quantity_person": 100,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "name": "bouillon_volaille",
         "quantity_person": 0.25,
         "unity": "cube"
       },
-      { "slug": "eau", "quantity_person": 125, "unity": "ml" },
-      { "slug": "creme", "quantity_person": 50, "unity": "ml" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "eau", "quantity_person": 125, "unity": "ml" },
+      { "name": "creme", "quantity_person": 50, "unity": "ml" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Faire dorer les échalotes hachées dans le beurre.",
@@ -6563,22 +7042,32 @@
     "timing_preparation": 15,
     "cooking": 30,
     "ingredients": [
-      { "slug": "brocoli", "quantity_person": 250, "unity": "g" },
-      { "slug": "oignon", "quantity_person": 0.5, "unity": "piece" },
       {
-        "slug": "bouillon_volaille",
+        "ingredient": "69c50e6182ec35e93235e40c",
+        "name": "brocoli",
+        "quantity_person": 250,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "name": "bouillon_volaille",
         "quantity_person": 375,
         "unity": "ml"
       },
       {
-        "slug": "creme_fraiche",
+        "name": "creme_fraiche",
         "quantity_person": 62.5,
         "unity": "ml"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       {
-        "slug": "bouquet_garni",
+        "name": "bouquet_garni",
         "quantity_person": 0.25,
         "unity": "bouquet"
       }
@@ -6600,30 +7089,46 @@
     "timing_preparation": 10,
     "cooking": 15,
     "ingredients": [
-      { "slug": "oignon", "quantity_person": 0.75, "unity": "piece" },
       {
-        "slug": "cube_bouillon_volaille",
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.75,
+        "unity": "piece"
+      },
+      {
+        "name": "cube_bouillon_volaille",
         "quantity_person": 0.25,
         "unity": "cube"
       },
       {
-        "slug": "huile_d_olive",
+        "name": "huile_d_olive",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
-      { "slug": "celeri_rave", "quantity_person": 200, "unity": "g" },
       {
-        "slug": "pomme_de_terre",
+        "ingredient": "69c50e6182ec35e93235e410",
+        "name": "celeri_rave",
+        "quantity_person": 200,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 1.5,
         "unity": "piece"
       },
-      { "slug": "ail", "quantity_person": 0.25, "unity": "gousse" },
       {
-        "slug": "sel_de_celeri",
+        "ingredient": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.25,
+        "unity": "gousse"
+      },
+      {
+        "name": "sel_de_celeri",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
-      { "slug": "eau", "quantity_person": 250, "unity": "ml" }
+      { "name": "eau", "quantity_person": 250, "unity": "ml" }
     ],
     "preparation": [
       "Étape 1: Éplucher le céleri rave, les pommes de terre, les oignons et l'ail.",
@@ -6645,32 +7150,43 @@
     "cooking": 40,
     "ingredients": [
       {
-        "slug": "beurre",
+        "name": "beurre",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
       {
-        "slug": "farine",
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "name": "farine",
         "quantity_person": 0.75,
         "unity": "cuillere_soupe"
       },
-      { "slug": "bouillon", "quantity_person": 0.25, "unity": "cube" },
-      { "slug": "lait", "quantity_person": 250, "unity": "ml" },
+      { "name": "bouillon", "quantity_person": 0.25, "unity": "cube" },
+      { "name": "lait", "quantity_person": 250, "unity": "ml" },
       {
-        "slug": "creme_fraiche",
+        "name": "creme_fraiche",
         "quantity_person": 0.75,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "persil",
+        "ingredient": "69c50e6182ec35e93235e42f",
+        "name": "persil",
         "quantity_person": 0.75,
         "unity": "cuillere_soupe"
       },
-      { "slug": "champignon", "quantity_person": 84, "unity": "g" },
-      { "slug": "citron", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      {
+        "ingredient": "69c50e6182ec35e93235e413",
+        "name": "champignon",
+        "quantity_person": 84,
+        "unity": "g"
+      },
+      { "name": "citron", "quantity_person": 0.25, "unity": "piece" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Faire fondre le beurre dans une petite casserole.",
@@ -6691,31 +7207,37 @@
     "timing_preparation": 15,
     "cooking": 20,
     "ingredients": [
-      { "slug": "chou_fleur", "quantity_person": 200, "unity": "g" },
       {
-        "slug": "pomme_de_terre",
+        "ingredient": "69c50e6182ec35e93235e41a",
+        "name": "chou_fleur",
+        "quantity_person": 200,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 100,
         "unity": "g"
       },
-      { "slug": "beurre", "quantity_person": 10, "unity": "g" },
+      { "name": "beurre", "quantity_person": 10, "unity": "g" },
       {
-        "slug": "creme_fraiche",
+        "name": "creme_fraiche",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "bouillon_de_volaille",
+        "name": "bouillon_de_volaille",
         "quantity_person": 0.25,
         "unity": "cube"
       },
-      { "slug": "eau", "quantity_person": 250, "unity": "ml" },
+      { "name": "eau", "quantity_person": 250, "unity": "ml" },
       {
-        "slug": "origan",
+        "name": "origan",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Détaillez le chou-fleur en petites fleurs et les pommes de terre en cubes.",
@@ -6736,29 +7258,44 @@
     "timing_preparation": 15,
     "cooking": 15,
     "ingredients": [
-      { "slug": "fenouil", "quantity_person": 1, "unity": "piece" },
-      { "slug": "oignon", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "ail", "quantity_person": 0.5, "unity": "gousse" },
       {
-        "slug": "huile_olive",
+        "ingredient": "69c50e6182ec35e93235e420",
+        "name": "fenouil",
+        "quantity_person": 1,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.5,
+        "unity": "gousse"
+      },
+      {
+        "name": "huile_olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "bouillon_volaille",
+        "name": "bouillon_volaille",
         "quantity_person": 0.5,
         "unity": "cube"
       },
-      { "slug": "eau", "quantity_person": 250, "unity": "ml" },
-      { "slug": "creme_fraiche", "quantity_person": 15, "unity": "ml" },
+      { "name": "eau", "quantity_person": 250, "unity": "ml" },
+      { "name": "creme_fraiche", "quantity_person": 15, "unity": "ml" },
       {
-        "slug": "pignons_pin",
+        "name": "pignons_pin",
         "quantity_person": 0.5,
         "unity": "cuillere_cafe"
       },
-      { "slug": "muscade", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "muscade", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Couper le fenouil en morceaux et le rincer.",
@@ -6778,20 +7315,26 @@
     "timing_preparation": 10,
     "cooking": 25,
     "ingredients": [
-      { "slug": "mache", "quantity_person": 75, "unity": "g" },
       {
-        "slug": "pomme_de_terre",
+        "ingredient": "69c50e6182ec35e93235e428",
+        "name": "mache",
+        "quantity_person": 75,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 100,
         "unity": "g"
       },
-      { "slug": "beurre", "quantity_person": 10, "unity": "g" },
+      { "name": "beurre", "quantity_person": 10, "unity": "g" },
       {
-        "slug": "bouillon_volaille",
+        "name": "bouillon_volaille",
         "quantity_person": 300,
         "unity": "ml"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Laver la mâche et couper la pomme de terre en morceaux.",
@@ -6811,18 +7354,33 @@
     "timing_preparation": 15,
     "cooking": 20,
     "ingredients": [
-      { "slug": "patate_douce", "quantity_person": 190, "unity": "g" },
-      { "slug": "poire", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "oignon", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "beurre", "quantity_person": 6, "unity": "g" },
-      { "slug": "creme_fraiche", "quantity_person": 63, "unity": "ml" },
       {
-        "slug": "bouillon_legumes",
+        "ingredient": "69c50e6182ec35e93235e42e",
+        "name": "patate_douce",
+        "quantity_person": 190,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e432",
+        "name": "poire",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      { "name": "beurre", "quantity_person": 6, "unity": "g" },
+      { "name": "creme_fraiche", "quantity_person": 63, "unity": "ml" },
+      {
+        "name": "bouillon_legumes",
         "quantity_person": 188,
         "unity": "ml"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Chauffer le beurre et faire fondre l'oignon haché pendant 2 min.",
@@ -6843,24 +7401,30 @@
     "cooking": 20,
     "ingredients": [
       {
-        "slug": "persil_plat",
+        "ingredient": "69c50e6182ec35e93235e42f",
+        "name": "persil_plat",
         "quantity_person": 0.25,
         "unity": "botte"
       },
-      { "slug": "beurre", "quantity_person": 2.5, "unity": "g" },
+      { "name": "beurre", "quantity_person": 2.5, "unity": "g" },
       {
-        "slug": "bouillon_volaille",
+        "name": "bouillon_volaille",
         "quantity_person": 250,
         "unity": "ml"
       },
       {
-        "slug": "vache_qui_rit",
+        "name": "vache_qui_rit",
         "quantity_person": 1.5,
         "unity": "portion"
       },
-      { "slug": "ail", "quantity_person": 0.75, "unity": "gousse" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      {
+        "ingredient": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.75,
+        "unity": "gousse"
+      },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Hacher le persil plat et l'ail.",
@@ -6882,32 +7446,43 @@
     "timing_preparation": 10,
     "cooking": 25,
     "ingredients": [
-      { "slug": "radis_noir", "quantity_person": 0.75, "unity": "botte" },
       {
-        "slug": "pomme_de_terre",
+        "ingredient": "69c50e6182ec35e93235e43b",
+        "name": "radis_noir",
+        "quantity_person": 0.75,
+        "unity": "botte"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
-        "slug": "bouillon_legumes",
+        "name": "bouillon_legumes",
         "quantity_person": 0.25,
         "unity": "cube"
       },
       {
-        "slug": "beurre",
+        "name": "beurre",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
-      { "slug": "creme_fraiche", "quantity_person": 10, "unity": "g" },
+      { "name": "creme_fraiche", "quantity_person": 10, "unity": "g" },
       {
-        "slug": "vache_qui_rit",
+        "name": "vache_qui_rit",
         "quantity_person": 0.5,
         "unity": "portion"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" }
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" }
     ],
     "ingredients_remplacement": [
-      { "slug": "radis", "quantity_person": 0.25, "unity": "botte" }
+      {
+        "ingredient": "69ca310ba3490a666cf5696a",
+        "name": "radis",
+        "quantity_person": 0.25,
+        "unity": "botte"
+      }
     ],
     "preparation": [
       "Étape 1: Éplucher le radis noir et les pommes de terre puis les couper en morceaux.",
@@ -6928,14 +7503,29 @@
     "timing_preparation": 10,
     "cooking": 20,
     "ingredients": [
-      { "slug": "salsifis", "quantity_person": 150, "unity": "g" },
-      { "slug": "pomme_de_terre", "quantity_person": 50, "unity": "g" },
-      { "slug": "ail", "quantity_person": 0.5, "unity": "gousse" },
-      { "slug": "beurre", "quantity_person": 5, "unity": "g" },
-      { "slug": "creme_fraiche", "quantity_person": 15, "unity": "ml" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "eau", "quantity_person": 150, "unity": "ml" }
+      {
+        "ingredient": "69c50e6182ec35e93235e43e",
+        "name": "salsifis",
+        "quantity_person": 150,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e436",
+        "name": "pomme_de_terre",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.5,
+        "unity": "gousse"
+      },
+      { "name": "beurre", "quantity_person": 5, "unity": "g" },
+      { "name": "creme_fraiche", "quantity_person": 15, "unity": "ml" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "eau", "quantity_person": 150, "unity": "ml" }
     ],
     "preparation": [
       "Étape 1: Éplucher et couper les salsifis et la pomme de terre en dés, émincer l'ail.",
@@ -6956,18 +7546,23 @@
     "timing_preparation": 20,
     "cooking": 45,
     "ingredients": [
-      { "slug": "topinambour", "quantity_person": 100, "unity": "g" },
-      { "slug": "creme_liquide", "quantity_person": 50, "unity": "ml" },
       {
-        "slug": "bouillon_volaille",
+        "ingredient": "69c50e6182ec35e93235e440",
+        "name": "topinambour",
+        "quantity_person": 100,
+        "unity": "g"
+      },
+      { "name": "creme_liquingrediente", "quantity_person": 50, "unity": "ml" },
+      {
+        "name": "bouillon_volaille",
         "quantity_person": 200,
         "unity": "ml"
       },
-      { "slug": "huile_olive", "quantity_person": 5, "unity": "ml" },
-      { "slug": "miel", "quantity_person": 3, "unity": "g" },
-      { "slug": "muscade", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "huile_olive", "quantity_person": 5, "unity": "ml" },
+      { "name": "miel", "quantity_person": 3, "unity": "g" },
+      { "name": "muscade", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Éplucher et rincer les topinambours puis les couper en dés.",
@@ -6983,42 +7578,44 @@
     "name": "Verrine de betterave rouge et concombre",
     "slug": "verrine_betterave_concombre",
     "category": "entree",
-    "description": "Verrine fraîche et colorée à base de betterave et concombre, rapide à préparer.",
+    "description": "Verrine fraîche et colorée à base de betterave et concombre, rapingrediente à préparer.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 0,
     "ingredients": [
       {
-        "slug": "betterave_rouge",
+        "ingredient": "69c50e6182ec35e93235e40a",
+        "name": "betterave_rouge",
         "quantity_person": 100,
         "unity": "g"
       },
-      { "slug": "fromage_frais", "quantity_person": 50, "unity": "g" },
+      { "name": "fromage_frais", "quantity_person": 50, "unity": "g" },
       {
-        "slug": "concombre",
+        "ingredient": "69c50e6182ec35e93235e41d",
+        "name": "concombre",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "crème_fraîche", "quantity_person": 10, "unity": "g" },
+      { "name": "crème_fraîche", "quantity_person": 10, "unity": "g" },
       {
-        "slug": "vinaigre_balsamique",
+        "name": "vinaigre_balsamique",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "moutarde",
+        "name": "moutarde",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
       {
-        "slug": "jus_de_citron",
+        "name": "jus_de_citron",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
-      { "slug": "ciboulette", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "ciboulette", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Mixer les betteraves avec 2/3 du fromage frais, la moutarde, le vinaigre, la crème et le jus de citron.",
@@ -7040,16 +7637,26 @@
     "cooking": 0,
     "ingredients": [
       {
-        "slug": "fromage_chevre_frais",
+        "name": "fromage_chevre_frais",
         "quantity_person": 30,
         "unity": "g"
       },
-      { "slug": "creme_liquide", "quantity_person": 20, "unity": "ml" },
-      { "slug": "radis", "quantity_person": 4, "unity": "piece" },
-      { "slug": "ciboulette", "quantity_person": 2, "unity": "brin" },
-      { "slug": "ail", "quantity_person": 0.25, "unity": "gousse" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" }
+      { "name": "creme_liquingrediente", "quantity_person": 20, "unity": "ml" },
+      {
+        "ingredient": "69ca310ba3490a666cf5696a",
+        "name": "radis",
+        "quantity_person": 4,
+        "unity": "piece"
+      },
+      { "name": "ciboulette", "quantity_person": 2, "unity": "brin" },
+      {
+        "ingredient": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.25,
+        "unity": "gousse"
+      },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Mélanger le chèvre frais avec la crème, la ciboulette ciselée, l'ail émincé, le sel et le poivre.",
@@ -7071,56 +7678,92 @@
     "timing_preparation": 30,
     "cooking": 180,
     "ingredients": [
-      { "slug": "poule", "quantity_person": 0.33, "unity": "piece" },
-      { "slug": "viande_hachee", "quantity_person": 50, "unity": "g" },
-      { "slug": "champignon", "quantity_person": 84, "unity": "g" },
-      { "slug": "poireau", "quantity_person": 0.33, "unity": "piece" },
-      { "slug": "carotte", "quantity_person": 0.75, "unity": "piece" },
-      { "slug": "oignon", "quantity_person": 0.33, "unity": "piece" },
+      { "name": "poule", "quantity_person": 0.33, "unity": "piece" },
+      { "name": "viande_hachee", "quantity_person": 50, "unity": "g" },
       {
-        "slug": "persil",
+        "ingredient": "69c50e6182ec35e93235e413",
+        "name": "champignon",
+        "quantity_person": 84,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e433",
+        "name": "poireau",
+        "quantity_person": 0.33,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e40d",
+        "name": "carotte",
+        "quantity_person": 0.75,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.33,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42f",
+        "name": "persil",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" },
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       {
-        "slug": "creme_fraiche",
+        "name": "creme_fraiche",
         "quantity_person": 50,
         "unity": "ml"
       },
       {
-        "slug": "fecule_de_mais",
+        "name": "fecule_de_mais",
         "quantity_person": 12,
         "unity": "g"
       },
-      { "slug": "celeri", "quantity_person": 0.25, "unity": "piece" },
       {
-        "slug": "bouquet_garni",
+        "ingredient": "69c50e6182ec35e93235e40f",
+        "name": "celeri",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      {
+        "name": "bouquet_garni",
         "quantity_person": 0.25,
         "unity": "botte"
       },
       {
-        "slug": "jus_de_citron",
+        "name": "jus_de_citron",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "margarine", "quantity_person": 12, "unity": "g" },
+      { "name": "margarine", "quantity_person": 12, "unity": "g" },
       {
-        "slug": "noix_de_macadamia",
+        "name": "noix_de_macadamia",
         "quantity_person": 1,
         "unity": "noix"
       },
-      { "slug": "eau", "quantity_person": 250, "unity": "ml" },
+      { "name": "eau", "quantity_person": 250, "unity": "ml" },
       {
-        "slug": "bouillon_de_volaille",
+        "name": "bouillon_de_volaille",
         "quantity_person": 0.33,
         "unity": "cube"
       }
     ],
     "ingredients_remplacement": [
-      { "slug": "pleurotes", "quantity_person": 125, "unity": "g" },
-      { "slug": "oignon", "quantity_person": 0.5, "unity": "piece" }
+      {
+        "ingredient": "69c50e6182ec35e93235e431",
+        "name": "pleurote",
+        "quantity_person": 125,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e42b",
+        "name": "oignon",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      }
     ],
     "preparation": [
       "Étape 1: Peler les oignons et les carottes. Laver les poireaux et le céleri. Couper le tout en julienne.",
@@ -7137,33 +7780,49 @@
     "name": "Wok de chou chinois au gingembre",
     "slug": "wok_chou_chinois_gingembre",
     "category": "plat",
-    "description": "Wok rapide et parfumé au chou chinois, carottes, céleri et gingembre frais, relevé d'une sauce soja légère.",
+    "description": "Wok rapingrediente et parfumé au chou chinois, carottes, céleri et gingembre frais, relevé d'une sauce soja légère.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 10,
     "ingredients": [
       {
-        "slug": "chou_chinois",
+        "ingredient": "69c50e6182ec35e93235e417",
+        "name": "chou_chinois",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "slug": "carotte", "quantity_person": 0.5, "unity": "piece" },
-      { "slug": "celeri", "quantity_person": 0.25, "unity": "piece" },
-      { "slug": "gingembre", "quantity_person": 5, "unity": "g" },
-      { "slug": "ail", "quantity_person": 0.5, "unity": "gousse" },
       {
-        "slug": "huile_olive",
+        "ingredient": "69c50e6182ec35e93235e40d",
+        "name": "carotte",
+        "quantity_person": 0.5,
+        "unity": "piece"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e40f",
+        "name": "celeri",
+        "quantity_person": 0.25,
+        "unity": "piece"
+      },
+      { "name": "gingembre", "quantity_person": 5, "unity": "g" },
+      {
+        "ingredient": "69c50e6182ec35e93235e406",
+        "name": "ail",
+        "quantity_person": 0.5,
+        "unity": "gousse"
+      },
+      {
+        "name": "huile_olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
-        "slug": "sauce_soja",
+        "name": "sauce_soja",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
-      { "slug": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "slug": "sel", "quantity_person": 1, "unity": "pincee" }
+      { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
+      { "name": "sel", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
       "Étape 1: Émincer le chou chinois, la carotte et le céleri en fines lamelles.",
@@ -7176,8 +7835,8 @@
     ]
   },
   {
-    "name": "Wok de légumes rapide",
-    "slug": "wok_legumes_rapide",
+    "name": "Wok de légumes rapingrediente",
+    "slug": "wok_legumes_rapingrediente",
     "category": "plat",
     "img": "",
     "description": "Légumes sautés, croquants et savoureux.",
@@ -7186,11 +7845,26 @@
     "timing_preparation": 5,
     "cooking": 8,
     "ingredients": [
-      { "slug": "brocoli", "quantity_person": 50, "unity": "g" },
-      { "slug": "haricot_vert", "quantity_person": 50, "unity": "g" },
-      { "slug": "carotte", "quantity_person": 50, "unity": "g" },
-      { "slug": "huile_olive", "quantity_person": 10, "unity": "ml" },
-      { "slug": "sauce_soja", "quantity_person": 5, "unity": "ml" }
+      {
+        "ingredient": "69c50e6182ec35e93235e40c",
+        "name": "brocoli",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e426",
+        "name": "haricot_vert",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      {
+        "ingredient": "69c50e6182ec35e93235e40d",
+        "name": "carotte",
+        "quantity_person": 50,
+        "unity": "g"
+      },
+      { "name": "huile_olive", "quantity_person": 10, "unity": "ml" },
+      { "name": "sauce_soja", "quantity_person": 5, "unity": "ml" }
     ],
     "preparation": [
       "Étape 1: Coupez les légumes en morceaux.",
@@ -7199,22 +7873,30 @@
     ]
   },
   {
-    "name": "Yaourt aux fruits frais",
-    "slug": "yaourt_fruits_frais",
+    "name": "Yaourt glacé à la framboise",
+    "slug": "yaourt_glace_framboises",
     "category": "dessert",
     "img": "",
-    "description": "Dessert rapide et léger.",
+    "description": "Dessert rapingrediente et léger.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 0,
     "ingredients": [
-      { "slug": "yaourt_nature", "quantity_person": 125, "unity": "g" },
-      { "slug": "fruits_frais", "quantity_person": 80, "unity": "g" },
-      { "slug": "miel", "quantity_person": 5, "unity": "g" }
+      { "name": "yaourt_nature", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "sucre", "quantity_person": 1, "unity": "cuillere_soupe" },
+      {
+        "ingredient": "69c50e6182ec35e93235e422",
+        "name": "framboises",
+        "quantity_person": 100,
+        "unity": "g"
+      }
     ],
     "preparation": [
-      "Étape 1: Mélangez les fruits coupés avec le yaourt et le miel."
+      "Étape 1: Mixer les framboises, le yaourt et le sucre au robot.",
+      "Étape 2: Verser cette préparation dans un récipient hermétique au congélateur.",
+      "Étape 3: Remuer toutes les 20min, pour ne pas que des cristaux se forment.",
+      "Étape 4: Servir, décoré d'une feuille de menthe et de framboises décongelées."
     ]
   }
 ]
