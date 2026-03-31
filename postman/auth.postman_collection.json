@@ -1,0 +1,80 @@
+{
+  "info": {
+    "_postman_id": "ea6caaa4-d8bb-4cc2-afb3-b1b265e4bd1b",
+    "name": "auth",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "32335887"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"username\": \"titi4\",\r\n    \"email\": \"titi4@gmail.com\",\r\n    \"password\": \"titi\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/auth/register",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "auth",
+            "register"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Login",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzZiM2E1NzBhMGVkMmJkMzgzMjBhMCIsInJvbGUiOiJVc2VyIiwiaWF0IjoxNzc0NzI4Mzg5LCJleHAiOjE3NzQ5ODc1ODksImF1ZCI6IlJlYWN0VGFza01hbmFnZXJBcHAiLCJpc3MiOiJNb25nb1Rhc2tNYW5hZ2VyQVBJIn0.JhKTzibYK7HDly3B2-NkerXJzpXfsatvqSuEG2p0lXEASKM1AyJy92P0P2OzT4DPKKTwnSFIwohkoGQKM2U2zA",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"email\": \"titi4@gmail.com\",\r\n    \"password\": \"titi\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/auth/login",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "auth",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
