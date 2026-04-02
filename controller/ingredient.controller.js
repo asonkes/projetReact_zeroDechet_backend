@@ -1,5 +1,9 @@
+/***********************************/
+/** Controller lié aux ingrédients */
+/***********************************/
+
 const { Request, Response } = require("express");
-const ingredientService = require("../services/mongo/ingredient.service");
+const ingredientService = require("../services/ingredient.service");
 
 const ingredientController = {
   /**
@@ -62,7 +66,10 @@ const ingredientController = {
    * @param {Response} res
    */
   insert: async (req, res) => {
-    const ingredientToAdd = req.body;
+    const ingredientToAdd = {
+      ...req.body,
+      slug: req.body.name.toLowerCase().replace(/\s+/g, "-"),
+    };
 
     try {
       // Si le nom existe déjà en DB, erreur
@@ -99,23 +106,32 @@ const ingredientController = {
    * @param {Response} res
    */
   update: async (req, res) => {
-    const id = +req.params.id;
-    const newIngredientInfos = req.body;
-    const ingredient = fakeIngredientService.findById(id);
+    const id = req.params.id;
 
-    if (!ingredient) {
-      res.status(404).json({
-        statusCode: 404,
-        message: "Ingrédient non trouvé",
+    try {
+      const newIngredientInfos = req.body;
+      const ingredient = await ingredientService.findById(id);
+
+      if (!ingredient) {
+        res.status(404).json({
+          statusCode: 404,
+          message: "Ingrédient non trouvé",
+        });
+      }
+
+      const updatedIngredient = await ingredientService.update(
+        id,
+        newIngredientInfos,
+      );
+
+      res.status(200).json(updatedIngredient);
+    } catch (err) {
+      console.log(err);
+      res.status(500).json({
+        statusCode: 500,
+        message: `Erreur dans la DB`,
       });
     }
-
-    const updatedIngredient = fakeIngredientService.update(
-      id,
-      newIngredientInfos,
-    );
-
-    res.status(200).json(updatedIngredient);
   },
 
   /**

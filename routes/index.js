@@ -1,3 +1,7 @@
+/**************************************************/
+/** Router principal - relie les autres "routers" */
+/**************************************************/
+
 const router = require("express").Router();
 const ingredientRouter = require("./ingredient.router");
 const recipeRouter = require("./recipe.router");

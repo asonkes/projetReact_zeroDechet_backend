@@ -1,4 +1,8 @@
-const Recipe = require("../../models/recipe.model");
+/************************/
+/** Service -  Recettes */
+/************************/
+
+const Recipe = require("../models/recipe.model");
 
 const recipeService = {
   // Va permettre de récupérer toutes les recettes de notre DB
@@ -12,10 +16,32 @@ const recipeService = {
     }
   },
 
+  findById: async (id) => {
+    try {
+      const recipe = await Recipe.findById(id);
+      return recipe;
+    } catch (err) {
+      console.log(err);
+      throw new Error(err);
+    }
+  },
+
   findBySlug: async (slug) => {
     try {
       const recipe = await Recipe.findOne({ slug });
       return recipe;
+    } catch (err) {
+      console.log(err);
+      throw new Error(err);
+    }
+  },
+
+  findByUser: async (userId) => {
+    try {
+      const recipeUser = await Recipe.find({ user: userId }).populate(
+        "ingredients.ingredient",
+      );
+      return recipeUser;
     } catch (err) {
       console.log(err);
       throw new Error(err);
@@ -52,21 +78,30 @@ const recipeService = {
   },
 
   update: async (id, recipe) => {
-    const recipeToUpdate = recipes.find((recipe) => recipe.id === id);
+    try {
+      const recipeToUpdate = await Recipe.findOne({ _id: id });
 
-    // on fait les modifications
-    recipeToUpdate.name = recipe.name;
-    recipeToUpdate.slug = recipe.slug;
-    recipeToUpdate.category = recipe.category;
-    recipeToUpdate.description = recipe.description;
-    recipeToUpdate.price = recipe.price;
-    recipeToUpdate.number_person = recipe.number_person;
-    recipeToUpdate.timing_preparation = recipe.timing_preparation;
-    recipeToUpdate.cooking = recipe.cooking;
-    recipeToUpdate.ingredients = recipe.ingredients;
-    recipeToUpdate.preparation = recipe.preparation;
+      if (!recipeToUpdate) return false;
 
-    return recipeToUpdate;
+      // on fait les modifications
+      recipeToUpdate.name = recipe.name;
+      recipeToUpdate.slug = recipe.slug;
+      recipeToUpdate.category = recipe.category;
+      recipeToUpdate.description = recipe.description;
+      recipeToUpdate.price = recipe.price;
+      recipeToUpdate.number_person = recipe.number_person;
+      recipeToUpdate.timing_preparation = recipe.timing_preparation;
+      recipeToUpdate.cooking = recipe.cooking;
+      recipeToUpdate.ingredients = recipe.ingredients;
+      recipeToUpdate.preparation = recipe.preparation;
+
+      await recipeToUpdate.save();
+
+      return recipeToUpdate;
+    } catch (err) {
+      console.log(err);
+      throw new Error(err);
+    }
   },
 
   delete: async (id) => {

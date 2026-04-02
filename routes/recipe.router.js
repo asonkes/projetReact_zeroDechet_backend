@@ -3,19 +3,30 @@
 /************************/
 
 const recipeRouter = require("express").Router();
-
 const recipeController = require("../controller/recipe.controller");
-const idValidatorMiddleware = require("../middlewares/idValidator.middleware");
+const authentificationMiddleware = require("../middlewares/auth/authentification.middleware");
 const nameValidatorMiddleware = require("../middlewares/nameValidator.middleware");
+const userAuthorizationMiddleware = require("../middlewares/auth/userAuthorization.middleware");
 
 // Routes sans les 'id'
 recipeRouter
   .route("/")
   .get(recipeController.getAll)
   // Pouvoir ajouter une recette
-  .post(nameValidatorMiddleware(), recipeController.insert);
+  .post(
+    authentificationMiddleware(),
+    nameValidatorMiddleware(),
+    recipeController.insert,
+  );
 
-//recipeRouter.route("/user/me").get(recipeController.getRecipesByUser);
+// Pour voir les recettes que l'utilisateur a créé
+recipeRouter
+  .route("/user/:id")
+  .get(
+    authentificationMiddleware(),
+    userAuthorizationMiddleware(),
+    recipeController.getByUser,
+  );
 
 // Routes avec les slugs
 recipeRouter.route("/:slug").get(recipeController.getBySlug);

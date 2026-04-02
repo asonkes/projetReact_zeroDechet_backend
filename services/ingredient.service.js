@@ -1,4 +1,8 @@
-const Ingredient = require("../../models/ingredient.model");
+/************************/
+/** Service -  Services */
+/************************/
+
+const Ingredient = require("../models/ingredient.model");
 
 const ingredientService = {
   // Va permettre de récupérer tous les ingrédient de notre DB
@@ -6,6 +10,17 @@ const ingredientService = {
     try {
       const ingredients = await Ingredient.find();
       return ingredients;
+    } catch (err) {
+      console.log(err);
+      throw new Error(err);
+    }
+  },
+
+  findById: async (id) => {
+    try {
+      // On utilise 'find' car dés que tu trouves 'élément avec ce slug, c'est ok
+      const ingredient = await Ingredient.findById(id);
+      return ingredient;
     } catch (err) {
       console.log(err);
       throw new Error(err);
@@ -54,19 +69,27 @@ const ingredientService = {
   },
 
   update: async (id, ingredient) => {
-    const ingredientToUpdate = ingredients.find(
-      (ingredient) => ingredient.id === id,
-    );
+    try {
+      const ingredientToUpdate = await Ingredient.findOne({ _id: id });
 
-    ingredientToUpdate.name = ingredient.name;
-    ingredientToUpdate.slug = ingredient.slug;
-    ingredientToUpdate.category = ingredient.category;
-    ingredientToUpdate.img = ingredient.img;
-    ingredientToUpdate.description = ingredient.description;
-    ingredientToUpdate.consumption = ingredient.consumption;
-    ingredientToUpdate.recipe = ingredient.recipe;
+      if (!ingredientToUpdate) return false;
 
-    return ingredientToUpdate;
+      // On fait les modifications
+      ingredientToUpdate.name = ingredient.name;
+      ingredientToUpdate.slug = ingredient.slug;
+      ingredientToUpdate.category = ingredient.category;
+      ingredientToUpdate.img = ingredient.img;
+      ingredientToUpdate.description = ingredient.description;
+      ingredientToUpdate.consumption = ingredient.consumption;
+      ingredientToUpdate.recipe = ingredient.recipe;
+
+      await ingredientToUpdate.save();
+
+      return ingredientToUpdate;
+    } catch (err) {
+      console.log(err);
+      throw new Error(err);
+    }
   },
 
   delete: async (id) => {

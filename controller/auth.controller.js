@@ -1,5 +1,10 @@
+/*******************************************************/
+/** Controller lié aux utilisateurs (authentification) */
+/*******************************************************/
+
 const { Request, Response } = require("express");
-const authService = require("../services/mongo/auth.service");
+const authService = require("../services/auth.service");
+const jwtUtils = require("../utils/jwt.utils");
 
 const authController = {
   /**
@@ -65,9 +70,16 @@ const authController = {
         });
       } else {
         // Si l'utilisateur existe
+        // On va générer un token
+        // Si token fonctionne ==> erreur 500 ==> catch
+        const token = await jwtUtils.generate(userFound);
+        console.log(token);
+
+        // On va renvoyer quelques infos de l'utilisateur + token
         res.status(200).json({
           id: userFound._id,
           username: userFound.username,
+          token,
         });
       }
     } catch (err) {

@@ -1,3 +1,7 @@
+/****************************/
+/** Modèle - urtilisateurs  */
+/****************************/
+
 const { Schema, model, Types } = require("mongoose");
 const Recipe = require("./recipe.model");
 
@@ -26,12 +30,13 @@ const userSchema = new Schema(
       // valeur par défaut
       default: "User",
     },
+    // Fait le lien avec les recettes que l'utilisateur préfère
     favorites: [
       {
         // id
         type: Types.ObjectId,
         // correspond au nom du modèle Mongoose
-        ref: Recipe,
+        ref: "Recipe",
       },
     ],
   },

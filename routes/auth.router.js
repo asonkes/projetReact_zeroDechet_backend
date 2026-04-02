@@ -1,9 +1,8 @@
 /****************************/
 /** Router des utilisateurs */
+/****************************/
 
 const authController = require("../controller/auth.controller");
-
-/****************************/
 const authRouter = require("express").Router();
 
 authRouter.route("/register").post(authController.register);
