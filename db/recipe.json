@@ -8,6 +8,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 15,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e408",
@@ -71,6 +72,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 40,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e409",
@@ -139,6 +141,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 40,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "name": "blanc_de_poulet",
@@ -211,6 +214,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 25,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e40b",
@@ -275,6 +279,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 30,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e40b",
@@ -321,6 +326,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 40,
+    "difficulty": "facile",
     "ingredients": [
       {
         "name": "sucre_semoule",
@@ -363,6 +369,7 @@
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 25,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "name": "sucre",
@@ -403,6 +410,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 15,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e40f",
@@ -450,6 +458,7 @@
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 20,
+    "difficulty": "facile",
     "ingredients": [
       { "name": "beurre", "quantity_person": 15, "unity": "g" },
       {
@@ -494,6 +503,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 60,
+    "difficulty": "facile",
     "ingredients": [
       {
         "name": "huile_d_olive",
@@ -544,6 +554,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 45,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e414",
@@ -590,6 +601,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 25,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e416",
@@ -631,6 +643,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 15,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e416",
@@ -678,6 +691,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 45,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e416",
@@ -717,6 +731,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 15,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e418",
@@ -771,6 +786,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 20,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e418",
@@ -816,6 +832,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 15,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e418",
@@ -854,6 +871,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 40,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e418",
@@ -920,6 +938,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 25,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e41a",
@@ -972,6 +991,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 40,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e419",
@@ -1022,6 +1042,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 40,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e419",
@@ -1069,6 +1090,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 20,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e41b",
@@ -1104,6 +1126,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 35,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e432",
@@ -1143,6 +1166,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 30,
+    "difficulty": "facile",
     "ingredients": [
       { "name": "beurre", "quantity_person": 5, "unity": "g" },
       { "name": "farine", "quantity_person": 13, "unity": "g" },
@@ -1183,6 +1207,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 45,
+    "difficulty": "facile",
     "ingredients": [
       { "name": "sucre", "quantity_person": 38, "unity": "g" },
       { "name": "farine", "quantity_person": 25, "unity": "g" },
@@ -1231,6 +1256,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 45,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e43d",
@@ -1276,6 +1302,7 @@
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 15,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e435",
@@ -1302,6 +1329,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 160,
+    "difficulty": "moyen",
     "ingredients": [
       { "name": "sucre", "quantity_person": 82, "unity": "g" },
       { "name": "vanille", "quantity_person": 0.25, "unity": "gousse" },
@@ -1330,6 +1358,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 30,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e40e",
@@ -1366,6 +1395,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 60,
+    "difficulty": "moyen",
     "ingredients": [
       { "name": "sucre", "quantity_person": 125, "unity": "g" },
       {
@@ -1400,6 +1430,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 45,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e43d",
@@ -1429,6 +1460,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 30,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e40b",
@@ -1477,6 +1509,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 20,
+    "difficulty": "moyen",
     "ingredients": [
       { "name": "thym", "quantity_person": 1, "unity": "brin" },
       { "name": "persil", "quantity_person": 1, "unity": "brin" },
@@ -1522,6 +1555,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 20,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e43f",
@@ -1569,6 +1603,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 45,
+    "difficulty": "facile",
     "ingredients": [
       { "name": "sucre_semoule", "quantity_person": 25, "unity": "g" },
       {
@@ -1623,6 +1658,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 30,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e43d",
@@ -1665,6 +1701,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 120,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e42b",
@@ -1745,6 +1782,7 @@
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 15,
+    "difficulty": "facile",
     "ingredients": [
       { "name": "beurre", "quantity_person": 13, "unity": "g" },
       {
@@ -1781,6 +1819,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 20,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e407",
@@ -1850,6 +1889,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 120,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e40a",
@@ -1894,6 +1934,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 40,
+    "difficulty": "facile",
     "ingredients": [
       { "name": "farine", "quantity_person": 14, "unity": "g" },
       { "name": "maizena", "quantity_person": 14, "unity": "g" },
@@ -1937,6 +1978,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 30,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e43d",
@@ -1972,6 +2014,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 25,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e437",
@@ -2013,6 +2056,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 20,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e429",
@@ -2047,6 +2091,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 30,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e423",
@@ -2075,6 +2120,7 @@
     "number_person": 1,
     "timing_preparation": 40,
     "cooking": 15,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e424",
@@ -2107,6 +2153,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 0,
+    "difficulty": "moyen",
     "ingredients": [
       { "name": "sucre", "quantity_person": 13, "unity": "g" },
       {
@@ -2146,6 +2193,7 @@
     "number_person": 1,
     "timing_preparation": 25,
     "cooking": 5,
+    "difficulty": "facile",
     "ingredients": [
       { "name": "sucre", "quantity_person": 50, "unity": "g" },
       { "name": "creme_fraiche", "quantity_person": 17, "unity": "g" },
@@ -2173,6 +2221,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 0,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "",
@@ -2208,6 +2257,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 15,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e429",
@@ -2241,6 +2291,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 30,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e425",
@@ -2290,6 +2341,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 15,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e40d",
@@ -2343,6 +2395,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 30,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e41a",
@@ -2387,6 +2440,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 35,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e419",
@@ -2420,6 +2474,7 @@
     "number_person": 1,
     "timing_preparation": 40,
     "cooking": 10,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e420",
@@ -2466,6 +2521,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 40,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e42d",
@@ -2533,6 +2589,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 30,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e436",
@@ -2570,6 +2627,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 40,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e42b",
@@ -2620,6 +2678,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 35,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "",
@@ -2689,6 +2748,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 25,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e43e",
@@ -2722,6 +2782,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 15,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e426",
@@ -2769,6 +2830,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 20,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e40d",
@@ -2822,6 +2884,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 30,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e41f",
@@ -2865,6 +2928,7 @@
     "number_person": 1,
     "timing_preparation": 60,
     "cooking": 10,
+    "difficulty": "difficile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e409",
@@ -2934,6 +2998,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 35,
+    "difficulty": "facile",
     "ingredients": [
       { "name": "beurre", "quantity_person": 22, "unity": "g" },
       { "name": "sucre", "quantity_person": 22, "unity": "g" },
@@ -2975,6 +3040,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 0,
+    "difficulty": "facile",
     "ingredients": [
       {
         "name": "creme_fraiche",
@@ -3008,6 +3074,7 @@
     "number_person": 1,
     "timing_preparation": 25,
     "cooking": 5,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e423",
@@ -3043,6 +3110,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 25,
+    "difficulty": "facile",
     "ingredients": [
       { "name": "farine", "quantity_person": 40, "unity": "g" },
       { "name": "sucre", "quantity_person": 25, "unity": "g" },
@@ -3075,6 +3143,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 25,
+    "difficulty": "facile",
     "ingredients": [
       { "name": "sucre", "quantity_person": 7, "unity": "g" },
       { "name": "beurre", "quantity_person": 2, "unity": "g" },
@@ -3122,6 +3191,7 @@
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 20,
+    "difficulty": "moyen",
     "ingredients": [
       { "name": "farine", "quantity_person": 42, "unity": "g" },
       { "name": "chocolat", "quantity_person": 17, "unity": "g" },
@@ -3180,6 +3250,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 30,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e43f",
@@ -3218,6 +3289,7 @@
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 10,
+    "difficulty": "facile",
     "ingredients": [
       { "name": "oeufs", "quantity_person": 1, "unity": "piece" },
       {
@@ -3258,6 +3330,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 35,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e42e",
@@ -3290,6 +3363,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 25,
+    "difficulty": "moyen",
     "ingredients": [
       { "name": "spaghetti", "quantity_person": 200, "unity": "g" },
       {
@@ -3340,6 +3414,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 15,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e42b",
@@ -3422,6 +3497,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 25,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e431",
@@ -3490,6 +3566,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 15,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e431",
@@ -3526,6 +3603,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 16,
+    "difficulty": "moyen",
     "ingredients": [
       { "name": "huile", "quantity_person": 1, "unity": "filet" },
       {
@@ -3571,6 +3649,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 30,
+    "difficulty": "difficile",
     "ingredients": [
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       {
@@ -3628,6 +3707,7 @@
     "number_person": 1,
     "timing_preparation": 60,
     "cooking": 45,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e40f",
@@ -3668,6 +3748,7 @@
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 20,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e436",
@@ -3714,6 +3795,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 150,
+    "difficulty": "difficile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e40d",
@@ -3797,6 +3879,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 30,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e433",
@@ -3851,6 +3934,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 40,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e40d",
@@ -3918,6 +4002,7 @@
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 15,
+    "difficulty": "facile",
     "ingredients": [
       { "name": "poulet", "quantity_person": 150, "unity": "g" },
       {
@@ -3958,6 +4043,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 15,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "name": "escalope_poulet",
@@ -4010,6 +4096,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 15,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e436",
@@ -4049,6 +4136,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 30,
+    "difficulty": "moyen",
     "ingredients": [
       { "name": "creme_fraiche", "quantity_person": 50, "unity": "ml" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
@@ -4091,6 +4179,7 @@
     "number_person": 1,
     "timing_preparation": 20,
     "cooking": 35,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "name": "creme_fraiche_epaisse",
@@ -4146,6 +4235,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 30,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69ca310ba3490a666cf5696a",
@@ -4181,6 +4271,7 @@
     "number_person": 1,
     "timing_preparation": 30,
     "cooking": 35,
+    "difficulty": "moyen",
     "ingredients": [
       { "name": "riz", "quantity_person": 100, "unity": "g" },
       {
@@ -4254,6 +4345,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 30,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e42b",
@@ -4315,6 +4407,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 10,
+    "difficulty": "facile",
     "ingredients": [
       { "name": "quinoa", "quantity_person": 50, "unity": "g" },
       {
@@ -4373,6 +4466,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 0,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e41c",
@@ -4435,6 +4529,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 5,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e41c",
@@ -4495,6 +4590,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 0,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e428",
@@ -4557,6 +4653,7 @@
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 0,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e428",
@@ -4605,6 +4702,7 @@
     "number_person": 1,
     "timing_preparation": 10,
     "cooking": 0,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e43b",
@@ -4643,6 +4741,7 @@
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 0,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e43f",
@@ -4674,6 +4773,7 @@
     "number_person": 1,
     "timing_preparation": 5,
     "cooking": 15,
+    "difficulty": "facile",
     "ingredients": [
       {
         "ingredient": "69c50e6182ec35e93235e43e",
@@ -4713,6 +4813,7 @@
     "number_person": 1,
     "timing_preparation": 15,
     "cooking": 45,
+    "difficulty": "moyen",
     "ingredients": [
       {
         "name": "saucisse_toulouse",
@@ -4759,7 +4860,7 @@
       "Étape 5: Couvrir d'eau, émietter le bouillon, saler légèrement et poivrer.",
       "Étape 6: Laisser mijoter environ 45 minutes jusqu'à ce que les pommes de terre soient tendres."
     ]
-  },
+  },//
   {
     "name": "Soupe au chou rouge",
     "slug": "soupe_chou_rouge",
@@ -4818,8 +4919,7 @@
       "Étape 5: Mixere_soupe pour obtenir une consistance lisse.",
       "Étape 6: Ajouter les lardons et le vinaigre, assaisonner avec sel et poivre, servir chaud."
     ]
-  },
-
+  },//
   {
     "name": "Salade de céleri, pommes, noix et dés de fromage",
     "slug": "salade_celeri_pomme_noix_fromage",

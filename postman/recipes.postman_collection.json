@@ -147,6 +147,138 @@
         }
       },
       "response": []
+    },
+    {
+      "name": "GetByUser",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzZiM2E1NzBhMGVkMmJkMzgzMjBhMCIsInJvbGUiOiJVc2VyIiwiaWF0IjoxNzc0NzI4Mzg5LCJleHAiOjE3NzQ5ODc1ODksImF1ZCI6IlJlYWN0VGFza01hbmFnZXJBcHAiLCJpc3MiOiJNb25nb1Rhc2tNYW5hZ2VyQVBJIn0.JhKTzibYK7HDly3B2-NkerXJzpXfsatvqSuEG2p0lXEASKM1AyJy92P0P2OzT4DPKKTwnSFIwohkoGQKM2U2zA",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/recipes/user/69c6b3a570a0ed2bd38320a0",
+          "raw": "http://localhost:3000/api/recipes/asperges_roti_laurent_mariotte",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "recipes",
+            "asperges_roti_laurent_mariotte"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Insert",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzZiM2E1NzBhMGVkMmJkMzgzMjBhMCIsInJvbGUiOiJVc2VyIiwiaWF0IjoxNzc0NzI4Mzg5LCJleHAiOjE3NzQ5ODc1ODksImF1ZCI6IlJlYWN0VGFza01hbmFnZXJBcHAiLCJpc3MiOiJNb25nb1Rhc2tNYW5hZ2VyQVBJIn0.JhKTzibYK7HDly3B2-NkerXJzpXfsatvqSuEG2p0lXEASKM1AyJy92P0P2OzT4DPKKTwnSFIwohkoGQKM2U2zA",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Asperges rouge Titi\",\r\n    \"slug\": \"asperges_rouge_titi\",\r\n    \"category\": \"entree\",\r\n    \"description\": \"Asperges rôties au four avec une sauce à base d'œuf, moutarde, parmesan et huile de pépins de raisin.\",\r\n    \"price\": 1,\r\n    \"number_person\": 1,\r\n    \"timing_preparation\": 30,\r\n    \"cooking\": 15,\r\n    \"ingredients\": [\r\n      {\r\n        \"ingredient\": \"69c50e6182ec35e93235e408\",\r\n        \"name\": \"asperge_verte\",\r\n        \"quantity_person\": 250,\r\n        \"unity\": \"g\"\r\n      },\r\n      {\r\n        \"ingredient\": \"69c50e6182ec35e93235e407\",\r\n        \"name\": \"asperge_blanche\",\r\n        \"quantity_person\": 250,\r\n        \"unity\": \"g\"\r\n      },\r\n      { \"name\": \"oeuf\", \"quantity_person\": 0.25, \"unity\": \"piece\" },\r\n      { \"name\": \"parmesan_rape\", \"quantity_person\": 20, \"unity\": \"g\" },\r\n      {\r\n        \"name\": \"moutarde\",\r\n        \"quantity_person\": 1,\r\n        \"unity\": \"cuillere_cafe\"\r\n      },\r\n      {\r\n        \"ingredient\": \"69c50e6182ec35e93235e406\",\r\n        \"name\": \"ail\",\r\n        \"quantity_person\": 0.25,\r\n        \"unity\": \"gousse\"\r\n      },\r\n      {\r\n        \"name\": \"huile_olive\",\r\n        \"quantity_person\": 1,\r\n        \"unity\": \"filet\"\r\n      },\r\n      {\r\n        \"name\": \"huile_pepin_raison\",\r\n        \"quantity_person\": 1,\r\n        \"unity\": \"filet\"\r\n      },\r\n      {\r\n        \"ingredient\": \"69c50e6182ec35e93235e411\",\r\n        \"name\": \"cerfeuil\",\r\n        \"quantity_person\": \"au goût\",\r\n        \"unity\": \"feuille\"\r\n      },\r\n      { \"name\": \"sel\", \"quantity_person\": 1, \"unity\": \"pincee\" },\r\n      { \"name\": \"poivre\", \"quantity_person\": 1, \"unity\": \"pincee\" }\r\n    ],\r\n    \"preparation\": [\r\n      \"Étape 1: Préchauffer le four à 170°C.\",\r\n      \"Étape 2: Laver les asperges. Éplucher les asperges blanches à moitié et couper la base. Retirer les picots des asperges vertes et couper la base. Disposer sur une plaque de four recouverte de papier cuisson, arroser d’huile d’olive, saler et poivrer.\",\r\n      \"Étape 3: Enfourner pour 15 minutes.\",\r\n      \"Étape 4: Cuire l'œuf dans une casserole d’eau bouillante salée pendant 6 minutes, refroidir et écaler.\",\r\n      \"Étape 5: Dans un verre mesureur, mixer l'œuf cuit avec la moutarde, l’ail râpé, le parmesan, monter la sauce à l’huile de pépins de raisin. Saler et poivrer.\",\r\n      \"Étape 6: Vérifier la cuisson des asperges, les disposer dans un plat et napper de sauce. Décorer avec des copeaux de parmesan et du cerfeuil.\"\r\n    ]\r\n  }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/recipes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "recipes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Updated",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n            \"name\": \"Asperges rouge titi3\",\r\n            \"slug\": \"asperges_rouge_titi3\",\r\n            \"category\": \"entree\",\r\n            \"description\": \"Asperges rôties au four avec une sauce à base d'œuf, moutarde, parmesan et huile de pépins de raisin.\",\r\n            \"price\": 1,\r\n            \"number_person\": 1,\r\n            \"timing_preparation\": 30,\r\n            \"cooking\": 15,\r\n            \"ingredients\": [\r\n                {\r\n                    \"ingredient\": {\r\n                        \"_id\": \"69c50e6182ec35e93235e408\",\r\n                        \"name\": \"Asperge verte\",\r\n                        \"slug\": \"asperge_verte\",\r\n                        \"category\": \"legume\",\r\n                        \"img\": \"\",\r\n                        \"description\": \"Asperge croquante et parfumée, idéale en salade ou sautée.\",\r\n                        \"consumption\": [\r\n                            \"avril\",\r\n                            \"mai\",\r\n                            \"juin\",\r\n                            \"juillet\",\r\n                            \"aout\",\r\n                            \"septembre\",\r\n                            \"octobre\",\r\n                            \"novembre\",\r\n                            \"decembre\"\r\n                        ]\r\n                    },\r\n                    \"name\": \"asperge_verte\",\r\n                    \"quantity_person\": 250,\r\n                    \"unity\": \"g\",\r\n                    \"_id\": \"69c847424ca859f2c2656adf\"\r\n                },\r\n                {\r\n                    \"ingredient\": {\r\n                        \"_id\": \"69c50e6182ec35e93235e407\",\r\n                        \"name\": \"Asperge blanche\",\r\n                        \"slug\": \"asperge_blanche\",\r\n                        \"category\": \"legume\",\r\n                        \"img\": \"\",\r\n                        \"description\": \"Asperge douce et tendre, parfaite cuite à la vapeur ou grillée.\",\r\n                        \"consumption\": [\r\n                            \"avril\",\r\n                            \"mai\",\r\n                            \"juin\"\r\n                        ]\r\n                    },\r\n                    \"name\": \"asperge_blanche\",\r\n                    \"quantity_person\": 250,\r\n                    \"unity\": \"g\",\r\n                    \"_id\": \"69c847424ca859f2c2656ae0\"\r\n                },\r\n                {\r\n                    \"name\": \"oeuf\",\r\n                    \"quantity_person\": 0.25,\r\n                    \"unity\": \"piece\",\r\n                    \"_id\": \"69c847424ca859f2c2656ae1\"\r\n                },\r\n                {\r\n                    \"name\": \"parmesan_rape\",\r\n                    \"quantity_person\": 20,\r\n                    \"unity\": \"g\",\r\n                    \"_id\": \"69c847424ca859f2c2656ae2\"\r\n                },\r\n                {\r\n                    \"name\": \"moutarde\",\r\n                    \"quantity_person\": 1,\r\n                    \"unity\": \"cuillere_cafe\",\r\n                    \"_id\": \"69c847424ca859f2c2656ae3\"\r\n                },\r\n                {\r\n                    \"ingredient\": {\r\n                        \"_id\": \"69c50e6182ec35e93235e406\",\r\n                        \"name\": \"Ail\",\r\n                        \"slug\": \"ail\",\r\n                        \"category\": \"legume\",\r\n                        \"img\": \"\",\r\n                        \"description\": \"Petit bulbe parfumé utilisé pour relever de nombreux plats.\",\r\n                        \"consumption\": [\r\n                            \"janvier\",\r\n                            \"fevrier\",\r\n                            \"mars\",\r\n                            \"avril\",\r\n                            \"mai\",\r\n                            \"juin\",\r\n                            \"juillet\",\r\n                            \"aout\",\r\n                            \"septembre\",\r\n                            \"octobre\",\r\n                            \"novembre\",\r\n                            \"decembre\"\r\n                        ]\r\n                    },\r\n                    \"name\": \"ail\",\r\n                    \"quantity_person\": 0.25,\r\n                    \"unity\": \"gousse\",\r\n                    \"_id\": \"69c847424ca859f2c2656ae4\"\r\n                },\r\n                {\r\n                    \"name\": \"huile_olive\",\r\n                    \"quantity_person\": 1,\r\n                    \"unity\": \"filet\",\r\n                    \"_id\": \"69c847424ca859f2c2656ae5\"\r\n                },\r\n                {\r\n                    \"name\": \"huile_pepin_raison\",\r\n                    \"quantity_person\": 1,\r\n                    \"unity\": \"filet\",\r\n                    \"_id\": \"69c847424ca859f2c2656ae6\"\r\n                },\r\n                {\r\n                    \"ingredient\": {\r\n                        \"_id\": \"69c50e6182ec35e93235e411\",\r\n                        \"name\": \"Cerfeuil\",\r\n                        \"slug\": \"cerfeuil\",\r\n                        \"category\": \"legume\",\r\n                        \"img\": \"\",\r\n                        \"description\": \"Herbe fine et parfumée, parfaite pour assaisonner vos plats.\",\r\n                        \"consumption\": [\r\n                            \"janvier\",\r\n                            \"fevrier\",\r\n                            \"mars\",\r\n                            \"avril\",\r\n                            \"mai\",\r\n                            \"juin\",\r\n                            \"juillet\",\r\n                            \"aout\",\r\n                            \"septembre\",\r\n                            \"octobre\",\r\n                            \"novembre\",\r\n                            \"decembre\"\r\n                        ]\r\n                    },\r\n                    \"name\": \"cerfeuil\",\r\n                    \"quantity_person\": \"au goût\",\r\n                    \"unity\": \"feuille\",\r\n                    \"_id\": \"69c847424ca859f2c2656ae7\"\r\n                },\r\n                {\r\n                    \"name\": \"sel\",\r\n                    \"quantity_person\": 1,\r\n                    \"unity\": \"pincee\",\r\n                    \"_id\": \"69c847424ca859f2c2656ae8\"\r\n                },\r\n                {\r\n                    \"name\": \"poivre\",\r\n                    \"quantity_person\": 1,\r\n                    \"unity\": \"pincee\",\r\n                    \"_id\": \"69c847424ca859f2c2656ae9\"\r\n                }\r\n            ],\r\n            \"preparation\": [\r\n                \"Étape 1: Étape 1: préchauffer le four à 170°c.\",\r\n                \"Étape 2: Étape 2: laver les asperges. éplucher les asperges blanches à moitié et couper la base. retirer les picots des asperges vertes et couper la base. disposer sur une plaque de four recouverte de papier cuisson, arroser d’huile d’olive, saler et poivrer.\",\r\n                \"Étape 3: Étape 3: enfourner pour 15 minutes.\",\r\n                \"Étape 4: Étape 4: cuire l'œuf dans une casserole d’eau bouillante salée pendant 6 minutes, refroidir et écaler.\",\r\n                \"Étape 5: Étape 5: dans un verre mesureur, mixer l'œuf cuit avec la moutarde, l’ail râpé, le parmesan, monter la sauce à l’huile de pépins de raisin. saler et poivrer.\",\r\n                \"Étape 6: Étape 6: vérifier la cuisson des asperges, les disposer dans un plat et napper de sauce. décorer avec des copeaux de parmesan et du cerfeuil.\"\r\n            ]\r\n        }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/recipes/id/69c847424ca859f2c2656ade",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "recipes",
+            "id",
+            "69c847424ca859f2c2656ade"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/recipes/id/69c845f99ee6abec1ecd758e",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "recipes",
+            "bolognaise"
+          ]
+        }
+      },
+      "response": []
     }
   ]
 }

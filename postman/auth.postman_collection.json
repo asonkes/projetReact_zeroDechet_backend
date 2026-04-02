@@ -13,7 +13,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n    \"username\": \"titi3\",\r\n    \"email\": \"titi3@gmail.com\",\r\n    \"password\": \"titi\"\r\n}",
+          "raw": "{\r\n    \"username\": \"titi4\",\r\n    \"email\": \"titi4@gmail.com\",\r\n    \"password\": \"titi\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -53,7 +53,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n    \"email\": \"titi2@gmail.com\",\r\n    \"password\": \"titi\"\r\n}",
+          "raw": "{\r\n    \"email\": \"titi4@gmail.com\",\r\n    \"password\": \"titi\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
