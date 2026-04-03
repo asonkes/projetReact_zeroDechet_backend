@@ -92,6 +92,7 @@ const recipeService = {
       recipeToUpdate.number_person = recipe.number_person;
       recipeToUpdate.timing_preparation = recipe.timing_preparation;
       recipeToUpdate.cooking = recipe.cooking;
+      recipeToUpdate.difficulty = recipe.difficulty;
       recipeToUpdate.ingredients = recipe.ingredients;
       recipeToUpdate.preparation = recipe.preparation;
 

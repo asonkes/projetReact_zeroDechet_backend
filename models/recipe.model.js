@@ -57,6 +57,11 @@ const recipeSchema = new Schema(
       required: true,
       set: (value) => Math.round(value),
     },
+    difficulty: {
+      type: Number,
+      required: true,
+      enum: [1, 2, 3],
+    },
     ingredients: [
       {
         ingredient: {
