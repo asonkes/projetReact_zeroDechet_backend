@@ -12,9 +12,13 @@ const recipeController = {
    * @param {Response} res
    */
   getAll: async (req, res) => {
+    // On va récupérer la potentielle query
+    const query = req.query;
+    console.log(query);
+
     try {
       // On essaye d'appeler le service donc 'await'
-      const recipes = await recipeService.find();
+      const recipes = await recipeService.find(query);
 
       // On renvoie un objet avec le total des tâches +  le tableau
       const dataToSend = {

@@ -6,9 +6,24 @@ const Recipe = require("../models/recipe.model");
 
 const recipeService = {
   // Va permettre de récupérer toutes les recettes de notre DB
-  find: async () => {
+  find: async (query) => {
+    // Récupérer ce que l'on a reçu d ela query, rajouter des filtres de recherche
+    const { ingredients } = query;
+
+    // On vérifie que les ingrédients se trouvent dans la query
+    // Pour créer un nouveau filtre
+    // Il faut initialiser un filtre vide
+    const ingredientFilter = {};
+
+    if (ingredients) {
+      const ingredientList = ingredients.split(",");
+      ingredientFilter["ingredients.ingredient"] = { $in: ingredientList };
+    }
+
     try {
-      const recipes = await Recipe.find().populate("ingredients.ingredient");
+      const recipes = await Recipe.find(ingredientFilter).populate(
+        "ingredients.ingredient",
+      );
       return recipes;
     } catch (err) {
       console.log(err);
