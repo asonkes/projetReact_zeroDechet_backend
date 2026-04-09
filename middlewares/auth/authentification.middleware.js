@@ -1,5 +1,6 @@
 /***********************************************************/
-/** Middleware - Permet de voir si token est bien fournit  */
+/** Middleware - Permet de voir si token est bien fournit
+ *       Permet de voir si l'utilisateur est connecté
 /***********************************************************/
 
 const jwtUtils = require("../../utils/jwt.utils");

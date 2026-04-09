@@ -6,6 +6,7 @@ const router = require("express").Router();
 const ingredientRouter = require("./ingredient.router");
 const recipeRouter = require("./recipe.router");
 const authRouter = require("./auth.router");
+const userRouter = require("./user.router");
 
 router.get("/", (req, res) => {
   res.send("Bienvenue sur notre API", 200);
@@ -16,5 +17,7 @@ router.use("/ingredients", ingredientRouter);
 router.use("/recipes", recipeRouter);
 
 router.use("/auth", authRouter);
+
+router.use("/users", userRouter);
 
 module.exports = router;
