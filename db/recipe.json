@@ -1293,11 +1293,11 @@
     ]
   },
   {
-    "name": "Compote de pommes rapingrediente",
-    "slug": "compote_pommes_rapingrediente",
+    "name": "Compote de pommes rapide",
+    "slug": "compote_pommes_rapide",
     "category": "dessert",
     "img": "",
-    "description": "Compote sucrée simple et rapingrediente.",
+    "description": "Compote sucrée simple et rapide.",
     "price": 1,
     "number_person": 1,
     "timing_preparation": 5,
@@ -2893,7 +2893,7 @@
         "unity": "g"
       },
       {
-        "name": "creme_liquingrediente",
+        "name": "creme_liquide",
         "quantity_person": 100,
         "unity": "ml"
       },
@@ -5367,8 +5367,8 @@
     ]
   },
   {
-    "name": "Soupe de cerfeuil rapingrediente",
-    "slug": "soupe_cerfeuil_rapingrediente",
+    "name": "Soupe de cerfeuil rapide",
+    "slug": "soupe_cerfeuil_rapide",
     "category": "entree",
     "description": "Soupe verte légère et parfumée au cerfeuil et courgette, prête en 35 minutes.",
     "price": 1,
@@ -6353,64 +6353,6 @@
       "Étape 5: Mélanger le sucre et les œufs, ajouter le reste de crème et les amandes en poudre.",
       "Étape 6: Verser cette préparation sur la tarte en partant du centre.",
       "Étape 7: Cuire au four préchauffé à 200°C pendant 25 min, jusqu'à coloration dorée."
-    ]
-  },
-  {
-    "name": "Tarte aux poireaux et aux lardons",
-    "slug": "tarte_poireaux_lardons",
-    "category": "plat",
-    "description": "Tarte salée indivingredientuelle garnie de poireau fondant et lardons dorés, nappée d'un appareil œufs-crème et gratinée au fromage râpé.",
-    "price": 1,
-    "number_person": 1,
-    "timing_preparation": 25,
-    "cooking": 25,
-    "difficulty": "moyen",
-    "ingredients": [
-      { "name": "farine", "quantity_person": 42, "unity": "g" },
-      { "name": "beurre", "quantity_person": 24, "unity": "g" },
-      {
-        "ingredient": "69c50e6182ec35e93235e433",
-        "name": "poireau",
-        "quantity_person": 0.5,
-        "unity": "piece"
-      },
-      {
-        "name": "fromage_râpé",
-        "quantity_person": 17,
-        "unity": "g"
-      },
-      {
-        "name": "creme_fraiche",
-        "quantity_person": 50,
-        "unity": "ml"
-      },
-      {
-        "name": "poivre",
-        "quantity_person": 1,
-        "unity": "pincee"
-      },
-      {
-        "name": "sel",
-        "quantity_person": 1,
-        "unity": "pincee"
-      },
-      {
-        "name": "eau",
-        "quantity_person": 0.33,
-        "unity": "cuillere_soupe"
-      },
-      { "name": "lardons", "quantity_person": 67, "unity": "g" },
-      { "name": "oeuf", "quantity_person": 0.5, "unity": "piece" }
-    ],
-    "preparation": [
-      "Étape 1: Préchauffer le four à 210°C (thermostat 7).",
-      "Étape 2: Préparer la pâte à tarte en malaxant le beurre, la farine et l'eau. Étaler et mettre dans un petit plat indivingredientuel.",
-      "Étape 3: Émincer le poireau et le faire dorer dans un peu de beurre.",
-      "Étape 4: Faire dorer les lardons à part, puis les égoutter.",
-      "Étape 5: Mélanger les lardons aux poireaux.",
-      "Étape 6: Préparer l'appareil en mélangeant l'œuf, la crème, le sel et le poivre.",
-      "Étape 7: Étaler le mélange poireaux-lardons sur la pâte, parsemer de fromage râpé et verser l'appareil par-dessus.",
-      "Étape 8: Enfourner pour 25 min et servir chaud."
     ]
   },
   {
@@ -7709,7 +7651,7 @@
         "quantity_person": 100,
         "unity": "g"
       },
-      { "name": "creme_liquingrediente", "quantity_person": 50, "unity": "ml" },
+      { "name": "creme_liquide", "quantity_person": 50, "unity": "ml" },
       {
         "name": "bouillon_volaille",
         "quantity_person": 200,
@@ -7800,7 +7742,7 @@
         "quantity_person": 30,
         "unity": "g"
       },
-      { "name": "creme_liquingrediente", "quantity_person": 20, "unity": "ml" },
+      { "name": "creme_liquide", "quantity_person": 20, "unity": "ml" },
       {
         "ingredient": "69ca310ba3490a666cf5696a",
         "name": "radis",
@@ -7996,8 +7938,8 @@
     ]
   },
   {
-    "name": "Wok de légumes rapingrediente",
-    "slug": "wok_legumes_rapingrediente",
+    "name": "Wok de légumes rapide",
+    "slug": "wok_legumes_rapide",
     "category": "plat",
     "img": "",
     "description": "Légumes sautés, croquants et savoureux.",
