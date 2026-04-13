@@ -7,6 +7,17 @@ const server = express();
 
 const { PORT, DB_CONNECTION } = process.env;
 
+// Pour autoriser 'cross-origin Request'
+// Au sinon blocage front
+const cors = require("cors");
+
+server.use(
+  cors({
+    origin: "http://localhost:5173",
+    credentials: true,
+  }),
+);
+
 server.use(express.json());
 
 // Connection DB (doit être faite avant le router)
