@@ -3,7 +3,8 @@
     "name": "Ail",
     "slug": "ail",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/ail.webp",
+    "alt": "Image de l'ingrédient 'ail' sur fond en bois",
     "description": "Petit bulbe parfumé utilisé pour relever de nombreux plats.",
     "consumption": [
       "janvier",
@@ -24,7 +25,8 @@
     "name": "Asperge blanche",
     "slug": "asperge_blanche",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/asperge_blanche.webp",
+    "alt": "Image de l'ingrédient 'asperge blanche' sur fond en bois",
     "description": "Asperge douce et tendre, parfaite cuite à la vapeur ou grillée.",
     "consumption": ["avril", "mai", "juin"]
   },
@@ -32,7 +34,8 @@
     "name": "Asperge verte",
     "slug": "asperge_verte",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/asperge_verte.webp",
+    "alt": "Image de l'ingrédient 'asperge verte' sur fond en bois",
     "description": "Asperge croquante et parfumée, idéale en salade ou sautée.",
     "consumption": [
       "avril",
@@ -50,7 +53,8 @@
     "name": "Aubergine",
     "slug": "aubergine",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/aubergine.webp",
+    "alt": "Image de l'ingrédient 'aubergine' sur fond en bois",
     "description": "Légume violet charnu, parfait pour les gratins ou grillades.",
     "consumption": ["aout", "septembre", "octobre"]
   },
@@ -58,7 +62,8 @@
     "name": "Betterave rouge",
     "slug": "betterave_rouge",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/betterave_rouge.webp",
+    "alt": "Image de l'ingrédient 'betterave rouge' sur fond en bois",
     "description": "Racine ronde et sucrée, parfaite crue en salade ou cuite en accompagnement.",
     "consumption": [
       "janvier",
@@ -75,7 +80,8 @@
     "name": "Blette",
     "slug": "blette",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/blette.webp",
+    "alt": "Image de l'ingrédient 'blette' sur fond en bois",
     "description": "Feuille verte et tige croquante, idéale sautée ou en gratin.",
     "consumption": [
       "mai",
@@ -92,7 +98,8 @@
     "name": "Brocoli",
     "slug": "brocoli",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/brocoli.webp",
+    "alt": "Image de l'ingrédient 'brocoli' sur fond en bois",
     "description": "Légume vert riche en vitamines, idéal cuit à la vapeur ou en salade.",
     "consumption": [
       "mai",
@@ -108,7 +115,8 @@
     "name": "Carotte",
     "slug": "carotte",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/carotte.webp",
+    "alt": "Image de l'ingrédient 'carotte' sur fond en bois",
     "description": "Racine orange sucrée et croquante, idéale crue ou cuite.",
     "consumption": [
       "janvier",
@@ -124,7 +132,8 @@
     "name": "Cassis",
     "slug": "cassis",
     "category": "fruit",
-    "img": "",
+    "img": "/images/ingredients/cassis.webp",
+    "alt": "Image de l'ingrédient 'cassis' sur fond en bois",
     "description": "Petite baie noire au goût intense et acidulé, idéale en confiture, sirop ou dessert.",
     "consumption": ["juillet", "aout"]
   },
@@ -132,7 +141,8 @@
     "name": "Céléri",
     "slug": "celeri",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/celeri.webp",
+    "alt": "Image de l'ingrédient 'céléri' sur fond en bois",
     "description": "Tige croquante et feuilles aromatiques, parfaite crue en salade ou cuite en soupe.",
     "consumption": ["juin", "aout", "septembre", "octobre", "novembre"]
   },
@@ -140,7 +150,8 @@
     "name": "Céléri-rave",
     "slug": "celeri_rave",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/celeri_rave.webp",
+    "alt": "Image de l'ingrédient 'céléri-rave' sur fond en bois",
     "description": "Racine ronde et parfumée, idéale en purée ou gratin.",
     "consumption": [
       "janvier",
@@ -155,7 +166,8 @@
     "name": "Cerfeuil",
     "slug": "cerfeuil",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/cerfeuil.webp",
+    "alt": "Image de l'ingrédient 'cerfeuil' sur fond en bois",
     "description": "Herbe fine et parfumée, parfaite pour assaisonner vos plats.",
     "consumption": [
       "janvier",
@@ -176,7 +188,8 @@
     "name": "Cerise",
     "slug": "cerise",
     "category": "fruit",
-    "img": "",
+    "img": "/images/ingredients/cerise.webp",
+    "alt": "Image de l'ingrédient 'cerise' sur fond en bois",
     "description": "Petit fruit rouge ou noir, juteux et sucré, idéal à déguster frais ou en pâtisserie.",
     "consumption": ["juin", "juillet", "aout"]
   },
@@ -184,7 +197,8 @@
     "name": "Champignon",
     "slug": "champignon",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/champignon.webp",
+    "alt": "Image de l'ingrédient 'champignon' sur fond en bois",
     "description": "Champignon comestible à chair tendre, utilisé dans de nombreux plats.",
     "consumption": [
       "janvier",
@@ -205,7 +219,8 @@
     "name": "Chicon",
     "slug": "chicon",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/chicon.webp",
+    "alt": "Image de l'ingrédient 'chicon' sur fond en bois",
     "description": "Feuille blanche serrée au goût légèrement amer, parfaite en gratin ou poêlée.",
     "consumption": [
       "janvier",
@@ -222,7 +237,8 @@
     "name": "Chicorée",
     "slug": "chicoree",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/chicoree.webp",
+    "alt": "Image de l'ingrédient 'chicorée' sur fond en bois",
     "description": "Feuilles vertes ou rouges légèrement amères, parfaites crues en salade ou cuites.",
     "consumption": [
       "mai",
@@ -239,7 +255,8 @@
     "name": "Chou blanc",
     "slug": "chou_blanc",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/chou_blanc.webp",
+    "alt": "Image de l'ingrédient 'chou blanc' sur fond en bois",
     "description": "Chou rond aux feuilles vert pâle, goût doux, parfait pour salades ou cuisson.",
     "consumption": [
       "janvier",
@@ -260,7 +277,8 @@
     "name": "Chou chinois",
     "slug": "chou_chinois",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/chou_chinois.webp",
+    "alt": "Image de l'ingrédient 'chou chinois' sur fond en bois",
     "description": "Feuilles longues et vert clair, goût léger, idéal en wok ou salade.",
     "consumption": [
       "janvier",
@@ -281,7 +299,8 @@
     "name": "Chou de Bruxelles",
     "slug": "chou_de_bruxelles",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/chou_de_bruxelles.webp",
+    "alt": "Image de l'ingrédient 'chou de Bruxelles' sur fond en bois",
     "description": "Petites têtes vertes serrées, goût légèrement amer, cuit à la vapeur ou sauté.",
     "consumption": [
       "janvier",
@@ -302,7 +321,8 @@
     "name": "Chou de Milan",
     "slug": "chou_de_milan",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/chou_de_milan.webp",
+    "alt": "Image de l'ingrédient 'chou de Milan' sur fond en bois",
     "description": "Feuilles frisées vertes, texture tendre, idéal pour soupes et farcis.",
     "consumption": [
       "janvier",
@@ -321,7 +341,8 @@
     "name": "Chou fleur",
     "slug": "chou_fleur",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/chou_fleur.webp",
+    "alt": "Image de l'ingrédient 'chou fleur' sur fond en bois",
     "description": "Tête blanche compacte, goût doux, parfait vapeur ou gratin.",
     "consumption": [
       "mars",
@@ -339,7 +360,8 @@
     "name": "Chou-rave",
     "slug": "chou_rave",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/chou_rave.webp",
+    "alt": "Image de l'ingrédient 'chou rave' sur fond en bois",
     "description": "Légume rond vert pâle à chair croquante, goût doux, idéal cru ou cuit.",
     "consumption": [
       "mai",
@@ -355,7 +377,8 @@
     "name": "Chou rouge",
     "slug": "chou_rouge",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/chou_rouge.webp",
+    "alt": "Image de l'ingrédient 'chou rouge' sur fond en bois",
     "description": "Feuilles rouges serrées, goût légèrement amer, parfait cru en salade ou cuit.",
     "consumption": [
       "juillet",
@@ -370,7 +393,8 @@
     "name": "Concombre",
     "slug": "concombre",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/concombre.webp",
+    "alt": "Image de l'ingrédient 'concombre' sur fond en bois",
     "description": "Long et vert, chair croquante et juteuse, parfait cru en salade.",
     "consumption": ["juin", "juillet", "aout", "septembre", "octobre"]
   },
@@ -378,7 +402,8 @@
     "name": "Courgette",
     "slug": "courgette",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/courgette.webp",
+    "alt": "Image de l'ingrédient 'courgette' sur fond en bois",
     "description": "Longue et verte, chair tendre, parfaite sautée ou grillée.",
     "consumption": ["juin", "juillet", "aout", "septembre", "octobre"]
   },
@@ -386,7 +411,8 @@
     "name": "Epinard",
     "slug": "epinard",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/epinard.webp",
+    "alt": "Image de l'ingrédient 'épinard' sur fond en bois",
     "description": "Feuilles vertes tendres, goût doux, parfait en salade ou cuit.",
     "consumption": [
       "janvier",
@@ -407,7 +433,8 @@
     "name": "Fenouil",
     "slug": "fenouil",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/fenouil.webp",
+    "alt": "Image de l'ingrédient 'fenouil' sur fond en bois",
     "description": "Bulbe blanc croquant avec tiges vertes, goût anisé, idéal cru ou cuit.",
     "consumption": [
       "juin",
@@ -419,18 +446,20 @@
     ]
   },
   {
-    "name": "Fraises",
-    "slug": "fraises",
+    "name": "Fraise",
+    "slug": "fraise",
     "category": "fruit",
-    "img": "",
+    "img": "/images/ingredients/fraise.webp",
+    "alt": "Image de l'ingrédient 'fraise' sur fond en bois",
     "description": "Petit fruit rouge vif, sucré et parfumé, parfait frais ou en dessert.",
     "consumption": ["avril", "mai", "juin", "juillet", "aout", "septembre"]
   },
   {
-    "name": "Framboises",
-    "slug": "framboises",
+    "name": "Framboise",
+    "slug": "framboise",
     "category": "fruit",
-    "img": "",
+    "img": "/images/ingredients/framboise.webp",
+    "alt": "Image de l'ingrédient 'framboise' sur fond en bois",
     "description": "Petit fruit rouge vif, sucré et parfumé, parfait frais ou en dessert.",
     "consumption": ["juin", "juillet", "aout", "septembre", "octobre"]
   },
@@ -438,7 +467,8 @@
     "name": "Groseille",
     "slug": "groseille",
     "category": "fruit",
-    "img": "",
+    "img": "/images/ingredients/groseille.webp",
+    "alt": "Image de l'ingrédient 'groseille' sur fond en bois",
     "description": "Petite baie rouge translucide, acidulée et rafraîchissante, parfaite en gelée ou dessert.",
     "consumption": ["juin", "juillet", "aout", "septembre"]
   },
@@ -446,7 +476,8 @@
     "name": "Groseille à maquereau",
     "slug": "groseille_a_maquereau",
     "category": "fruit",
-    "img": "",
+    "img": "/images/ingredients/groseille_a_maquereau.webp",
+    "alt": "Image de l'ingrédient 'groseille à maquereau' sur fond en bois",
     "description": "Petite baie ronde verte ou rouge, légèrement acidulée, parfaite en confiture ou dessert.",
     "consumption": ["juin", "juillet", "aout"]
   },
@@ -454,15 +485,17 @@
     "name": "Haricot blanc",
     "slug": "haricot_blanc",
     "category": "legume",
-    "img": "",
-    "description": "",
+    "img": "/images/ingredients/haricot_blanc.webp",
+    "alt": "Image de l'ingrédient 'haricot blanc' sur fond en bois",
+    "description": "Graine ovale blanche, douce et fondante, idéale en ragoût ou salade.",
     "consumption": []
   },
   {
     "name": "Haricot vert",
     "slug": "haricot_vert",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/haricot_vert.webp",
+    "alt": "Image de l'ingrédient 'haricot vert' sur fond en bois",
     "description": "Gousse verte longue et tendre, goût frais, parfait vapeur ou sauté.",
     "consumption": ["juin", "juillet", "aout", "septembre", "octobre"]
   },
@@ -470,7 +503,8 @@
     "name": "Laitue",
     "slug": "laitue",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/laitue.webp",
+    "alt": "Image de l'ingrédient 'laitue' sur fond en bois",
     "description": "Feuilles vertes croquantes, parfaite en salade ou en garniture.",
     "consumption": [
       "avril",
@@ -487,7 +521,8 @@
     "name": "Mâche",
     "slug": "mache",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/mache.webp",
+    "alt": "Image de l'ingrédient 'mâche' sur fond en bois",
     "description": "Racine longue et fine, goût délicatement sucré, parfaite cuite à la vapeur ou en purée.",
     "consumption": [
       "janvier",
@@ -508,7 +543,8 @@
     "name": "Mûre",
     "slug": "mure",
     "category": "fruit",
-    "img": "",
+    "img": "/images/ingredients/mure.webp",
+    "alt": "Image de l'ingrédient 'mûre' sur fond en bois",
     "description": "Petit fruit noir ou violet, sucré et juteux, idéal frais ou en confiture.",
     "consumption": ["juillet", "aout", "septembre", "octobre"]
   },
@@ -516,7 +552,8 @@
     "name": "Myrtille",
     "slug": "myrtille",
     "category": "fruit",
-    "img": "",
+    "img": "/images/ingredients/myrtille.webp",
+    "alt": "Image de l'ingrédient 'myrtille' sur fond en bois",
     "description": "Petit fruit bleu foncé, sucré et légèrement acidulé, parfait frais ou en dessert.",
     "consumption": ["juin", "juillet", "aout", "septembre"]
   },
@@ -524,7 +561,8 @@
     "name": "Oignon",
     "slug": "oignon",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/oignon.webp",
+    "alt": "Image de l'ingrédient 'oignon' sur fond en bois",
     "description": "Bulbe aromatique à saveur piquante, utilisé cru ou cuit.",
     "consumption": [
       "janvier",
@@ -543,7 +581,8 @@
     "name": "Oignon jeune",
     "slug": "oignon_jeune",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/oignon_jeune.webp",
+    "alt": "Image de l'ingrédient 'oignon jeune' sur fond en bois",
     "description": "Tige verte et bulbe tendre, goût doux, idéal en crudités.",
     "consumption": [
       "avril",
@@ -559,7 +598,8 @@
     "name": "Panais",
     "slug": "panais",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/panais.webp",
+    "alt": "Image de l'ingrédient 'panais' sur fond en bois",
     "description": "Racine longue et beige, goût sucré et légèrement épicé, parfait rôti ou en purée.",
     "consumption": [
       "janvier",
@@ -575,7 +615,8 @@
     "name": "Patate douce",
     "slug": "patate_douce",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/patate_douce.webp",
+    "alt": "Image de l'ingrédient 'patate douce' sur fond en bois",
     "description": "Racine orangée sucrée et tendre, idéale en gratin ou purée.",
     "consumption": [
       "janvier",
@@ -596,7 +637,8 @@
     "name": "Persil",
     "slug": "persil",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/persil.webp",
+    "alt": "Image de l'ingrédient 'persil' sur fond en bois",
     "description": "Herbe aromatique aux feuilles vertes finement découpées, idéale pour assaisonner plats et sauces.",
     "consumption": [
       "janvier",
@@ -617,7 +659,8 @@
     "name": "Petit pois",
     "slug": "petit_pois",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/petit_pois.webp",
+    "alt": "Image de l'ingrédient 'petit pois' sur fond en bois",
     "description": "Gousse verte tendre avec graines sucrées, parfait cru ou cuit.",
     "consumption": ["avril", "mai", "juin"]
   },
@@ -625,7 +668,8 @@
     "name": "Pleurote",
     "slug": "pleurote",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/pleurote.webp",
+    "alt": "Image de l'ingrédient 'pleurote' sur fond en bois",
     "description": "Champignon à chapeau large et charnu, goût délicat et légèrement sucré, parfait poêlé ou en sauce",
     "consumption": [
       "janvier",
@@ -646,7 +690,8 @@
     "name": "Poire",
     "slug": "poire",
     "category": "fruit",
-    "img": "",
+    "img": "/images/ingredients/poire.webp",
+    "alt": "Image de l'ingrédient 'poire' sur fond en bois",
     "description": "Fruit juteux et sucré, peau verte, jaune ou rouge, parfait cru ou en compote.",
     "consumption": ["aout", "septembre", "octobre", "novembre", "decembre"]
   },
@@ -654,7 +699,8 @@
     "name": "Poireau",
     "slug": "poireau",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/poireau.webp",
+    "alt": "Image de l'ingrédient 'poireau' sur fond en bois",
     "description": "Tige blanche avec feuilles vertes, goût doux et aromatique, idéal en soupe ou gratin.",
     "consumption": [
       "janvier",
@@ -673,7 +719,8 @@
     "name": "Poivron",
     "slug": "poivron",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/poivron.webp",
+    "alt": "Image de l'ingrédient 'poivron' sur fond en bois",
     "description": "Légume croquant et coloré, goût doux et sucré, parfait cru ou grillé.",
     "consumption": ["aout", "septembre", "octobre"]
   },
@@ -681,7 +728,8 @@
     "name": "Pomme",
     "slug": "pomme",
     "category": "fruit",
-    "img": "",
+    "img": "/images/ingredients/pommme.webp",
+    "alt": "Image de l'ingrédient 'pomme' sur fond en bois",
     "description": "Fruit croquant et sucré ou acidulé, couleur rouge, verte ou jaune, idéal cru ou cuit.",
     "consumption": ["aout", "septembre", "octobre", "novembre", "decembre"]
   },
@@ -689,7 +737,8 @@
     "name": "Pomme de terre",
     "slug": "pomme_de_terre",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/pomme_de_terre.webp",
+    "alt": "Image de l'ingrédient 'pomme de terre' sur fond en bois",
     "description": "Racine ronde ou allongée, chair farineuse ou ferme, idéale rôtie, purée ou sautée.",
     "consumption": [
       "janvier",
@@ -710,7 +759,8 @@
     "name": "Potiron",
     "slug": "potiron",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/potiron.webp",
+    "alt": "Image de l'ingrédient 'potiron' sur fond en bois",
     "description": "Grosse courge orange, chair douce et tendre, parfaite en soupe ou gratin.",
     "consumption": [
       "janvier",
@@ -727,7 +777,8 @@
     "name": "Prune",
     "slug": "prune",
     "category": "fruit",
-    "img": "",
+    "img": "/images/ingredients/prune.webp",
+    "alt": "Image de l'ingrédient 'prune' sur fond en bois",
     "description": "Fruit rond à peau lisse violette, rouge ou jaune, chair juteuse et sucrée, parfait frais ou en compote.",
     "consumption": ["juillet", "aout", "septembre"]
   },
@@ -735,7 +786,8 @@
     "name": "Radicchio",
     "slug": "radicchio",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/radicchio.webp",
+    "alt": "Image de l'ingrédient 'radicchio' sur fond en bois",
     "description": "Feuilles rouges nervurées de blanc, goût légèrement amer, idéal cru en salade ou grillé.",
     "consumption": [
       "juin",
@@ -750,7 +802,8 @@
     "name": "Radis",
     "slug": "radis",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/radis.webp",
+    "alt": "Image de l'ingrédient 'radis' sur fond en bois",
     "description": "Racine ronde ou allongée, croquante et piquante, idéale crue en salade.",
     "consumption": [
       "janvier",
@@ -771,7 +824,8 @@
     "name": "Radis noir",
     "slug": "radis_noir",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/radis_noir.webp",
+    "alt": "Image de l'ingrédient 'radis noir' sur fond en bois",
     "description": "Racine allongée et noire, chair blanche piquante, idéale crue en salade ou râpée.",
     "consumption": ["aout", "septembre", "octobre", "novembre"]
   },
@@ -779,7 +833,8 @@
     "name": "Raisin",
     "slug": "raisin",
     "category": "fruit",
-    "img": "",
+    "img": "/images/ingredients/raisin.webp",
+    "alt": "Image de l'ingrédient 'raisin' sur fond en bois",
     "description": "Petite baie ronde verte ou violette, sucrée et juteuse, idéale fraîche ou séchée.",
     "consumption": ["juillet", "aout", "septembre", "octobre"]
   },
@@ -787,7 +842,8 @@
     "name": "Rhubarbe",
     "slug": "rhubarbe",
     "category": "fruit",
-    "img": "",
+    "img": "/images/ingredients/rhubarbe.webp",
+    "alt": "Image de l'ingrédient 'rhubarbe' sur fond en bois",
     "description": "Tiges rouges ou vertes, acidulées et juteuses, parfaites en compote ou dessert.",
     "consumption": ["avril", "mai", "juin", "juillet", "aout", "septembre"]
   },
@@ -795,7 +851,8 @@
     "name": "Salsifi",
     "slug": "salsifi",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/salsifi.webp",
+    "alt": "Image de l'ingrédient 'salsifi' sur fond en bois",
     "description": "Racine longue et fine, goût délicatement sucré, idéale cuite à la vapeur ou en purée.",
     "consumption": [
       "janvier",
@@ -812,7 +869,8 @@
     "name": "Tomate",
     "slug": "tomate",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/tomate.webp",
+    "alt": "Image de l'ingrédient 'tomate' sur fond en bois",
     "description": "Fruit rouge ou jaune juteux, goût doux et légèrement acidulé, parfait cru ou cuit.",
     "consumption": ["juillet", "aout", "septembre", "octobre"]
   },
@@ -820,7 +878,8 @@
     "name": "Topinambour",
     "slug": "topinambour",
     "category": "legume",
-    "img": "",
+    "img": "/images/ingredients/topinambour.webp",
+    "alt": "Image de l'ingrédient 'topinambour' sur fond en bois",
     "description": "Racine beige irrégulière, goût sucré et noisette, parfaite rôtie ou en purée.",
     "consumption": [
       "janvier",
