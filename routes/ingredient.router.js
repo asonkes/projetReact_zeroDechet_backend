@@ -6,11 +6,13 @@ const ingredientRouter = require("express").Router();
 const ingredientController = require("../controller/ingredient.controller");
 const authentificationMiddleware = require("../middlewares/auth/authentification.middleware");
 const roleAuthorizationMiddleware = require("../middlewares/roleAuthorizationMiddleware");
+const paginationMiddleware = require("../middlewares/pagination.middleware");
+const Ingredient = require("../models/ingredient.model");
 
 // Routes sans les id
 ingredientRouter
   .route("/")
-  .get(ingredientController.getAll)
+  .get(paginationMiddleware(Ingredient), ingredientController.getAll)
   // Pouvoir ajouter une recette
   .post(
     authentificationMiddleware(),

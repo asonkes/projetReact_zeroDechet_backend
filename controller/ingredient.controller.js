@@ -13,16 +13,7 @@ const ingredientController = {
    */
   getAll: async (req, res) => {
     try {
-      // On essaye d'appeler le service donc 'await'
-      const ingredients = await ingredientService.find();
-
-      // On renvoie un objet avec le total des tâches +  le tableau
-      const dataToSend = {
-        count: ingredients.length,
-        ingredients,
-      };
-
-      res.status(200).json(dataToSend);
+      res.status(200).json(req.pagination);
     } catch (err) {
       console.log(err);
       res.status(500).json({
