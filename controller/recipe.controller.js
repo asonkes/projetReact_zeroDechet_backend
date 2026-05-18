@@ -14,7 +14,6 @@ const recipeController = {
   getAll: async (req, res) => {
     // On va récupérer la potentielle query
     const query = req.query;
-    console.log(query);
 
     try {
       // On essaye d'appeler le service donc 'await'
