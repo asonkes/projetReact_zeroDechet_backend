@@ -16,16 +16,7 @@ const recipeController = {
     const query = req.query;
 
     try {
-      // On essaye d'appeler le service donc 'await'
-      const recipes = await recipeService.find(query);
-
-      // On renvoie un objet avec le total des tâches +  le tableau
-      const dataToSend = {
-        count: recipes.length,
-        recipes,
-      };
-
-      res.status(200).json(dataToSend);
+      res.status(200).json(req.pagination);
     } catch (err) {
       console.log(err);
       res.status(500).json({

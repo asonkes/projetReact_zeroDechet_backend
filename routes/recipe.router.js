@@ -8,11 +8,13 @@ const authentificationMiddleware = require("../middlewares/auth/authentification
 const nameValidatorMiddleware = require("../middlewares/nameValidator.middleware");
 const userAuthorizationMiddleware = require("../middlewares/auth/userAuthorization.middleware");
 const roleAuthorizationMiddleware = require("../middlewares/roleAuthorizationMiddleware");
+const paginationMiddleware = require("../middlewares/pagination.middleware");
+const recipe = require("../models/recipe.model");
 
 // Routes sans les 'id'
 recipeRouter
   .route("/")
-  .get(recipeController.getAll)
+  .get(paginationMiddleware(recipe), recipeController.getAll)
   // Pouvoir ajouter une recette
   .post(
     authentificationMiddleware(),
