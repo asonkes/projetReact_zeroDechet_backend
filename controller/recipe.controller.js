@@ -1,7 +1,7 @@
 /*********************************/
 /** Controller lié aux recettes  */
 /*********************************/
-
+const Recipe = require("../models/recipe.model");
 const { Request, Response } = require("express");
 const recipeService = require("../services/recipe.service");
 
@@ -16,7 +16,8 @@ const recipeController = {
     const query = req.query;
 
     try {
-      res.status(200).json(req.pagination);
+      const recipes = await Recipe.find();
+      res.status(200).json(recipes);
     } catch (err) {
       console.log(err);
       res.status(500).json({
