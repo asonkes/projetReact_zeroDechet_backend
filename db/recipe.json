@@ -12,18 +12,18 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e408",
-        "name": "asperge_verte",
+        "name": "asperge verte",
         "quantity_person": 250,
         "unity": "g"
       },
       {
         "_id": "69c50e6182ec35e93235e407",
-        "name": "asperge_blanche",
+        "name": "asperge blanche",
         "quantity_person": 250,
         "unity": "g"
       },
       { "name": "oeuf", "quantity_person": 0.25, "unity": "piece" },
-      { "name": "parmesan_rape", "quantity_person": 20, "unity": "g" },
+      { "name": "parmesan râpé", "quantity_person": 20, "unity": "g" },
       {
         "name": "moutarde",
         "quantity_person": 1,
@@ -36,12 +36,12 @@
         "unity": "gousse"
       },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "filet"
       },
       {
-        "name": "huile_pepin_raison",
+        "name": "huile de pépin",
         "quantity_person": 1,
         "unity": "filet"
       },
@@ -92,11 +92,11 @@
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "name": "gruyere_rape", "quantity_person": 10, "unity": "g" },
+      { "name": "gruyère râpé", "quantity_person": 10, "unity": "g" },
       { "name": "oeuf", "quantity_person": 0.25, "unity": "piece" },
-      { "name": "chair_saucisse", "quantity_person": 25, "unity": "g" },
+      { "name": "chair à saucisse", "quantity_person": 25, "unity": "g" },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
@@ -144,7 +144,7 @@
     "difficulty": 2,
     "ingredients": [
       {
-        "name": "blanc_de_poulet",
+        "name": "blanc de poulet",
         "quantity_person": 1,
         "unity": "piece"
       },
@@ -155,7 +155,7 @@
       },
       { "name": "beurre", "quantity_person": 0.5, "unity": "noix" },
       {
-        "name": "lardons_fumes",
+        "name": "lardon fumé",
         "quantity_person": 32,
         "unity": "g"
       },
@@ -183,7 +183,7 @@
         "unity": "cuillere_soupe"
       },
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
@@ -222,7 +222,7 @@
         "quantity_person": 0.25,
         "unity": "botte"
       },
-      { "name": "viande_hachee", "quantity_person": 75, "unity": "g" },
+      { "name": "viande hâchée", "quantity_person": 75, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e43f",
         "name": "tomate",
@@ -242,12 +242,12 @@
         "unity": "gousse"
       },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
-        "name": "bouillon_boeuf",
+        "name": "bouillon de boeuf",
         "quantity_person": 50,
         "unity": "ml"
       },
@@ -301,7 +301,7 @@
         "unity": "bouquet"
       },
       {
-        "name": "creme_epaisse",
+        "name": "crème épaisse",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
@@ -329,7 +329,7 @@
     "difficulty": 1,
     "ingredients": [
       {
-        "name": "sucre_semoule",
+        "name": "sucre semoule",
         "quantity_person": 29,
         "unity": "g"
       },
@@ -377,19 +377,19 @@
         "unity": "cuillere_soupe"
       },
       {
-        "name": "liqueur_de_cognac",
+        "name": "liqueur de cognac",
         "quantity_person": 1,
         "unity": "verre"
       },
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": 100,
         "unity": "ml"
       },
       { "name": "caille", "quantity_person": 2, "unity": "piece" },
       {
         "_id": "69c50e6182ec35e93235e43c",
-        "name": "raisin_au_naturel",
+        "name": "raisin",
         "quantity_person": 0.5,
         "unity": "boite"
       }
@@ -414,7 +414,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e40f",
-        "name": "celeri",
+        "name": "céléri",
         "quantity_person": 0.5,
         "unity": "piece"
       },
@@ -431,7 +431,7 @@
         "unity": "gousse"
       },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
@@ -462,7 +462,7 @@
     "ingredients": [
       { "name": "beurre", "quantity_person": 15, "unity": "g" },
       {
-        "name": "vinaigre_vin",
+        "name": "vinaigre de vin",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
@@ -481,7 +481,7 @@
       },
       {
         "_id": "69c50e6182ec35e93235e410",
-        "name": "celeri_rave",
+        "name": "céléri rave",
         "quantity_person": 500,
         "unity": "g"
       }
@@ -506,7 +506,7 @@
     "difficulty": 1,
     "ingredients": [
       {
-        "name": "huile_d_olive",
+        "name": "huile d'olive",
         "quantity_person": 0.75,
         "unity": "cuillere_soupe"
       },
@@ -520,7 +520,7 @@
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       {
         "_id": "69c50e6182ec35e93235e410",
-        "name": "celeri_rave",
+        "name": "céléri rave",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -531,7 +531,7 @@
         "unity": "gousse"
       },
       {
-        "name": "yaourt_nature",
+        "name": "yaourt nature",
         "quantity_person": 0.25,
         "unity": "piece"
       }
@@ -577,7 +577,7 @@
         "unity": "pincee"
       },
       {
-        "name": "gruyere_rape",
+        "name": "gruyère râpé",
         "quantity_person": 1,
         "unity": "pincee"
       }
@@ -604,13 +604,13 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e416",
-        "name": "chou_blanc",
+        "name": "chou blanc",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       { "name": "beurre", "quantity_person": 10, "unity": "g" },
       {
-        "name": "vinaigre_de_vin",
+        "name": "vinaigre de vin",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
@@ -646,7 +646,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e416",
-        "name": "chou_blanc",
+        "name": "chou blanc",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -663,7 +663,7 @@
         "unity": "piece"
       },
       {
-        "name": "huile_d_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
@@ -694,19 +694,19 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e416",
-        "name": "chou_blanc",
+        "name": "chou blanc",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "name": "lardons_fumes", "quantity_person": 50, "unity": "g" },
+      { "name": "lardon fumé", "quantity_person": 50, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 1,
         "unity": "piece"
       },
       {
-        "name": "cube_de_bouillon",
+        "name": "cube de bouillon",
         "quantity_person": 0.4,
         "unity": "cube"
       },
@@ -734,7 +734,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e418",
-        "name": "chou_de_bruxelles",
+        "name": "chou de bruxelles",
         "quantity_person": 125,
         "unity": "g"
       },
@@ -751,7 +751,7 @@
         "unity": "piece"
       },
       {
-        "name": "huile",
+        "name": "huile d'olive",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
@@ -761,7 +761,7 @@
         "unity": "cuillere_soupe"
       },
       {
-        "name": "cube_bouillon",
+        "name": "cube de bouillon",
         "quantity_person": 0.25,
         "unity": "cube"
       },
@@ -789,7 +789,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e418",
-        "name": "chou_de_bruxelles",
+        "name": "chou de bruxelles",
         "quantity_person": 125,
         "unity": "g"
       },
@@ -805,7 +805,7 @@
         "unity": "cuillere_cafe"
       },
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": 30,
         "unity": "ml"
       },
@@ -835,19 +835,19 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e418",
-        "name": "chou_de_bruxelles",
+        "name": "chou de bruxelles",
         "quantity_person": 125,
         "unity": "g"
       },
-      { "name": "lardons", "quantity_person": 38, "unity": "g" },
+      { "name": "lardon", "quantity_person": 38, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e413",
-        "name": "champignons",
+        "name": "champignon",
         "quantity_person": 38,
         "unity": "g"
       },
       {
-        "name": "vinaigre_balsamique",
+        "name": "vinaigre balsamique",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
@@ -874,7 +874,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e418",
-        "name": "chou_de_bruxelles",
+        "name": "chou de bruxelles",
         "quantity_person": 150,
         "unity": "g"
       },
@@ -941,12 +941,12 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e41a",
-        "name": "chou_fleur",
+        "name": "chou fleur",
         "quantity_person": 200,
         "unity": "g"
       },
       {
-        "name": "huile_d_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
@@ -994,7 +994,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e419",
-        "name": "chou_de_milan",
+        "name": "chou de milan",
         "quantity_person": 200,
         "unity": "g"
       },
@@ -1011,12 +1011,12 @@
         "unity": "piece"
       },
       {
-        "name": "bouillon_de_legumes",
+        "name": "bouillon de légumes",
         "quantity_person": 0.25,
         "unity": "cube"
       },
       {
-        "name": "huile_d_olive",
+        "name": "huile d'olive",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
@@ -1045,12 +1045,12 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e419",
-        "name": "chou_de_milan",
+        "name": "chou de milan",
         "quantity_person": 150,
         "unity": "g"
       },
-      { "name": "viande_hachee", "quantity_person": 100, "unity": "g" },
-      { "name": "riz_cuit", "quantity_person": 25, "unity": "g" },
+      { "name": "viande hâchée", "quantity_person": 100, "unity": "g" },
+      { "name": "riz cuit", "quantity_person": 25, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e42b",
         "name": "oignon",
@@ -1065,7 +1065,7 @@
       },
       {
         "_id": "69c50e6182ec35e93235e43f",
-        "name": "sauce_tomate",
+        "name": "sauce tomate",
         "quantity_person": 50,
         "unity": "ml"
       },
@@ -1093,12 +1093,12 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e41b",
-        "name": "chou_rave",
+        "name": "chou rave",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "name": "huile_d_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
@@ -1180,12 +1180,12 @@
       { "name": "lait", "quantity_person": 30, "unity": "ml" },
       { "name": "sucre", "quantity_person": 8, "unity": "g" },
       {
-        "name": "sucre_vanille",
+        "name": "sucre vanillé",
         "quantity_person": 0.25,
         "unity": "sachet"
       },
       {
-        "name": "sucre_glace",
+        "name": "sucre glace",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       }
@@ -1211,7 +1211,7 @@
       { "name": "sucre", "quantity_person": 38, "unity": "g" },
       { "name": "farine", "quantity_person": 25, "unity": "g" },
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
@@ -1264,14 +1264,14 @@
       },
       {
         "_id": "69c50e6182ec35e93235e424",
-        "name": "groseilles",
+        "name": "groseille",
         "quantity_person": 34,
         "unity": "g"
       },
       { "name": "farine", "quantity_person": 14, "unity": "g" },
       { "name": "sucre", "quantity_person": 20, "unity": "g" },
       {
-        "name": "sucre_vanille",
+        "name": "sucre vanillé",
         "quantity_person": 0.25,
         "unity": "sachet"
       },
@@ -1308,7 +1308,7 @@
         "unity": "g"
       },
       { "name": "sucre", "quantity_person": 5, "unity": "g" },
-      { "name": "jus_citron", "quantity_person": 2, "unity": "ml" }
+      { "name": "jus de citron", "quantity_person": 2, "unity": "ml" }
     ],
     "preparation": [
       "Étape 1: Coupez les pommes en morceaux.",
@@ -1481,7 +1481,7 @@
         "quantity_person": "au goût",
         "unity": "feuille"
       },
-      { "name": "matiere_grasse", "quantity_person": 5, "unity": "g" },
+      { "name": "matière grasse", "quantity_person": 5, "unity": "g" },
       { "name": "oeuf(dur)", "quantity_person": 0.25, "unity": "piece" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
@@ -1511,14 +1511,14 @@
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       { "name": "boeuf", "quantity_person": 450, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 3,
         "unity": "piece"
       },
@@ -1559,7 +1559,7 @@
         "unity": "piece"
       },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 1.5,
         "unity": "cuillere_soupe"
       },
@@ -1600,9 +1600,9 @@
     "cooking": 45,
     "difficulty": 1,
     "ingredients": [
-      { "name": "sucre_semoule", "quantity_person": 25, "unity": "g" },
+      { "name": "sucre semoule", "quantity_person": 25, "unity": "g" },
       {
-        "name": "sucre_cristal",
+        "name": "sucre cristal",
         "quantity_person": 32,
         "unity": "g"
       },
@@ -1670,7 +1670,7 @@
       { "name": "beurre", "quantity_person": 23, "unity": "g" },
       { "name": "cassonade", "quantity_person": 15, "unity": "g" },
       {
-        "name": "sucre_vanille",
+        "name": "sucre vanillé",
         "quantity_person": 0.25,
         "unity": "sachet"
       }
@@ -1727,7 +1727,7 @@
         "unity": "cuillere_cafe"
       },
       {
-        "name": "epaule_agneau",
+        "name": "épaule d'agneau",
         "quantity_person": 250,
         "unity": "g"
       },
@@ -1737,14 +1737,14 @@
         "quantity_person": 1,
         "unity": "gousse"
       },
-      { "name": "raisins_secs", "quantity_person": 32, "unity": "g" },
+      { "name": "raisins secs", "quantity_person": 32, "unity": "g" },
       {
-        "name": "vin_blanc_sec",
+        "name": "vin blanc sec",
         "quantity_person": 30,
         "unity": "ml"
       },
       {
-        "name": "piment_d_espelette",
+        "name": "piment d'espelette",
         "quantity_person": 0.0625,
         "unity": "cuillere_cafe"
       },
@@ -1786,7 +1786,7 @@
       },
       {
         "_id": "69c50e6182ec35e93235e41f",
-        "name": "epinards",
+        "name": "épinard",
         "quantity_person": 200,
         "unity": "g"
       },
@@ -1796,7 +1796,7 @@
         "quantity_person": 10,
         "unity": "g"
       },
-      { "name": "pignons", "quantity_person": 10, "unity": "g" }
+      { "name": "pignon", "quantity_person": 10, "unity": "g" }
     ],
     "preparation": [
       "Étape 1: Tremper les raisins dans de l'eau tiède et griller les pignons à sec dans une poêle.",
@@ -1828,23 +1828,23 @@
         "unity": "piece"
       },
       {
-        "name": "bouillon_legumes",
+        "name": "bouillon de légumes",
         "quantity_person": 0.25,
         "unity": "cube"
       },
       {
-        "name": "huile_sesame",
+        "name": "huile de sésame",
         "quantity_person": 0.75,
         "unity": "cuillere_soupe"
       },
       {
-        "name": "vinaigre_riz",
+        "name": "vinaigre de riz",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "name": "tofu_fume", "quantity_person": 150, "unity": "g" },
+      { "name": "tofu fumé", "quantity_person": 150, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e42b",
         "name": "oignon",
@@ -1858,7 +1858,7 @@
       },
       { "name": "beurre", "quantity_person": 1, "unity": "noix" },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       }
@@ -1887,7 +1887,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e40a",
-        "name": "betterave_rouge",
+        "name": "betterave rouge",
         "quantity_person": 0.5,
         "unity": "piece"
       },
@@ -1904,7 +1904,7 @@
         "unity": "cuillere_soupe"
       },
       {
-        "name": "huile_d_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
@@ -1933,13 +1933,13 @@
       { "name": "maizena", "quantity_person": 14, "unity": "g" },
       { "name": "sucre", "quantity_person": 14, "unity": "g" },
       {
-        "name": "levure_chimique",
+        "name": "levure chimique",
         "quantity_person": 0.25,
         "unity": "sachet"
       },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       {
-        "name": "sucre_vanille",
+        "name": "sucre vanillé",
         "quantity_person": 0.25,
         "unity": "sachet"
       },
@@ -1979,7 +1979,7 @@
         "unity": "g"
       },
       { "name": "beurre", "quantity_person": 50, "unity": "g" },
-      { "name": "sucre_roux", "quantity_person": 50, "unity": "g" },
+      { "name": "sucre roux", "quantity_person": 50, "unity": "g" },
       { "name": "farine", "quantity_person": 50, "unity": "g" },
       { "name": "oeuf", "quantity_person": 1, "unity": "piece" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" }
@@ -2050,7 +2050,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e429",
-        "name": "mure",
+        "name": "mûre",
         "quantity_person": 330,
         "unity": "g"
       },
@@ -2084,7 +2084,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e423",
-        "name": "groseilles",
+        "name": "groseille",
         "quantity_person": 250,
         "unity": "g"
       },
@@ -2112,7 +2112,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e424",
-        "name": "groseille_a_maquereaux",
+        "name": "groseille à maquereaux",
         "quantity_person": 140,
         "unity": "g"
       },
@@ -2122,7 +2122,7 @@
         "quantity_person": 60,
         "unity": "g"
       },
-      { "name": "sucre_gelifiant", "quantity_person": 150, "unity": "g" }
+      { "name": "sucre gelifiant", "quantity_person": 150, "unity": "g" }
     ],
     "preparation": [
       "Étape 1: Laver soigneusement les groseilles et les framboises et les mettre dans une bassine à confiture.",
@@ -2150,17 +2150,17 @@
         "unity": "g"
       },
       {
-        "name": "jus_citron",
+        "name": "jus de citron",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "name": "creme_liquide",
+        "name": "crème liquide",
         "quantity_person": 80,
         "unity": "ml"
       },
       {
-        "name": "sucre_vanille",
+        "name": "sucre vanillé",
         "quantity_person": 0.5,
         "unity": "sachet"
       }
@@ -2183,7 +2183,7 @@
     "difficulty": 1,
     "ingredients": [
       { "name": "sucre", "quantity_person": 50, "unity": "g" },
-      { "name": "creme_fraiche", "quantity_person": 17, "unity": "g" },
+      { "name": "crème fraîche", "quantity_person": 17, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e40e",
         "name": "cassis",
@@ -2212,17 +2212,17 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e421",
-        "name": "fraises",
+        "name": "fraise",
         "quantity_person": 100,
         "unity": "g"
       },
       { "name": "sucre", "quantity_person": 25, "unity": "g" },
       {
-        "name": "creme_fleurette",
+        "name": "crème fleurette",
         "quantity_person": 17,
         "unity": "g"
       },
-      { "name": "blanc_oeuf", "quantity_person": 0.25, "unity": "piece" },
+      { "name": "blanc d'oeuf", "quantity_person": 0.25, "unity": "piece" },
       { "name": "citron", "quantity_person": 0.25, "unity": "piece" }
     ],
     "preparation": [
@@ -2247,13 +2247,13 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e429",
-        "name": "mures",
+        "name": "mûre",
         "quantity_person": 100,
         "unity": "g"
       },
       { "name": "sucre", "quantity_person": 25, "unity": "g" },
       {
-        "name": "creme_épaisse",
+        "name": "crème épaisse",
         "quantity_person": 170,
         "unity": "ml"
       }
@@ -2281,7 +2281,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e425",
-        "name": "haricots_verts",
+        "name": "haricot vert",
         "quantity_person": 150,
         "unity": "g"
       },
@@ -2291,7 +2291,7 @@
         "quantity_person": 100,
         "unity": "g"
       },
-      { "name": "lardons_fumes", "quantity_person": 34, "unity": "g" },
+      { "name": "lardon fumé", "quantity_person": 34, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e42b",
         "name": "oignon",
@@ -2300,8 +2300,8 @@
       },
       { "name": "beurre", "quantity_person": 5, "unity": "g" },
       { "name": "oeuf", "quantity_person": 0.33, "unity": "piece" },
-      { "name": "creme_fraiche", "quantity_person": 40, "unity": "ml" },
-      { "name": "gruyere_rape", "quantity_person": 17, "unity": "g" },
+      { "name": "crème fraîche", "quantity_person": 40, "unity": "ml" },
+      { "name": "gruyère râpé", "quantity_person": 17, "unity": "g" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       {
         "name": "poivre",
@@ -2337,7 +2337,7 @@
       },
       {
         "_id": "69c50e6182ec35e93235e42e",
-        "name": "patate_douce",
+        "name": "patate douce",
         "quantity_person": 0.5,
         "unity": "piece"
       },
@@ -2352,16 +2352,16 @@
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
-      { "name": "creme_fraiche", "quantity_person": 50, "unity": "ml" },
-      { "name": "jaune_oeuf", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "crème fraîche", "quantity_person": 50, "unity": "ml" },
+      { "name": "jaune d'oeuf", "quantity_person": 0.5, "unity": "piece" },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "name": "gruyere_râpé", "quantity_person": 10, "unity": "g" }
+      { "name": "gruyère râpé", "quantity_person": 10, "unity": "g" }
     ],
     "preparation": [
       "Étape 1: Faire cuire la patate douce dans de l'eau bouillante salée jusqu'à ce qu'elle soit tendre.",
@@ -2385,20 +2385,20 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e41a",
-        "name": "chou_fleur",
+        "name": "chou fleur",
         "quantity_person": 250,
         "unity": "g"
       },
       { "name": "beurre", "quantity_person": 7, "unity": "g" },
       { "name": "farine", "quantity_person": 8, "unity": "g" },
-      { "name": "fromage_rape", "quantity_person": 13, "unity": "g" },
+      { "name": "fromage râpé", "quantity_person": 13, "unity": "g" },
       {
         "name": "bouillon_volaille",
         "quantity_person": 0.25,
         "unity": "cube"
       },
       { "name": "eau", "quantity_person": 100, "unity": "ml" },
-      { "name": "creme", "quantity_person": 15, "unity": "ml" },
+      { "name": "crème fraîche", "quantity_person": 15, "unity": "ml" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       {
@@ -2435,7 +2435,7 @@
         "unity": "g"
       },
       { "name": "jambon", "quantity_person": 1, "unity": "tranche" },
-      { "name": "fromage_rapé", "quantity_person": 12, "unity": "g" },
+      { "name": "fromage_râpé", "quantity_person": 12, "unity": "g" },
       { "name": "beurre", "quantity_person": 5, "unity": "g" },
       { "name": "farine", "quantity_person": 5, "unity": "g" },
       { "name": "lait", "quantity_person": 62, "unity": "ml" },
@@ -2476,11 +2476,11 @@
       },
       { "name": "lait", "quantity_person": 130, "unity": "ml" },
       {
-        "name": "bouillon_boeuf",
+        "name": "bouillon de boeuf",
         "quantity_person": 0.25,
         "unity": "cube"
       },
-      { "name": "gruyere_rape", "quantity_person": 13, "unity": "g" },
+      { "name": "gruyère râpé", "quantity_person": 13, "unity": "g" },
       { "name": "eau", "quantity_person": 30, "unity": "ml" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
@@ -2528,17 +2528,17 @@
       },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 84,
         "unity": "g"
       },
       {
-        "name": "creme_fraiche_epaisse",
+        "name": "crème fraîche épaisse",
         "quantity_person": 20,
         "unity": "ml"
       },
       {
-        "name": "moutarde_dijon",
+        "name": "moutarde de dijon",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
@@ -2550,7 +2550,7 @@
     "ingredients_remplacement": [
       {
         "_id": "69c50e6182ec35e93235e42e",
-        "name": "patate_douce",
+        "name": "patate douce",
         "quantity_person": 100,
         "unity": "g"
       }
@@ -2578,17 +2578,17 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 150,
         "unity": "g"
       },
       {
         "_id": "69c50e6182ec35e93235e41a",
-        "name": "chou_fleur",
+        "name": "chou fleur",
         "quantity_person": 150,
         "unity": "g"
       },
-      { "name": "fromage_râpé", "quantity_person": 20, "unity": "g" },
+      { "name": "fromage râpé", "quantity_person": 20, "unity": "g" },
       { "name": "beurre", "quantity_person": 7, "unity": "g" },
       { "name": "farine", "quantity_person": 7, "unity": "g" },
       { "name": "lait", "quantity_person": 60, "unity": "ml" }
@@ -2620,22 +2620,22 @@
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "name": "gruyere_rape", "quantity_person": 25, "unity": "g" },
+      { "name": "gruyere râpé", "quantity_person": 25, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e410",
-        "name": "celeri_rave",
+        "name": "céléri rave",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 2,
         "unity": "piece"
       },
-      { "name": "lardons_fumes", "quantity_person": 34, "unity": "g" },
+      { "name": "lardon fumé", "quantity_person": 34, "unity": "g" },
       {
-        "name": "creme_liquide",
+        "name": "crème liquide",
         "quantity_person": 50,
         "unity": "ml"
       },
@@ -2670,8 +2670,8 @@
         "quantity_person": 330,
         "unity": "g"
       },
-      { "name": "steak_hache", "quantity_person": 84, "unity": "g" },
-      { "name": "lard_fume", "quantity_person": 25, "unity": "g" },
+      { "name": "steak hâché", "quantity_person": 84, "unity": "g" },
+      { "name": "lard fume", "quantity_person": 25, "unity": "g" },
       { "name": "beurre", "quantity_person": 17, "unity": "g" },
       { "name": "parmesan", "quantity_person": 14, "unity": "g" },
       {
@@ -2706,7 +2706,7 @@
       { "name": "saucisse", "quantity_person": 84, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e42c",
-        "name": "oignon-jeune",
+        "name": "oignon jeune",
         "quantity_person": 0.5,
         "unity": "piece"
       }
@@ -2740,12 +2740,12 @@
         "quantity_person": 150,
         "unity": "g"
       },
-      { "name": "creme_fraiche", "quantity_person": 30, "unity": "ml" },
-      { "name": "fromage_rapé", "quantity_person": 20, "unity": "g" },
+      { "name": "crème fraîche", "quantity_person": 30, "unity": "ml" },
+      { "name": "fromage râpé", "quantity_person": 20, "unity": "g" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       {
-        "name": "noix_muscade",
+        "name": "noix de muscade",
         "quantity_person": 1,
         "unity": "pincee"
       }
@@ -2770,11 +2770,11 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e426",
-        "name": "haricots_verts",
+        "name": "haricot vert",
         "quantity_person": 200,
         "unity": "g"
       },
-      { "name": "lardons", "quantity_person": 50, "unity": "g" },
+      { "name": "lardon", "quantity_person": 50, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e406",
         "name": "ail",
@@ -2782,14 +2782,14 @@
         "unity": "gousse"
       },
       { "name": "beurre", "quantity_person": 3, "unity": "g" },
-      { "name": "jaune_oeuf", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "jaune d'oeuf", "quantity_person": 0.5, "unity": "piece" },
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
-        "name": "parmesan_rape",
+        "name": "parmesan râpé",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
@@ -2830,13 +2830,13 @@
       },
       {
         "_id": "69c50e6182ec35e93235e427",
-        "name": "laitue_romaine",
+        "name": "laitue romaine",
         "quantity_person": 0.55,
         "unity": "piece"
       },
       {
         "_id": "69c50e6182ec35e93235e430",
-        "name": "petits_pois",
+        "name": "petits pois",
         "quantity_person": 75,
         "unity": "g"
       },
@@ -2872,24 +2872,24 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e41f",
-        "name": "epinards",
+        "name": "épinard",
         "quantity_person": 100,
         "unity": "g"
       },
       {
-        "name": "creme_liquide",
+        "name": "creme liquide",
         "quantity_person": 100,
         "unity": "ml"
       },
-      { "name": "lasagnes", "quantity_person": 2, "unity": "feuille" },
+      { "name": "lasagne", "quantity_person": 2, "unity": "feuille" },
       {
-        "name": "bouillon_volaille",
+        "name": "bouillon de volaille",
         "quantity_person": 0.25,
         "unity": "cube"
       },
-      { "name": "gruyere_rape", "quantity_person": 15, "unity": "g" },
+      { "name": "gruyère râpé", "quantity_person": 15, "unity": "g" },
       { "name": "parmesan", "quantity_person": 10, "unity": "g" },
-      { "name": "epices", "quantity_person": 1, "unity": "pincee" },
+      { "name": "épice", "quantity_person": 1, "unity": "pincee" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
@@ -2928,7 +2928,7 @@
       },
       { "name": "thym", "quantity_person": 0.5, "unity": "brin" },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
@@ -2948,14 +2948,14 @@
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "muscade", "quantity_person": 1, "unity": "pincee" },
-      { "name": "epaule_agneau", "quantity_person": 120, "unity": "g" },
+      { "name": "épaule d'agneau", "quantity_person": 120, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e406",
         "name": "ail",
         "quantity_person": 0.5,
         "unity": "gousse"
       },
-      { "name": "vin_blanc", "quantity_person": 30, "unity": "ml" },
+      { "name": "vin blanc", "quantity_person": 30, "unity": "ml" },
       { "name": "lait", "quantity_person": 50, "unity": "ml" },
       { "name": "parmesan", "quantity_person": 30, "unity": "g" }
     ],
@@ -2986,16 +2986,16 @@
     "ingredients": [
       { "name": "beurre", "quantity_person": 22, "unity": "g" },
       { "name": "sucre", "quantity_person": 22, "unity": "g" },
-      { "name": "fromage_blanc", "quantity_person": 25, "unity": "g" },
+      { "name": "fromage blanc", "quantity_person": 25, "unity": "g" },
       { "name": "farine", "quantity_person": 60, "unity": "g" },
       {
-        "name": "levure_chimique",
+        "name": "levure chimique",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       { "name": "oeuf", "quantity_person": 0.25, "unity": "piece" },
       {
-        "name": "jus_citron",
+        "name": "jus de citron",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
@@ -3027,7 +3027,7 @@
     "difficulty": 1,
     "ingredients": [
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": 125,
         "unity": "ml"
       },
@@ -3037,7 +3037,7 @@
         "quantity_person": 125,
         "unity": "g"
       },
-      { "name": "sucre_glace", "quantity_person": 75, "unity": "g" },
+      { "name": "sucre glace", "quantity_person": 75, "unity": "g" },
       { "name": "citron", "quantity_person": 0.25, "unity": "piece" }
     ],
     "preparation": [
@@ -3061,12 +3061,12 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e423",
-        "name": "groseilles",
+        "name": "groseille",
         "quantity_person": 120,
         "unity": "g"
       },
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": 100,
         "unity": "ml"
       },
@@ -3096,11 +3096,11 @@
     "ingredients": [
       { "name": "farine", "quantity_person": 40, "unity": "g" },
       { "name": "sucre", "quantity_person": 25, "unity": "g" },
-      { "name": "levure_chimique", "quantity_person": 1, "unity": "g" },
+      { "name": "levure chimique", "quantity_person": 1, "unity": "g" },
       { "name": "huile", "quantity_person": 15, "unity": "ml" },
       {
         "_id": "69c50e6182ec35e93235e423",
-        "name": "groseilles",
+        "name": "groseille",
         "quantity_person": 40,
         "unity": "g"
       },
@@ -3136,7 +3136,7 @@
         "unity": "pincee"
       },
       {
-        "name": "levure_chimique",
+        "name": "levure chimique",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
@@ -3178,7 +3178,7 @@
       { "name": "farine", "quantity_person": 42, "unity": "g" },
       { "name": "chocolat", "quantity_person": 17, "unity": "g" },
       {
-        "name": "levure_chimique",
+        "name": "levure chimique",
         "quantity_person": 0.25,
         "unity": "sachet"
       },
@@ -3186,7 +3186,7 @@
       { "name": "sucre", "quantity_person": 34, "unity": "g" },
       { "name": "beurre", "quantity_person": 17, "unity": "g" },
       {
-        "name": "extrait_vanille",
+        "name": "extrait vanillé",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
@@ -3207,7 +3207,7 @@
         "unity": "piece"
       },
       {
-        "name": "amandes_effilees",
+        "name": "amande effilée",
         "quantity_person": "au goût",
         "unity": "piece"
       }
@@ -3246,7 +3246,7 @@
         "unity": "piece"
       },
       { "name": "emmental", "quantity_person": 7, "unity": "g" },
-      { "name": "huile_olive", "quantity_person": 1, "unity": "filet" },
+      { "name": "huile d'olive", "quantity_person": 1, "unity": "filet" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "oeuf", "quantity_person": 1, "unity": "piece" },
@@ -3271,7 +3271,7 @@
     "cooking": 10,
     "difficulty": 1,
     "ingredients": [
-      { "name": "oeufs", "quantity_person": 1, "unity": "piece" },
+      { "name": "oeuf", "quantity_person": 1, "unity": "piece" },
       {
         "_id": "69c50e6182ec35e93235e434",
         "name": "poivron",
@@ -3284,13 +3284,13 @@
         "quantity_person": 15,
         "unity": "g"
       },
-      { "name": "huile_olive", "quantity_person": 5, "unity": "ml" },
+      { "name": "huile d'olive", "quantity_person": 5, "unity": "ml" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" }
     ],
     "ingredients_remplacement": [
       {
         "_id": "69c50e6182ec35e93235e42c",
-        "name": "oignon_jeune",
+        "name": "oignon jeune",
         "quantity_person": 15,
         "unity": "g"
       }
@@ -3314,12 +3314,12 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e42e",
-        "name": "patate_douce",
+        "name": "patate douce",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 0.5,
         "unity": "cuillere_cafe"
       },
@@ -3355,22 +3355,22 @@
       { "name": "bacon", "quantity_person": 2, "unity": "tranche" },
       {
         "_id": "69c50e6182ec35e93235e430",
-        "name": "petits_pois",
+        "name": "petits pois",
         "quantity_person": 50,
         "unity": "g"
       },
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": 150,
         "unity": "ml"
       },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
-      { "name": "jus_citron", "quantity_person": 1, "unity": "goutte" },
-      { "name": "parmesan_râpé", "quantity_person": 5, "unity": "g" },
+      { "name": "jus de citron", "quantity_person": 1, "unity": "goutte" },
+      { "name": "parmesan râpé", "quantity_person": 5, "unity": "g" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
@@ -3407,16 +3407,16 @@
         "quantity_person": 0.25,
         "unity": "gousse"
       },
-      { "name": "lardons", "quantity_person": 50, "unity": "g" },
+      { "name": "lardon", "quantity_person": 50, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e437",
         "name": "potiron",
         "quantity_person": 100,
         "unity": "g"
       },
-      { "name": "huile_olive", "quantity_person": 1, "unity": "filet" },
+      { "name": "huile d'olive", "quantity_person": 1, "unity": "filet" },
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": 25,
         "unity": "ml"
       },
@@ -3433,13 +3433,13 @@
       },
       { "name": "muscade", "quantity_person": 1, "unity": "pincee" },
       {
-        "name": "cube_bouillon",
+        "name": "cube de bouillon",
         "quantity_person": 0.25,
         "unity": "cube"
       },
-      { "name": "vin_blanc", "quantity_person": 0.25, "unity": "verre" },
+      { "name": "vin blanc", "quantity_person": 0.25, "unity": "verre" },
       { "name": "paprika", "quantity_person": 1, "unity": "pincee" },
-      { "name": "pates", "quantity_person": 63, "unity": "g" },
+      { "name": "pâte", "quantity_person": 63, "unity": "g" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
@@ -3452,7 +3452,7 @@
       },
       {
         "_id": "69c50e6182ec35e93235e42c",
-        "name": "oignon_jeune",
+        "name": "oignon jeune",
         "quantity_person": 0.25,
         "unity": "piece"
       }
@@ -3497,12 +3497,12 @@
         "unity": "piece"
       },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
-        "name": "crème_fraîche",
+        "name": "crème fraîche",
         "quantity_person": 63,
         "unity": "g"
       },
@@ -3519,7 +3519,7 @@
         "unity": "feuille"
       },
       {
-        "name": "jus_de_citron",
+        "name": "jus de citron",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -3598,7 +3598,7 @@
         "unity": "piece"
       },
       {
-        "name": "escalope_dinde",
+        "name": "escalope de dinde",
         "quantity_person": 150,
         "unity": "g"
       },
@@ -3632,21 +3632,21 @@
     "ingredients": [
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       {
-        "name": "huile_d_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
         "_id": "69c50e6182ec35e93235e417",
-        "name": "chou_chinois",
+        "name": "chou chinois",
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "name": "lieu_noir", "quantity_person": 125, "unity": "g" },
-      { "name": "poitrine_fumee", "quantity_person": 25, "unity": "g" },
+      { "name": "lieu noir", "quantity_person": 125, "unity": "g" },
+      { "name": "poitrine fumée", "quantity_person": 25, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e40f",
-        "name": "celeri",
+        "name": "céléri",
         "quantity_person": 0.5,
         "unity": "branche"
       },
@@ -3657,12 +3657,12 @@
         "unity": "gousse"
       },
       {
-        "name": "nuoc_mam",
+        "name": "nuoc mam",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
       {
-        "name": "sauce_soja",
+        "name": "sauce soja",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       }
@@ -3690,18 +3690,18 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e40f",
-        "name": "celeri",
+        "name": "céléri",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 1,
         "unity": "piece"
       },
       {
-        "name": "huile_d_olive",
+        "name": "huile d'olive",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
@@ -3731,7 +3731,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 2,
         "unity": "piece"
       },
@@ -3748,7 +3748,7 @@
         "unity": "botte"
       },
       {
-        "name": "huile_tournesol",
+        "name": "huile de tournesol",
         "quantity_person": 15,
         "unity": "ml"
       },
@@ -3795,7 +3795,7 @@
         "unity": "piece"
       },
       {
-        "name": "clou_de_girofle",
+        "name": "clou de girofle",
         "quantity_person": 1,
         "unity": "piece"
       },
@@ -3810,20 +3810,20 @@
         "unity": "cuillere_cafe"
       },
       {
-        "name": "boeuf_pot_au_feu",
+        "name": "boeuf",
         "quantity_person": 250,
         "unity": "g"
       },
-      { "name": "os_a_moelle", "quantity_person": 1, "unity": "piece" },
+      { "name": "os à moelle", "quantity_person": 1, "unity": "piece" },
       {
         "_id": "69c50e6182ec35e93235e41b",
-        "name": "chou_rave",
+        "name": "chou rave",
         "quantity_person": 1,
         "unity": "petit"
       },
       {
         "_id": "69c50e6182ec35e93235e40f",
-        "name": "celeri",
+        "name": "céléri",
         "quantity_person": 0.5,
         "unity": "branche"
       },
@@ -3834,7 +3834,7 @@
         "unity": "gousse"
       },
       {
-        "name": "bouquet_garni",
+        "name": "bouquet garni",
         "quantity_person": 0.25,
         "unity": "bouquet"
       },
@@ -3868,7 +3868,7 @@
       },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 0.5,
         "unity": "pomme de terre"
       },
@@ -3876,7 +3876,7 @@
       { "name": "lait", "quantity_person": 250, "unity": "ml" },
       { "name": "eau", "quantity_person": 250, "unity": "ml" },
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": "au goût",
         "unity": "portion"
       },
@@ -3928,7 +3928,7 @@
         "unity": "piece"
       },
       {
-        "name": "cube_bouillon",
+        "name": "cube de bouillon",
         "quantity_person": 0.25,
         "unity": "cube"
       },
@@ -3936,30 +3936,30 @@
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       {
         "_id": "69c50e6182ec35e93235e417",
-        "name": "chou_chinois",
+        "name": "chou chinois",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 0.5,
         "unity": "piece"
       },
-      { "name": "vin_blanc", "quantity_person": 30, "unity": "ml" },
+      { "name": "vin blanc", "quantity_person": 30, "unity": "ml" },
       {
-        "name": "herbes_de_provence",
+        "name": "herbe de provence",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "name": "huile_d_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
         "_id": "69c50e6182ec35e93235e40f",
-        "name": "celeri",
+        "name": "céléri",
         "quantity_person": 0.25,
         "unity": "piece"
       }
@@ -3995,13 +3995,13 @@
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "name": "huile_olive", "quantity_person": 10, "unity": "ml" },
+      { "name": "huile d'olive", "quantity_person": 10, "unity": "ml" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" }
     ],
     "ingredients_remplacement": [
       {
         "_id": "69c50e6182ec35e93235e42c",
-        "name": "oignon_jeune",
+        "name": "oignon jeune",
         "quantity_person": 0.25,
         "unity": "piece"
       }
@@ -4024,7 +4024,7 @@
     "difficulty": 2,
     "ingredients": [
       {
-        "name": "escalope_poulet",
+        "name": "escalope de poulet",
         "quantity_person": 1,
         "unity": "piece"
       },
@@ -4035,12 +4035,12 @@
         "unity": "piece"
       },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       {
-        "name": "fond_volaille",
+        "name": "fond de volaille",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
@@ -4078,7 +4078,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 330,
         "unity": "g"
       },
@@ -4116,10 +4116,10 @@
     "cooking": 30,
     "difficulty": 2,
     "ingredients": [
-      { "name": "creme_fraiche", "quantity_person": 50, "unity": "ml" },
+      { "name": "crème fraîche", "quantity_person": 50, "unity": "ml" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       {
-        "name": "pate_brisee",
+        "name": "pâte brisee",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -4129,11 +4129,11 @@
         "quantity_person": 1,
         "unity": "piece"
       },
-      { "name": "lardons_fumes", "quantity_person": 50, "unity": "g" },
+      { "name": "lardon fumé", "quantity_person": 50, "unity": "g" },
       { "name": "oeuf", "quantity_person": 0.5, "unity": "piece" },
       { "name": "mozzarella", "quantity_person": 25, "unity": "g" },
       {
-        "name": "poivre_cayenne",
+        "name": "poivre cayenne",
         "quantity_person": 1,
         "unity": "pincee"
       }
@@ -4160,7 +4160,7 @@
     "difficulty": 2,
     "ingredients": [
       {
-        "name": "creme_fraiche_epaisse",
+        "name": "crème fraîche épaisse",
         "quantity_person": 50,
         "unity": "ml"
       },
@@ -4172,7 +4172,7 @@
       },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
-      { "name": "gruyere_rape", "quantity_person": 12, "unity": "g" },
+      { "name": "gruyère râpé", "quantity_person": 12, "unity": "g" },
       {
         "name": "moutarde",
         "quantity_person": 0.5,
@@ -4187,7 +4187,7 @@
       },
       { "name": "jambon", "quantity_person": 0.25, "unity": "tranche" },
       {
-        "name": "pate_feuilletee",
+        "name": "pâte feuilletée",
         "quantity_person": 0.25,
         "unity": "portion"
       }
@@ -4224,7 +4224,7 @@
       { "name": "beurre", "quantity_person": 10, "unity": "g" },
       { "name": "farine", "quantity_person": 12, "unity": "g" },
       { "name": "lait", "quantity_person": 100, "unity": "ml" },
-      { "name": "gruyere_rape", "quantity_person": 20, "unity": "g" },
+      { "name": "gruyère_râpé", "quantity_person": 20, "unity": "g" },
       { "name": "muscade", "quantity_person": 1, "unity": "pincee" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
@@ -4259,19 +4259,19 @@
       },
       {
         "_id": "69c50e6182ec35e93235e407",
-        "name": "pointes_asperges",
+        "name": "pointe d'asperge",
         "quantity_person": 50,
         "unity": "g"
       },
       {
         "_id": "69c50e6182ec35e93235e430",
-        "name": "petits_pois",
+        "name": "petits pois",
         "quantity_person": 50,
         "unity": "g"
       },
       {
         "_id": "69c50e6182ec35e93235e426",
-        "name": "haricots_verts",
+        "name": "haricot vert",
         "quantity_person": 50,
         "unity": "g"
       },
@@ -4283,19 +4283,19 @@
         "unity": "piece"
       },
       {
-        "name": "bouillon_volaille",
+        "name": "bouillon de volaille",
         "quantity_person": 250,
         "unity": "ml"
       },
-      { "name": "vin_blanc", "quantity_person": 25, "unity": "ml" },
+      { "name": "vin blanc", "quantity_person": 25, "unity": "ml" },
       {
         "_id": "69c50e6182ec35e93235e43f",
-        "name": "concentre_tomates",
+        "name": "concentré de tomate",
         "quantity_person": 0.5,
         "unity": "cuillere_cafe"
       },
       {
-        "name": "basilic_hache",
+        "name": "basilic hâché",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
@@ -4330,9 +4330,9 @@
         "unity": "g"
       },
       { "name": "beurre", "quantity_person": 10, "unity": "g" },
-      { "name": "vin_rouge", "quantity_person": 25, "unity": "ml" },
+      { "name": "vin rouge", "quantity_person": 25, "unity": "ml" },
       {
-        "name": "bouillon_legumes",
+        "name": "bouillon de légumes",
         "quantity_person": 250,
         "unity": "ml"
       },
@@ -4342,9 +4342,9 @@
         "quantity_person": 50,
         "unity": "g"
       },
-      { "name": "riz_risotto", "quantity_person": 70, "unity": "g" },
+      { "name": "riz risotto", "quantity_person": 70, "unity": "g" },
       {
-        "name": "brie_de_meaux",
+        "name": "brie de meaux",
         "quantity_person": 1,
         "unity": "portion"
       }
@@ -4352,13 +4352,13 @@
     "ingredients_remplacement": [
       {
         "_id": "69c50e6182ec35e93235e415",
-        "name": "chicoree",
+        "name": "chicorée",
         "quantity_person": 50,
         "unity": "g"
       },
       {
         "_id": "69c50e6182ec35e93235e42c",
-        "name": "oignon-jeune",
+        "name": "oignon jeune",
         "quantity_person": 50,
         "unity": "g"
       }
@@ -4388,14 +4388,14 @@
       { "name": "quinoa", "quantity_person": 50, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e40a",
-        "name": "betterave_cuite",
+        "name": "betterave cuite",
         "quantity_person": 1,
         "unity": "piece"
       },
       { "name": "feta", "quantity_person": 40, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e428",
-        "name": "mache",
+        "name": "mâche",
         "quantity_person": 1,
         "unity": "poignee"
       },
@@ -4406,17 +4406,17 @@
         "unity": "cuillere_cafe"
       },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
-        "name": "vinaigre_balsamique",
+        "name": "vinaigre balsamique",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
       {
-        "name": "moutarde_ancienne",
+        "name": "moutarde ancienne",
         "quantity_person": 0.5,
         "unity": "cuillere_cafe"
       },
@@ -4446,7 +4446,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e41c",
-        "name": "chou_rouge",
+        "name": "chou rouge",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -4473,7 +4473,7 @@
         "unity": "gousse"
       },
       {
-        "name": "huile_d_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
@@ -4509,23 +4509,23 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e41c",
-        "name": "chou_rouge",
+        "name": "chou rouge",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       { "name": "roquefort", "quantity_person": 13, "unity": "g" },
       {
-        "name": "cerneau_noix",
+        "name": "cerneau de noix",
         "quantity_person": 1.5,
         "unity": "piece"
       },
       {
-        "name": "huile_arachide",
+        "name": "huile d'arachide",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "name": "huile_noix",
+        "name": "huile de noix",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
@@ -4535,7 +4535,7 @@
         "unity": "cuillere_soupe"
       },
       {
-        "name": "eau_de_vie",
+        "name": "eau de vie",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
@@ -4570,31 +4570,31 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e428",
-        "name": "mache",
+        "name": "mâche",
         "quantity_person": 60,
         "unity": "g"
       },
-      { "name": "chevre_frais", "quantity_person": 40, "unity": "g" },
+      { "name": "chèvre frais", "quantity_person": 40, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e422",
-        "name": "framboises",
+        "name": "framboise",
         "quantity_person": 30,
         "unity": "g"
       },
       {
         "_id": "69c50e6182ec35e93235e42a",
-        "name": "myrtilles",
+        "name": "myrtille",
         "quantity_person": 30,
         "unity": "g"
       },
-      { "name": "cerneaux_noix", "quantity_person": 15, "unity": "g" },
+      { "name": "cerneaux de noix", "quantity_person": 15, "unity": "g" },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
       {
-        "name": "vinaigre_cidre",
+        "name": "vinaigre de cidre",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
@@ -4633,13 +4633,13 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e428",
-        "name": "mache",
+        "name": "mâche",
         "quantity_person": 1.5,
         "unity": "poignee"
       },
       {
         "_id": "69c50e6182ec35e93235e43f",
-        "name": "tomates_cerises",
+        "name": "tomate cerise",
         "quantity_person": 12,
         "unity": "piece"
       },
@@ -4649,11 +4649,11 @@
         "unity": "piece"
       },
       {
-        "name": "jambon_cru",
+        "name": "jambon cru",
         "quantity_person": 1.5,
         "unity": "tranche"
       },
-      { "nmame": "croutons", "quantity_person": 1, "unity": "poignee" },
+      { "nmame": "crouton", "quantity_person": 1, "unity": "poignee" },
       {
         "name": "vinaigrette",
         "quantity_person": 1,
@@ -4682,7 +4682,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e43b",
-        "name": "radis_noir",
+        "name": "radis noir",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -4692,7 +4692,7 @@
         "quantity_person": 0.25,
         "unity": "piece"
       },
-      { "name": "huile_olive", "quantity_person": 2.5, "unity": "ml" },
+      { "name": "huile d'olive", "quantity_person": 2.5, "unity": "ml" },
       {
         "name": "jus_de_citron",
         "quantity_person": 1.25,
@@ -4730,8 +4730,8 @@
         "quantity_person": 80,
         "unity": "g"
       },
-      { "name": "huile_olive", "quantity_person": 5, "unity": "ml" },
-      { "name": "jus_citron", "quantity_person": 5, "unity": "ml" },
+      { "name": "huile d'olive", "quantity_person": 5, "unity": "ml" },
+      { "name": "jus de citron", "quantity_person": 5, "unity": "ml" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" }
     ],
     "preparation": [
@@ -4791,19 +4791,19 @@
     "difficulty": 2,
     "ingredients": [
       {
-        "name": "saucisse_toulouse",
+        "name": "saucisse de toulouse",
         "quantity_person": 225,
         "unity": "g"
       },
       {
         "_id": "69c50e6182ec35e93235e426",
-        "name": "haricots_verts",
+        "name": "haricot vert",
         "quantity_person": 250,
         "unity": "g"
       },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 1.5,
         "unity": "piece"
       },
@@ -4814,12 +4814,12 @@
         "unity": "piece"
       },
       {
-        "name": "bouillon_pot_au_feu",
+        "name": "bouillon de pot au feu",
         "quantity_person": 0.5,
         "unity": "cube"
       },
       {
-        "name": "huile",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       },
@@ -4849,7 +4849,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e41c",
-        "name": "chou_rouge",
+        "name": "chou rouge",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -4861,12 +4861,12 @@
       },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
-        "name": "lardons_fumes",
+        "name": "lardon fumé",
         "quantity_person": 37,
         "unity": "g"
       },
@@ -4892,7 +4892,7 @@
       "Étape 2: Faire revenir l'oignon dans une casserole avec un peu d'huile ou de beurre.",
       "Étape 3: Ajouter le chou, la pomme de terre et l'eau, laisser cuire 20 minutes.",
       "Étape 4: Pendant ce temps, faire revenir les lardons fumés dans une poêle.",
-      "Étape 5: Mixere_soupe pour obtenir une consistance lisse.",
+      "Étape 5: Mixer lasoupe pour obtenir une consistance lisse.",
       "Étape 6: Ajouter les lardons et le vinaigre, assaisonner avec sel et poivre, servir chaud."
     ]
   },
@@ -4909,7 +4909,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e40f",
-        "name": "celeri",
+        "name": "céléri",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -4921,22 +4921,22 @@
       },
       { "name": "comte", "quantity_person": 37, "unity": "g" },
       {
-        "name": "cerneau_noix",
+        "name": "cerneau de noix",
         "quantity_person": 0.25,
         "unity": "poignée"
       },
       {
-        "name": "huile_noix",
+        "name": "huile de noix",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
       {
-        "name": "vinaigre_balsamique",
+        "name": "vinaigre de balsamique",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "name": "jus_citron",
+        "name": "jus de citron",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
@@ -4970,7 +4970,7 @@
     "difficulty": 1,
     "ingredients": [
       {
-        "name": "moutarde_ancienne",
+        "name": "moutarde ancienne",
         "quantity_person": 0.25,
         "unity": "cuillere_cafe"
       },
@@ -4982,13 +4982,13 @@
       },
       {
         "_id": "69c50e6182ec35e93235e428",
-        "name": "mache",
+        "name": "mâche",
         "quantity_person": 25,
         "unity": "g"
       },
       {
         "_id": "69c50e6182ec35e93235e425",
-        "name": "haricot_blanc",
+        "name": "haricot blanc",
         "quantity_person": 50,
         "unity": "g"
       },
@@ -5031,10 +5031,10 @@
         "unity": "piece"
       },
       { "name": "thon", "quantity_person": 100, "unity": "g" },
-      { "name": "echalote", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "échalote", "quantity_person": 0.5, "unity": "piece" },
       { "name": "citron", "quantity_person": 0.5, "unity": "piece" },
       {
-        "name": "huile_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
@@ -5068,7 +5068,7 @@
     "difficulty": 2,
     "ingredients": [
       {
-        "name": "huile",
+        "name": "huile d'olive",
         "quantity_person": 4,
         "unity": "cuillere_soupe"
       },
@@ -5076,7 +5076,7 @@
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 6,
         "unity": "piece"
       },
@@ -5114,10 +5114,10 @@
     "cooking": 90,
     "difficulty": 3,
     "ingredients": [
-      { "name": "saute_de_veau", "quantity_person": 200, "unity": "g" },
+      { "name": "saute de veau", "quantity_person": 200, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e430",
-        "name": "petits_pois",
+        "name": "petits pois",
         "quantity_person": 150,
         "unity": "g"
       },
@@ -5146,7 +5146,7 @@
         "unity": "gousse"
       },
       {
-        "name": "huile",
+        "name": "huile d'olive",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
@@ -5156,14 +5156,14 @@
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
-      { "name": "vin_blanc_sec", "quantity_person": 50, "unity": "ml" },
+      { "name": "vin blanc sec", "quantity_person": 50, "unity": "ml" },
       {
-        "name": "concentre_tomates",
+        "name": "concentré de tomate",
         "quantity_person": 0.75,
         "unity": "cuillere_cafe"
       },
       {
-        "name": "bouquet_garni",
+        "name": "bouquet garni",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -5191,7 +5191,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e429",
-        "name": "mures",
+        "name": "mûre",
         "quantity_person": 21,
         "unity": "g"
       },
@@ -5222,7 +5222,7 @@
       },
       { "name": "banane", "quantity_person": 0.5, "unity": "piece" },
       { "name": "sucre", "quantity_person": 5, "unity": "g" },
-      { "name": "glacons", "quantity_person": 5, "unity": "piece" }
+      { "name": "glaçon", "quantity_person": 5, "unity": "piece" }
     ],
     "preparation": [
       "Étape 1: Mixer les fraises et la demi-banane jusqu'à obtenir une texture lisse.",
@@ -5243,14 +5243,14 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e421",
-        "name": "fraises",
+        "name": "fraise",
         "quantity_person": 125,
         "unity": "g"
       },
-      { "name": "sucre_semoule", "quantity_person": 30, "unity": "g" },
+      { "name": "sucre semoule", "quantity_person": 30, "unity": "g" },
       { "name": "eau", "quantity_person": 15, "unity": "ml" },
       {
-        "name": "jus_citron",
+        "name": "jus de citron",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       }
@@ -5276,7 +5276,7 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e40f",
-        "name": "celeri",
+        "name": "céléri",
         "quantity_person": 0.75,
         "unity": "piece"
       },
@@ -5310,12 +5310,12 @@
         "unity": "cuillere_cafe"
       },
       {
-        "name": "huile_d_olive",
+        "name": "huile d'olive",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
       {
-        "name": "cube_bouillon_volaille",
+        "name": "cube de bouillon à la volaille",
         "quantity_person": 0.25,
         "unity": "cube"
       },
@@ -5359,7 +5359,7 @@
         "unity": "piece"
       },
       {
-        "name": "cube_bouillon",
+        "name": "cube de bouillon",
         "quantity_person": 2,
         "unity": "cube"
       },
@@ -5417,12 +5417,12 @@
         "unity": "piece"
       },
       {
-        "name": "cube_bouillon",
+        "name": "cube de bouillon",
         "quantity_person": 0.25,
         "unity": "cube"
       },
       {
-        "name": "huile",
+        "name": "huile d'olive",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
@@ -5454,7 +5454,7 @@
     "difficulty": 2,
     "ingredients": [
       {
-        "name": "bouillon_legumes",
+        "name": "bouillon de légumes",
         "quantity_person": 0.33,
         "unity": "cube"
       },
@@ -5475,7 +5475,7 @@
       },
       {
         "_id": "69c50e6182ec35e93235e417",
-        "name": "chou_chinois",
+        "name": "chou chinois",
         "quantity_person": 0.125,
         "unity": "piece"
       },
@@ -5485,14 +5485,14 @@
         "quantity_person": 0.5,
         "unity": "piece"
       },
-      { "name": "lait_de_coco", "quantity_person": 100, "unity": "ml" },
+      { "name": "lait de coco", "quantity_person": 100, "unity": "ml" },
       {
-        "name": "escalope_poulet",
+        "name": "escalope de poulet",
         "quantity_person": 75,
         "unity": "g"
       },
       {
-        "name": "citron_vert",
+        "name": "citron vert",
         "quantity_person": 0.5,
         "unity": "piece"
       },
@@ -5503,7 +5503,7 @@
       },
       {
         "_id": "69c50e6182ec35e93235e40f",
-        "name": "celeri",
+        "name": "céléri",
         "quantity_person": 0.25,
         "unity": "branche"
       }
@@ -5532,13 +5532,13 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e416",
-        "name": "chou_blanc",
+        "name": "chou blanc",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 1,
         "unity": "piece"
       },
@@ -5577,13 +5577,13 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e419",
-        "name": "chou_de_milan",
+        "name": "chou de milan",
         "quantity_person": 150,
         "unity": "g"
       },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 100,
         "unity": "g"
       },
@@ -5599,7 +5599,7 @@
         "unity": "ml"
       },
       {
-        "name": "huile",
+        "name": "huile d'olive",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
@@ -5632,7 +5632,7 @@
         "unity": "piece"
       },
       {
-        "name": "bouillon_volaille",
+        "name": "bouillon de volaille",
         "quantity_person": 0.5,
         "unity": "cube"
       },
@@ -5675,11 +5675,11 @@
         "unity": "piece"
       },
       {
-        "name": "bouillon_volaille",
+        "name": "bouillon de volaille",
         "quantity_person": 375,
         "unity": "ml"
       },
-      { "name": "creme_fraiche", "quantity_person": 10, "unity": "ml" },
+      { "name": "crème fraîche", "quantity_person": 10, "unity": "ml" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
@@ -5716,25 +5716,25 @@
       },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 1,
         "unity": "piece"
       },
       {
         "_id": "69c50e6182ec35e93235e41f",
-        "name": "epinards",
+        "name": "épinard",
         "quantity_person": 125,
         "unity": "g"
       },
       {
-        "name": "bouillon_volaille",
+        "name": "bouillon de volaille",
         "quantity_person": 0.25,
         "unity": "cube"
       },
       { "name": "eau", "quantity_person": 187, "unity": "ml" },
       { "name": "beurre", "quantity_person": 12, "unity": "g" },
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
@@ -5771,13 +5771,13 @@
       },
       { "name": "quinoa", "quantity_person": 37, "unity": "g" },
       {
-        "name": "bouillon_volaille",
+        "name": "bouillon de volaille",
         "quantity_person": 0.5,
         "unity": "cube"
       },
       { "name": "eau", "quantity_person": 500, "unity": "ml" },
-      { "name": "creme_fraiche", "quantity_person": 10, "unity": "ml" },
-      { "name": "gruyere", "quantity_person": 10, "unity": "g" },
+      { "name": "crème fraîche", "quantity_person": 10, "unity": "ml" },
+      { "name": "gruyère", "quantity_person": 10, "unity": "g" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
@@ -5813,17 +5813,17 @@
         "unity": "g"
       },
       {
-        "name": "bouillon_legumes",
+        "name": "bouillon de légumes",
         "quantity_person": 250,
         "unity": "ml"
       },
-      { "name": "huile_olive", "quantity_person": 5, "unity": "ml" },
+      { "name": "huile d'olive", "quantity_person": 5, "unity": "ml" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" }
     ],
     "ingredients_remplacement": [
       {
         "_id": "69c50e6182ec35e93235e42c",
-        "name": "oignon_jeune",
+        "name": "oignon jeune",
         "quantity_person": 30,
         "unity": "g"
       }
@@ -5847,13 +5847,13 @@
     "ingredients": [
       {
         "_id": "69c50e6182ec35e93235e43b",
-        "name": "radis_noir",
+        "name": "radis noir",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme_ de terre",
         "quantity_person": 0.5,
         "unity": "piece"
       },
@@ -5864,7 +5864,7 @@
         "unity": "piece"
       },
       { "name": "beurre", "quantity_person": 5, "unity": "g" },
-      { "name": "creme_fraiche", "quantity_person": 10, "unity": "ml" },
+      { "name": "crème fraîche", "quantity_person": 10, "unity": "ml" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
       { "name": "eau", "quantity_person": 100, "unity": "ml" }
@@ -5908,7 +5908,7 @@
       },
       {
         "_id": "69c50e6182ec35e93235e436",
-        "name": "pomme_de_terre",
+        "name": "pomme de terre",
         "quantity_person": 0.66,
         "unity": "piece"
       },
@@ -5917,7 +5917,7 @@
         "quantity_person": 330,
         "unity": "ml"
       },
-      { "name": "creme_fraiche", "quantity_person": 30, "unity": "ml" },
+      { "name": "crème fraîche", "quantity_person": 30, "unity": "ml" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" }
     ],
@@ -5958,13 +5958,13 @@
         "quantity_person": 30,
         "unity": "g"
       },
-      { "name": "viande_hachee", "quantity_person": 100, "unity": "g" },
-      { "name": "huile_olive", "quantity_person": 10, "unity": "ml" }
+      { "name": "viande hâchée", "quantity_person": 100, "unity": "g" },
+      { "name": "huile d'olive", "quantity_person": 10, "unity": "ml" }
     ],
     "ingredients_remplacement": [
       {
         "_id": "69c50e6182ec35e93235e42c",
-        "name": "oignon_jeune",
+        "name": "oignon jeune",
         "quantity_person": 50,
         "unity": "g"
       }
@@ -5996,9 +5996,9 @@
         "quantity_person": 1,
         "unity": "piece"
       },
-      { "name": "saumon_fume", "quantity_person": 50, "unity": "g" },
+      { "name": "saumon fumé", "quantity_person": 50, "unity": "g" },
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
@@ -6013,7 +6013,7 @@
         "unity": "cuillere_cafe"
       },
       {
-        "name": "jus_citron",
+        "name": "jus de citron",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -6046,12 +6046,12 @@
       },
       { "name": "maizena", "quantity_person": 1.5, "unity": "g" },
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": 50,
         "unity": "ml"
       },
       {
-        "name": "pate_feuilletee",
+        "name": "pâte feuilletée",
         "quantity_person": "0.25",
         "unity": "piece"
       },
@@ -6062,34 +6062,34 @@
         "unity": "g"
       },
       {
-        "name": "geleé_de_mures",
+        "name": "geleé de mure",
         "quantity_person": 0.75,
         "unity": "cuillere_soupe"
       },
       {
-        "name": "jaune_d_oeuf",
+        "name": "jaune d'oeuf",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       { "name": "mascarpone", "quantity_person": 25, "unity": "g" },
       {
-        "name": "amande_en_poudre",
+        "name": "amande en poudre",
         "quantity_person": 25,
         "unity": "g"
       },
       {
-        "name": "arome_amande_amere",
+        "name": "arôme d'amande",
         "quantity_person": "0.5",
         "unity": "goutte"
       },
-      { "name": "sucre_glace", "quantity_person": 10, "unity": "g" },
+      { "name": "sucre glace", "quantity_person": 10, "unity": "g" },
       {
-        "name": "sucre_en_poudre",
+        "name": "sucre en poudre",
         "quantity_person": 8,
         "unity": "g"
       },
       {
-        "name": "creme_chantilly",
+        "name": "crème chantilly",
         "quantity_person": "0.25",
         "unity": "cuillere_soupe"
       }
@@ -6123,22 +6123,22 @@
         "unity": "piece"
       },
       {
-        "name": "pate_brisee",
+        "name": "pâte brisée",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
         "_id": "69c50e6182ec35e93235e41c",
-        "name": "chou_rouge",
+        "name": "chou rouge",
         "quantity_person": 25,
         "unity": "g"
       },
       {
-        "name": "lardons_natures",
+        "name": "lardon nature",
         "quantity_person": 30,
         "unity": "g"
       },
-      { "name": "creme", "quantity_person": 30, "unity": "ml" },
+      { "name": "crème fraîche", "quantity_person": 30, "unity": "ml" },
       { "name": "oeuf", "quantity_person": 1, "unity": "piece" },
       {
         "name": "sel",
@@ -6151,7 +6151,7 @@
         "unity": "pincee"
       },
       {
-        "name": "huile_d_olive",
+        "name": "huile d'olive",
         "quantity_person": 1,
         "unity": "cuillere_cafe"
       }
@@ -6181,18 +6181,18 @@
     "difficulty": 2,
     "ingredients": [
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": 0.33,
         "unity": "cuillere_soupe"
       },
       { "name": "rhum", "quantity_person": "au goût", "unity": "goutte" },
       {
-        "name": "amandes_poudre",
+        "name": "amande en poudre",
         "quantity_person": 3.466,
         "unity": "g"
       },
       {
-        "name": "sucre_en_poudre",
+        "name": "sucre en poudre",
         "quantity_person": 21,
         "unity": "g"
       },
@@ -6203,7 +6203,7 @@
         "unity": "botte"
       },
       {
-        "name": "pate_sablee",
+        "name": "pâte sablée",
         "quantity_person": "0.25",
         "unity": "piece"
       },
@@ -6229,13 +6229,13 @@
     "difficulty": 2,
     "ingredients": [
       {
-        "name": "pate_filo",
+        "name": "pâte filo",
         "quantity_person": 2,
         "unity": "piece"
       },
-      { "name": "huile_olive", "quantity_person": 8, "unity": "ml" },
+      { "name": "huile d'olive", "quantity_person": 8, "unity": "ml" },
       {
-        "name": "creme_fraiche_epaisse",
+        "name": "crème fraîche épaisse",
         "quantity_person": 1,
         "unity": "cuillere_soupe"
       },
@@ -6247,18 +6247,18 @@
       },
       {
         "_id": "69c50e6182ec35e93235e41f",
-        "name": "epinards",
+        "name": "épinard",
         "quantity_person": 25,
         "unity": "g"
       },
       {
-        "name": "saucisse_morteau_cuite",
+        "name": "saucisse de morteau cuite",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       { "name": "feta", "quantity_person": 25, "unity": "g" },
       {
-        "name": "herbes_aromatiques",
+        "name": "herbe aromatique",
         "quantity_person": 0.25,
         "unity": "cuillere_soupe"
       },
@@ -6291,29 +6291,29 @@
     "ingredients": [
       { "name": "sucre", "quantity_person": 24, "unity": "g" },
       {
-        "name": "creme_fraiche_epaisse",
+        "name": "crème fraîche épaisse",
         "quantity_person": 70,
         "unity": "ml"
       },
       {
-        "name": "chocolat_patisserie",
+        "name": "chocolat pâtisserie",
         "quantity_person": 67,
         "unity": "g"
       },
       {
-        "name": "pate_feuilletee",
+        "name": "pâte feuilletée",
         "quantity_person": "0.33",
         "unity": "piece"
       },
       { "name": "oeuf", "quantity_person": 0.75, "unity": "piece" },
       {
-        "name": "amandes_poudre",
+        "name": "amande en poudre",
         "quantity_person": 20,
         "unity": "g"
       },
       {
         "_id": "69c50e6182ec35e93235e432",
-        "name": "poire_au_sirop",
+        "name": "poire au sirop",
         "quantity_person": 0.75,
         "unity": "boite"
       }
@@ -6340,19 +6340,19 @@
     "difficulty": 2,
     "ingredients": [
       {
-        "name": "pate_brisee",
+        "name": "pâte brisée",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       { "name": "mascarpone", "quantity_person": 84, "unity": "g" },
       {
-        "name": "creme_liquide",
+        "name": "crème liquide",
         "quantity_person": 20,
         "unity": "ml"
       },
       {
         "_id": "69c50e6182ec35e93235e429",
-        "name": "mures",
+        "name": "mûre",
         "quantity_person": 84,
         "unity": "g"
       },
@@ -6368,7 +6368,7 @@
         "unity": "cuillere_soupe"
       },
       {
-        "name": "gelees_mures",
+        "name": "gélee de mûre",
         "quantity_person": 0.24,
         "unity": "cuillere_soupe"
       },
@@ -6399,7 +6399,7 @@
     "difficulty": 1,
     "ingredients": [
       {
-        "name": "pate_brisee",
+        "name": "pâte brisée",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -6411,7 +6411,7 @@
       },
       { "name": "beurre", "quantity_person": 5, "unity": "g" },
       {
-        "name": "sucre_vanille",
+        "name": "sucre vanillé",
         "quantity_person": 0.25,
         "unity": "sachet"
       }
@@ -6437,7 +6437,7 @@
     "difficulty": 1,
     "ingredients": [
       {
-        "name": "pate_brisee",
+        "name": "pâte brisée",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -6448,13 +6448,13 @@
         "unity": "poignée"
       },
       {
-        "name": "jaune_d_oeuf",
+        "name": "jaune d'oeuf",
         "quantity_person": 0.5,
         "unity": "piece"
       },
       { "name": "sucre", "quantity_person": 17, "unity": "g" },
       { "name": "farine", "quantity_person": 5, "unity": "g" },
-      { "name": "creme_fraiche", "quantity_person": 34, "unity": "g" }
+      { "name": "crème fraîche", "quantity_person": 34, "unity": "g" }
     ],
     "preparation": [
       "Étape 1: Équeuter, laver et sécher les grains de cassis.",
@@ -6478,24 +6478,24 @@
     "difficulty": 2,
     "ingredients": [
       { "name": "farine", "quantity_person": 40, "unity": "g" },
-      { "name": "beurre_sale", "quantity_person": 12, "unity": "g" },
+      { "name": "beurre salé", "quantity_person": 12, "unity": "g" },
       { "name": "cassonade", "quantity_person": 10, "unity": "g" },
-      { "name": "jaune_oeuf", "quantity_person": 0.5, "unity": "piece" },
+      { "name": "jaune d'oeuf", "quantity_person": 0.5, "unity": "piece" },
       { "name": "lait", "quantity_person": 30, "unity": "ml" },
       { "name": "sucre", "quantity_person": 10, "unity": "g" },
       {
-        "name": "sucre_vanille",
+        "name": "sucre vanillé",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
         "_id": "69c50e6182ec35e93235e421",
-        "name": "fraises",
+        "name": "fraise",
         "quantity_person": 100,
         "unity": "g"
       },
       {
-        "name": "confiture_fruits_rouges",
+        "name": "confiture de fruit rouge",
         "quantity_person": 15,
         "unity": "g"
       },
@@ -6529,23 +6529,23 @@
         "unity": "g"
       },
       {
-        "name": "fromage_de_chevre_frais",
+        "name": "fromage de chevre frais",
         "quantity_person": 25,
         "unity": "g"
       },
       {
-        "name": "fromage_de_chevre_sec",
+        "name": "fromage de chevre sec",
         "quantity_person": 25,
         "unity": "g"
       },
       { "name": "oeuf", "quantity_person": 0.5, "unity": "piece" },
       {
-        "name": "creme_liquide",
+        "name": "crème liquide",
         "quantity_person": 25,
         "unity": "ml"
       },
       {
-        "name": "pate_feuilletee",
+        "name": "pâte feuilletée",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -6590,12 +6590,12 @@
         "unity": "g"
       },
       {
-        "name": "pate_feuilletee",
+        "name": "pâte feuilletée",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       { "name": "camembert", "quantity_person": 25, "unity": "g" },
-      { "name": "creme_fraiche", "quantity_person": 50, "unity": "ml" },
+      { "name": "crème fraîche", "quantity_person": 50, "unity": "ml" },
       { "name": "oeuf", "quantity_person": 0.5, "unity": "piece" },
       { "name": "sel", "quantity_person": 1, "unity": "pincee" },
       { "name": "poivre", "quantity_person": 1, "unity": "pincee" },
@@ -6629,12 +6629,12 @@
         "unity": "piece"
       },
       {
-        "name": "fromage_râpé",
+        "name": "fromage râpé",
         "quantity_person": 17,
         "unity": "g"
       },
       {
-        "name": "creme_fraiche",
+        "name": "crème fraîche",
         "quantity_person": 50,
         "unity": "ml"
       },
@@ -6653,7 +6653,7 @@
         "quantity_person": 0.33,
         "unity": "cuillere_soupe"
       },
-      { "name": "lardons", "quantity_person": 67, "unity": "g" },
+      { "name": "lardon", "quantity_person": 67, "unity": "g" },
       { "name": "oeuf", "quantity_person": 0.5, "unity": "piece" }
     ],
     "preparation": [
@@ -6680,10 +6680,10 @@
     "ingredients": [
       { "name": "pain", "quantity_person": 1, "unity": "piece" },
       { "name": "beurre", "quantity_person": 10, "unity": "g" },
-      { "name": "herbes_fraiches", "quantity_person": 1, "unity": "g" },
+      { "name": "herbe fraîche", "quantity_person": 1, "unity": "g" },
       {
         "_id": "69c50e6182ec35e93235e43b",
-        "name": "radis_noir",
+        "name": "radis noir",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -6714,7 +6714,7 @@
         "quantity_person": 100,
         "unity": "g"
       },
-      { "name": "creme_fraiche", "quantity_person": 15, "unity": "g" },
+      { "name": "crème fraîche", "quantity_person": 15, "unity": "g" },
       { "name": "oeuf", "quantity_person": 0.67, "unity": "piece" },
       {
         "_id": "69c50e6182ec35e93235e42b",
@@ -6749,7 +6749,7 @@
     "difficulty": 3,
     "ingredients": [
       {
-        "name": "sucre_semoule",
+        "name": "sucre semoule",
         "quantity_person": 63,
         "unity": "g"
       },
@@ -6760,17 +6760,17 @@
         "unity": "g"
       },
       {
-        "name": "sucre_vanille",
+        "name": "sucre vanillé",
         "quantity_person": 0.25,
         "unity": "piece"
       },
       {
-        "name": "sucre_glace",
+        "name": "sucre glace",
         "quantity_person": 0.5,
         "unity": "cuillere_soupe"
       },
       {
-        "name": "cannelle_baton",
+        "name": "cannelle en bâton",
         "quantity_person": 0.25,
         "unity": "piece"
       },
@@ -6795,6 +6795,7 @@
       "Étape 6: Laisser reposer au réfrigérateur toute une nuit, puis saupoudrer de cacao avant de servir."
     ]
   },
+  /// Je suis ici !!!
   {
     "name": "Tiramisu aux framboises",
     "slug": "tiramisu_framboise",
