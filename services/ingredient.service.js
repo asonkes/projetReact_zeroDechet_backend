@@ -38,6 +38,18 @@ const ingredientService = {
     }
   },
 
+  findByName: async (name) => {
+    try {
+      const ingredient = await Ingredient.findOne({
+        name: { $regex: name, $options: "i" },
+      });
+      return ingredient;
+    } catch (err) {
+      console.log(err);
+      throw new Error(err);
+    }
+  },
+
   nameAlreadyExists: async (name) => {
     try {
       const ingredient = await Ingredient.findOne({ name });

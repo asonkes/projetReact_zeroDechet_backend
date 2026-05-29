@@ -50,6 +50,28 @@ const ingredientController = {
     }
   },
 
+  getByName: async (req, res) => {
+    try {
+      const name = req.params.name;
+      const ingredient = await ingredientService.findByName(name);
+
+      if (!ingredient) {
+        res.status(404).json({
+          statusCode: 404,
+          message: "Ingrédient non trouvé",
+        });
+      }
+
+      res.status(200).json(ingredient);
+    } catch (err) {
+      console.log(err);
+      res.status(500).json({
+        statusCode: 500,
+        message: `Erreur de la DB`,
+      });
+    }
+  },
+
   /**
    * Ajouter un ingrédient
    * (Pour l'admin ==> à voir si le temps)

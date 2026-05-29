@@ -20,6 +20,9 @@ ingredientRouter
     ingredientController.insert,
   );
 
+// Routes avec les names
+ingredientRouter.route("/name/:name").get(ingredientController.getByName);
+
 // Routes avec les slugs
 ingredientRouter.route("/:slug").get(ingredientController.getBySlug);
 
