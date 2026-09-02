@@ -1,6 +1,6 @@
-/************************/
-/** Service -  Services */
-/************************/
+/***************************/
+/** Service -  Ingredients */
+/***************************/
 
 const Ingredient = require("../models/ingredient.model");
 

@@ -50,13 +50,11 @@ const authentificationMiddleware = () => {
       next();
     } catch (err) {
       // Si erreur, décode plante, token erroné, fin de la requête
-      res.status(401).json({
+      return res.status(401).json({
         statusCode: 401,
         message: `Vous devez être connecté`,
       });
     }
-
-    console.log(authorization);
   };
 };
 

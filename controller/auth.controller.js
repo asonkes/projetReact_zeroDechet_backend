@@ -64,24 +64,24 @@ const authController = {
 
       // Si pas d'utilisateur
       if (!userFound) {
-        res.status(401).json({
+        return res.status(401).json({
           statusCode: 401,
           message: `Les informations de connexion ne sont pas bonnes`,
         });
-      } else {
-        // Si l'utilisateur existe
-        // On va générer un token
-        // Si token fonctionne ==> erreur 500 ==> catch
-        const token = await jwtUtils.generate(userFound);
-        console.log(token);
-
-        // On va renvoyer quelques infos de l'utilisateur + token
-        res.status(200).json({
-          id: userFound._id,
-          username: userFound.username,
-          token,
-        });
       }
+
+      // Si l'utilisateur existe
+      // On va générer un token
+      // Si token fonctionne ==> erreur 500 ==> catch
+      const token = await jwtUtils.generate(userFound);
+      console.log(token);
+
+      // On va renvoyer quelques infos de l'utilisateur + token
+      res.status(200).json({
+        id: userFound._id,
+        username: userFound.username,
+        token,
+      });
     } catch (err) {
       console.log(err);
       res.status(500).json({

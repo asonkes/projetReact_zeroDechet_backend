@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 
 // On va créer un objet dans lequel il y aura 2 fonctions
 // 1) Créer le token à partir de certaines infos
-// 2) L'autre qui permet de décoder untoken et récupérer les infos contenues dedans
+// 2) L'autre qui permet de décoder un token et récupérer les infos contenues dedans
 
 // Récupération des variables d'environnement pour créer(décoder) le token
 // Se trouve dans le fichier ".env"
@@ -44,7 +44,7 @@ const jwtUtils = {
         // Si erreur, param 'error' sera rempli et 'token' vide
         if (error) {
           console.log(error);
-          reject(error);
+          return reject(error);
         }
 
         // Si tt s'est bien passé, param 'error' vide et 'token' sera rempli
@@ -58,7 +58,7 @@ const jwtUtils = {
     return new Promise((resolve, reject) => {
       // Si pas de paramètre, promesse non tenue
       if (!token) {
-        reject(new Error("Pas de token reçu!"));
+        return reject(new Error("Pas de token reçu!"));
       }
 
       // si token, on le décoder
@@ -77,7 +77,7 @@ const jwtUtils = {
       jwt.verify(token, JWT_SECRET, options, (error, payload) => {
         // Si erreur pendant le décodage => "error" rempli et "payload" vide
         if (error) {
-          reject(error);
+          return reject(error);
         }
 
         // Si pas d'erreur pendant le décodage => "error" vide et "payload" rempli

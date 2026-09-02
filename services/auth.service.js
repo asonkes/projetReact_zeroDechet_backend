@@ -1,6 +1,6 @@
-/****************************/
-/** Service -  Utilisateurs */
-/****************************/
+/********************************/
+/** Service -  Authentification */
+/********************************/
 
 const argon2 = require("argon2");
 const User = require("../models/user.model");
