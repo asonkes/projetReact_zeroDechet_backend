@@ -13,12 +13,7 @@ const cors = require("cors");
 
 server.use(
   cors({
-    origin: [
-      "https://audrey-sonkes.be",
-      "https://www.audrey-sonkes.be",
-      "https://api.audrey-sonkes.be",
-      "http://localhost:5173",
-    ],
+    origin: FRONTEND_URL || "http://localhost:5173",
     credentials: true,
   }),
 );
