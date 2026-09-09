@@ -36,3 +36,5 @@ if (process.env.NODE_ENV !== "production") {
     console.log(`Server started on the PORT ${PORT}`);
   });
 }
+
+module.exports = server;
