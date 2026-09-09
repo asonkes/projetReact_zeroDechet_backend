@@ -31,6 +31,8 @@ const router = require("./routes");
 
 server.use("/api", router);
 
-server.listen(PORT, () => {
-  console.log(`Server started on the PORT ${PORT}`);
-});
+if (process.env.NODE_ENV !== "production") {
+  server.listen(PORT, () => {
+    console.log(`Server started on the PORT ${PORT}`);
+  });
+}
