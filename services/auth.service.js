@@ -2,7 +2,7 @@
 /** Service -  Authentification */
 /********************************/
 
-const argon2 = require("argon2");
+const bcrypt = require("bcryptjs");
 const User = require("../models/user.model");
 
 const authService = {
@@ -19,7 +19,7 @@ const authService = {
 
       // Si on trouve qqchose
       // On vérifie le password
-      const checkPassword = await argon2.verify(
+      const checkPassword = await bcrypt.verify(
         userFound.password,
         credentials.password,
       );
@@ -39,7 +39,7 @@ const authService = {
 
   create: async (user) => {
     try {
-      const hashedPassword = await argon2.hash(user.password);
+      const hashedPassword = await bcrypt.hash(user.password);
 
       user.password = hashedPassword;
 
