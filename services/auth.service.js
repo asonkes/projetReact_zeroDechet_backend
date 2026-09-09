@@ -38,16 +38,13 @@ const authService = {
   },
 
   create: async (user) => {
-    // On va hasher le mot de passe de l'utilisateur
     try {
       const hashedPassword = await argon2.hash(user.password);
-      console.log(hashedPassword);
 
-      // On remplace la donnée du mot de passe
-      // par la donnée hashée du mot de passe
       user.password = hashedPassword;
 
-      // Plus qu'à sauvegarder notre user
+      delete user.confirmPassword;
+
       const userToCreate = User(user);
       await userToCreate.save();
       return userToCreate;

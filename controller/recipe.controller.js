@@ -10,14 +10,14 @@ const recipeController = {
    * Pour récupérer toutes les recettes
    * @param {Request} req
    * @param {Response} res
-   * FORMATEUR : Modifier le traitement pour exploité les paramtre query : page, limit, ingres 
+   * FORMATEUR : Modifier le traitement pour exploité les paramtre query : page, limit, ingres
    */
   getAll: async (req, res) => {
     // On va récupérer la potentielle query
     const query = req.query;
 
     try {
-      const recipes = await Recipe.find(); // ← Tips !
+      const recipes = await Recipe.find();
       res.status(200).json(recipes);
     } catch (err) {
       console.log(err);

@@ -19,11 +19,29 @@ const authController = {
     try {
       // On récupère le body de la requête de l'utilisateur
       const userToAdd = req.body;
+      const mailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-      if (await authService.pseudoAlreadyExists(userToAdd.username)) {
-        return res.status(409).json({
-          statusCode: 409,
-          message: `Ce nom d'utilisateur est déjà utilisé!`,
+      // Ici on vérifie la validité de l'adresse mail
+      if (!mailRegex.test(userToAdd.email)) {
+        return res.status(400).json({
+          statusCode: 400,
+          message: `Votre adresse mail n'est pas valide !`,
+        });
+      }
+
+      // Vérification longueur mot de passe
+      if (!userToAdd.password || userToAdd.password.length < 6) {
+        return res.status(400).json({
+          statusCode: 400,
+          message: "Votre mot de passe doit contenir au moins 6 caractères.",
+        });
+      }
+
+      // Vérification correspondance mot de passe
+      if (userToAdd.password !== userToAdd.confirmPassword) {
+        return res.status(400).json({
+          statusCode: 400,
+          message: "Les mots de passe ne correspondent pas.",
         });
       }
 
@@ -66,7 +84,7 @@ const authController = {
       if (!userFound) {
         return res.status(401).json({
           statusCode: 401,
-          message: `Les informations de connexion ne sont pas bonnes`,
+          message: `Votre compte n'existe pas. Merci de vous créer un compte.`,
         });
       }
 
@@ -79,7 +97,7 @@ const authController = {
       // On va renvoyer quelques infos de l'utilisateur + token
       res.status(200).json({
         id: userFound._id,
-        username: userFound.username,
+        email: userFound.email,
         token,
       });
     } catch (err) {
